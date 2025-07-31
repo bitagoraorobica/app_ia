@@ -18,165 +18,219 @@
     "badge": ""
   },
   {
-    "date": "2025-07-29",
-    "title": "Introducing study mode in ChatGPT",
-    "description": "Introducing study mode in ChatGPT, a new learning experience that helps you work through problems step by step, guiding students with questions, scaffolding, and feedback for deeper learning.",
+    "date": "2025-07-17",
+    "title": "Invideo AI uses OpenAI models to create videos 10x faster",
+    "description": "Invideo AI uses OpenAI’s GPT-4.1, gpt-image-1, and text-to-speech models to transform creative ideas into professional videos in minutes.",
     "category": "News",
-    "link": "https://openai.com/index/chatgpt-study-mode",
+    "link": "https://openai.com/index/invideo-ai",
     "source": "OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2025-07-24",
-    "title": "Resolving digital threats 100x faster with OpenAI",
-    "description": "Discover how Outtake uses GPT-4.1 and OpenAI o3 to power AI agents that detect and resolve digital threats 100x faster than before.",
+    "date": "2025-07-17",
+    "title": "OpenAI nonprofit jam",
+    "description": "At OpenAI, we build tools to help people solve hard problems—including nonprofits working on the frontlines of their communities. The OpenAI Academy is teaming up with the Walton Family Foundation, Emerson Collective, and a network of local nonprofit organizations to host the Nonprofit Jam—a one-day",
     "category": "News",
-    "link": "https://openai.com/index/outtake",
+    "link": "https://openai.com/global-affairs/openai-nonprofit-jam",
     "source": "OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2025-07-23",
-    "title": "Announcing OpenAI DevDay 2025",
-    "description": "OpenAI DevDay returns on October 6, 2025 in San Francisco—bringing together 1,500+ developers to preview new tools, hear from OpenAI leaders, and shape the future of AI.",
+    "date": "2025-07-01",
+    "title": "No-code personal agents, powered by GPT-4.1 and Realtime API",
+    "description": "Learn how Genspark built a $36M ARR AI product in 45 days—with no-code agents powered by GPT-4.1 and OpenAI Realtime API.",
     "category": "News",
-    "link": "https://openai.com/index/announcing-devday-2025",
+    "link": "https://openai.com/index/genspark",
     "source": "OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2025-07-22",
-    "title": "OpenAI’s new economic analysis",
-    "description": "Analysis provides insights into ChatGPT’s impact on the economy. OpenAI also launches new research collaboration to study AI’s broader effects on the labor market and productivity.",
+    "date": "2025-06-30",
+    "title": "AI in Australia—OpenAI’s Economic Blueprint",
+    "description": "Today, OpenAI, in partnership with Mandala Partners, is sharing the OpenAI AI Economic Blueprint for Australia. At a time when boosting productivity has emerged as a national priority for Australia, the Blueprint provides a clear, actionable plan for how Australia can unlock the full economic and so",
     "category": "News",
-    "link": "https://openai.com/global-affairs/new-economic-analysis",
+    "link": "https://openai.com/global-affairs/openais-australia-economic-blueprint",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-06-26",
+    "title": "Customizable, no-code voice agent automation with GPT-4o",
+    "description": "Retell AI is transforming the call center with AI voice automation powered by GPT-4o and GPT-4.1. Its no-code platform enables businesses to launch natural, real-time voice agents that cut call costs, boost CSAT, and automate customer conversations—without scripts or hold times.",
+    "category": "News",
+    "link": "https://openai.com/index/retell-ai",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-06-24",
+    "title": "Driving scalable growth with OpenAI o3, GPT-4.1, and CUA",
+    "description": "Unify, an AI-powered GTM platform, uses OpenAI’s o3, GPT-4.1, and CUA to automate prospecting, research, and outreach. With hyper-personalized messaging and an always-on workflow, Unify helps teams generate pipeline at scale while focusing on high-impact customer interactions.",
+    "category": "News",
+    "link": "https://openai.com/index/unify",
     "source": "OpenAI",
     "badge": "🔥"
   },
   {
     "date": "2025-07-21",
-    "title": "OpenAI and UK Government announce strategic partnership to deliver AI-driven growth",
-    "description": "OpenAI partners with the UK Government to boost AI adoption, drive economic growth, and enhance public services for a thriving AI ecosystem in the UK.",
+    "title": "AI Testing and Evaluation: Reflections",
+    "description": "<p>In the series finale, Amanda Craig Deckard returns to examine what Microsoft has learned about testing as a governance tool. She also explores the roles of rigor, standardization, and interpretability in testing and what’s next for Microsoft’s AI governance work.</p>\n<p>The post <a href=\"https://",
     "category": "News",
-    "link": "https://openai.com/global-affairs/openai-and-uk-government-partnership",
-    "source": "OpenAI",
+    "link": "https://www.microsoft.com/en-us/research/podcast/ai-testing-and-evaluation-reflections/",
+    "source": "Microsoft Research",
+    "badge": ""
+  },
+  {
+    "date": "2025-07-15",
+    "title": "CollabLLM: Teaching LLMs to collaborate with users",
+    "description": "<p>Recipient of an ICML 2025 Outstanding Paper Award, CollabLLM improves how LLMs collaborate with users, including knowing when to ask questions and how to adapt tone and communication style to different situations. This approach helps move AI toward more user-centric and trustworthy systems.</p>\n<",
+    "category": "News",
+    "link": "https://www.microsoft.com/en-us/research/blog/collabllm-teaching-llms-to-collaborate-with-users/",
+    "source": "Microsoft Research",
+    "badge": ""
+  },
+  {
+    "date": "2025-07-14",
+    "title": "AI Testing and Evaluation: Learnings from cybersecurity",
+    "description": "<p>Drawing on his previous work as the UK’s cybersecurity chief, Professor Ciaran Martin explores differentiated standards and public-private partnerships in cybersecurity, and Microsoft’s Tori Westerhoff examines the insights through an AI red-teaming lens.</p>\n<p>The post <a href=\"https://www.micr",
+    "category": "News",
+    "link": "https://www.microsoft.com/en-us/research/podcast/ai-testing-and-evaluation-learnings-from-cybersecurity/",
+    "source": "Microsoft Research",
+    "badge": ""
+  },
+  {
+    "date": "2025-07-07",
+    "title": "AI Testing and Evaluation: Learnings from pharmaceuticals and medical devices",
+    "description": "<p>Professors Daniel Carpenter and Timo Minssen explore evolving pharma and medical device regulation, including the role of clinical trials, while Microsoft applied scientist Chad Atalla shares where AI governance stakeholders might find inspiration in the fields.</p>\n<p>The post <a href=\"https://w",
+    "category": "News",
+    "link": "https://www.microsoft.com/en-us/research/podcast/ai-testing-and-evaluation-learnings-from-pharmaceuticals-and-medical-devices/",
+    "source": "Microsoft Research",
+    "badge": ""
+  },
+  {
+    "date": "2025-06-30",
+    "title": "AI Testing and Evaluation: Learnings from genome editing",
+    "description": "<p>Bioethics and law expert R. Alta Charo explores the value of regulating technologies at the application level and the role of coordinated oversight in genome editing, while Microsoft GM Daniel Kluttz reflects on Charo’s points, drawing parallels to AI governance.</p>\n<p>The post <a href=\"https://",
+    "category": "News",
+    "link": "https://www.microsoft.com/en-us/research/podcast/ai-testing-and-evaluation-learnings-from-genome-editing/",
+    "source": "Microsoft Research",
+    "badge": ""
+  },
+  {
+    "date": "2025-06-26",
+    "title": "PadChest-GR: A bilingual grounded radiology reporting benchmark for chest X-rays",
+    "description": "<p>The world’s first multimodal, bilingual radiology dataset could reshape the way radiologists and AI systems make sense of X-rays. PadChest-GR, developed by the University of Alicante with Microsoft Research, has the potential to advance research across the field for years to come.</p>\n<p>The post",
+    "category": "News",
+    "link": "https://www.microsoft.com/en-us/research/blog/padchest-gr-a-bilingual-grounded-radiology-reporting-benchmark-for-chest-x-rays/",
+    "source": "Microsoft Research",
+    "badge": ""
+  },
+  {
+    "date": "2025-07-29",
+    "title": "Introducing Align Evals: Streamlining LLM Application Evaluation",
+    "description": "Align Evals is a new feature in LangSmith that helps you calibrate your evaluators to better match human preferences.",
+    "category": "News",
+    "link": "https://blog.langchain.com/introducing-align-evals/",
+    "source": "LangChain",
+    "badge": ""
+  },
+  {
+    "date": "2025-07-30",
+    "title": "Real Talk: ChatGPT Study Mode",
+    "description": " [...]",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/KABlU2cRzTM",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-07-30",
+    "title": "Leah Belsky on how AI is transforming education — the OpenAI Podcast Ep. 4",
+    "description": "AI is redefining how we learn — from personalized tutoring to entirely new teaching models. OpenAI’s Head of Education, Leah Belsky, joins host Andrew Mayne to discuss what this shift means for students, educators, and society. Special guests include college students Yabsera and Alaap, who share the",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=QCLkJra0PjY",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-07-29",
+    "title": "Introducing ChatGPT Study Mode",
+    "description": "Introducing study mode in ChatGPT — a learning experience that helps you work through problems step-by-step instead of just getting an answer. \n\nBuilt in collaboration with educators and experts, study mode is our first step toward improving learning in ChatGPT.",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=XDYilxy1dn8",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-07-21",
+    "title": "5 More ChatGPT Prompts to Add to Your Collection",
+    "description": " [...]",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/iFHmvwvVCSg",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-07-18",
+    "title": "ChatGPT ‘Day In My Future Life’ Trend",
+    "description": "Have you tried it yet?\n🎥: Angelica Georges",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/QVRKC8i1f1k",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-07-18",
+    "title": "Say hello to ChatGPT agent.",
+    "description": "ChatGPT can now do work for you using its own computer—from booking appointments and dinner reservations to building slideshows and reports—so you can focus on what really matters.\n\nRolling out to Plus, Pro, and Team users.",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/AAnw4Tz9xe4",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-07-18",
+    "title": "ChatGPT agent Does Research & Actions",
+    "description": " [...]",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=Ht2QW5PV-eY",
+    "source": "YouTube – OpenAI",
     "badge": "🔥"
   },
   {
     "date": "2025-07-17",
-    "title": "ChatGPT agent System Card",
-    "description": "ChatGPT agent System Card: OpenAI’s agentic model unites research, browser automation, and code tools with safeguards under the Preparedness Framework.",
+    "title": "ChatGPT agent Customization",
+    "description": "ChatGPT agent can be customized based on your connectors to make smarter decisions and take better actions on your behalf.",
     "category": "News",
-    "link": "https://openai.com/index/chatgpt-agent-system-card",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2025-07-17",
-    "title": "Introducing ChatGPT agent",
-    "description": "Introducing ChatGPT agent: it thinks and acts, using tools to complete tasks like research, bookings, and slideshows—all with your guidance.",
-    "category": "News",
-    "link": "https://openai.com/index/introducing-chatgpt-agent",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2025-07-17",
-    "title": "Statement from the OpenAI Board of Directors on the Nonprofit Commission Report",
-    "description": "The Board of Directors thanks the members of the independent OpenAI Nonprofit Commission for their extensive work and engagement.",
-    "category": "News",
-    "link": "https://openai.com/index/nonprofit-commission-report",
-    "source": "OpenAI",
+    "link": "https://www.youtube.com/watch?v=EKMHiOQPwpc",
+    "source": "YouTube – OpenAI",
     "badge": "🔥"
   },
   {
     "date": "2025-07-23",
-    "title": "TimeScope: How Long Can Your Video Large Multimodal Model Go?",
-    "description": " [...]",
+    "title": "Context Rot: How Increasing Input Tokens Impacts LLM Performance (Paper Analysis)",
+    "description": "Paper: https://research.trychroma.com/context-rot\n\nAbstract:\nLarge Language Models (LLMs) are typically presumed to process context uniformly—that is, the model should handle the 10,000th token just as reliably as the 100th. However, in practice, this assumption does not hold. We observe that model ",
     "category": "News",
-    "link": "https://huggingface.co/blog/timescope-video-lmm-benchmark",
-    "source": "Hugging Face",
+    "link": "https://www.youtube.com/watch?v=hpC4qjWu_aY",
+    "source": "YouTube – Yannic Kilcher",
     "badge": ""
   },
   {
-    "date": "2025-07-17",
-    "title": "Consilium: When Multiple LLMs Collaborate",
-    "description": " [...]",
+    "date": "2025-07-19",
+    "title": "Energy-Based Transformers are Scalable Learners and Thinkers (Paper Review)",
+    "description": "Paper: https://arxiv.org/abs/2507.02092\nCode: https://github.com/alexiglad/EBT\nWebsite: https://energy-based-transformers.github.io/\n\nAbstract:\nInference-time computation techniques, analogous to human System 2 Thinking, have recently become popular for improving model performances. However, most ex",
     "category": "News",
-    "link": "https://huggingface.co/blog/consilium-multi-llm",
-    "source": "Hugging Face",
+    "link": "https://www.youtube.com/watch?v=RAEy3JZmIaA",
+    "source": "YouTube – Yannic Kilcher",
     "badge": ""
   },
   {
-    "date": "2025-07-09",
-    "title": "Upskill your LLMs with Gradio MCP Servers",
-    "description": " [...]",
+    "date": "2025-06-20",
+    "title": "OpenAI’s New AI: Crushing Games! 🎮",
+    "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\nGuide for using DeepSeek on Lambda:\nhttps://docs.lambdalabs.com/education/large-language-models/deepseek-r1-ollama/?utm_source=two-minute-papers&amp;utm_campaign=relevant-videos&amp;utm_medium=video\n\n📝 Paper+code: ht",
     "category": "News",
-    "link": "https://huggingface.co/blog/gradio-mcp-servers",
-    "source": "Hugging Face",
-    "badge": ""
-  },
-  {
-    "date": "2025-07-08",
-    "title": "SmolLM3: smol, multilingual, long-context reasoner",
-    "description": " [...]",
-    "category": "News",
-    "link": "https://huggingface.co/blog/smollm3",
-    "source": "Hugging Face",
-    "badge": ""
-  },
-  {
-    "date": "2025-07-08",
-    "title": "Efficient MultiModal Data Pipeline",
-    "description": " [...]",
-    "category": "News",
-    "link": "https://huggingface.co/blog/mmdp",
-    "source": "Hugging Face",
-    "badge": ""
-  },
-  {
-    "date": "2025-07-01",
-    "title": "Training and Finetuning Sparse Embedding Models with Sentence Transformers v5",
-    "description": " [...]",
-    "category": "News",
-    "link": "https://huggingface.co/blog/train-sparse-encoder",
-    "source": "Hugging Face",
-    "badge": ""
-  },
-  {
-    "date": "2025-06-23",
-    "title": "Transformers backend integration in SGLang",
-    "description": " [...]",
-    "category": "News",
-    "link": "https://huggingface.co/blog/transformers-backend-sglang",
-    "source": "Hugging Face",
-    "badge": ""
-  },
-  {
-    "date": "2025-07-31",
-    "title": "AI-generated stories favour stability over change: homogeneity and cultural stereotyping in narratives generated by gpt-4o-mini",
-    "description": "arXiv:2507.22445v1 Announce Type: cross \nAbstract: Can a language model trained largely on Anglo-American texts generate stories that are culturally relevant to other nationalities? To find out, we generated 11,800 stories - 50 for each of 236 countries - by sending the prompt \"Write a 1500 word pot",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2507.22445",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2025-07-31",
-    "title": "Can GPT-4o mini and Gemini 2.0 Flash Predict Fine-Grained Fashion Product Attributes? A Zero-Shot Analysis",
-    "description": "arXiv:2507.09950v2 Announce Type: replace-cross \nAbstract: The fashion retail business is centered around the capacity to comprehend products. Product attribution helps in comprehending products depending on the business process. Quality attribution improves the customer experience as they navigate ",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2507.09950",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2025-07-31",
-    "title": "A ChatGPT-based approach for questions generation in higher education",
-    "description": "arXiv:2507.21174v2 Announce Type: replace-cross \nAbstract: Large language models have been widely applied in many aspects of real life, bringing significant efficiency to businesses and offering distinctive user experiences. In this paper, we focus on exploring the application of ChatGPT, a chatbot ",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2507.21174",
-    "source": "arXiv AI",
-    "badge": "📜"
+    "link": "https://www.youtube.com/watch?v=jZT7yHVgcOo",
+    "source": "YouTube – Two Minute Papers",
+    "badge": "🔥"
   }
 ]
