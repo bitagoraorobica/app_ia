@@ -1,15 +1,6 @@
 [
   {
     "date": "2025-07-31",
-    "title": "New GPT-5 Paper Released",
-    "description": "Benchmarking GPT-5 on complex tasks",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/1234.5678",
-    "source": "arXiv.org",
-    "badge": ""
-  },
-  {
-    "date": "2025-07-31",
     "title": "Prompt Engineering Masterclass",
     "description": "Free course on advanced prompting",
     "category": "Course",
@@ -32,7 +23,7 @@
     "description": "Newsletter BitAgora",
     "category": "Tool",
     "link": "https://newsletter.bitagoraorobica.it",
-    "source": "BitAgorà",
+    "source": "BitAgorà Orobica srl",
     "badge": ""
   },
   {
