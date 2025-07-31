@@ -1,0 +1,20 @@
+[
+  {
+    "date": "2025-07-31",
+    "title": "Prompt Engineering Masterclass",
+    "description": "Free course on advanced prompting",
+    "category": "Course",
+    "link": "https://deeplearning.ai/prompt-master",
+    "source": "DeepLearning.AI",
+    "badge": ""
+  },
+  {
+    "date": "2025-07-30",
+    "title": "Newsletter BitAgora",
+    "description": "Selezione articoli IA",
+    "category": "Tool",
+    "link": "https://newsletter.bitagoraorobica.it/tag/ia/",
+    "source": "BitAgorà Orobica srl",
+    "badge": ""
+  }
+]
