@@ -34,5 +34,77 @@
     "link": "https://newsletter.bitagoraorobica.it",
     "source": "BitAgorà",
     "badge": ""
+  },
+  {
+    "date": "2025-07-29",
+    "title": "Introducing study mode in ChatGPT",
+    "description": "Introducing study mode in ChatGPT, a new learning experience that helps you work through problems step by step, guiding students with questions, scaffolding, and feedback for deeper learning.",
+    "category": "News",
+    "link": "https://openai.com/index/chatgpt-study-mode",
+    "source": "OpenAI",
+    "badge": "⭐"
+  },
+  {
+    "date": "2025-07-24",
+    "title": "Resolving digital threats 100x faster with OpenAI",
+    "description": "Discover how Outtake uses GPT-4.1 and OpenAI o3 to power AI agents that detect and resolve digital threats 100x faster than before.",
+    "category": "News",
+    "link": "https://openai.com/index/outtake",
+    "source": "OpenAI",
+    "badge": "⭐"
+  },
+  {
+    "date": "2025-07-23",
+    "title": "Announcing OpenAI DevDay 2025",
+    "description": "OpenAI DevDay returns on October 6, 2025 in San Francisco—bringing together 1,500+ developers to preview new tools, hear from OpenAI leaders, and shape the future of AI.",
+    "category": "News",
+    "link": "https://openai.com/index/announcing-devday-2025",
+    "source": "OpenAI",
+    "badge": "⭐"
+  },
+  {
+    "date": "2025-07-22",
+    "title": "OpenAI’s new economic analysis",
+    "description": "Analysis provides insights into ChatGPT’s impact on the economy. OpenAI also launches new research collaboration to study AI’s broader effects on the labor market and productivity.",
+    "category": "News",
+    "link": "https://openai.com/global-affairs/new-economic-analysis",
+    "source": "OpenAI",
+    "badge": "⭐"
+  },
+  {
+    "date": "2025-07-21",
+    "title": "OpenAI and UK Government announce strategic partnership to deliver AI-driven growth",
+    "description": "OpenAI partners with the UK Government to boost AI adoption, drive economic growth, and enhance public services for a thriving AI ecosystem in the UK.",
+    "category": "News",
+    "link": "https://openai.com/global-affairs/openai-and-uk-government-partnership",
+    "source": "OpenAI",
+    "badge": "⭐"
+  },
+  {
+    "date": "2025-07-17",
+    "title": "ChatGPT agent System Card",
+    "description": "ChatGPT agent System Card: OpenAI’s agentic model unites research, browser automation, and code tools with safeguards under the Preparedness Framework.",
+    "category": "News",
+    "link": "https://openai.com/index/chatgpt-agent-system-card",
+    "source": "OpenAI",
+    "badge": "⭐"
+  },
+  {
+    "date": "2025-07-17",
+    "title": "Introducing ChatGPT agent",
+    "description": "Introducing ChatGPT agent: it thinks and acts, using tools to complete tasks like research, bookings, and slideshows—all with your guidance.",
+    "category": "News",
+    "link": "https://openai.com/index/introducing-chatgpt-agent",
+    "source": "OpenAI",
+    "badge": "⭐"
+  },
+  {
+    "date": "2025-07-17",
+    "title": "Statement from the OpenAI Board of Directors on the Nonprofit Commission Report",
+    "description": "The Board of Directors thanks the members of the independent OpenAI Nonprofit Commission for their extensive work and engagement.",
+    "category": "News",
+    "link": "https://openai.com/index/nonprofit-commission-report",
+    "source": "OpenAI",
+    "badge": "⭐"
   }
 ]
