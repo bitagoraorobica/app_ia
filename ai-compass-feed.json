@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2025-07-31",
+    "title": "New GPT-5 Paper Released",
+    "description": "Benchmarking GPT-5 on complex tasks",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/1234.5678",
+    "source": "arXiv.org"
+  },
+  {
+    "date": "2025-07-31",
+    "title": "Prompt Engineering Masterclass",
+    "description": "Free course on advanced prompting",
+    "category": "Course",
+    "link": "https://deeplearning.ai/prompt-master",
+    "source": "DeepLearning.AI"
+  },
+  {
+    "date": "2025-07-30",
+    "title": "Hugging Face Releases New Tool",
+    "description": "Text-to-music API now in beta",
+    "category": "Tool",
+    "link": "https://huggingface.co/blog/music-gen",
+    "source": "Hugging Face"
+  }
+]
