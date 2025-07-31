@@ -22,5 +22,13 @@
     "category": "Tool",
     "link": "https://huggingface.co/blog/music-gen",
     "source": "Hugging Face"
+  },
+  {
+    "date": "2025-07-30",
+    "title": "Alberto",
+    "description": "Newsletter BitAgora",
+    "category": "Tool",
+    "link": "https://newsletter.bitagoraorobica.it",
+    "source": "BitAgorà"
   }
 ]
