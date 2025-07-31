@@ -5,7 +5,8 @@
     "description": "Benchmarking GPT-5 on complex tasks",
     "category": "Paper",
     "link": "https://arxiv.org/abs/1234.5678",
-    "source": "arXiv.org"
+    "source": "arXiv.org",
+    "badge": ""
   },
   {
     "date": "2025-07-31",
@@ -13,7 +14,8 @@
     "description": "Free course on advanced prompting",
     "category": "Course",
     "link": "https://deeplearning.ai/prompt-master",
-    "source": "DeepLearning.AI"
+    "source": "DeepLearning.AI",
+    "badge": ""
   },
   {
     "date": "2025-07-30",
@@ -21,7 +23,8 @@
     "description": "Text-to-music API now in beta",
     "category": "Tool",
     "link": "https://huggingface.co/blog/music-gen",
-    "source": "Hugging Face"
+    "source": "Hugging Face",
+    "badge": ""
   },
   {
     "date": "2025-07-30",
@@ -29,7 +32,8 @@
     "description": "Newsletter BitAgora",
     "category": "Tool",
     "link": "https://newsletter.bitagoraorobica.it",
-    "source": "BitAgorà"
+    "source": "BitAgorà",
+    "badge": ""
   },
   {
     "date": "2025-07-29",
@@ -37,7 +41,8 @@
     "description": "Introducing study mode in ChatGPT, a new learning experience that helps you work through problems step by step, guiding students with questions, scaffolding, and feedback for deeper learning.",
     "category": "News",
     "link": "https://openai.com/index/chatgpt-study-mode",
-    "source": "OpenAI"
+    "source": "OpenAI",
+    "badge": "🔥"
   },
   {
     "date": "2025-07-31",
@@ -45,7 +50,8 @@
     "description": "arXiv:2507.22445v1 Announce Type: cross \nAbstract: Can a language model trained largely on Anglo-American texts generate stories that are culturally relevant to other nationalities? To find out, we generated 11,800 stories - 50 for each of 236 countries - by sending the prompt \"Write a 1500 word pot",
     "category": "Paper",
     "link": "https://arxiv.org/abs/2507.22445",
-    "source": "arXiv AI"
+    "source": "arXiv AI",
+    "badge": "📜"
   },
   {
     "date": "2025-07-31",
@@ -53,7 +59,8 @@
     "description": "arXiv:2507.09950v2 Announce Type: replace-cross \nAbstract: The fashion retail business is centered around the capacity to comprehend products. Product attribution helps in comprehending products depending on the business process. Quality attribution improves the customer experience as they navigate ",
     "category": "Paper",
     "link": "https://arxiv.org/abs/2507.09950",
-    "source": "arXiv AI"
+    "source": "arXiv AI",
+    "badge": "📜"
   },
   {
     "date": "2025-07-31",
@@ -61,6 +68,7 @@
     "description": "arXiv:2507.21174v2 Announce Type: replace-cross \nAbstract: Large language models have been widely applied in many aspects of real life, bringing significant efficiency to businesses and offering distinctive user experiences. In this paper, we focus on exploring the application of ChatGPT, a chatbot ",
     "category": "Paper",
     "link": "https://arxiv.org/abs/2507.21174",
-    "source": "arXiv AI"
+    "source": "arXiv AI",
+    "badge": "📜"
   }
 ]
