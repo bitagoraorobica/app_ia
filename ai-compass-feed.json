@@ -34,23 +34,5 @@
     "link": "https://newsletter.bitagoraorobica.it",
     "source": "BitAgorà",
     "badge": ""
-  },
-  {
-    "date": "2025-07-17",
-    "title": "OpenAI nonprofit jam",
-    "description": "At OpenAI, we build tools to help people solve hard problems—including nonprofits working on the frontlines of their communities. The OpenAI Academy is teaming up with the Walton Family Foundation, Emerson Collective, and a network of local nonprofit organizations to host the Nonprofit Jam—a one-day",
-    "category": "News",
-    "link": "https://openai.com/global-affairs/openai-nonprofit-jam",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2025-07-17",
-    "title": "Invideo AI uses OpenAI models to create videos 10x faster",
-    "description": "Invideo AI uses OpenAI’s GPT-4.1, gpt-image-1, and text-to-speech models to transform creative ideas into professional videos in minutes.",
-    "category": "News",
-    "link": "https://openai.com/index/invideo-ai",
-    "source": "OpenAI",
-    "badge": "🔥"
   }
 ]
