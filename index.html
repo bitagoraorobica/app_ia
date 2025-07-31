@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Compass – BitAgorà Orobica</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 2em; background: #f0f2f5; transition: background 0.3s, color 0.3s; }
+    body.dark { background: #1e1e1e; color: #f0f0f0; }
+    header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2em; }
+    h1 { font-size: 2em; }
+    .controls { position: sticky; top: 0; background: inherit; z-index: 100; padding: 1em 0; display: flex; flex-wrap: wrap; gap: 0.5em; align-items: center; border-bottom: 1px solid #ccc; backdrop-filter: blur(4px); }
+    .controls input, .controls select, .controls button { padding: 0.5em; font-size: 1em; }
+    #entries { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5em; }
+    .entry { background: white; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); padding: 1.5em; position: relative; transition: transform 0.2s ease, background 0.3s, color 0.3s; display: flex; flex-direction: column; justify-content: space-between; }
+    .entry:hover { transform: translateY(-3px); }
+    body.dark .entry { background: #2e2e2e; color: #f0f0f0; }
+    .entry .badge { position: absolute; top: 1em; left: 1em; padding: 0.3em 0.7em; border-radius: 12px; font-size: 0.75em; font-weight: 600; color: white; text-transform: uppercase; letter-spacing: 0.5px; }
+    .badge-hot { background-color: #e74c3c; }
+    .badge-star { background-color: #f4b400; }
+    .badge-paper { background-color: #6c757d; }
+    .entry .header-block { display: flex; flex-direction: column; gap: 0.5em; padding-left: 1.5em; padding-top: 0.5em; }
+    .entry .title { font-size: 1.2em; color: #007acc; text-decoration: none; font-weight: bold; margin-bottom: 0.3em; }
+    body.dark .entry .title { color: #4dabf7; }
+    .entry .meta { font-size: 0.85em; color: #666; margin-bottom: 1em; border-top: 1px solid #ddd; padding-top: 0.5em; }
+    body.dark .entry .meta { color: #aaa; border-top-color: #444; }
+    .entry p { font-size: 0.95em; line-height: 1.5; }
+    .hidden { display: none !important; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AI Compass</h1>
+    <img src="logo.png" alt="Logo" width="164" />
+  </header>
+  <p><em>Selezione offerta da <a href="https://www.bitagoraorobica.it" target="_blank">BitAgorà Orobica</a></em></p>
+  <div class="controls">
+    <input type="text" id="searchInput" placeholder="Cerca per titolo o descrizione...">
+    <select id="categoryFilter">
+      <option value="">Tutte le categorie</option>
+      <option value="News">News</option>
+      <option value="Paper">Paper</option>
+    </select>
+    <select id="sourceFilter">
+      <option value="BitAgorà Orobica srl">BitAgorà Orobica srl</option>
+      <option value="DeepLearning.AI">DeepLearning.AI</option>
+
+    </select>
+    <select id="daysFilter">
+      <option value="">Qualsiasi data</option>
+      <option value="7">Ultimi 7 giorni</option>
+      <option value="15">Ultimi 15 giorni</option>
+      <option value="30">Ultimi 30 giorni</option>
+    </select>
+    <button id="toggleDark">🌓 Modalità scura</button>
+  </div>
+  <div id="entries"></div>
+  <div id="sentinel"></div>
+
+  <script>
+    const searchInput = document.getElementById('searchInput');
+    const categoryFilter = document.getElementById('categoryFilter');
+    const sourceFilter = document.getElementById('sourceFilter');
+    const daysFilter = document.getElementById('daysFilter');
+    const toggleDark = document.getElementById('toggleDark');
+    const entriesContainer = document.getElementById('entries');
+    const sentinel = document.getElementById('sentinel');
+    const entryData = JSON.parse(`[{"date":"2025-07-31","title":"Prompt Engineering Masterclass","description":"Free course on advanced prompting","category":"Course","link":"https://deeplearning.ai/prompt-master","source":"DeepLearning.AI","badge":""},{"date":"2025-07-30","title":"Newsletter BitAgora","description":"Selezione articoli IA","category":"Tool","link":"https://newsletter.bitagoraorobica.it/tag/ia/","source":"BitAgorà Orobica srl","badge":""}]`);
+
+    let itemsPerPage = 10;
+    let currentIndex = 0;
+
+    function createEntry(item) {
+      const badgeMap = {"🔥": "badge-hot", "⭐": "badge-star", "📜": "badge-paper"};
+      const div = document.createElement('div');
+      div.className = 'entry';
+      div.dataset.category = item.category;
+      div.dataset.source = item.source;
+      div.dataset.date = item.date;
+      div.dataset.text = (item.title + ' ' + item.description).toLowerCase();
+      const badgeClass = badgeMap[item.badge] || '';
+      div.innerHTML = `
+        <div class="badge ${badgeClass}">${item.badge || ''}</div>
+        <div class="header-block">
+          <a href="${item.link}" class="title" target="_blank">${item.title}</a>
+          <p>${item.description || '...'}</p>
+          <div class="meta">${item.source} – ${item.date} – ${item.category}</div>
+        </div>
+      `;
+      return div;
+    }
+
+    function loadNextEntries() {
+      const end = currentIndex + itemsPerPage;
+      const chunk = entryData.slice(currentIndex, end);
+      chunk.forEach(item => entriesContainer.appendChild(createEntry(item)));
+      currentIndex = end;
+      filterEntries();
+    }
+
+    function filterEntries() {
+      const query = searchInput.value.toLowerCase();
+      const category = categoryFilter.value;
+      const source = sourceFilter.value;
+      const days = parseInt(daysFilter.value);
+      const now = new Date();
+
+      document.querySelectorAll('.entry').forEach(entry => {
+        const matchesText = entry.dataset.text.includes(query);
+        const matchesCategory = category === '' || entry.dataset.category === category;
+        const matchesSource = source === '' || entry.dataset.source === source;
+        let matchesDate = true;
+        if (!isNaN(days)) {
+          const entryDate = new Date(entry.dataset.date);
+          const diffTime = now - entryDate;
+          const diffDays = diffTime / (1000 * 3600 * 24);
+          matchesDate = diffDays <= days;
+        }
+        entry.style.display = (matchesText && matchesCategory && matchesSource && matchesDate) ? 'block' : 'none';
+      });
+    }
+
+    const observer = new IntersectionObserver(entries => {
+      if (entries[0].isIntersecting) loadNextEntries();
+    });
+    observer.observe(sentinel);
+
+    searchInput.addEventListener('input', filterEntries);
+    categoryFilter.addEventListener('change', filterEntries);
+    sourceFilter.addEventListener('change', filterEntries);
+    daysFilter.addEventListener('change', filterEntries);
+    toggleDark.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+    });
+
+    loadNextEntries();
+  </script>
+</body>
+</html>
