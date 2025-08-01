@@ -108,51 +108,6 @@
     "badge": "🔥"
   },
   {
-    "date": "2025-07-21",
-    "title": "AI as the greatest source of empowerment for all",
-    "description": "I’ve always considered myself a pragmatic technologist—someone who loves technology not for its own sake, but for the direct impact it can have on people’s lives. That’s what makes this job so exciting, since I believe AI will unlock more opportunities for more people than any other technology in hi",
-    "category": "News",
-    "link": "https://openai.com/index/ai-as-the-greatest-source-of-empowerment-for-all",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2025-07-18",
-    "title": "A $50 million fund to build with communities",
-    "description": "OpenAI is launching an initial $50 million fund that supports nonprofit and community organizations, informed by the independent OpenAI Nonprofit Commission report.",
-    "category": "News",
-    "link": "https://openai.com/index/50-million-fund-to-build-with-communities",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2025-07-17",
-    "title": "ChatGPT agent System Card",
-    "description": "ChatGPT agent System Card: OpenAI’s agentic model unites research, browser automation, and code tools with safeguards under the Preparedness Framework.",
-    "category": "News",
-    "link": "https://openai.com/index/chatgpt-agent-system-card",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2025-07-17",
-    "title": "Introducing ChatGPT agent",
-    "description": "Introducing ChatGPT agent: it thinks and acts, using tools to complete tasks like research, bookings, and slideshows—all with your guidance.",
-    "category": "News",
-    "link": "https://openai.com/index/introducing-chatgpt-agent",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2025-07-17",
-    "title": "Invideo AI uses OpenAI models to create videos 10x faster",
-    "description": "Invideo AI uses OpenAI’s GPT-4.1, gpt-image-1, and text-to-speech models to transform creative ideas into professional videos in minutes.",
-    "category": "News",
-    "link": "https://openai.com/index/invideo-ai",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
     "date": "2025-07-31",
     "title": "Build an AI Shopping Assistant with Gradio MCP Servers",
     "description": " [...]",
@@ -243,33 +198,6 @@
     "badge": ""
   },
   {
-    "date": "2025-07-01",
-    "title": "Training and Finetuning Sparse Embedding Models with Sentence Transformers v5",
-    "description": " [...]",
-    "category": "News",
-    "link": "https://huggingface.co/blog/train-sparse-encoder",
-    "source": "Hugging Face",
-    "badge": "🔥"
-  },
-  {
-    "date": "2025-06-26",
-    "title": "Gemma 3n fully available in the open-source ecosystem!",
-    "description": " [...]",
-    "category": "News",
-    "link": "https://huggingface.co/blog/gemma3n",
-    "source": "Hugging Face",
-    "badge": ""
-  },
-  {
-    "date": "2025-06-23",
-    "title": "Transformers backend integration in SGLang",
-    "description": " [...]",
-    "category": "News",
-    "link": "https://huggingface.co/blog/transformers-backend-sglang",
-    "source": "Hugging Face",
-    "badge": "⭐"
-  },
-  {
     "date": "2025-07-30",
     "title": "AlphaEarth Foundations helps map our planet in unprecedented detail",
     "description": "New AI model integrates petabytes of Earth observation data to generate a unified data representation that revolutionizes global mapping and monitoring",
@@ -302,42 +230,6 @@
     "description": "New experimental AI tool helps people explore the context and origin of images seen online.",
     "category": "News",
     "link": "https://deepmind.google/discover/blog/exploring-the-context-of-online-images-with-backstory/",
-    "source": "DeepMind",
-    "badge": ""
-  },
-  {
-    "date": "2025-06-25",
-    "title": "AlphaGenome: AI for better understanding the genome",
-    "description": "Introducing a new, unifying DNA sequence model that advances regulatory variant-effect prediction and promises to shed new light on genome function — now available via API.",
-    "category": "News",
-    "link": "https://deepmind.google/discover/blog/alphagenome-ai-for-better-understanding-the-genome/",
-    "source": "DeepMind",
-    "badge": ""
-  },
-  {
-    "date": "2025-06-24",
-    "title": "Gemini Robotics On-Device brings AI to local robotic devices",
-    "description": "We’re introducing an efficient, on-device robotics model with general-purpose dexterity and fast task adaptation.",
-    "category": "News",
-    "link": "https://deepmind.google/discover/blog/gemini-robotics-on-device-brings-ai-to-local-robotic-devices/",
-    "source": "DeepMind",
-    "badge": "🔥"
-  },
-  {
-    "date": "2025-06-17",
-    "title": "Gemini 2.5: Updates to our family of thinking models",
-    "description": "Explore the latest Gemini 2.5 model updates with enhanced performance and accuracy: Gemini 2.5 Pro now stable, Flash generally available, and the new Flash-Lite in preview.",
-    "category": "News",
-    "link": "https://deepmind.google/discover/blog/gemini-25-updates-to-our-family-of-thinking-models/",
-    "source": "DeepMind",
-    "badge": ""
-  },
-  {
-    "date": "2025-06-17",
-    "title": "We’re expanding our Gemini 2.5 family of models",
-    "description": "Gemini 2.5 Flash and Pro are now generally available, and we’re introducing 2.5 Flash-Lite, our most cost-efficient and fastest 2.5 model yet.",
-    "category": "News",
-    "link": "https://deepmind.google/discover/blog/were-expanding-our-gemini-25-family-of-models/",
     "source": "DeepMind",
     "badge": ""
   },
@@ -432,51 +324,6 @@
     "badge": "📜"
   },
   {
-    "date": "2025-08-01",
-    "title": "Causal Reasoning in Pieces: Modular In-Context Learning for Causal Discovery",
-    "description": "arXiv:2507.23488v1 Announce Type: new \nAbstract: Causal inference remains a fundamental challenge for large language models. Recent advances in internal reasoning with large language models have sparked interest in whether state-of-the-art reasoning models can robustly perform causal discovery-a tas",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2507.23488",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2025-08-01",
-    "title": "DICE: Dynamic In-Context Example Selection in LLM Agents via Efficient Knowledge Transfer",
-    "description": "arXiv:2507.23554v1 Announce Type: new \nAbstract: Large language model-based agents, empowered by in-context learning (ICL), have demonstrated strong capabilities in complex reasoning and tool-use tasks. However, existing works have shown that the effectiveness of ICL is highly sensitive to the choic",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2507.23554",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2025-08-01",
-    "title": "Semantic Chain-of-Trust: Autonomous Trust Orchestration for Collaborator Selection via Hypergraph-Aided Agentic AI",
-    "description": "arXiv:2507.23565v1 Announce Type: new \nAbstract: In collaborative systems, the effective completion of tasks hinges on task-specific trust evaluations of potential devices for distributed collaboration. However, the complexity of tasks, the spatiotemporal dynamism of distributed device resources, an",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2507.23565",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2025-08-01",
-    "title": "MemoCue: Empowering LLM-Based Agents for Human Memory Recall via Strategy-Guided Querying",
-    "description": "arXiv:2507.23633v1 Announce Type: new \nAbstract: Agent-assisted memory recall is one critical research problem in the field of human-computer interaction. In conventional methods, the agent can retrieve information from its equipped memory module to help the person recall incomplete or vague memorie",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2507.23633",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2025-08-01",
-    "title": "TextQuests: How Good are LLMs at Text-Based Video Games?",
-    "description": "arXiv:2507.23701v1 Announce Type: new \nAbstract: Evaluating AI agents within complex, interactive environments that mirror real-world challenges is critical for understanding their practical capabilities. While existing agent benchmarks effectively assess skills like tool use or performance on struc",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2507.23701",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
     "date": "2025-07-24",
     "title": "Navigating medical education in the era of generative AI",
     "description": "<p>Next-generation physicians Morgan Cheatham and Daniel Chen discuss how generative AI is transforming medical education, exploring how students and attending physicians integrate new tools while navigating questions on trust, training, and responsibility.</p>\n<p>The post <a href=\"https://www.micro",
@@ -549,24 +396,6 @@
     "badge": "⭐"
   },
   {
-    "date": "2025-06-30",
-    "title": "AI Testing and Evaluation: Learnings from genome editing",
-    "description": "<p>Bioethics and law expert R. Alta Charo explores the value of regulating technologies at the application level and the role of coordinated oversight in genome editing, while Microsoft GM Daniel Kluttz reflects on Charo’s points, drawing parallels to AI governance.</p>\n<p>The post <a href=\"https://",
-    "category": "News",
-    "link": "https://www.microsoft.com/en-us/research/podcast/ai-testing-and-evaluation-learnings-from-genome-editing/",
-    "source": "Microsoft Research",
-    "badge": "⭐"
-  },
-  {
-    "date": "2025-06-26",
-    "title": "PadChest-GR: A bilingual grounded radiology reporting benchmark for chest X-rays",
-    "description": "<p>The world’s first multimodal, bilingual radiology dataset could reshape the way radiologists and AI systems make sense of X-rays. PadChest-GR, developed by the University of Alicante with Microsoft Research, has the potential to advance research across the field for years to come.</p>\n<p>The post",
-    "category": "News",
-    "link": "https://www.microsoft.com/en-us/research/blog/padchest-gr-a-bilingual-grounded-radiology-reporting-benchmark-for-chest-x-rays/",
-    "source": "Microsoft Research",
-    "badge": "🔥"
-  },
-  {
     "date": "2025-07-30",
     "title": "Deep Agents",
     "description": "<p>Using an LLM to call tools in a loop is the simplest form of an agent. This architecture, however, can yield agents that are &#x201c;shallow&#x201d; and fail to plan and act over longer, more complex tasks. Applications like &#x201c;<a href=\"https://openai.com/index/introducing-deep-research/?ref",
@@ -603,15 +432,6 @@
     "badge": "🔥"
   },
   {
-    "date": "2025-06-23",
-    "title": "The rise of \"context engineering\"",
-    "description": "<p><em>Header image from </em><a href=\"https://x.com/dexhorthy/status/1933283008863482067?ref=blog.langchain.com\"><em>Dex Horthy on Twitter</em></a><em>.</em></p><p>Context engineering is building dynamic systems to provide the right information and tools in the right format such that the LLM can pl",
-    "category": "News",
-    "link": "https://blog.langchain.com/the-rise-of-context-engineering/",
-    "source": "LangChain",
-    "badge": "🔥"
-  },
-  {
     "date": "2025-07-31",
     "title": "Shaping the EU AI Act’s Code of Practice",
     "description": "<p>The post <a href=\"https://partnershiponai.org/shaping-the-eu-ai-acts-code-of-practice/\">Shaping the EU AI Act’s Code of Practice</a> appeared first on <a href=\"https://partnershiponai.org\">Partnership on AI</a>.</p>",
@@ -644,15 +464,6 @@
     "description": "<p>The post <a href=\"https://partnershiponai.org/ai-101-what-is-ai-anyway-and-other-questions-youve-been-too-shy-to-ask/\">AI 101: What is AI, Anyway? And Other Questions You&#8217;ve Been Too Shy to Ask</a> appeared first on <a href=\"https://partnershiponai.org\">Partnership on AI</a>.</p>",
     "category": "News",
     "link": "https://partnershiponai.org/ai-101-what-is-ai-anyway-and-other-questions-youve-been-too-shy-to-ask/",
-    "source": "Partnership on AI",
-    "badge": ""
-  },
-  {
-    "date": "2025-06-18",
-    "title": "PAI Response to RFI on the Planned EU Apply AI Strategy",
-    "description": "<p>The post <a href=\"https://partnershiponai.org/pai-response-to-rfi-on-the-planned-us-apply-ai-strategy/\">PAI Response to RFI on the Planned EU Apply AI Strategy</a> appeared first on <a href=\"https://partnershiponai.org\">Partnership on AI</a>.</p>",
-    "category": "News",
-    "link": "https://partnershiponai.org/pai-response-to-rfi-on-the-planned-us-apply-ai-strategy/",
     "source": "Partnership on AI",
     "badge": ""
   },
@@ -748,60 +559,6 @@
   },
   {
     "date": "2025-07-30",
-    "title": "Mark Zuckerberg says ‘developing superintelligence is now in sight,’ shades OpenAI and other firms focused on automating work",
-    "description": "So perhaps, these competing visions of superintelligence are actually far more similar than they are opposed.",
-    "category": "News",
-    "link": "https://venturebeat.com/ai/mark-zuckerberg-says-developing-superintelligence-is-now-in-sight-shades-openai-and-other-firms-focused-on-automating-work/",
-    "source": "VentureBeat AI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2025-07-30",
-    "title": "C8 Health started with an AI that gives anesthesiologists guidance on demand — now it’s targeting whole hospitals",
-    "description": "A friendly red panda avatar serves up the knowledge from the organization's own siloed databases, complete with citations",
-    "category": "News",
-    "link": "https://venturebeat.com/ai/c8-health-started-with-an-ai-that-gives-anesthesiologists-guidance-on-demand-now-its-targeting-whole-hospitals/",
-    "source": "VentureBeat AI",
-    "badge": ""
-  },
-  {
-    "date": "2025-07-30",
-    "title": "Google DeepMind says its new AI can map the entire planet with unprecedented accuracy",
-    "description": "Google DeepMind unveils AlphaEarth Foundations, an AI system that processes satellite data 16x more efficiently to create detailed Earth maps for tracking deforestation, climate change, and environmental shifts.",
-    "category": "News",
-    "link": "https://venturebeat.com/ai/google-deepmind-says-its-new-ai-can-map-the-entire-planet-with-unprecedented-accuracy/",
-    "source": "VentureBeat AI",
-    "badge": ""
-  },
-  {
-    "date": "2025-07-30",
-    "title": "Runloop lands $7M to power AI coding agents with cloud-based devboxes",
-    "description": "Runloop addresses \"production gap\" for AI coding agents, helping deploy autonomous coding assistants six months faster.",
-    "category": "News",
-    "link": "https://venturebeat.com/ai/runloop-lands-7m-to-power-ai-coding-agents-with-cloud-based-devboxes/",
-    "source": "VentureBeat AI",
-    "badge": ""
-  },
-  {
-    "date": "2025-07-30",
-    "title": "Nightfall launches ‘Nyx,’ an AI that automates data loss prevention at enterprise scale",
-    "description": "Nightfall's Nyx is the first autonomous DLP platform that cuts false alerts by 90% and protects data from insider threats and ChatGPT leaks.",
-    "category": "News",
-    "link": "https://venturebeat.com/ai/nightfall-launches-nyx-an-ai-that-automates-data-loss-prevention-at-enterprise-scale/",
-    "source": "VentureBeat AI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2025-06-24",
-    "title": "ByteDance Introduces Astra: A Dual-Model Architecture for Autonomous Robot Navigation",
-    "description": "<p>ByteDance introduces Astra, an innovative dual-model architecture revolutionizing robot navigation in complex indoor environments.</p>\nThe post <a href=\"https://syncedreview.com/2025/06/24/bytedance-introduces-astra-a-dual-model-architecture-for-autonomous-robot-navigation/\">ByteDance Introduces ",
-    "category": "News",
-    "link": "https://syncedreview.com/2025/06/24/bytedance-introduces-astra-a-dual-model-architecture-for-autonomous-robot-navigation/",
-    "source": "Synced Review",
-    "badge": ""
-  },
-  {
-    "date": "2025-07-30",
     "title": "Real Talk: ChatGPT Study Mode",
     "description": " [...]",
     "category": "News",
@@ -891,51 +648,6 @@
     "badge": "🔥"
   },
   {
-    "date": "2025-07-17",
-    "title": "ChatGPT agent Makes Slideshows",
-    "description": "ChatGPT agent is your one-stop shop for fully editable presentations.",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=szJI9YJNEZk",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2025-07-17",
-    "title": "Introduction to ChatGPT agent",
-    "description": "Sam Altman, Casey Chu, Isa Fulford, Yash Kumar, and Zhiqing Sun introduce and demo our unified agentic model in ChatGPT.",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=1jn_RpbPbEc",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2025-07-17",
-    "title": "A Look at ChatGPT agent",
-    "description": "ChatGPT can now do work for you using its own computer.\n\nIntroducing ChatGPT agent—a unified agentic system combining Operator’s action-taking remote browser, deep research’s web synthesis, and ChatGPT’s conversational strengths.",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=2wzGS_WUZYQ",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2025-07-16",
-    "title": "Here's how to make these in ChatGPT",
-    "description": "1. Upload a picture of yourself/subject using the ✚ button in ChatGPT.\n2. Ask chat for:\n➡️ A black and white close-up portrait with visible water droplets and small bubbles on the face like the subject just emerged from water. The mood should feel intense and cinematic, with a dark, minimal backgrou",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/u9E8D0q7vYc",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2025-07-15",
-    "title": "What's an AI Agent?",
-    "description": "What can you expect from AI agents? OpenAI COO Brad Lightcap explains on episode 3 of the OpenAI Podcast—out now.",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/MbtTBuKQhQU",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
     "date": "2025-08-01",
     "title": "Solving years-old math problems with Gemini 2.5 Deep Think",
     "description": "Gemini 2.5 Deep Think is an enhanced reasoning mode called that uses new research techniques to consider multiple hypotheses before responding.\n\nWe shared it with mathematician Michel van Garrel who used it to prove mathematical conjectures that had remained unsolved for years.\n\nTry Deep Think in th",
@@ -959,15 +671,6 @@
     "description": "This week's episode is a slight departure from our usual deep dives. Join Paige Bailey, DevRel lead, as she guides Hannah Fry though some of her favorite AI tools. Having spent years understanding the 'what' of these models, Hannah finally gets to experience the 'how’ – from generating prompts and '",
     "category": "News",
     "link": "https://www.youtube.com/watch?v=1O27hf17BaY",
-    "source": "YouTube – DeepMind",
-    "badge": "🔥"
-  },
-  {
-    "date": "2025-06-19",
-    "title": "The nature of AI: solving the planet's data gap with Drew Purves",
-    "description": "Could we use the sound of a coral reef to determine its health? Do we know where all the world's natural forests are? And are we on the verge of using AI to decode animal communication? In this episode, Professor Hannah Fry is joined by Drew Purves, Nature Lead at Google DeepMind. They explore how A",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=vIIIau06wGo",
     "source": "YouTube – DeepMind",
     "badge": "🔥"
   },
@@ -1033,33 +736,6 @@
     "link": "https://www.youtube.com/watch?v=AVeQfSab9to",
     "source": "YouTube – Two Minute Papers",
     "badge": ""
-  },
-  {
-    "date": "2025-06-27",
-    "title": "Unreal Engine 5.6: Outrageously Good!",
-    "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\nGuide for using DeepSeek on Lambda:\nhttps://docs.lambdalabs.com/education/large-language-models/deepseek-r1-ollama/?utm_source=two-minute-papers&amp;utm_campaign=relevant-videos&amp;utm_medium=video\n\nGet Unreal Engin",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=DFBZ8KEqVXw",
-    "source": "YouTube – Two Minute Papers",
-    "badge": ""
-  },
-  {
-    "date": "2025-06-24",
-    "title": "NVIDIA’s New AI: Painting With Light!",
-    "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\nGuide for using DeepSeek on Lambda:\nhttps://docs.lambdalabs.com/education/large-language-models/deepseek-r1-ollama/?utm_source=two-minute-papers&amp;utm_campaign=relevant-videos&amp;utm_medium=video\n\n📝 The paper is a",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=yRk6vGkfpAI",
-    "source": "YouTube – Two Minute Papers",
-    "badge": ""
-  },
-  {
-    "date": "2025-06-20",
-    "title": "OpenAI’s New AI: Crushing Games! 🎮",
-    "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\nGuide for using DeepSeek on Lambda:\nhttps://docs.lambdalabs.com/education/large-language-models/deepseek-r1-ollama/?utm_source=two-minute-papers&amp;utm_campaign=relevant-videos&amp;utm_medium=video\n\n📝 Paper+code: ht",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=jZT7yHVgcOo",
-    "source": "YouTube – Two Minute Papers",
-    "badge": "🔥"
   },
   {
     "date": "2025-08-01",
@@ -1152,65 +828,11 @@
     "badge": "🔥"
   },
   {
-    "date": "2025-07-25",
-    "title": "ChatGPT non è infallibile",
-    "description": "ChatGPT non è infallibile\n\nAffidarvisi ciecamente è un problema, ecco perché e come evitarlo\n\nVideo estratto dal talk \"L'AI ci renderà stupidi, se la usiamo male\" che trovi sul mio canale YouTube\n\nGuarda il talk completo: https://www.youtube.com/watch?v=XY8BfGlVvqg #short",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/3NkOUOODB3o",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": "🔥"
-  },
-  {
-    "date": "2025-07-24",
-    "title": "ChatGPT Agent WOW, enorme salto in avanti [demo casi reali]",
-    "description": "Ottieni NordVPN con un prezzo scontato e 4 mesi extra in omaggio: https://nordvpn.com/raffaelegaito\n\nQualche giorno fa OpenAI ha rilasciato ChatGPT Agent.\n\nIl suo nuovo agente che sostituisce il vecchio Operator e che fa un salto in avanti grazie ad alcune novità importanti (che spiego nel video).\n\n",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=UGd6etbCBHM",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": "🔥"
-  },
-  {
-    "date": "2025-07-24",
-    "title": "Non studio, tanto ci pensa ChatGPT",
-    "description": "\"Non studio, tanto ci pensa ChatGPT\"\n\nIn questa clip spiego perché è un comportamento pericoloso, e come evitarlo.\n\nVideo estratto dal talk \"L'AI ci renderà stupidi, se la usiamo male\" che trovi sul mio canale YouTube\n\nGuarda il talk completo: https://www.youtube.com/watch?v=XY8BfGlVvqg #short",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/t2WqR9SWCZ0",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": "🔥"
-  },
-  {
-    "date": "2025-07-23",
-    "title": "Spesso chi usa ChatGPT non fa più fact-checking",
-    "description": "Spesso chi usa ChatGPT non fa più fact-checking\n\nEcco perché questo è un problema e come risolverlo\n\nVideo estratto dal talk \"L'AI ci renderà stupidi, se la usiamo male\" che trovi sul mio canale YouTube\n\nGuarda il talk completo: https://www.youtube.com/watch?v=XY8BfGlVvqg #short",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/5gMFYO_ApcY",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": "🔥"
-  },
-  {
-    "date": "2025-07-23",
-    "title": "Nuova challenge con Fiverr",
-    "description": "Avete visto sti video virali con neonati che parlano come se fossero adulti?\n\nHo chiesto a 3 freelancer su Fiverr di sperimentare video del genere usando la mia faccia.\n\nEcco cosa hanno tirato fuori\n\nUsa il link https://gaito.link/fiverr + coupon GAITO per avere il 10% di sconto sul primo acquisto\n\n",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/t3ZhAYQEfgI",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": ""
-  },
-  {
     "date": "2025-07-22",
     "title": "Memory Mapping - Computerphile",
     "description": "Huge memory addresses mean that not every address is valid. Matt Godbolt explains how the addresses are actually used. \n\nComputerphile is supported by Jane Street. Learn more about them (and exciting career opportunities) at: https://jane-st.co/computerphile\n\nThis video was filmed and edited by Sean",
     "category": "News",
     "link": "https://www.youtube.com/watch?v=di5WodGWTiY",
-    "source": "YouTube – Computerphile",
-    "badge": ""
-  },
-  {
-    "date": "2025-06-26",
-    "title": "Reinforcement Learning - Computerphile",
-    "description": "Reinforcement Learning is how robots test the water in the real world. -- Check out Brilliant's courses and start for free at https://brilliant.org/computerphile/ (episode sponsor) -- More links in full description below ↓↓↓\n\nNick Hawes is based at Oxford Robotics Institute.\n\nComputerphile is suppor",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=844U9T_SOrA",
     "source": "YouTube – Computerphile",
     "badge": ""
   }
