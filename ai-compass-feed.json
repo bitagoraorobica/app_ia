@@ -658,6 +658,15 @@
   },
   {
     "date": "2025-08-01",
+    "title": "Google releases Olympiad medal-winning Gemini 2.5 ‘Deep Think’ AI publicly — but there’s a catch…",
+    "description": "The Gemini 2.5 Deep Think released to users is not that same competition model, rather, a lower performing but apparently faster version.",
+    "category": "News",
+    "link": "https://venturebeat.com/ai/google-releases-olympiad-medal-winning-gemini-2-5-deep-think-ai-publicly-but-theres-a-catch/",
+    "source": "VentureBeat AI",
+    "badge": ""
+  },
+  {
+    "date": "2025-08-01",
     "title": "OpenAI removes ChatGPT feature after private conversations leak to Google search",
     "description": "OpenAI abruptly removed a ChatGPT feature that made conversations searchable on Google, sparking privacy concerns and industry-wide scrutiny of AI data handling.",
     "category": "News",
@@ -781,15 +790,6 @@
     "link": "https://venturebeat.com/ai/nightfall-launches-nyx-an-ai-that-automates-data-loss-prevention-at-enterprise-scale/",
     "source": "VentureBeat AI",
     "badge": "🔥"
-  },
-  {
-    "date": "2025-07-30",
-    "title": "How can enterprises keep systems safe as AI agents join human employees? Cyata launches with a new, dedicated solution",
-    "description": "The growing use of AI agents isn’t limited to technical teams. While developers were an early audience, Cyata realized adoption was broader.",
-    "category": "News",
-    "link": "https://venturebeat.com/security/how-can-enterprises-keep-systems-safe-as-ai-agents-join-human-employees-cyata-launches-with-a-new-dedicated-solution/",
-    "source": "VentureBeat AI",
-    "badge": ""
   },
   {
     "date": "2025-06-24",
@@ -1090,30 +1090,12 @@
   },
   {
     "date": "2025-07-29",
-    "title": "L'AI che ottimizza siti, campagne, slide, landing [CreativeScore tutorial]",
-    "description": "Puoi prendere CreativeScore in promo qui: https://appsumo.8odi.net/EEPW6e\n\nCreativeScore è una potente AI che permette di analizzare e ottimizzare qualsiasi artefatto.\n\nSi può usare per i siti web, le landing page, le campagne pubblicitarie, i contenuti per i social, slide, volantini, copertine di l",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=IWvmaUUlYnU",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": ""
-  },
-  {
-    "date": "2025-07-29",
     "title": "In ChatGPT devi fare le giuste domande",
     "description": "In ChatGPT devi fare le giuste domande\n\nSe l'output non ti soddisfa, forse il problema è dell'input\n\nVideo estratto dal talk \"L'AI ci renderà stupidi, se la usiamo male\" che trovi sul mio canale YouTube\n\nGuarda il talk completo: https://www.youtube.com/watch?v=XY8BfGlVvqg\n #short",
     "category": "News",
     "link": "https://www.youtube.com/shorts/Yr5ThdBrV8w",
     "source": "YouTube – Raffaele Gaito",
     "badge": "🔥"
-  },
-  {
-    "date": "2025-07-28",
-    "title": "Una potente AI per i video con tutto dentro (effetti e modelli)",
-    "description": "Puoi prendere Vadoo in promo su AppSumo a questo link: https://appsumo.8odi.net/bOrgym\n\nOggi vi mostro un'AI che non potete assolutamente perdervi!\n\nSi chiama Vadoo AI ed è perfetta per chi lavora con i video, ma non solo (ha anche funzionalità su immagini e audio).\n\nIn una sola app avete tutti i mo",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=IoecaBMaq4w",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": ""
   },
   {
     "date": "2025-07-28",
@@ -1195,6 +1177,24 @@
     "link": "https://www.youtube.com/shorts/t2WqR9SWCZ0",
     "source": "YouTube – Raffaele Gaito",
     "badge": "🔥"
+  },
+  {
+    "date": "2025-07-23",
+    "title": "Spesso chi usa ChatGPT non fa più fact-checking",
+    "description": "Spesso chi usa ChatGPT non fa più fact-checking\n\nEcco perché questo è un problema e come risolverlo\n\nVideo estratto dal talk \"L'AI ci renderà stupidi, se la usiamo male\" che trovi sul mio canale YouTube\n\nGuarda il talk completo: https://www.youtube.com/watch?v=XY8BfGlVvqg #short",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/5gMFYO_ApcY",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-07-23",
+    "title": "Nuova challenge con Fiverr",
+    "description": "Avete visto sti video virali con neonati che parlano come se fossero adulti?\n\nHo chiesto a 3 freelancer su Fiverr di sperimentare video del genere usando la mia faccia.\n\nEcco cosa hanno tirato fuori\n\nUsa il link https://gaito.link/fiverr + coupon GAITO per avere il 10% di sconto sul primo acquisto\n\n",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/t3ZhAYQEfgI",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": ""
   },
   {
     "date": "2025-07-22",
