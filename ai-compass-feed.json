@@ -18,6 +18,15 @@
     "badge": ""
   },
   {
+    "date": "2025-08-06",
+    "title": "Providing ChatGPT to the Entire U.S. Federal Workforce",
+    "description": "Today, OpenAI for Government is announcing a new partnership with the U.S. General Services Administration (GSA) to launch a transformative initiative. For the next year, ChatGPT Enterprise will be available to the entire federal executive branch workforce at essentially no cost.",
+    "category": "News",
+    "link": "https://openai.com/index/providing-chatgpt-to-the-entire-us-federal-workforce",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
     "date": "2025-08-05",
     "title": "Estimating worst case frontier risks of open weight LLMs",
     "description": "In this paper, we study the worst-case frontier risks of releasing gpt-oss. We introduce malicious fine-tuning (MFT), where we attempt to elicit maximum capabilities by fine-tuning gpt-oss to be as capable as possible in two domains: biology and cybersecurity.",
@@ -54,24 +63,6 @@
     "badge": "🔥"
   },
   {
-    "date": "2025-07-17",
-    "title": "Invideo AI uses OpenAI models to create videos 10x faster",
-    "description": "Invideo AI uses OpenAI’s GPT-4.1, gpt-image-1, and text-to-speech models to transform creative ideas into professional videos in minutes.",
-    "category": "News",
-    "link": "https://openai.com/index/invideo-ai",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2025-07-17",
-    "title": "Agent bio bug bounty call",
-    "description": "OpenAI invites researchers to its Bio Bug Bounty. Test the ChatGPT agent’s safety with a universal jailbreak prompt and win up to $25,000.",
-    "category": "News",
-    "link": "https://openai.com/bio-bug-bounty",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
     "date": "2025-08-05",
     "title": "Welcome GPT OSS, the new open-source model family from OpenAI!",
     "description": " [...]",
@@ -81,92 +72,47 @@
     "badge": "🔥"
   },
   {
-    "date": "2025-08-06",
-    "title": "Efficient Agents: Building Effective Agents While Reducing Cost",
-    "description": "arXiv:2508.02694v1 Announce Type: new \nAbstract: The remarkable capabilities of Large Language Model (LLM)-driven agents have enabled sophisticated systems to tackle complex, multi-step tasks, but their escalating costs threaten scalability and accessibility. This work presents the first systematic ",
+    "date": "2025-08-07",
+    "title": "Can Large Language Models Adequately Perform Symbolic Reasoning Over Time Series?",
+    "description": "arXiv:2508.03963v1 Announce Type: new \nAbstract: Uncovering hidden symbolic laws from time series data, as an aspiration dating back to Kepler's discovery of planetary motion, remains a core challenge in scientific discovery and artificial intelligence. While Large Language Models show promise in st",
     "category": "Paper",
-    "link": "https://arxiv.org/abs/2508.02694",
+    "link": "https://arxiv.org/abs/2508.03963",
     "source": "arXiv AI",
     "badge": "📜"
   },
   {
-    "date": "2025-08-06",
-    "title": "Large Language Model-based Data Science Agent: A Survey",
-    "description": "arXiv:2508.02744v1 Announce Type: new \nAbstract: The rapid advancement of Large Language Models (LLMs) has driven novel applications across diverse domains, with LLM-based agents emerging as a crucial area of exploration. This survey presents a comprehensive analysis of LLM-based agents designed for",
+    "date": "2025-08-07",
+    "title": "Galaxy: A Cognition-Centered Framework for Proactive, Privacy-Preserving, and Self-Evolving LLM Agents",
+    "description": "arXiv:2508.03991v1 Announce Type: new \nAbstract: Intelligent personal assistants (IPAs) such as Siri and Google Assistant are designed to enhance human capabilities and perform tasks on behalf of users. The emergence of LLM agents brings new opportunities for the development of IPAs. While responsiv",
     "category": "Paper",
-    "link": "https://arxiv.org/abs/2508.02744",
+    "link": "https://arxiv.org/abs/2508.03991",
     "source": "arXiv AI",
     "badge": "📜"
   },
   {
-    "date": "2025-08-06",
-    "title": "Cognitive Loop via In-Situ Optimization: Self-Adaptive Reasoning for Science",
-    "description": "arXiv:2508.02789v1 Announce Type: new \nAbstract: The capacity for artificial intelligence (AI) to formulate, evolve, and test altered thought patterns under dynamic conditions indicates advanced cognition that is crucial for scientific discovery. The existing AI development landscape falls into two ",
+    "date": "2025-08-07",
+    "title": "KG-Augmented Executable CoT for Mathematical Coding",
+    "description": "arXiv:2508.04072v1 Announce Type: new \nAbstract: In recent years, large language models (LLMs) have excelled in natural language processing tasks but face significant challenges in complex reasoning tasks such as mathematical reasoning and code generation. To address these limitations, we propose KG",
     "category": "Paper",
-    "link": "https://arxiv.org/abs/2508.02789",
+    "link": "https://arxiv.org/abs/2508.04072",
     "source": "arXiv AI",
     "badge": "📜"
   },
   {
-    "date": "2025-08-06",
-    "title": "A Multi-Agent System for Complex Reasoning in Radiology Visual Question Answering",
-    "description": "arXiv:2508.02841v1 Announce Type: new \nAbstract: Radiology visual question answering (RVQA) provides precise answers to questions about chest X-ray images, alleviating radiologists' workload. While recent methods based on multimodal large language models (MLLMs) and retrieval-augmented generation (R",
+    "date": "2025-08-07",
+    "title": "Towards Transparent AI Grading: Semantic Entropy as a Signal for Human-AI Disagreement",
+    "description": "arXiv:2508.04105v1 Announce Type: new \nAbstract: Automated grading systems can efficiently score short-answer responses, yet they often fail to indicate when a grading decision is uncertain or potentially contentious. We introduce semantic entropy, a measure of variability across multiple GPT-4-gene",
     "category": "Paper",
-    "link": "https://arxiv.org/abs/2508.02841",
+    "link": "https://arxiv.org/abs/2508.04105",
     "source": "arXiv AI",
     "badge": "📜"
   },
   {
-    "date": "2025-08-06",
-    "title": "Seemingly Simple Planning Problems are Computationally Challenging: The Countdown Game",
-    "description": "arXiv:2508.02900v1 Announce Type: new \nAbstract: There is a broad consensus that the inability to form long-term plans is one of the key limitations of current foundational models and agents. However, the existing planning benchmarks remain woefully inadequate to truly measure their planning capabil",
+    "date": "2025-08-07",
+    "title": "Circuit-Aware SAT Solving: Guiding CDCL via Conditional Probabilities",
+    "description": "arXiv:2508.04235v1 Announce Type: new \nAbstract: Circuit Satisfiability (CSAT) plays a pivotal role in Electronic Design Automation. The standard workflow for solving CSAT problems converts circuits into Conjunctive Normal Form (CNF) and employs generic SAT solvers powered by Conflict-Driven Clause ",
     "category": "Paper",
-    "link": "https://arxiv.org/abs/2508.02900",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2025-08-06",
-    "title": "AQUAH: Automatic Quantification and Unified Agent in Hydrology",
-    "description": "arXiv:2508.02936v1 Announce Type: new \nAbstract: We introduce AQUAH, the first end-to-end language-based agent designed specifically for hydrologic modeling. Starting from a simple natural-language prompt (e.g., 'simulate floods for the Little Bighorn basin from 2020 to 2022'), AQUAH autonomously re",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2508.02936",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2025-08-06",
-    "title": "MedBLINK: Probing Basic Perception in Multimodal Language Models for Medicine",
-    "description": "arXiv:2508.02951v1 Announce Type: new \nAbstract: Multimodal language models (MLMs) show promise for clinical decision support and diagnostic reasoning, raising the prospect of end-to-end automated medical image interpretation. However, clinicians are highly selective in adopting AI tools; a model th",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2508.02951",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2025-08-06",
-    "title": "Polymath: A Self-Optimizing Agent with Dynamic Hierarchical Workflow",
-    "description": "arXiv:2508.02959v1 Announce Type: new \nAbstract: Large language models (LLMs) excel at solving complex tasks by executing agentic workflows composed of detailed instructions and structured operations. Yet, building general-purpose agents by manually embedding foundation models into agentic systems s",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2508.02959",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2025-08-06",
-    "title": "When AIs Judge AIs: The Rise of Agent-as-a-Judge Evaluation for LLMs",
-    "description": "arXiv:2508.02994v1 Announce Type: new \nAbstract: As large language models (LLMs) grow in capability and autonomy, evaluating their outputs-especially in open-ended and complex tasks-has become a critical bottleneck. A new paradigm is emerging: using AI agents as the evaluators themselves. This \"agen",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2508.02994",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2025-08-06",
-    "title": "AGENTiGraph: A Multi-Agent Knowledge Graph Framework for Interactive, Domain-Specific LLM Chatbots",
-    "description": "arXiv:2508.02999v1 Announce Type: new \nAbstract: AGENTiGraph is a user-friendly, agent-driven system that enables intuitive interaction and management of domain-specific data through the manipulation of knowledge graphs in natural language. It gives non-technical users a complete, visual solution to",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2508.02999",
+    "link": "https://arxiv.org/abs/2508.04235",
     "source": "arXiv AI",
     "badge": "📜"
   },
@@ -186,6 +132,15 @@
     "category": "News",
     "link": "https://blog.langchain.com/deep-agents/",
     "source": "LangChain",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-08-06",
+    "title": "The initial reactions to OpenAI’s landmark open source gpt-oss models are highly varied and mixed",
+    "description": "The verdict, for now, is split. OpenAI’s gpt-oss models are a landmark in terms of licensing and accessibility.",
+    "category": "News",
+    "link": "https://venturebeat.com/ai/the-initial-reactions-to-openais-landmark-open-source-gpt-oss-models-are-highly-varied-and-mixed/",
+    "source": "VentureBeat AI",
     "badge": "🔥"
   },
   {
@@ -225,21 +180,12 @@
     "badge": "🔥"
   },
   {
-    "date": "2025-07-30",
-    "title": "Nightfall launches ‘Nyx,’ an AI that automates data loss prevention at enterprise scale",
-    "description": "Nightfall's Nyx is the first autonomous DLP platform that cuts false alerts by 90% and protects data from insider threats and ChatGPT leaks.",
+    "date": "2025-08-06",
+    "title": "Delegate work to ChatGPT agent",
+    "description": "See ChatGPT agent in action — researching, coding, and taking action online to complete an ecommerce business plan in minutes. \nIn this demo, you’ll watch it:\n- Find ecommerce and health industry reports\n- Gather and organize data in a spreadsheet\n- Build charts and a customizable business plan calc",
     "category": "News",
-    "link": "https://venturebeat.com/ai/nightfall-launches-nyx-an-ai-that-automates-data-loss-prevention-at-enterprise-scale/",
-    "source": "VentureBeat AI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2025-07-29",
-    "title": "ChatGPT just got smarter: OpenAI’s Study Mode helps students learn step-by-step",
-    "description": "OpenAI launches ChatGPT Study Mode, transforming AI from an answer engine into a Socratic tutor that guides students through problems step-by-step rather than providing direct solutions.",
-    "category": "News",
-    "link": "https://venturebeat.com/ai/chatgpt-just-got-smarter-openais-study-mode-helps-students-learn-step-by-step/",
-    "source": "VentureBeat AI",
+    "link": "https://www.youtube.com/watch?v=AGr_Xolg0Ps",
+    "source": "YouTube – OpenAI",
     "badge": "🔥"
   },
   {
@@ -306,6 +252,15 @@
     "badge": "🔥"
   },
   {
+    "date": "2025-08-06",
+    "title": "🔥 OpenAI rilascia 2 modelli Open [Demo e installazione gpt-oss]",
+    "description": "🙏 Supporta il canale abbonandoti qui: https://www.youtube.com/channel/UCrebGs3b-Z7JLKQM2YOpUKA/join\n\nColpo di scena di OpenAI che sorprende tutti!\n\nCosì, all'improvviso, sono arrivati due modelli open dalle prestazioni assurde.\n\nSi chiamano gpt-oss, sono open, gratuiti, potenti e possono essere inst",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=LLCSFq9nrSQ",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": "🔥"
+  },
+  {
     "date": "2025-08-03",
     "title": "10 perle che adoro di ChatGPT e Gemini [Talk Live]",
     "description": "🙏 Supporta il canale abbonandoti qui: https://www.youtube.com/channel/UCrebGs3b-Z7JLKQM2YOpUKA/join\n\nDurante il WMF di quest'anno ho portato un talk un po' diverso dal solito.\n\nHo preso spunto dalla mia rubrica sulle funzionalità nascoste delle app per raccontare 10 funzionalità che adoro di ChatGPT",
@@ -338,42 +293,6 @@
     "description": "Ottieni il 10% di sconto sul tuo VPS con il link https://www.hostinger.com/gaitovps e inserisci il coupon GAITOVPS\n\nSono mesi che mi chiedete un tutorial su n8n ed eccolo qua!\n\nSi tratta del più potente strumento in circolazione per creare automazioni e workflow tra le nostre app.\n\nSupporta oltre 10",
     "category": "News",
     "link": "https://www.youtube.com/watch?v=djbslHh77lg",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": "🔥"
-  },
-  {
-    "date": "2025-07-28",
-    "title": "Con ChatGPT confondiamo produttività con qualità",
-    "description": "Con ChatGPT confondiamo produttività con qualità\n\nEcco perché è un problema e come risolverlo\n\nVideo estratto dal talk \"L'AI ci renderà stupidi, se la usiamo male\" che trovi sul mio canale YouTube\n\nGuarda il talk completo: https://www.youtube.com/watch?v=XY8BfGlVvqg\n #short",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/6Qa-VvGQaIE",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": "🔥"
-  },
-  {
-    "date": "2025-07-27",
-    "title": "Rischi dell'AI; Grok4 e sicurezza; La FOMO nell'AI; e altro con @enkk",
-    "description": "🙏 Supporta il canale abbonandoti qui: https://www.youtube.com/channel/UCrebGs3b-Z7JLKQM2YOpUKA/join\n\nQualche giorno fa mi sono fatto una lunga chiacchierata con @enkk sul suo canale Twitch.\n\nCi siamo confrontati sul mondo dell'intelligenza artificiale e un po' di cose che stanno succedendo negli ult",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=B0lWWVnr44k",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": "🔥"
-  },
-  {
-    "date": "2025-07-27",
-    "title": "ChatGPT ha bias e pregiudizi",
-    "description": "ChatGPT ha bias e pregiudizi\n\nEcco perché è importante saperlo e cosa fare\n\nVideo estratto dal talk \"L'AI ci renderà stupidi, se la usiamo male\" che trovi sul mio canale YouTube\n\nGuarda il talk completo: https://www.youtube.com/watch?v=XY8BfGlVvqg #short",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/aGpZkABUjFU",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": "🔥"
-  },
-  {
-    "date": "2025-07-26",
-    "title": "Se usi ChatGPT mettici sempre del tuo",
-    "description": "Se usi ChatGPT mettici sempre del tuo\n\nVideo estratto dal talk \"L'AI ci renderà stupidi, se la usiamo male\" che trovi sul mio canale YouTube\n\nGuarda il talk completo: https://www.youtube.com/watch?v=XY8BfGlVvqg #short",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/WIDjab34lDA",
     "source": "YouTube – Raffaele Gaito",
     "badge": "🔥"
   },
