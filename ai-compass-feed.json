@@ -9,66 +9,165 @@
     "badge": ""
   },
   {
-    "date": "2025-09-22",
-    "title": "Creating a safe, observable AI infrastructure for 1 million classrooms",
-    "description": "Discover how SchoolAI, built on OpenAI’s GPT-4.1, image generation, and TTS, powers safe, teacher-guided AI tools for 1 million classrooms worldwide—boosting engagement, oversight, and personalized learning.",
+    "date": "2025-09-29",
+    "title": "Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol",
+    "description": "We’re taking first steps toward agentic commerce in ChatGPT with new ways for people, AI agents, and businesses to shop together.",
     "category": "News",
-    "link": "https://openai.com/index/schoolai",
+    "link": "https://openai.com/index/buy-it-in-chatgpt",
     "source": "OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2025-09-22",
-    "title": "Portare l'IA in azienda: il caso studio start2impact",
-    "description": "Scopri i Master di start2impact sui lavori più richiesti e le agevolazioni disponibili: https://start2impact.info/raffaele/settembre25\n\nHo avuto il piacere di intervistare Gherardo Liguori e Virginia Tosti, fondatori di @start2impact \n\nstart2impact è tra le scuole di formazione con il più alto tasso",
+    "date": "2025-09-24",
+    "title": "Transforming the manufacturing industry with ChatGPT",
+    "description": "By deploying ChatGPT Enterprise, ENEOS Materials transformed operations with faster research, safer plant design, and streamlined HR processes. Over 80% of employees report major workflow improvements, strengthening competitiveness in manufacturing.",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=Cda_pgDSQMk",
+    "link": "https://openai.com/index/eneos-materials",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-10-03",
+    "title": "OR-Toolformer: Modeling and Solving Operations Research Problems with Tool Augmented Large Language Models",
+    "description": "arXiv:2510.01253v1 Announce Type: new \nAbstract: Large language models (LLMs) demonstrate strong mathematical reasoning, but reliance on closed-source APIs for OR tasks raises privacy concerns, and training open-source models from scratch incurs high compute costs. We introduce OR-Toolformer, which ",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2510.01253",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2025-10-03",
+    "title": "The Social Laboratory: A Psychometric Framework for Multi-Agent LLM Evaluation",
+    "description": "arXiv:2510.01295v1 Announce Type: new \nAbstract: As Large Language Models (LLMs) transition from static tools to autonomous agents, traditional evaluation benchmarks that measure performance on downstream tasks are becoming insufficient. These methods fail to capture the emergent social and cognitiv",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2510.01295",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2025-10-03",
+    "title": "MEMTRACK: Evaluating Long-Term Memory and State Tracking in Multi-Platform Dynamic Agent Environments",
+    "description": "arXiv:2510.01353v1 Announce Type: new \nAbstract: Recent works on context and memory benchmarking have primarily focused on conversational instances but the need for evaluating memory in dynamic enterprise environments is crucial for its effective application. We introduce MEMTRACK, a benchmark desig",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2510.01353",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2025-10-03",
+    "title": "Retrieval-Augmented Framework for LLM-Based Clinical Decision Support",
+    "description": "arXiv:2510.01363v1 Announce Type: new \nAbstract: The increasing complexity of clinical decision-making, alongside the rapid expansion of electronic health records (EHR), presents both opportunities and challenges for delivering data-informed care. This paper proposes a clinical decision support syst",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2510.01363",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2025-10-03",
+    "title": "Fine-tuning with RAG for Improving LLM Learning of New Skills",
+    "description": "arXiv:2510.01375v1 Announce Type: new \nAbstract: Large language model (LLM) agents deployed for multi-step tasks frequently fail in predictable ways: attempting actions with unmet preconditions, issuing redundant commands, or mishandling environment constraints. While retrieval-augmented generation ",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2510.01375",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2025-09-30",
+    "title": "This is Sora 2",
+    "description": "This is Sora 2, our most advanced video generation model yet that puts vivid, expressive creation into everyone’s hands.\n\nSora 2 can do things that are exceptionally difficult for prior video generation models.\n\nIt’s more physically accurate and realistic than prior systems and a big leap forward in",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=lEcg6AJ6DVY",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-09-29",
+    "title": "Turning contracts into searchable data at OpenAI",
+    "description": "OpenAI built DocuGPT to turn messy contract files into clean, searchable data in minutes. See how the team designed a system that extracts key details, cuts turnaround times, and gives everyone faster, easier access to the information they need.",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=i-O37AtVkp0",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-09-25",
+    "title": "Gemini Robotics 1.5: Enabling robots to plan, think and use tools to solve complex tasks",
+    "description": "We’re powering an era of physical agents with Gemini Robotics 1.5 — enabling robots to perceive, plan, think, use tools and act to better solve complex, multi-step tasks.\n\n🤖 Gemini Robotics 1.5 is our most capable vision-language-action (VLA) model that turns visual information and instructions into",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=UObzWjPb6XM",
+    "source": "YouTube – DeepMind",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-10-01",
+    "title": "Sora 2 è arrivato, ed è la migliore IA per fare video",
+    "description": "Ottieni NordVPN con un super sconto e 4 mesi gratuiti con il link https://nordvpn.com/raffaelegaito\n\nTotalmente a sorpresa OpenAI annuncia Sora 2, la nuova versione della sua intelligenza artificiale per creare video.\n\nPersonalmente non ho mai visto niente del genere!\n\nÈ assurdo da tutti i punti di ",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=NugM3JARqoM",
     "source": "YouTube – Raffaele Gaito",
     "badge": "🔥"
   },
   {
-    "date": "2025-09-21",
-    "title": "6 corsi gratis per diventare esperto di AI in un giorno!",
-    "description": "Lo sapevi che Esistono 6 corsi che ti insegnano Ad utilizzare l’IA a livello avanzato?\n\nSpoiler: sono gratuiti.\n\n💸 E come se non bastasse sono gratuiti\n\nEcco quali sono:\n1- OpenAI Academy\nCome fare prompt, business ed utilizzarlo per imparare\nLivello base - medio\n\n2- Anthropic Academy\nCome usare Cla",
+    "date": "2025-09-28",
+    "title": "Potenzia ChatGPT5 con questi 5 prompt",
+    "description": "Compra il mio corso per usare al MASSIMO ChatGPT: https://www.raffaelegaito.com/corso-chat-gpt-prompt/\n\nProbabilmente sarà capitato anche a te di notare la qualità calante delle risposte di ChatGPT 5.\n\nCi siamo passati tutti, ma oggi ho la soluzione.\n\nIn questo tutorial ti mostro 5 trucchetti per mi",
     "category": "News",
-    "link": "https://www.youtube.com/shorts/WAt6VB-0m1M",
+    "link": "https://www.youtube.com/watch?v=WV3I6UvKRsc",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-09-24",
+    "title": "n8n: tutti i trigger spiegati in modo semplice",
+    "description": "Ottieni il 10% di sconto sul tuo VPS con il link https://www.hostinger.com/gaitovps e inserisci il coupon GAITOVPS\n\nEcco a voi un altro tutorial su n8n, l'incredibile piattaforma che vi permette di automatizzare qualsiasi cosa.\n\nOggi vi mostro come utilizzare i vari trigger che abbiamo a disposizion",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=JcsyQMGaaiw",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-10-03",
+    "title": "10 Trucchi di ChatGPT per Immagini che i Pro tengono Nascosti",
+    "description": "10 Trucchi di ChatGPT per Immagini che i Pro tengono Nascosti e che da oggi scoprirai. Esistono tanti trucchi per creare immagini con ChatGPT oggi vedremo 10 trucchi che quasi nessuno conosce.\n\nI 10 Trucchi di ChatGPT per Immagini che i Pro tengono Nascosti e che potrai applicare come e quando vorra",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=jyEtGm8RmqQ",
     "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
   },
   {
-    "date": "2025-09-20",
-    "title": "Il 97% delle persone usa ChatGPT come idioti (ecco i 3 prompt che usano i pro)",
-    "description": "Il 97% delle persone usa ChatGPT come idioti (ecco i 3 prompt che usano i pro)\n\n1- Interazione al Contrario\nCome funziona:\nInvece che scrivere prompt infiniti, fai fare il lavoro a ChatGPT.\n\nDefinisci l’obiettivo, quindi costringi ChatGPT a porti domande una alla volta finché non riesce a risolvere ",
+    "date": "2025-10-02",
+    "title": "Come Creare il Board dei Sogni in 30 Secondi con l'IA!",
+    "description": "Come Creare il Board dei Sogni in 30 Secondi con l'IA!\n\nNon sto scherzando. \nTi aiuterò a creare il consiglio \nd’amministrazione più potente al mondo.\n\nIn 30 secondi.\nE non costa niente.\nApri ChatGPT. Copia e incolla questo:\n\n\"Sei il mio board. Io sono il CEO. Tu sei:\n* Mark Zuckerberg: pensa a scal",
     "category": "News",
-    "link": "https://www.youtube.com/shorts/LMzJV2-vZm0",
+    "link": "https://www.youtube.com/shorts/D22-beaqJf0",
     "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
   },
   {
-    "date": "2025-09-19",
-    "title": "Nessuno ne parla ma Google ha appena rilasciato 11 corsi segreti sull’IA",
-    "description": "Nessuno ne parla ma Google ha appena\nrilasciato 11 corsi segreti sull’IA\n\nE il bello è che sono GRATUITI.\n\nEcco come trovarli prima che sia troppo tardi:\nVai su Google e digita:\n“L’istruzione progredisce con l’IA”\ne clicca sul primo risultato di Google for Education.\n\nScorri e troverai corsi pazzesc",
+    "date": "2025-10-01",
+    "title": "7 Guide Gratuite per Diventare un FENOMENO con l'IA",
+    "description": "7 Guide Gratuite per Diventare un FENOMENO con l'IA\n\nLa persone pensano che imparare\nl’intelligenza artificiale sia difficile.\nNon lo è. Se sai dove informarti.\n\n📚 Ho trovato 7 guide gratuite così non devi farlo tu:\n\n1️⃣ OpenAI Academy - academy.openai.com\nL’accademia ufficiale di OpenAI su Chatgpt.",
     "category": "News",
-    "link": "https://www.youtube.com/shorts/f2hl5b7pidE",
+    "link": "https://www.youtube.com/shorts/9oXgwfimDlA",
     "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
   },
   {
-    "date": "2025-09-17",
-    "title": "Nessuno ne parla ma questo prompt ChatGPT è illegale",
-    "description": "Nessuno ne parla ma questo prompt ChatGPT è illegale \n\nOpzione 1\nHo rubato le strategie di manipolazione di Robert Greene \nper scrivere contenuti virali. Impossibile? Ecco\nOpzione 2 (quello tra le () viene scritto come gancio testuale\nQuesto prompt ChatGPT è illegale (usa le tattiche di manipolazion",
+    "date": "2025-09-30",
+    "title": "6 Funzioni di Gemini AI Studio che il 99% Non Conosce",
+    "description": "6 Funzioni di Gemini AI Studio che il 99% Non Conosce ma che possono cambiare tutto nell'uso dell' AI di Gemini . Ogni settimana arrivano novità lato intelligenza artificiale, ma a mio avviso, ci sono 6 Funzioni di Gemini AI Studio che il 99% Non Conosce e che ti faranno fare un level up incredibile",
     "category": "News",
-    "link": "https://www.youtube.com/shorts/iOVIyJYCK88",
+    "link": "https://www.youtube.com/watch?v=oq-6hBimdng",
     "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
   },
   {
-    "date": "2025-09-21",
-    "title": "Le 4 paure più comuni sull'AI",
-    "description": "VUOI SAPERNE DI PIÙ SULL'INTELLIGENZA ARTIFICIALE? ISCRIVITI GRATUITAMENTE AL MIO CORSO: https://free.marcomontemagno.com/sfida-5-days-ev/ \n\n🎥 Seguimi sui miei canali social per rimanere sempre aggiornato:\n\nInstagram ➡️  https://www.instagram.com/marcomontemagno\nFacebook ➡️  https://www.facebook.com",
+    "date": "2025-09-29",
+    "title": "Come ottenere il prompt perfetto in 30 secondi!",
+    "description": "Come ottenere il prompt perfetto in 30 secondi!\n\nOra puoi avere il prompt perfetto\nIn meno di 30 secondi con questo TOOL GRATUITO\n\nOpenAI, i creatori di ChatGPT \nhanno rilasciato un Tool ogni prompt.\n\nPiù affidabilità di così è impossibile!\nEcco come fare:\n\n1- Vai su https://platform.openai.com/chat",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=_8Mnpd6y6pI",
-    "source": "YouTube - Marco Montemagno",
+    "link": "https://www.youtube.com/shorts/ziovnHz9c6Y",
+    "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
   }
 ]
