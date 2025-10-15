@@ -9,164 +9,281 @@
     "badge": ""
   },
   {
-    "date": "2025-09-29",
-    "title": "Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol",
-    "description": "We’re taking first steps toward agentic commerce in ChatGPT with new ways for people, AI agents, and businesses to shop together.",
+    "date": "2025-10-14",
+    "title": "Expert Council on Well-Being and AI",
+    "description": "OpenAI’s new Expert Council on Well-Being and AI brings together leading psychologists, clinicians, and researchers to guide how ChatGPT supports emotional health, especially for teens. Learn how their insights are shaping safer, more caring AI experiences.",
     "category": "News",
-    "link": "https://openai.com/index/buy-it-in-chatgpt",
+    "link": "https://openai.com/index/expert-council-on-well-being-and-ai",
     "source": "OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2025-09-24",
-    "title": "Transforming the manufacturing industry with ChatGPT",
-    "description": "By deploying ChatGPT Enterprise, ENEOS Materials transformed operations with faster research, safer plant design, and streamlined HR processes. Over 80% of employees report major workflow improvements, strengthening competitiveness in manufacturing.",
+    "date": "2025-10-10",
+    "title": "HYGH powers next-gen digital ads with ChatGPT Business",
+    "description": "HYGH speeds up software development and campaign delivery with ChatGPT Business, cutting turnaround times, scaling output, and driving revenue growth.",
     "category": "News",
-    "link": "https://openai.com/index/eneos-materials",
+    "link": "https://openai.com/index/hygh",
     "source": "OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2025-10-03",
-    "title": "OR-Toolformer: Modeling and Solving Operations Research Problems with Tool Augmented Large Language Models",
-    "description": "arXiv:2510.01253v1 Announce Type: new \nAbstract: Large language models (LLMs) demonstrate strong mathematical reasoning, but reliance on closed-source APIs for OR tasks raises privacy concerns, and training open-source models from scratch incurs high compute costs. We introduce OR-Toolformer, which ",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2510.01253",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2025-10-03",
-    "title": "The Social Laboratory: A Psychometric Framework for Multi-Agent LLM Evaluation",
-    "description": "arXiv:2510.01295v1 Announce Type: new \nAbstract: As Large Language Models (LLMs) transition from static tools to autonomous agents, traditional evaluation benchmarks that measure performance on downstream tasks are becoming insufficient. These methods fail to capture the emergent social and cognitiv",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2510.01295",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2025-10-03",
-    "title": "MEMTRACK: Evaluating Long-Term Memory and State Tracking in Multi-Platform Dynamic Agent Environments",
-    "description": "arXiv:2510.01353v1 Announce Type: new \nAbstract: Recent works on context and memory benchmarking have primarily focused on conversational instances but the need for evaluating memory in dynamic enterprise environments is crucial for its effective application. We introduce MEMTRACK, a benchmark desig",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2510.01353",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2025-10-03",
-    "title": "Retrieval-Augmented Framework for LLM-Based Clinical Decision Support",
-    "description": "arXiv:2510.01363v1 Announce Type: new \nAbstract: The increasing complexity of clinical decision-making, alongside the rapid expansion of electronic health records (EHR), presents both opportunities and challenges for delivering data-informed care. This paper proposes a clinical decision support syst",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2510.01363",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2025-10-03",
-    "title": "Fine-tuning with RAG for Improving LLM Learning of New Skills",
-    "description": "arXiv:2510.01375v1 Announce Type: new \nAbstract: Large language model (LLM) agents deployed for multi-step tasks frequently fail in predictable ways: attempting actions with unmet preconditions, issuing redundant commands, or mishandling environment constraints. While retrieval-augmented generation ",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2510.01375",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2025-09-30",
-    "title": "This is Sora 2",
-    "description": "This is Sora 2, our most advanced video generation model yet that puts vivid, expressive creation into everyone’s hands.\n\nSora 2 can do things that are exceptionally difficult for prior video generation models.\n\nIt’s more physically accurate and realistic than prior systems and a big leap forward in",
+    "date": "2025-10-09",
+    "title": "Defining and evaluating political bias in LLMs",
+    "description": "Learn how OpenAI evaluates political bias in ChatGPT through new real-world testing methods that improve objectivity and reduce bias.",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=lEcg6AJ6DVY",
+    "link": "https://openai.com/index/defining-and-evaluating-political-bias-in-llms",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-10-08",
+    "title": "Growing impact and scale with ChatGPT",
+    "description": "Discover how HiBob uses ChatGPT Enterprise and custom GPTs to scale AI adoption, boost revenue, streamline HR workflows, and deliver AI-powered features in the Bob platform.",
+    "category": "News",
+    "link": "https://openai.com/index/hibob",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-10-06",
+    "title": "Introducing apps in ChatGPT and the new Apps SDK",
+    "description": "We’re introducing a new generation of apps you can chat with, right inside ChatGPT. Developers can start building them today with the new Apps SDK, available in preview.",
+    "category": "News",
+    "link": "https://openai.com/index/introducing-apps-in-chatgpt",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-10-15",
+    "title": "Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation",
+    "description": "arXiv:2510.11977v1 Announce Type: new \nAbstract: AI agents have been developed for complex real-world tasks from coding to customer service. But AI agent evaluations suffer from many challenges that undermine our understanding of how well agents really work. We introduce the Holistic Agent Leaderboa",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2510.11977",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2025-10-15",
+    "title": "Do Large Language Models Respect Contracts? Evaluating and Enforcing Contract-Adherence in Code Generation",
+    "description": "arXiv:2510.12047v1 Announce Type: new \nAbstract: Prevailing code generation benchmarks, such as HumanEval+ and MBPP+, primarily evaluate large language models (LLMs) with pass@k on functional correctness using well-formed inputs. However, they ignore a crucial aspect of real-world software: adherenc",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2510.12047",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2025-10-15",
+    "title": "EmboMatrix: A Scalable Training-Ground for Embodied Decision-Making",
+    "description": "arXiv:2510.12072v1 Announce Type: new \nAbstract: Embodied decision-making enables agents to translate high-level goals into executable actions through continuous interactions within the physical world, forming a cornerstone of general-purpose embodied intelligence. Large language models (LLMs), with",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2510.12072",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2025-10-15",
+    "title": "ToPolyAgent: AI Agents for Coarse-Grained Topological Polymer Simulations",
+    "description": "arXiv:2510.12091v1 Announce Type: new \nAbstract: We introduce ToPolyAgent, a multi-agent AI framework for performing coarse-grained molecular dynamics (MD) simulations of topological polymers through natural language instructions. By integrating large language models (LLMs) with domain-specific comp",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2510.12091",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2025-10-15",
+    "title": "MatSciBench: Benchmarking the Reasoning Ability of Large Language Models in Materials Science",
+    "description": "arXiv:2510.12171v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have demonstrated remarkable abilities in scientific reasoning, yet their reasoning capabilities in materials science remain underexplored. To fill this gap, we introduce MatSciBench, a comprehensive college-level benchmar",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2510.12171",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2025-10-07",
+    "title": "Not Another Workflow Builder",
+    "description": "<p><em>By Harrison Chase</em></p><p>One of the most common requests we&#x2019;ve gotten from day zero of LangChain has been a visual workflow builder. We never pursued it and instead let others (LangFlow, Flowise, n8n) build on top of us. With OpenAI launching a <a href=\"https://openai.com/index/int",
+    "category": "News",
+    "link": "https://blog.langchain.com/not-another-workflow-builder/",
+    "source": "LangChain",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-10-14",
+    "title": "EAGLET boosts AI agent performance on longer-horizon tasks by generating custom plans",
+    "description": "<p>2025 was supposed to be<a href=\"https://www.barrons.com/articles/nvidia-stock-ceo-ai-agents-8c20ddfb?gaa_at=eafs&amp;gaa_n=ASWzDAjLKLIimw5qFdsG0kmEnu-fOoNZXVCdnBx-zn_CbT1hLgiWcYGxmHLDOvPxpV0%3D&amp;gaa_ts=68eec9d8&amp;gaa_sig=klyxA4QUo1K8AN8hu1LEL8i64tGtj_jKhoX1IWR32Fm06Aizm1ylHYCER9fv8FSpylAwqgI",
+    "category": "News",
+    "link": "https://venturebeat.com/ai/eaglet-boosts-ai-agent-performance-on-longer-horizon-tasks-by-generating",
+    "source": "VentureBeat AI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-10-14",
+    "title": "Visa just launched a protocol to secure the AI shopping boom — here’s what it means for merchants",
+    "description": "<p><a href=\"https://usa.visa.com/\"><u>Visa</u></a> is introducing a new security framework designed to solve one of the thorniest problems emerging in artificial intelligence-powered commerce: how retailers can tell the difference between legitimate AI shopping assistants and the malicious bots that",
+    "category": "News",
+    "link": "https://venturebeat.com/ai/visa-just-launched-a-protocol-to-secure-the-ai-shopping-boom-heres-what-it",
+    "source": "VentureBeat AI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-10-13",
+    "title": "Self-improving language models are becoming reality with MIT's updated SEAL technique",
+    "description": "<p>Researchers at the Massachusetts Institute of Technology (MIT) are gaining renewed attention for developing and <a href=\"https://github.com/Continual-Intelligence/SEAL/blob/main/LICENSE\">open sourcing</a> a technique that allows large language models (LLMs) — like those underpinning ChatGPT and m",
+    "category": "News",
+    "link": "https://venturebeat.com/ai/self-improving-language-models-are-becoming-reality-with-mits-updated-seal",
+    "source": "VentureBeat AI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-10-13",
+    "title": "Researchers find that retraining only small parts of AI models can cut costs and prevent forgetting",
+    "description": "<p>Enterprises often find that when <a href=\"https://venturebeat.com/ai/fine-tuning-vs-in-context-learning-new-research-guides-better-llm-customization-for-real-world-tasks\"><u>they fine-tune models</u></a>, one effective approach to making a large language model (LLM) fit for purpose and grounded i",
+    "category": "News",
+    "link": "https://venturebeat.com/ai/researchers-find-that-retraining-only-small-parts-of-ai-models-can-cut-costs",
+    "source": "VentureBeat AI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-10-13",
+    "title": "This new AI technique creates ‘digital twin’ consumers, and it could kill the traditional survey industry",
+    "description": "<p>A new <a href=\"https://arxiv.org/pdf/2510.08338\"><u>research paper</u></a> quietly published last week outlines a breakthrough method that allows large language models (LLMs) to simulate human consumer behavior with startling accuracy, a development that could reshape the multi-billion-dollar <a ",
+    "category": "News",
+    "link": "https://venturebeat.com/ai/this-new-ai-technique-creates-digital-twin-consumers-and-it-could-kill-the",
+    "source": "VentureBeat AI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-10-14",
+    "title": "OpenAI custom chips 🤖, Facebook Jobs 💼, NanoGPT 👨‍💻",
+    "description": " [...]",
+    "category": "News",
+    "link": "https://tldr.tech/tech/2025-10-14",
+    "source": "TLDR",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-10-07",
+    "title": "ChatGPT apps 🤖, Starlink's power play 🛰️, OpenAI DevDay 👨‍💻",
+    "description": " [...]",
+    "category": "News",
+    "link": "https://tldr.tech/tech/2025-10-07",
+    "source": "TLDR",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-10-14",
+    "title": "Using OpenAI Codex CLI with GPT-5-Codex",
+    "description": "Learn how to use the Codex CLI + GPT-5-Codex in just 5 minutes.\n\n\nIn this tutorial, Eason Goodale and Romain Huet show you how to build a multiplayer game with Codex — without writing a single line of code! \n\nTimestamps:\n\n00:00 Intro\n00:50 Planning the multiplayer implementation\n1:38 Using CLI comma",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=iqNzfK4_meQ",
     "source": "YouTube – OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2025-09-29",
-    "title": "Turning contracts into searchable data at OpenAI",
-    "description": "OpenAI built DocuGPT to turn messy contract files into clean, searchable data in minutes. See how the team designed a system that extracts key details, cuts turnaround times, and gives everyone faster, easier access to the information they need.",
+    "date": "2025-10-14",
+    "title": "Build Hour: Responses API",
+    "description": "The Responses API is our flagship API for building agents. This Build Hour shows how the Responses API unlocks persistent reasoning, hosted tools, and multimodal workflows for GPT-5.\n\nSteve Coffey (API Engineering) covers:\n• How to use built-in tools, call multiple tools in one API request, and pres",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=i-O37AtVkp0",
+    "link": "https://www.youtube.com/watch?v=hNr5EebepYs",
     "source": "YouTube – OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2025-09-25",
-    "title": "Gemini Robotics 1.5: Enabling robots to plan, think and use tools to solve complex tasks",
-    "description": "We’re powering an era of physical agents with Gemini Robotics 1.5 — enabling robots to perceive, plan, think, use tools and act to better solve complex, multi-step tasks.\n\n🤖 Gemini Robotics 1.5 is our most capable vision-language-action (VLA) model that turns visual information and instructions into",
+    "date": "2025-10-09",
+    "title": "What Work Looks Like with ChatGPT | Write, Research, Code, Create",
+    "description": "ChatGPT is becoming a bigger part of everyday work. It helps teams move from idea to execution faster, analyzing data, writing code, researching topics, and taking action across tools.\n\nThis short video shows how AI is making work faster, simpler, and more secure. See how teams are customizing ChatG",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=UObzWjPb6XM",
+    "link": "https://www.youtube.com/watch?v=0SccjZ6Yfi8",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-10-08",
+    "title": "Model Behavior: The Science of AI Style",
+    "description": "Why does ChatGPT sound the way it does? Go behind the scenes to see how the style a model emerges, the trade-offs researchers weigh, and what the future of tone and voice in human-AI interaction could look like.",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=ER9Hqly28Qw",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-10-08",
+    "title": "Building with Open Models",
+    "description": "Go beyond out-of-the-box models with gpt-oss, OpenAI's newest open model series. Discover how gpt-oss lets you adapt, extend, and fine-tune to your needs while combining seamlessly with GPT-5 for flexible, high-impact builds.\n\nDominik presents one of the first of NVIDIA's DGX Spark AI Computers on s",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=1HL2YHRj270",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-10-09",
+    "title": "Social engineering, malware, and the future of cybersecurity in AI (pt.1)",
+    "description": "Social engineering, cyberattacks, and the fog of war - all topics covered in this interview with the VP of Security and Privacy at Google DeepMind. Hannah Fry and Four Flynn take us behind the scenes of Operation Aurora, the monumental 2009 attack on Google that forever changed the landscape of cybe",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=1gO2bC5xLlo",
     "source": "YouTube – DeepMind",
     "badge": "🔥"
   },
   {
-    "date": "2025-10-01",
-    "title": "Sora 2 è arrivato, ed è la migliore IA per fare video",
-    "description": "Ottieni NordVPN con un super sconto e 4 mesi gratuiti con il link https://nordvpn.com/raffaelegaito\n\nTotalmente a sorpresa OpenAI annuncia Sora 2, la nuova versione della sua intelligenza artificiale per creare video.\n\nPersonalmente non ho mai visto niente del genere!\n\nÈ assurdo da tutti i punti di ",
+    "date": "2025-10-11",
+    "title": "[Paper Analysis] On the Theoretical Limitations of Embedding-Based Retrieval (Warning: Rant)",
+    "description": "Paper: https://arxiv.org/abs/2508.21038\n\nAbstract:\nVector embeddings have been tasked with an ever-increasing set of retrieval tasks over the years, with a nascent rise in using them for reasoning, instruction-following, coding, and more. These new benchmarks push embeddings to work for any query an",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=NugM3JARqoM",
+    "link": "https://www.youtube.com/watch?v=zKohTkN0Fyk",
+    "source": "YouTube – Yannic Kilcher",
+    "badge": "🔥"
+  },
+  {
+    "date": "2025-10-09",
+    "title": "Parlo con un'esperta di Etica dell'IA [Mariarosaria Taddeo]",
+    "description": "Potrai ascoltare sia me che Mariarosaria il 19 Novembre a Orbits, prendi il biglietto qui: https://www.orbits.day/\n\nMi sono fatto una bellissima chiacchierata con Mariarosaria Taddeo, filosofa, esperta di etica dell'IA e docente all'università di Oxford.\n\nSono anni che ripeto che informatici e filos",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=DQPLVrhHjAI",
     "source": "YouTube – Raffaele Gaito",
     "badge": "🔥"
   },
   {
-    "date": "2025-09-28",
-    "title": "Potenzia ChatGPT5 con questi 5 prompt",
-    "description": "Compra il mio corso per usare al MASSIMO ChatGPT: https://www.raffaelegaito.com/corso-chat-gpt-prompt/\n\nProbabilmente sarà capitato anche a te di notare la qualità calante delle risposte di ChatGPT 5.\n\nCi siamo passati tutti, ma oggi ho la soluzione.\n\nIn questo tutorial ti mostro 5 trucchetti per mi",
+    "date": "2025-10-08",
+    "title": "ChatGPT ora integra di TUTTO, questa si che è bella",
+    "description": "Ottieni NordVPN con un super sconto e 4 mesi gratuiti con il link https://nordvpn.com/raffaelegaito\n\nTra le tante novità annunciate da OpenAI ce n'è una bella grossa.\n\nSi tratta dell'integrazione delle app direttamente dentro ChatGPT.\n\nChe significa questa cosa?\n\nChe potremo chattare direttamente co",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=WV3I6UvKRsc",
+    "link": "https://www.youtube.com/watch?v=vHTawon8sMo",
     "source": "YouTube – Raffaele Gaito",
     "badge": "🔥"
   },
   {
-    "date": "2025-09-24",
-    "title": "n8n: tutti i trigger spiegati in modo semplice",
-    "description": "Ottieni il 10% di sconto sul tuo VPS con il link https://www.hostinger.com/gaitovps e inserisci il coupon GAITOVPS\n\nEcco a voi un altro tutorial su n8n, l'incredibile piattaforma che vi permette di automatizzare qualsiasi cosa.\n\nOggi vi mostro come utilizzare i vari trigger che abbiamo a disposizion",
+    "date": "2025-10-07",
+    "title": "Se sei un genitore DEVI guardare questo video",
+    "description": "🙏 Supporta il canale abbonandoti qui: https://www.youtube.com/channel/UCrebGs3b-Z7JLKQM2YOpUKA/join\n\nC'è una novità importante di ChatGPT che è passata un po' in sordina.\n\nSono stati introdotti i controlli per i genitori.\n\nOra potete gestire gli account dei vostri figli e definire limitazioni varie.",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=JcsyQMGaaiw",
+    "link": "https://www.youtube.com/watch?v=jZBH3qyKfl8",
     "source": "YouTube – Raffaele Gaito",
     "badge": "🔥"
   },
   {
-    "date": "2025-10-03",
-    "title": "10 Trucchi di ChatGPT per Immagini che i Pro tengono Nascosti",
-    "description": "10 Trucchi di ChatGPT per Immagini che i Pro tengono Nascosti e che da oggi scoprirai. Esistono tanti trucchi per creare immagini con ChatGPT oggi vedremo 10 trucchi che quasi nessuno conosce.\n\nI 10 Trucchi di ChatGPT per Immagini che i Pro tengono Nascosti e che potrai applicare come e quando vorra",
+    "date": "2025-10-13",
+    "title": "5 Incredibili Automazioni con l'Agente ChatGPT",
+    "description": "5 Incredibili Automazioni con l'Agente ChatGPT che cambieranno per sempre il modo di lavorare. Con l'Agente ChatGPT puoi avere un team intero a disposizione se sai usare le automazioni giuste. Per questo ho selezionato 5 Incredibili Automazioni da usare con l'Agente ChatGPT perché cambieranno per se",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=jyEtGm8RmqQ",
+    "link": "https://www.youtube.com/watch?v=l91-8Xc9Ezs",
     "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
   },
   {
-    "date": "2025-10-02",
-    "title": "Come Creare il Board dei Sogni in 30 Secondi con l'IA!",
-    "description": "Come Creare il Board dei Sogni in 30 Secondi con l'IA!\n\nNon sto scherzando. \nTi aiuterò a creare il consiglio \nd’amministrazione più potente al mondo.\n\nIn 30 secondi.\nE non costa niente.\nApri ChatGPT. Copia e incolla questo:\n\n\"Sei il mio board. Io sono il CEO. Tu sei:\n* Mark Zuckerberg: pensa a scal",
+    "date": "2025-10-07",
+    "title": "3 Prompt Per ChatGPT che quasi Nessuno Conosce",
+    "description": "3 Prompt Per ChatGPT che quasi Nessuno Conosce\n\nEcco 3 Prompt per ChatGPT \nChe nessuno ti dice (e funzionano davvero)\n\nPrompt 1 [Impara in 10 Minuti]\n\n\"Sei un mentore esperto di [argomento].\nInsegnami SOLO le 3 regole d'oro\nche se applico oggi, vedo subito la differenza.\nEsempi pratici in 1 riga.\"\n\n",
     "category": "News",
-    "link": "https://www.youtube.com/shorts/D22-beaqJf0",
+    "link": "https://www.youtube.com/shorts/SOwM4fRLg88",
     "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
   },
   {
-    "date": "2025-10-01",
-    "title": "7 Guide Gratuite per Diventare un FENOMENO con l'IA",
-    "description": "7 Guide Gratuite per Diventare un FENOMENO con l'IA\n\nLa persone pensano che imparare\nl’intelligenza artificiale sia difficile.\nNon lo è. Se sai dove informarti.\n\n📚 Ho trovato 7 guide gratuite così non devi farlo tu:\n\n1️⃣ OpenAI Academy - academy.openai.com\nL’accademia ufficiale di OpenAI su Chatgpt.",
+    "date": "2025-10-05",
+    "title": "Smetti di usare ChatGPT come un Principiante, Ecco i 2 prompt che Cambiano Tutto",
+    "description": "Smetti di usare ChatGPT come un Principiante, Ecco i 2 prompt che Cambiano Tutto\n\n1- Scheda di valutazione\nCome funziona: ponderati.fa sì che il modello assegni dei numeri a ciascun criterio, quindi ordina per totale. La quantificazione forza il pensiero concreto.\n\nPrompt: \nElenca [n] opzioni. Asseg",
     "category": "News",
-    "link": "https://www.youtube.com/shorts/9oXgwfimDlA",
-    "source": "YouTube - Gabry Solutions",
-    "badge": "🔥"
-  },
-  {
-    "date": "2025-09-30",
-    "title": "6 Funzioni di Gemini AI Studio che il 99% Non Conosce",
-    "description": "6 Funzioni di Gemini AI Studio che il 99% Non Conosce ma che possono cambiare tutto nell'uso dell' AI di Gemini . Ogni settimana arrivano novità lato intelligenza artificiale, ma a mio avviso, ci sono 6 Funzioni di Gemini AI Studio che il 99% Non Conosce e che ti faranno fare un level up incredibile",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=oq-6hBimdng",
-    "source": "YouTube - Gabry Solutions",
-    "badge": "🔥"
-  },
-  {
-    "date": "2025-09-29",
-    "title": "Come ottenere il prompt perfetto in 30 secondi!",
-    "description": "Come ottenere il prompt perfetto in 30 secondi!\n\nOra puoi avere il prompt perfetto\nIn meno di 30 secondi con questo TOOL GRATUITO\n\nOpenAI, i creatori di ChatGPT \nhanno rilasciato un Tool ogni prompt.\n\nPiù affidabilità di così è impossibile!\nEcco come fare:\n\n1- Vai su https://platform.openai.com/chat",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/ziovnHz9c6Y",
+    "link": "https://www.youtube.com/shorts/44uFXyaxBNg",
     "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
   }
