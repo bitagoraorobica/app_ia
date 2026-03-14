@@ -9,201 +9,66 @@
     "badge": ""
   },
   {
-    "date": "2026-03-06",
-    "title": "How Balyasny Asset Management built an AI research engine for investing",
-    "description": "See how Balyasny built an AI research system with GPT-5.4, rigorous model evaluation, and agent workflows to transform investment analysis at scale.",
+    "date": "2026-03-11",
+    "title": "Designing AI agents to resist prompt injection",
+    "description": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
     "category": "News",
-    "link": "https://openai.com/index/balyasny-asset-management",
+    "link": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
     "source": "OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-03-05",
-    "title": "Introducing GPT-5.4",
-    "description": "Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context.",
+    "date": "2026-03-13",
+    "title": "ChatGPT skills in beta for ChatGPT Business & Enterprise",
+    "description": "We’re introducing Skills in beta for ChatGPT Business and Enterprise.\n\nSkills are reusable, shareable workflows that tell ChatGPT exactly how to do a specific task, enabling ChatGPT to do that task better and more consistently. A skill can bundle instructions, examples, and even code. Once a skill h",
     "category": "News",
-    "link": "https://openai.com/index/introducing-gpt-5-4",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-03-05",
-    "title": "Introducing ChatGPT for Excel and new financial data integrations",
-    "description": "OpenAI introduces ChatGPT for Excel and new financial app integrations, powered by GPT-5.4 to accelerate modeling, research, and analysis in regulated environments.",
-    "category": "News",
-    "link": "https://openai.com/index/chatgpt-for-excel",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-02-13",
-    "title": "Scaling social science research",
-    "description": "GABRIEL is a new open-source toolkit from OpenAI that uses GPT to turn qualitative text and images into quantitative data, helping social scientists analyze research at scale.",
-    "category": "News",
-    "link": "https://openai.com/index/scaling-social-science-research",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-02-09",
-    "title": "Testing ads in ChatGPT",
-    "description": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
-    "category": "News",
-    "link": "https://openai.com/index/testing-ads-in-chatgpt",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-03-10",
-    "title": "Best-of-Tails: Bridging Optimism and Pessimism in Inference-Time Alignment",
-    "description": "arXiv:2603.06797v1 Announce Type: new \nAbstract: Inference-time alignment effectively steers large language models (LLMs) by generating multiple candidates from a reference model and selecting among them with an imperfect reward model. However, current strategies face a fundamental dilemma: ``optimi",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2603.06797",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-03-10",
-    "title": "LEAD: Breaking the No-Recovery Bottleneck in Long-Horizon Reasoning",
-    "description": "arXiv:2603.06870v1 Announce Type: new \nAbstract: Long-horizon execution in Large Language Models (LLMs) remains unstable even when high-level strategies are provided. Evaluating on controlled algorithmic puzzles, we demonstrate that while decomposition is essential for stability, extreme decompositi",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2603.06870",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-03-10",
-    "title": "LieCraft: A Multi-Agent Framework for Evaluating Deceptive Capabilities in Language Models",
-    "description": "arXiv:2603.06874v1 Announce Type: new \nAbstract: Large Language Models (LLMs) exhibit impressive general-purpose capabilities but also introduce serious safety risks, particularly the potential for deception as models acquire increased agency and human oversight diminishes. In this work, we present ",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2603.06874",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-03-10",
-    "title": "Animating Petascale Time-varying Data on Commodity Hardware with LLM-assisted Scripting",
-    "description": "arXiv:2603.07053v1 Announce Type: new \nAbstract: Scientists face significant visualization challenges as time-varying datasets grow in speed and volume, often requiring specialized infrastructure and expertise to handle massive datasets. Petascale climate models generated in NASA laboratories requir",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2603.07053",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-03-10",
-    "title": "A Cortically Inspired Architecture for Modular Perceptual AI",
-    "description": "arXiv:2603.07295v1 Announce Type: new \nAbstract: This paper bridges neuroscience and artificial intelligence to propose a cortically inspired blueprint for modular perceptual AI. While current monolithic models such as GPT-4V achieve impressive performance, they often struggle to explicitly support ",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2603.07295",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-03-05",
-    "title": "Interrupting and Adding Details in GPT-5.4 Thinking",
-    "description": "In ChatGPT, GPT‑5.4 Thinking can now provide an upfront plan of its thinking, so you can adjust course mid-response while it’s working, and arrive at a final output that’s more closely aligned with what you need without additional turns.",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=qSHMlduU6Lw",
+    "link": "https://www.youtube.com/watch?v=qh93rLRPw80",
     "source": "YouTube – OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-03-05",
-    "title": "Computer Use & Frontend UI with GPT-5.4 Thinking",
-    "description": "OpenAI researcher SQ Mah explains how GPT-5.4 Thinking brings even more powerful capabilities to Codex — with more persistent computer-use (CUA) capabilities that cut token usage by two-thirds in some cases, and stronger image understanding for seamless website UI and image generation.",
+    "date": "2026-03-11",
+    "title": "Rakuten fixes issues twice as fast with Codex",
+    "description": "Rakuten operates one of the world’s largest digital ecosystems across e-commerce, fintech, and mobile services. Shipping fast without sacrificing reliability is critical.\n\nTeams use OpenAI Codex to support incident response, code review, and development workflows. The agent works inside monitoring s",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=YICiHiU2GBU",
+    "link": "https://www.youtube.com/watch?v=gZQQR_tDGuM",
     "source": "YouTube – OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-03-03",
-    "title": "Improving Web Search Results in GPT-5.3 Instant",
-    "description": "OpenAI researcher Josh McGrath explains how GPT-5.3 Instant’s responses when using web search are more contextual, relevant, and stylistically natural.",
+    "date": "2026-03-10",
+    "title": "Build Hour: API & Codex",
+    "description": "Build agent-powered workflows for real engineering work with Codex and OpenAI APIs. In this Build Hour, you'll learn how teams are moving beyond pair programming to agentic delegation, where AI systems can take on entire engineering tasks from planning to execution. \n\nCharlie Guo (DevEx), Ryan Lopop",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=0pmnDimaXnQ",
+    "link": "https://www.youtube.com/watch?v=rhsSqr0jdFw",
     "source": "YouTube – OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-03-03",
-    "title": "Reducing Overcaveating in GPT-5.3 Instant",
-    "description": "OpenAI researcher Blair Chen explains how GPT-5.3 Instant reduces unnecessary disclaimers, making ChatGPT more directly helpful and smoother to use.",
+    "date": "2026-03-11",
+    "title": "Ecco come Alessandro De Concini usa l'IA nel suo lavoro",
+    "description": "Usa il codice GAITO20 sul sito https://aiweek.it/ per avere il 20% di sconto sul biglietto! Ci vediamo a Maggio!\n\nOggi inauguro una nuova rubrica!\n\nChiederò ai vostri creator preferiti di raccontarmi il loro utilizzo dell'IA.\n\nCasi pratici, niente chiacchiere teoriche. Mi faranno degli esempi concre",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=DvKutXclQoc",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-03-06",
-    "title": "L'IA libera i medici per curare davvero i pazienti [Nicola Triglione]",
-    "description": "Usa il codice GAITO20 sul sito https://aiweek.it/ per avere il 20% di sconto sul biglietto! Ci vediamo a Maggio!\n\nL'intelligenza artificiale sta entrando in medicina a velocità impressionante: dagli strumenti per i medici alle app di autodiagnosi, dai wearable che tracciano ogni dato biometrico alle",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=FmPc186cVS8",
+    "link": "https://www.youtube.com/watch?v=gWso-S8H6mo",
     "source": "YouTube – Raffaele Gaito",
     "badge": "🔥"
   },
   {
-    "date": "2026-03-05",
-    "title": "Hai mai provato a chiedere una barzelletta a ChatGPT?",
-    "description": "Hai mai provato a chiedere una barzelletta a ChatGPT?\n\nClip estratta dall'intervista che ho fatto a Mark The Hammer sul mio canale YouTube. \n\nGuarda l'intervista completa sul mio canale YouTube. #short",
+    "date": "2026-03-12",
+    "title": "OpenClaw: L'AI Gratis che Lavora per Te 24 Ore su 24",
+    "description": "Non Installare OpenClaw Prima di Aver Visto Questo perché, immagina di avere un dipendente AI che lavora per te 24 ore su 24, 7 giorni su 7. In questo video scopriamo OpenClaw (conosciuto in precedenza come ClawdBot), un assistente AI completamente open source e gratuito creato da Peter Steinberger.",
     "category": "News",
-    "link": "https://www.youtube.com/shorts/z7gvnmjbKYU",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-03-09",
-    "title": "Quale Al Scegliere nel 2026 - DALLA PEGGIORE ALLA MIGLIORE",
-    "description": "ChatGPT Non È Più il Migliore: Classifica Definitiva AI 2026 , lo so sembra impossibilc. Ho testato e classificato 20 modelli di intelligenza artificiale: da ChatGPT a Claude, Gemini, DeepSeek, Grok, Perplexity e altri — creando la classifica definitiva AI basata su tre criteri: cervello, feeling e ",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=bwNpRrdQwPI",
+    "link": "https://www.youtube.com/watch?v=naKpBcDLZV0",
     "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
   },
   {
-    "date": "2026-03-06",
-    "title": "Il 97% Usa ChatGPT nel Modo SBAGLIATO… Finché Non Scopre Questi 3 Segreti",
-    "description": "Il 97% Usa ChatGPT nel Modo SBAGLIATO… Finché Non Scopre Questi 3 Segreti\n\nScrivono prompt generici e ottengono risultati mediocri.\n\nEcco i 3 segreti che usano i Pro (e che dovresti usare anche tu).\n\n1- Lo \"Shadow Prompting\"\nSmetti di chiedere un \"tono amichevole\", è troppo vago. Invece, dai in past",
+    "date": "2026-03-10",
+    "title": "Nessuno ne parla, ma ChatGPT NON è nella Top 5 delle Migliori IA",
+    "description": "Nessuno ne parla, ma ChatGPT NON è nella Top 5 delle Migliori IA\n\n- 𝗦 𝗧𝗜𝗘𝗥\nClaude Opus 4.6\nFinestra da 1 milione di token: gli carichi un intero progetto.\nHa gli “agent teams”: più agenti lavorano insieme per te.\n\nGemini 3 Pro\nIl più forte in multimodalità: testo, immagini, video, tutto.\nSe usi Goog",
     "category": "News",
-    "link": "https://www.youtube.com/shorts/FhdKhnTuPqM",
+    "link": "https://www.youtube.com/shorts/35jYuzCEmM8",
     "source": "YouTube - Gabry Solutions",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-03-02",
-    "title": "Non Pagare ChatGPT Finché Non Vedi Questo (6 IA a Confronto)",
-    "description": "Non Pagare ChatGPT Finché Non Vedi Questo (6 IA a Confronto) perché lo so, stai pensando di pagare per ChatGPT o per un'altra Intelligenza Artificiale nel 2026? Fermati un attimo! \n\n🛑 In questo video sul canale Gabrysolution ti svelo la brutale verità sugli abbonamenti IA che nessuno ti dice.\n\nDopo ",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=e4TQCTiWgGE",
-    "source": "YouTube - Gabry Solutions",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-02-22",
-    "title": "Nessuno ne parla ma questi 3 Siti sono Veramente illegali.",
-    "description": "Nessuno ne parla ma questi 3 Siti sono Veramente illegali.\n\nNumero 1️⃣ = FlowGPT\nScrivere prompt da zero è preistoria.\nQuesto sito ha MILIONI di prompt già pronti.\nGratis. Per qualsiasi cosa.\n\nCome funziona?\n* Vai su FlowGPT.com\n* Cerchi quello che ti serve: marketing, copy, coding, immagini...\n* Tr",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/MpasqLbgERI",
-    "source": "YouTube - Gabry Solutions",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-02-20",
-    "title": "Non scrivere un SOLO prompt finché non vedi questo (8 skill AI)",
-    "description": "8 Competenze AI che il 99% delle Persone Ignora (Ma Dovrebbe Conoscere) perché il 99% delle persone usa ancora ChatGPT e l'Intelligenza Artificiale come un principiante. Scrivono un prompt, ottengono un risultato mediocre e pensano che l'AI non funzioni. La verità è che il problema non è lo strument",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=4ZZ9U6BwTlY",
-    "source": "YouTube - Gabry Solutions",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-03-08",
-    "title": "Ho lanciato una startup gestita da agenti AI",
-    "description": "Spiegamelo Facile: https://spiegamelofacile.com/ \n\nSe il video ti è stato utile, iscriviti.\nPer il resto 👉 https://marcomontemagno.com \n\n🎥 Segui Monty sui social per rimanere sempre aggiornato:\n\nInstagram ➡️  https://www.instagram.com/marcomontemagno\nFacebook ➡️  https://www.facebook.com/montemagno\n",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=e9FBc_-sri0",
-    "source": "YouTube - Marco Montemagno",
     "badge": "🔥"
   }
 ]
