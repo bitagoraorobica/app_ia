@@ -9,74 +9,101 @@
     "badge": ""
   },
   {
-    "date": "2026-03-17",
-    "title": "Equipping workers with insights about compensation",
-    "description": "New research shows Americans send nearly 3 million daily messages to ChatGPT asking about compensation and earnings, helping close the wage information gap.",
+    "date": "2026-03-23",
+    "title": "Learning to Disprove: Formal Counterexample Generation with Large Language Models",
+    "description": "arXiv:2603.19514v1 Announce Type: new \nAbstract: Mathematical reasoning demands two critical, complementary skills: constructing rigorous proofs for true statements and discovering counterexamples that disprove false ones. However, current AI efforts in mathematics focus almost exclusively on proof ",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2603.19514",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-03-23",
+    "title": "ItinBench: Benchmarking Planning Across Multiple Cognitive Dimensions with Large Language Models",
+    "description": "arXiv:2603.19515v1 Announce Type: new \nAbstract: Large language models (LLMs) with advanced cognitive capabilities are emerging as agents for various reasoning and planning tasks. Traditional evaluations often focus on specific reasoning or planning questions within controlled environments. Recent s",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2603.19515",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-03-23",
+    "title": "HyEvo: Self-Evolving Hybrid Agentic Workflows for Efficient Reasoning",
+    "description": "arXiv:2603.19639v1 Announce Type: new \nAbstract: Although agentic workflows have demonstrated strong potential for solving complex tasks, existing automated generation methods remain inefficient and underperform, as they rely on predefined operator libraries and homogeneous LLM-only workflows in whi",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2603.19639",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-03-23",
+    "title": "A Subgoal-driven Framework for Improving Long-Horizon LLM Agents",
+    "description": "arXiv:2603.19685v1 Announce Type: new \nAbstract: Large language model (LLM)-based agents have emerged as powerful autonomous controllers for digital environments, including mobile interfaces, operating systems, and web browsers. Web navigation, for example, requires handling dynamic content and long",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2603.19685",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-03-23",
+    "title": "Stepwise: Neuro-Symbolic Proof Search for Automated Systems Verification",
+    "description": "arXiv:2603.19715v1 Announce Type: new \nAbstract: Formal verification via interactive theorem proving is increasingly used to ensure the correctness of critical systems, yet constructing large proof scripts remains highly manual and limits scalability. Advances in large language models (LLMs), especi",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2603.19715",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-03-20",
+    "title": "From your kitchen to customers | with ChatGPT",
+    "description": "Millions of people use ChatGPT daily to build the things that matter to them. For many home based business women, the gap between a hobby and a business can feel overwhelming.\n\nBy helping with business planning, marketing strategies, and creative solutioning - ChatGPT supports the small, daily steps",
     "category": "News",
-    "link": "https://openai.com/index/equipping-workers-with-insights-about-compensation",
-    "source": "OpenAI",
+    "link": "https://www.youtube.com/watch?v=ApOVfOGWTJU",
+    "source": "YouTube – OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-03-18",
-    "title": "CraniMem: Cranial Inspired Gated and Bounded Memory for Agentic Systems",
-    "description": "arXiv:2603.15642v1 Announce Type: new \nAbstract: Large language model (LLM) agents are increasingly deployed in long running workflows, where they must preserve user and task state across many turns. Many existing agent memory systems behave like external databases with ad hoc read/write rules, whic",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2603.15642",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-03-18",
-    "title": "GSI Agent: Domain Knowledge Enhancement for Large Language Models in Green Stormwater Infrastructure",
-    "description": "arXiv:2603.15643v1 Announce Type: new \nAbstract: Green Stormwater Infrastructure (GSI) systems, such as permeable pavement, rain gardens, and bioretention facilities, require continuous inspection and maintenance to ensure long-term performance. However, domain knowledge about GSI is often scattered",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2603.15643",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-03-18",
-    "title": "I Know What I Don't Know: Latent Posterior Factor Models for Multi-Evidence Probabilistic Reasoning",
-    "description": "arXiv:2603.15670v1 Announce Type: new \nAbstract: Real-world decision-making, from tax compliance assessment to medical diagnosis, requires aggregating multiple noisy and potentially contradictory evidence sources. Existing approaches either lack explicit uncertainty quantification (neural aggregatio",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2603.15670",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-03-18",
-    "title": "Persona-Conditioned Risk Behavior in Large Language Models: A Simulated Gambling Study with GPT-4.1",
-    "description": "arXiv:2603.15831v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly deployed as autonomous agents in uncertain, sequential decision-making contexts. Yet it remains poorly understood whether the behaviors they exhibit in such environments reflect principled cognitive patter",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2603.15831",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-03-18",
-    "title": "Prompt Engineering for Scale Development in Generative Psychometrics",
-    "description": "arXiv:2603.15909v1 Announce Type: new \nAbstract: This Monte Carlo simulation examines how prompt engineering strategies shape the quality of large language model (LLM)--generated personality assessment items within the AI-GENIE framework for generative psychometrics. Item pools targeting the Big Fiv",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2603.15909",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-03-13",
-    "title": "Identifying Interactions at Scale for LLMs",
-    "description": "<!-- twitter -->\n\n\n\n\n\n\n\n\n\n\n\n\n<p style=\"text-align: center;\">\n<!-- <img src=\"https://bair.berkeley.edu/static/blog/spex/image1.png\" alt=\"different_tests\" width=\"600\"><br> -->\n<img alt=\"different_tests\" src=\"https://bair.berkeley.edu/static/blog/spex/image1.png\" width=\"600\" /><br />\n<i style=\"font-siz",
+    "date": "2026-03-20",
+    "title": "Building a small business with ChatGPT",
+    "description": "Identifying a gap in the market was the first step - building a business to fill it was the challenge. To navigate the complexities of manufacturing and distribution, ChatGPT helps break down the roadmap of a new venture. From sourcing materials to planning for scale, it supports the daily decisions",
     "category": "News",
-    "link": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
-    "source": "Berkeley BAIR",
+    "link": "https://www.youtube.com/watch?v=p2GKhlPMVO0",
+    "source": "YouTube – OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-03-16",
-    "title": "Come usare ChatGPT così bene che sembra ILLEGALE (Tutorial2026)",
-    "description": "Come usare ChatGPT così bene che sembra ILLEGALE (Tutorial 2026)\n\nLa maggior parte delle persone usa ChatGPT al 10% delle sue potenzialità: apre la chat, fa una domanda e finisce lì. \n\nMa sotto c'è un intero ecosistema di funzionalità che può cambiare radicalmente il modo in cui lavori, crei contenu",
+    "date": "2026-03-23",
+    "title": "Ecco come uso l'IA per risolvere problemi (copia il mio prompt)",
+    "description": "Compra il mio libro \"In cosa posso esserti utile?\", una guida molto pratica e poco emotiva all'IA https://amzn.to/4aMZrUX\n\nQuasi tutti usano l'IA nello stesso modo sbagliato: aprono, scrivono una riga, e si aspettano la risposta.\n\nIl problema è che così stai usando uno degli strumenti più potenti ch",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=vYHpQ0xgcD8",
+    "link": "https://www.youtube.com/watch?v=shfb8OwSGl8",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-03-19",
+    "title": "5 cose che non sapevi di poter fare con l'AI (esempi reali)",
+    "description": "Ottieni lo sconto + 4 mesi in regalo su NordVPN: https://nordvpn.com/gaito\n\nIn questo video ti mostro altri 5 modi concreti con cui uso l'intelligenza artificiale nel mio lavoro quotidiano — tutti esempi reali, con i prompt veri che uso io.\n\nQuante cose concrete fai con l'AI ogni giorno nel tuo lavo",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=zkHAAqMXsxY",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-03-20",
+    "title": "Nel 2026 i Prompt Non Si Scrivono. Si Rubano",
+    "description": "Nel 2026 i Prompt Non Si Scrivono. Si Rubano\nEsiste un sito dove tu gli dici cosa vuoi ottenere, \nlui ti dà il prompt perfetto.\n\nÈ come avere un esperto di AI che lavora gratis per te. \nIl sito si chiama FlowGPT.com \n\nE non è il solito elenco di prompt copiati \n- è una community di 1 milione di pers",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/4FossfnQbdc",
+    "source": "YouTube - Gabry Solutions",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-03-19",
+    "title": "Ho testato l'Al per 6 mesi. Ti servono solo queste 5 cose...",
+    "description": "L’UNICA Guida AI che ti serve nel 2026 perché ogni settimana esce un nuovo tool AI e ti dicono che se non lo usi sei già indietro. Il risultato? Salti da un'app all'altra senza padroneggiarne nessuna.\n\nLa verità è che l'AI non è più solo un chatbot: è un ecosistema enorme. In questo video scoprirai ",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=2gcq1QlKfm4",
     "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
   }
