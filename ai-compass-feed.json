@@ -10,55 +10,64 @@
   },
   {
     "date": "2026-04-08",
-    "title": "Pramana: Fine-Tuning Large Language Models for Epistemic Reasoning through Navya-Nyaya",
-    "description": "arXiv:2604.04937v1 Announce Type: new \nAbstract: Large language models produce fluent text but struggle with systematic reasoning, often hallucinating confident but unfounded claims. When Apple researchers added irrelevant context to mathematical problems, LLM performance degraded by 65% Apple Machi",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2604.04937",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-04-08",
-    "title": "ReVEL: Multi-Turn Reflective LLM-Guided Heuristic Evolution via Structured Performance Feedback",
-    "description": "arXiv:2604.04940v1 Announce Type: new \nAbstract: Designing effective heuristics for NP-hard combinatorial optimization problems remains a challenging and expertise-intensive task. Existing applications of large language models (LLMs) primarily rely on one-shot code synthesis, yielding brittle heuris",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2604.04940",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-04-08",
-    "title": "Uncertainty-Guided Latent Diagnostic Trajectory Learning for Sequential Clinical Diagnosis",
-    "description": "arXiv:2604.05116v1 Announce Type: new \nAbstract: Clinical diagnosis requires sequential evidence acquisition under uncertainty. However, most Large Language Model (LLM) based diagnostic systems assume fully observed patient information and therefore do not explicitly model how clinical evidence shou",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2604.05116",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-04-08",
-    "title": "ClawsBench: Evaluating Capability and Safety of LLM Productivity Agents in Simulated Workspaces",
-    "description": "arXiv:2604.05172v1 Announce Type: new \nAbstract: Large language model (LLM) agents are increasingly deployed to automate productivity tasks (e.g., email, scheduling, document management), but evaluating them on live services is risky due to potentially irreversible changes. Existing benchmarks rely ",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2604.05172",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-04-08",
-    "title": "Attribution Bias in Large Language Models",
-    "description": "arXiv:2604.05224v1 Announce Type: new \nAbstract: As Large Language Models (LLMs) are increasingly used to support search and information retrieval, it is critical that they accurately attribute content to its original authors. In this work, we introduce AttriBench, the first fame- and demographicall",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2604.05224",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-04-08",
-    "title": "🔥 Come usano l'IA i tuoi creator preferiti? [Nuova Rubrica]",
-    "description": "Compra il mio libro \"In cosa posso esserti utile?\", una guida molto pratica e poco emotiva all'IA https://amzn.to/4aMZrUX\n\nSeconda puntata di questa nuova rubrica sperimetnale!\n\nChiederò ai vostri creator preferiti di raccontarmi il loro utilizzo dell'IA.\n\nCasi pratici, niente chiacchiere teoriche. ",
+    "title": "The next phase of enterprise AI",
+    "description": "OpenAI outlines the next phase of enterprise AI, as adoption accelerates across industries with Frontier, ChatGPT Enterprise, Codex, and company-wide AI agents.",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=rYgPvOt3wTI",
+    "link": "https://openai.com/index/next-phase-of-enterprise-ai",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-04-09",
+    "title": "Blind Refusal: Language Models Refuse to Help Users Evade Unjust, Absurd, and Illegitimate Rules",
+    "description": "arXiv:2604.06233v1 Announce Type: new \nAbstract: Safety-trained language models routinely refuse requests for help circumventing rules. But not all rules deserve compliance. When users ask for help evading rules imposed by an illegitimate authority, rules that are deeply unjust or absurd in their co",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2604.06233",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-04-09",
+    "title": "Weakly Supervised Distillation of Hallucination Signals into Transformer Representations",
+    "description": "arXiv:2604.06277v1 Announce Type: new \nAbstract: Existing hallucination detection methods for large language models (LLMs) rely on external verification at inference time, requiring gold answers, retrieval systems, or auxiliary judge models. We ask whether this external supervision can instead be di",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2604.06277",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-04-09",
+    "title": "SELFDOUBT: Uncertainty Quantification for Reasoning LLMs via the Hedge-to-Verify Ratio",
+    "description": "arXiv:2604.06389v1 Announce Type: new \nAbstract: Uncertainty estimation for reasoning language models remains difficult to deploy in practice: sampling-based methods are computationally expensive, while common single-pass proxies such as verbalized confidence or trace length are often inconsistent a",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2604.06389",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-04-09",
+    "title": "Qualixar OS: A Universal Operating System for AI Agent Orchestration",
+    "description": "arXiv:2604.06392v1 Announce Type: new \nAbstract: We present Qualixar OS, the first application-layer operating system for universal AI agent orchestration. Unlike kernel-level approaches (AIOS) or single-framework tools (AutoGen, CrewAI), Qualixar OS provides a complete runtime for heterogeneous mul",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2604.06392",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-04-09",
+    "title": "Steering the Verifiability of Multimodal AI Hallucinations",
+    "description": "arXiv:2604.06714v1 Announce Type: new \nAbstract: AI applications driven by multimodal large language models (MLLMs) are prone to hallucinations and pose considerable risks to human users. Crucially, such hallucinations are not equally problematic: some hallucination contents could be detected by hum",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2604.06714",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-04-09",
+    "title": "Dopo 9 mesi arriva la nuova IA di Meta: Muse Spark",
+    "description": "Compra il mio libro \"In cosa posso esserti utile?\", una guida molto pratica e poco emotiva all'IA https://amzn.to/4aMZrUX\n\nA sorpresa Meta ha annunciato il suo nuovo modello di intelligenza artificiale.\n\nSi chiama Muse Spark e arriva dopo 9 mesi di lavoro da parte del Superintelligence team. La squa",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=PEsS8z7sEr4",
     "source": "YouTube – Raffaele Gaito",
     "badge": "🔥"
   }
