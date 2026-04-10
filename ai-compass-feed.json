@@ -9,66 +9,84 @@
     "badge": ""
   },
   {
-    "date": "2026-04-08",
-    "title": "The next phase of enterprise AI",
-    "description": "OpenAI outlines the next phase of enterprise AI, as adoption accelerates across industries with Frontier, ChatGPT Enterprise, Codex, and company-wide AI agents.",
+    "date": "2026-04-09",
+    "title": "CyberAgent moves faster with ChatGPT Enterprise and Codex",
+    "description": "CyberAgent uses ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming.",
     "category": "News",
-    "link": "https://openai.com/index/next-phase-of-enterprise-ai",
+    "link": "https://openai.com/index/cyberagent",
     "source": "OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-04-09",
-    "title": "Blind Refusal: Language Models Refuse to Help Users Evade Unjust, Absurd, and Illegitimate Rules",
-    "description": "arXiv:2604.06233v1 Announce Type: new \nAbstract: Safety-trained language models routinely refuse requests for help circumventing rules. But not all rules deserve compliance. When users ask for help evading rules imposed by an illegitimate authority, rules that are deeply unjust or absurd in their co",
+    "date": "2026-04-10",
+    "title": "TurboAgent: An LLM-Driven Autonomous Multi-Agent Framework for Turbomachinery Aerodynamic Design",
+    "description": "arXiv:2604.06747v2 Announce Type: new \nAbstract: The aerodynamic design of turbomachinery is a complex and tightly coupled multi-stage process involving geometry generation, performance prediction, optimization, and high-fidelity physical validation. Existing intelligent design approaches typically ",
     "category": "Paper",
-    "link": "https://arxiv.org/abs/2604.06233",
+    "link": "https://arxiv.org/abs/2604.06747",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-04-10",
+    "title": "What's Missing in Screen-to-Action? Towards a UI-in-the-Loop Paradigm for Multimodal GUI Reasoning",
+    "description": "arXiv:2604.06995v1 Announce Type: new \nAbstract: Existing Graphical User Interface (GUI) reasoning tasks remain challenging, particularly in UI understanding. Current methods typically rely on direct screen-based decision-making, which lacks interpretability and overlooks a comprehensive understandi",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2604.06995",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-04-10",
+    "title": "EmoMAS: Emotion-Aware Multi-Agent System for High-Stakes Edge-Deployable Negotiation with Bayesian Orchestration",
+    "description": "arXiv:2604.07003v1 Announce Type: new \nAbstract: Large language models (LLMs) has been widely used for automated negotiation, but their high computational cost and privacy risks limit deployment in privacy-sensitive, on-device settings such as mobile assistants or rescue robots. Small language model",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2604.07003",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-04-10",
+    "title": "EVGeoQA: Benchmarking LLMs on Dynamic, Multi-Objective Geo-Spatial Exploration",
+    "description": "arXiv:2604.07070v1 Announce Type: new \nAbstract: While Large Language Models (LLMs) demonstrate remarkable reasoning capabilities, their potential for purpose-driven exploration in dynamic geo-spatial environments remains under-investigated. Existing Geo-Spatial Question Answering (GSQA) benchmarks ",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2604.07070",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-04-10",
+    "title": "Knowledge Graphs Generation from Cultural Heritage Texts: Combining LLMs and Ontological Engineering for Scholarly Debates",
+    "description": "arXiv:2511.10354v1 Announce Type: cross \nAbstract: Cultural Heritage texts contain rich knowledge that is difficult to query systematically due to the challenges of converting unstructured discourse into structured Knowledge Graphs (KGs). This paper introduces ATR4CH (Adaptive Text-to-RDF for Cultur",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2511.10354",
     "source": "arXiv AI",
     "badge": "📜"
   },
   {
     "date": "2026-04-09",
-    "title": "Weakly Supervised Distillation of Hallucination Signals into Transformer Representations",
-    "description": "arXiv:2604.06277v1 Announce Type: new \nAbstract: Existing hallucination detection methods for large language models (LLMs) rely on external verification at inference time, requiring gold answers, retrieval systems, or auxiliary judge models. We ask whether this external supervision can instead be di",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2604.06277",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-04-09",
-    "title": "SELFDOUBT: Uncertainty Quantification for Reasoning LLMs via the Hedge-to-Verify Ratio",
-    "description": "arXiv:2604.06389v1 Announce Type: new \nAbstract: Uncertainty estimation for reasoning language models remains difficult to deploy in practice: sampling-based methods are computationally expensive, while common single-pass proxies such as verbalized confidence or trace length are often inconsistent a",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2604.06389",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-04-09",
-    "title": "Qualixar OS: A Universal Operating System for AI Agent Orchestration",
-    "description": "arXiv:2604.06392v1 Announce Type: new \nAbstract: We present Qualixar OS, the first application-layer operating system for universal AI agent orchestration. Unlike kernel-level approaches (AIOS) or single-framework tools (AutoGen, CrewAI), Qualixar OS provides a complete runtime for heterogeneous mul",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2604.06392",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-04-09",
-    "title": "Steering the Verifiability of Multimodal AI Hallucinations",
-    "description": "arXiv:2604.06714v1 Announce Type: new \nAbstract: AI applications driven by multimodal large language models (MLLMs) are prone to hallucinations and pose considerable risks to human users. Crucially, such hallucinations are not equally problematic: some hallucination contents could be detected by hum",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2604.06714",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-04-09",
-    "title": "Dopo 9 mesi arriva la nuova IA di Meta: Muse Spark",
-    "description": "Compra il mio libro \"In cosa posso esserti utile?\", una guida molto pratica e poco emotiva all'IA https://amzn.to/4aMZrUX\n\nA sorpresa Meta ha annunciato il suo nuovo modello di intelligenza artificiale.\n\nSi chiama Muse Spark e arriva dopo 9 mesi di lavoro da parte del Superintelligence team. La squa",
+    "title": "ChatGPT and Cancer: How a Tech Founder Rewrote His Treatment Plan",
+    "description": "When GitLab co-founder Sid Sijbrandij was diagnosed with a rare and aggressive cancer, he approached it like an engineering problem. In this conversation, Sid joins geneticist Jacob Stern to share how they used ChatGPT, advanced diagnostics, and real-time research to better understand his tumor and ",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=PEsS8z7sEr4",
+    "link": "https://www.youtube.com/watch?v=OAlHiQLsYQM",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-04-10",
+    "title": "Il 95% dei marketer usa l'IA nel modo sbagliato [Giovanni Cavaliere]",
+    "description": "Compra il mio libro \"In cosa posso esserti utile?\", una guida molto pratica e poco emotiva all'IA https://amzn.to/4aMZrUX\n\nIn questa intervista parlo con Giovanni Cavaliere, Head of Marketing della LUISS Business School, con vent'anni di esperienza nel settore.\n\nPartiamo da una provocazione: il mass",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=Ey99KZuLt6w",
     "source": "YouTube – Raffaele Gaito",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-04-09",
+    "title": "Il 99% delle Persone NON Sa Usare ChatGPT (6 Strategie che Cambiano Tutto)",
+    "description": "6 Trucchi per usare ChatGPT così bene da sembrare ILLEGALE : in questo video ti mostro le strategie avanzate che il 99% delle persone non conosce per trasformare ChatGPT nel tuo secondo cervello, nella tua squadra operativa e nel tuo acceleratore di apprendimento.\n\nNon è il solito tutorial base. Qui",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=zfBmCytANFk",
+    "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
   }
 ]
