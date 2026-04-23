@@ -9,102 +9,201 @@
     "badge": ""
   },
   {
-    "date": "2026-04-16",
-    "title": "Introducing GPT-Rosalind for life sciences research",
-    "description": "OpenAI introduces GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.",
+    "date": "2026-04-22",
+    "title": "Making ChatGPT better for clinicians",
+    "description": "OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care, documentation, and research.",
     "category": "News",
-    "link": "https://openai.com/index/introducing-gpt-rosalind",
+    "link": "https://openai.com/index/making-chatgpt-better-for-clinicians",
     "source": "OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-04-16",
-    "title": "Accelerating the cyber defense ecosystem that protects us all",
-    "description": "Leading security firms and enterprises join OpenAI’s Trusted Access for Cyber, using GPT-5.4-Cyber and $10M in API grants to strengthen global cyber defense.",
+    "date": "2026-04-22",
+    "title": "Workspace agents",
+    "description": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
     "category": "News",
-    "link": "https://openai.com/index/accelerating-cyber-defense-ecosystem",
+    "link": "https://openai.com/academy/workspace-agents",
     "source": "OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-04-14",
-    "title": "Trusted access for the next era of cyber defense",
-    "description": "OpenAI expands its Trusted Access for Cyber program, introducing GPT-5.4-Cyber to vetted defenders and strengthening safeguards as AI cybersecurity capabilities advance.",
+    "date": "2026-04-22",
+    "title": "Introducing workspace agents in ChatGPT",
+    "description": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
     "category": "News",
-    "link": "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
+    "link": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-04-20",
+    "title": "OpenAI helps Hyatt advance AI among colleagues",
+    "description": "Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences.",
+    "category": "News",
+    "link": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
     "source": "OpenAI",
     "badge": "🔥"
   },
   {
     "date": "2026-04-10",
-    "title": "AI fundamentals",
-    "description": "Learn what AI is, how it works, and how tools like ChatGPT use large language models. A clear, beginner-friendly guide to understanding artificial intelligence.",
+    "title": "Using skills",
+    "description": "Learn how to create and use ChatGPT skills to build reusable workflows, automate recurring tasks, and ensure consistent, high-quality outputs.",
     "category": "News",
-    "link": "https://openai.com/academy/what-is-ai",
+    "link": "https://openai.com/academy/skills",
     "source": "OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-04-10",
-    "title": "Getting started with ChatGPT",
-    "description": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
+    "date": "2026-04-23",
+    "title": "Exploring Data Augmentation and Resampling Strategies for Transformer-Based Models to Address Class Imbalance in AI Scoring of Scientific Explanations in NGSS Classroom",
+    "description": "arXiv:2604.19754v1 Announce Type: new \nAbstract: Automated scoring of students' scientific explanations offers the potential for immediate, accurate feedback, yet class imbalance in rubric categories particularly those capturing advanced reasoning remains a challenge. This study investigates augment",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2604.19754",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-04-23",
+    "title": "Explainable AML Triage with LLMs: Evidence Retrieval and Counterfactual Checks",
+    "description": "arXiv:2604.19755v1 Announce Type: new \nAbstract: Anti-money laundering (AML) transaction monitoring generates large volumes of alerts that must be rapidly triaged by investigators under strict audit and governance constraints. While large language models (LLMs) can summarize heterogeneous evidence a",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2604.19755",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-04-23",
+    "title": "ThermoQA: A Three-Tier Benchmark for Evaluating Thermodynamic Reasoning in Large Language Models",
+    "description": "arXiv:2604.19758v1 Announce Type: new \nAbstract: We present ThermoQA, a benchmark of 293 open-ended engineering thermodynamics problems in three tiers: property lookups (110 Q), component analysis (101 Q), and full cycle analysis (82 Q). Ground truth is computed programmatically from CoolProp 7.2.0,",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2604.19758",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-04-23",
+    "title": "EvoForest: A Novel Machine-Learning Paradigm via Open-Ended Evolution of Computational Graphs",
+    "description": "arXiv:2604.19761v1 Announce Type: new \nAbstract: Modern machine learning is still largely organized around a single recipe: choose a parameterized model family and optimize its weights. Although highly successful, this paradigm is too narrow for many structured prediction problems, where the main bo",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2604.19761",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-04-23",
+    "title": "From Data to Theory: Autonomous Large Language Model Agents for Materials Science",
+    "description": "arXiv:2604.19789v1 Announce Type: new \nAbstract: We present an autonomous large language model (LLM) agent for end-to-end, data-driven materials theory development. The model can choose an equation form, generate and run its own code, and test how well the theory matches the data without human inter",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2604.19789",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-04-20",
+    "title": "Gradient-based Planning for World Models at Longer Horizons",
+    "description": "<!-- twitter -->\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<div style=\"display: flex; margin-bottom: 1.5em;\">\n  <img alt=\"BallNav demo\" src=\"https://bair.berkeley.edu/static/blog/grasp/ballnav_demo.gif\" />\n  <img alt=\"Push-T demo\" src=\"https://bair.berkeley.edu/static/blog/grasp/pusht_zoomout.gif\" />\n</div>\n\n<p><strong>GRASP</",
     "category": "News",
-    "link": "https://openai.com/academy/getting-started",
-    "source": "OpenAI",
+    "link": "http://bair.berkeley.edu/blog/2026/04/20/grasp/",
+    "source": "Berkeley BAIR",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-04-22",
+    "title": "Introducing workspace agents in ChatGPT",
+    "description": "Introducing workspace agents in ChatGPT—shared agents that can handle complex tasks and long-running workflows across tools and teams.\n\nAgents are built to help with the kind of work that takes time, context, and follow-through: coordinating across tools like Slack and Linear, tracking progress, and",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=yyvVUEPSCu0",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-04-21",
+    "title": "Thinking & Intelligence with ChatGPT Images 2.0",
+    "description": "OpenAI researcher Ayaan Haque shows how capable ChatGPT Images 2.0 has become when Thinking is enabled. With the ability to research topics on the web, it can handle open-ended prompts and produce highly complex outputs",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=JJgwiuu-Axw",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-04-21",
+    "title": "Instruction Following with ChatGPT Images 2.0",
+    "description": "OpenAI researcher Jianfeng Wang explains how ChatGPT Images 2.0 can now follow highly detailed instruction in prompts, especially when it comes to spatial layouts and text rendering.",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=EcP7bzNAEn0",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-04-21",
+    "title": "Slides & Infographics with ChatGPT Images 2.0",
+    "description": "OpenAI researcher Yuguang Yang shows how, with Thinking selected, ChatGPT Images 2.0 can now follow long and complex prompts of over 1,000 words to create detailed, educational infographics. ChatGPT can now also transform uploaded PDFs into complete slides for presentations or polished infographics ",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=B-73tuAHBo8",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-04-21",
+    "title": "Multilingual & Text Rendering with ChatGPT Images 2.0",
+    "description": "OpenAI researcher Boyuan Chen demonstrates ChatGPT Images 2.0’s ability to render dense text across multiple languages while keeping stylistic choices intact. While text rendering in Latin-based languages has already been strong, the model has now expanded to handle a much wider range of languages.",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=B4r4t9eIwNI",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-04-22",
+    "title": "Arriva Images 2.0 e non ce n'è per nessuno [La mia demo]",
+    "description": "Iscriviti gratis a 30 giorni di prompt: https://www.raffaelegaito.com/30-giorni-prompt/?landing=true\n\nCompra il mio libro \"In cosa posso esserti utile?\", una guida molto pratica e poco emotiva all'IA https://amzn.to/4aMZrUX\n\nA sorpresa OpenAI ha annunciato Images 2.0, il loro nuovo modello AI per ge",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=uaIXIhLtfNQ",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-04-22",
+    "title": "Quali sono i lavori in crescita nel 2026? Eccone alcuni!",
+    "description": "Registrati a questo link con la mail aziendale e ricevi 300 minuti gratis su Transkriptor: https://transkriptor.com?utm_source=youtube&amp;utm_medium=midroll&amp;utm_campaign=raffaele\n\nCompra il mio libro \"In cosa posso esserti utile?\", una guida molto pratica e poco emotiva all'IA https://amzn.to/4",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=HO0D5GDO9tc",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-04-17",
+    "title": "L'IA ha ereditato tutti i nostri difetti [Manuela Stranges]",
+    "description": "Ottieni il 10% di sconto su Hostinger: usa il link https://www.hostinger.com/gaitopod e inserisci il coupon GAITOPOD\n\nCompra il mio libro \"In cosa posso esserti utile?\", una guida molto pratica e poco emotiva all'IA https://amzn.to/4aMZrUX\n\nIn questa puntata di What's Next ho intervistato Manuela St",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=5EL-ZzCXm_0",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-04-22",
+    "title": "Stai usando ChatGPT nel modo SBAGLIATO (Usa questi 3 Prompt)",
+    "description": "Stai usando ChatGPT nel modo SBAGLIATO (Usa questi 3 Prompt)\n\nIl prompt \"Mostra il tuo lavoro\"\n\"Spiegami passo dopo passo il tuo ragionamento prima di darmi la risposta definitiva.\"\n\nQuesto prompt obbliga il modello a esternalizzare la sua logica. \nIndividua gli errori prima che si aggravino.\n\n2Il \"",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/je07qTUnVmI",
+    "source": "YouTube - Gabry Solutions",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-04-19",
+    "title": "Lo sapevi che OpenAI, Anthropic e Google nascondono guide complete GRATUITE nei loro siti",
+    "description": "Lo sapevi che OpenAI, Anthropic e Google \nnascondono guide complete GRATUITE nei loro siti\n\nHo scoperto che OpenAI, Anthropic e Google \nnascondono guide complete GRATUITE nei loro siti\n\nGancio\nIl 94% delle persone ignora [pausa] che \nClaude ChatGPT e Gemini hanno guide ufficiali gratuite\n\nGancio 2\nP",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/Ff8qNfS1yHw",
+    "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
   },
   {
     "date": "2026-04-16",
-    "title": "Training and Finetuning Multimodal Embedding & Reranker Models with Sentence Transformers",
-    "description": " [...]",
+    "title": "Il 99% usa Perplexity al 10%: ecco come usarla meglio di tutti (Tutorial 2026)",
+    "description": "Il 99% delle persone usa Perplexity come un semplice motore di ricerca. In questo tutorial completo 2026 ti mostro come sfruttare al massimo OGNI funzionalità — dalla Deep Research che batte Google e OpenAI, fino a Perplexity Computer che lavora al posto tuo.\n\nPerplexity nel 2026 non è più \"un'alter",
     "category": "News",
-    "link": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
-    "source": "Hugging Face",
+    "link": "https://www.youtube.com/watch?v=mOjAwUyVG_Y",
+    "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
-  },
-  {
-    "date": "2026-04-17",
-    "title": "Numerical Instability and Chaos: Quantifying the Unpredictability of Large Language Models",
-    "description": "arXiv:2604.13206v1 Announce Type: new \nAbstract: As Large Language Models (LLMs) are increasingly integrated into agentic workflows, their unpredictability stemming from numerical instability has emerged as a critical reliability issue. While recent studies have demonstrated the significant downstre",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2604.13206",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-04-17",
-    "title": "WebXSkill: Skill Learning for Autonomous Web Agents",
-    "description": "arXiv:2604.13318v1 Announce Type: new \nAbstract: Autonomous web agents powered by large language models (LLMs) have shown promise in completing complex browser tasks, yet they still struggle with long-horizon workflows. A key bottleneck is the grounding gap in existing skill formulations: textual wo",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2604.13318",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-04-17",
-    "title": "ReSS: Learning Reasoning Models for Tabular Data Prediction via Symbolic Scaffold",
-    "description": "arXiv:2604.13392v1 Announce Type: new \nAbstract: Tabular data remains prevalent in high-stakes domains such as healthcare and finance, where predictive models are expected to provide both high accuracy and faithful, human-understandable reasoning. While symbolic models offer verifiable logic, they l",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2604.13392",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-04-17",
-    "title": "Towards Scalable Lightweight GUI Agents via Multi-role Orchestration",
-    "description": "arXiv:2604.13488v1 Announce Type: new \nAbstract: Autonomous Graphical User Interface (GUI) agents powered by Multimodal Large Language Models (MLLMs) enable digital automation on end-user devices. While scaling both parameters and data has yielded substantial gains, advanced methods still suffer fro",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2604.13488",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-04-17",
-    "title": "GeoAgentBench: A Dynamic Execution Benchmark for Tool-Augmented Agents in Spatial Analysis",
-    "description": "arXiv:2604.13888v1 Announce Type: new \nAbstract: The integration of Large Language Models (LLMs) into Geographic Information Systems (GIS) marks a paradigm shift toward autonomous spatial analysis. However, evaluating these LLM-based agents remains challenging due to the complex, multi-step nature o",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2604.13888",
-    "source": "arXiv AI",
-    "badge": "📜"
   }
 ]
