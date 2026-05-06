@@ -9,155 +9,92 @@
     "badge": ""
   },
   {
-    "date": "2026-05-05",
-    "title": "New ways to buy ChatGPT ads",
-    "description": "OpenAI expands ChatGPT ads with a beta self-serve Ads Manager, CPC bidding, and enhanced measurement tools—built to protect privacy and keep conversations separate from ads.",
+    "date": "2026-05-06",
+    "title": "Introducing ChatGPT Futures: Class of 2026",
+    "description": "Meet the ChatGPT Futures Class of 2026—26 student innovators using AI to build, research, and drive real-world impact. Discover how this generation is redefining learning, creativity, and opportunity with ChatGPT.",
     "category": "News",
-    "link": "https://openai.com/index/new-ways-to-buy-chatgpt-ads",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-05-04",
-    "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
-    "description": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
-    "category": "News",
-    "link": "https://openai.com/index/openai-pwc-finance-collaboration",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-04-10",
-    "title": "Using custom GPTs",
-    "description": "Learn how to build and use custom GPTs to automate workflows, maintain consistent outputs, and create purpose-built AI assistants.",
-    "category": "News",
-    "link": "https://openai.com/academy/custom-gpts",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-04-10",
-    "title": "Personalizing ChatGPT",
-    "description": "Learn how to personalize ChatGPT using custom instructions and memory to get more relevant, consistent, and tailored responses.",
-    "category": "News",
-    "link": "https://openai.com/academy/personalization",
+    "link": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
     "source": "OpenAI",
     "badge": "🔥"
   },
   {
     "date": "2026-05-06",
-    "title": "2026 Roadmap on Artificial Intelligence and Machine Learning for Smart Manufacturing",
-    "description": "arXiv:2605.00839v1 Announce Type: new \nAbstract: The evolution of artificial intelligence (AI) and machine learning (ML) is reshaping smart manufacturing by providing new capabilities for efficiency, adaptability, and autonomy across industrial value chains. However, the deployment of AI and ML in i",
+    "title": "How frontier enterprises are building an AI advantage",
+    "description": "OpenAI’s B2B Signals research shows how frontier enterprises deepen AI adoption, scale Codex-powered agentic workflows, and build durable competitive advantage.",
+    "category": "News",
+    "link": "https://openai.com/index/introducing-b2b-signals",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-05-06",
+    "title": "Virtual Speech Therapist: A Clinician-in-the-Loop AI Speech Therapy Agent for Personalized and Supervised Therapy",
+    "description": "arXiv:2605.01101v1 Announce Type: new \nAbstract: This paper develops Virtual Speech Therapist (VST), an intelligent agent-based platform that streamlines stuttering assessment and delivers customized therapy planning through automated and adaptive AI-driven workflows. VST integrates state-of-the-art",
     "category": "Paper",
-    "link": "https://arxiv.org/abs/2605.00839",
+    "link": "https://arxiv.org/abs/2605.01101",
     "source": "arXiv AI",
     "badge": "📜"
   },
   {
     "date": "2026-05-06",
-    "title": "AI Agents for Sustainable SMEs: A Green ESG Assessment Framework",
-    "description": "arXiv:2605.00841v1 Announce Type: new \nAbstract: This study presents a novel, AI-driven framework for assessing Environmental, Social, and Governance (ESG) performance in European small and medium-sized enterprises (SMEs). An initial phase established expert-validated ESG baseline scores from a subs",
+    "title": "Towards Multi-Agent Autonomous Reasoning in Hydrodynamics",
+    "description": "arXiv:2605.01102v1 Announce Type: new \nAbstract: Single-agent systems (SAS) have become the default pattern for LLM-driven scientific workflows, but routing planning, tool use, and synthesis through a single context window comes with a well-known cost: as tool specifications and observational traces",
     "category": "Paper",
-    "link": "https://arxiv.org/abs/2605.00841",
+    "link": "https://arxiv.org/abs/2605.01102",
     "source": "arXiv AI",
     "badge": "📜"
   },
   {
     "date": "2026-05-06",
-    "title": "Understanding Emergent Misalignment via Feature Superposition Geometry",
-    "description": "arXiv:2605.00842v1 Announce Type: new \nAbstract: Emergent misalignment, where fine-tuning on narrow, non-harmful tasks induces harmful behaviors, poses a key challenge for AI safety in LLMs. Despite growing empirical evidence, its underlying mechanism remains unclear. To uncover the reason behind th",
+    "title": "PERSA: Reinforcement Learning for Professor-Style Personalized Feedback with LLMs",
+    "description": "arXiv:2605.01123v1 Announce Type: new \nAbstract: Large language models (LLMs) can provide automated feedback in educational settings, but aligning an LLMs style with a specific instructors tone while maintaining diagnostic correctness remains challenging. We ask how can we update an LLM for automate",
     "category": "Paper",
-    "link": "https://arxiv.org/abs/2605.00842",
+    "link": "https://arxiv.org/abs/2605.01123",
     "source": "arXiv AI",
     "badge": "📜"
   },
   {
     "date": "2026-05-06",
-    "title": "Effect-Transparent Governance for AI Workflow Architectures: Semantic Preservation, Expressive Minimality, and Decidability Boundaries",
-    "description": "arXiv:2605.01030v2 Announce Type: new \nAbstract: We present a machine-checked formalization of structurally governed AI workflow architectures and prove that effect-level governance can be imposed without reducing internal computational expressivity. Using Interaction Trees in Rocq 8.19, we define a",
+    "title": "A Low-Latency Fraud Detection Layer for Detecting Adversarial Interaction Patterns in LLM-Powered Agents",
+    "description": "arXiv:2605.01143v1 Announce Type: new \nAbstract: Large Language Model (LLM)-powered agents demonstrate strong capabilities in autonomous task execution, tool use, and multi-step reasoning. However, their increasing autonomy also introduces a new attack surface: adversarial interactions can manipulat",
     "category": "Paper",
-    "link": "https://arxiv.org/abs/2605.01030",
+    "link": "https://arxiv.org/abs/2605.01143",
     "source": "arXiv AI",
     "badge": "📜"
   },
   {
     "date": "2026-05-06",
-    "title": "A Knowledge-Driven LLM-Based Decision-Support System for Explainable Defect Analysis and Mitigation Guidance in Laser Powder Bed Fusion",
-    "description": "arXiv:2605.01100v1 Announce Type: new \nAbstract: This work presents a knowledge-driven decision-support system that integrates structured defect knowledge with LLM-based reasoning to provide explainable defect diagnosis and mitigation guidance in manufacturing, using LPBF as a representative, safety",
+    "title": "GR-Ben: A General Reasoning Benchmark for Evaluating Process Reward Models",
+    "description": "arXiv:2605.01203v1 Announce Type: new \nAbstract: Currently, process reward models (PRMs) have exhibited remarkable potential for test-time scaling. Since large language models (LLMs) regularly generate flawed intermediate reasoning steps when tackling a broad spectrum of reasoning and decision-makin",
     "category": "Paper",
-    "link": "https://arxiv.org/abs/2605.01100",
+    "link": "https://arxiv.org/abs/2605.01203",
     "source": "arXiv AI",
     "badge": "📜"
   },
   {
-    "date": "2026-05-05",
-    "title": "Prep for sales meetings faster with Codex",
-    "description": "See how Codex helps sellers get ready for customer meetings faster.\n\nCodex can bring context from Salesforce, Slack, Google Calendar, email, and docs into one clear thread. Sellers can ask questions, spot what changed, surface opportunities, and work across those apps without piecing everything toge",
+    "date": "2026-05-06",
+    "title": "Introducing ChatGPT for Excel and Google Sheets",
+    "description": "Ask ChatGPT to analyze, update, and explain your spreadsheets directly in Excel and Google Sheets.\n\nThese add-ins are now available globally across all plans. Powered by GPT-5.5, ChatGPT helps you update models, analyze data, audit outputs, and turn messy business context into decisions faster.\n\nNow",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=y5hogSW2mqU",
+    "link": "https://www.youtube.com/watch?v=sfkyiXvlYL0",
     "source": "YouTube – OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-05-01",
-    "title": "Bring your work into Codex in a few clicks",
-    "description": "Codex helps teams connect the apps they already use, bring over their setup, and start seeing the magic happen right away.\n\nIn this quick demo, you’ll see how to:\n* personalize Codex for your role\n* import tools, projects, skills, and recent chats\n* connect apps like Google Calendar, Gmail, Drive, S",
+    "date": "2026-04-24",
+    "title": "Introducing GPT-5.5 with Perplexity",
+    "description": "“I thought building this internal tool was going to take me days…but with Codex and GPT-5.5, I was able to do it in under an hour.”\n\nDenis from Perplexity saw GPT-5.5 cut token usage by 56% while running the same agentic workflows faster and more efficiently. \n\nBuild with GPT-5.5: https://openai.com",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=flvZ6jEj3VU",
+    "link": "https://www.youtube.com/watch?v=GNEbX8EvDlg",
     "source": "YouTube – OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-04-29",
-    "title": "Build Hour: Workspace agents in ChatGPT",
-    "description": "Build workspace agents in ChatGPT that can do work across your tools and help teams move faster. In this Build Hour, you’ll learn how to turn your team’s best practices into shared agents from start to finish.\n\n\nChristina Huang (Engineering), Ho Joon Cha (Solutions Engineering), and Victoria Chernov",
+    "date": "2026-05-06",
+    "title": "Ma lo Sapevi che ChatGPT sa cose su di TE che Nemmeno Immagini?",
+    "description": "Ma lo Sapevi che ChatGPT sa cose su di TE che Nemmeno Immagini?\n\n👉 Ho provato questa sequenza di prompt\ne i risultati sono stati davvero inaspettati.\n\nPrompt 1️⃣\n“Dimmi tutto quello che sai su di me dalle nostre conversazioni passate. Includi il mio tipo di personalità, le mie insicurezze, i miei ob",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=kktBVmjA19A",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-04-27",
-    "title": "Ritu vs Case Files | With ChatGPT",
-    "description": "Space for focused work with ChatGPT\n\nCredits\nDirector: Abhinav Pratiman\nDOP: Tassaduq Hussain\nProduction House: Early Man Film\nCreative agency: Hue & Why",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=2TGHO4apQ5I",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-04-25",
-    "title": "Reddys vs Retirement | With ChatGPT",
-    "description": "Start your second innings with ChatGPT\n\nCredits\nDirector: Abhinav Pratiman\nDOP: Tassaduq Hussain\nProduction House: Early Man Film\nCreative agency: Hue & Why",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=fuO669ienMY",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-05-04",
-    "title": "Che faccia ha il tuo ChatGPT?",
-    "description": "Ecco il prompt:\n\nChatGPT, sei con me da un po’ ormai e voglio vedere che aspetto hai.\n\nPer favore genera una foto di te stesso che sembri un semplice scatto da iPhone: nessun soggetto in evidenza, nessuna composizione intenzionale; completamente ordinaria, anche un po’ venuta male, come uno scatto m",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/eqPJClMMuVc",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-05-04",
-    "title": "ChatGPT ha appena DISTRUTTO Nano Banana (GPT Image 2.0 testato a fondo)",
-    "description": "ChatGPT ha appena DISTRUTTO Nano Banana (GPT Image 2.0 testato a fondo) OpenAI ha appena DISTRUTTO Nano Banana 2 con GPT Image 2.0. Lo testo a fondo con 13 casi d'uso pratici e tutti i prompt copiabili qui sotto \n\nIl 21 aprile 2026 OpenAI ha rilasciato GPT Image 2.0 (gpt-image-2) e il modello si è p",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=rewbyC9iDMY",
-    "source": "YouTube - Gabry Solutions",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-05-01",
-    "title": "Claude Design Ha Appena Ucciso i Designer (Ecco Perché)",
-    "description": "Claude Design Ha Appena Ucciso i Designer (Ecco Perché) e per questo Claude Design ha appena cambiato per sempre il mondo del design. In questo tutorial completo ti mostro come Anthropic , con il nuovo modello Opus 4.7 , ha trasformato un semplice prompt in dashboard interattive, deck per il board e",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=VfIyc2B3iuU",
+    "link": "https://www.youtube.com/shorts/xmwEmog-IWE",
     "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
   }
