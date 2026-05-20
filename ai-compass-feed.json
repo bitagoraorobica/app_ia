@@ -9,119 +9,155 @@
     "badge": ""
   },
   {
-    "date": "2026-05-14",
-    "title": "AI-Generated Slides: Are They Good? Can Students Tell?",
-    "description": "arXiv:2605.13532v1 Announce Type: new \nAbstract: As generative AI (GenAI) tools become easily accessible, there is promise in using such tools to support instructors. To that end, this paper examines using GenAI to help generate slides from instructor authored course notes, emphasizing instructor an",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2605.13532",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-05-14",
-    "title": "RealICU: Do LLM Agents Understand Long-Context ICU Data? A Benchmark Beyond Behavior Imitation",
-    "description": "arXiv:2605.13542v1 Announce Type: new \nAbstract: Intensive care units (ICU) generate long, dense and evolving streams of clinical information, where physicians must repeatedly reassess patient states under time pressure, underscoring a clear need for reliable AI decision support. Existing ICU benchm",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2605.13542",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-05-14",
-    "title": "Senses Wide Shut: A Representation-Action Gap in Omnimodal LLMs",
-    "description": "arXiv:2605.13737v1 Announce Type: new \nAbstract: When an omnimodal large language model accepts a question whose textual premise contradicts what it actually sees or hears, does the failure lie in perception or in action? Recent omnimodal models are positioned as perception-grounded agents that join",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2605.13737",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-05-14",
-    "title": "Harnessing Agentic Evolution",
-    "description": "arXiv:2605.13821v1 Announce Type: new \nAbstract: Agentic evolution has emerged as a powerful paradigm for improving programs, workflows, and scientific solutions by iteratively generating candidates, evaluating them, and using feedback to guide future search. However, existing methods are typically ",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2605.13821",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-05-14",
-    "title": "TokaMind for Power Grid: Cross-Domain Transfer from Fusion Plasma",
-    "description": "arXiv:2605.11033v1 Announce Type: cross \nAbstract: TokaMind is a multi-modal transformer (MMT) foundation model pre-trained on tokamak plasma diagnostics data from MAST, where it was shown to outperform CNN-based approaches on fusion benchmarks. We investigate whether its learned representations gen",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2605.11033",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-05-13",
-    "title": "Build Hour: GPT-Realtime-2",
-    "description": "Build with the next wave of realtime voice AI. In this Build Hour, you’ll learn how to use GPT-Realtime-2, GPT-Realtime-Translate, and GPT-Realtime-Whisper to build low-latency voice agents that can translate live speech, reason across tools, operate apps, and support more natural voice-to-voice and",
+    "date": "2026-05-18",
+    "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
+    "description": "OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=qGS9Ghnq1RU",
+    "link": "https://openai.com/index/dell-codex-enterprise-partnership",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-05-16",
+    "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
+    "description": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
+    "category": "News",
+    "link": "https://openai.com/index/malta-chatgpt-plus-partnership",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-05-15",
+    "title": "A new personal finance experience in ChatGPT",
+    "description": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities.",
+    "category": "News",
+    "link": "https://openai.com/index/personal-finance-chatgpt",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-05-15",
+    "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
+    "description": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
+    "category": "News",
+    "link": "https://openai.com/index/databricks",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-05-20",
+    "title": "Position: Let's Develop Data Probes to Fundamentally Understand How Data Affects LLM Performance",
+    "description": "arXiv:2605.18801v1 Announce Type: new \nAbstract: Data is fundamental to large language models (LLMs). However, understanding of what makes certain data useful for different stages of an LLM workflow, including training, tuning, alignment, in-context learning, etc., and why, remains an open question.",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2605.18801",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-05-20",
+    "title": "Operationalizing Document AI: A Microservice Architecture for OCR and LLM Pipelines in Production",
+    "description": "arXiv:2605.18818v1 Announce Type: new \nAbstract: Academic research tends to focus on new models for document understanding creating a wide gap in the literature between model definition and running models at production scale. To close that gap, we present a microservice architecture that encapsulate",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2605.18818",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-05-20",
+    "title": "AgentNLQ: A General-Purpose Agent for Natural Language to SQL",
+    "description": "arXiv:2605.19010v1 Announce Type: new \nAbstract: Natural language to SQL (NL2SQL) conversion is an important problem for researchers and enterprises due to the ubiquitous importance of relational databases in broad-ranging practical problems. Despite the rapid advancements in the capabilities of LLM",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2605.19010",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-05-20",
+    "title": "Embedding by Elicitation: Dynamic Representations for Bayesian Optimization of System Prompts",
+    "description": "arXiv:2605.19093v1 Announce Type: new \nAbstract: System prompts are a central control mechanism in modern AI systems, shaping behavior across conversations, tasks, and user populations. Yet they are difficult to tune when feedback is available only as aggregate metrics rather than per-example labels",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2605.19093",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-05-20",
+    "title": "DecisionBench: A Benchmark for Emergent Delegation in Long-Horizon Agentic Workflows",
+    "description": "arXiv:2605.19099v1 Announce Type: new \nAbstract: We introduce DecisionBench, a benchmark substrate for emergent delegation in long-horizon agentic workflows. The substrate fixes a task suite (GAIA, tau-bench, BFCL multi-turn), a peer-model pool (11 models, 7 vendor families), a delegation interface ",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2605.19099",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-05-15",
+    "title": "Further Notes on Our Recent Research on AI Delegation and Long-Horizon Reliability",
+    "description": "<p>Our recent paper, “LLMs Corrupt Your Documents When You Delegate”, has generated discussion about the reliability of AI systems in delegated workflows. We appreciate the interest in this work and want to clarify several important points about what the paper does—and does not—claim. The research a",
+    "category": "News",
+    "link": "https://www.microsoft.com/en-us/research/blog/further-notes-on-our-recent-research-on-ai-delegation-and-long-horizon-reliability/",
+    "source": "Microsoft Research",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-05-19",
+    "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
+    "description": "<p>For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a list of blue links. On Tuesday, Google will formally retire that paradigm.</p><p>At its annual <a href=\"https://io.google",
+    "category": "News",
+    "link": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
+    "source": "VentureBeat AI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-05-20",
+    "title": "Kunal vs Motorcycle | With ChatGPT",
+    "description": "Kickstart your projects with ChatGPT\n\nCredits\nDirector: Abhinav Pratiman\nDOP: Tassaduq Hussain\nProduction House: Early Man Film\nCreative agency: Hue & Why",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=_BY9YTTh6kE",
     "source": "YouTube – OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-05-13",
-    "title": "Suraj vs The Future | With ChatGPT",
-    "description": "Prepare smarter with ChatGPT\n\nCredits\nDirector: Abhinav Pratiman\nDOP: Tassaduq Hussain\nProduction House: Early Man Film\nCreative agency: Hue & Why",
+    "date": "2026-05-14",
+    "title": "Codex for Everyday Work: AI Agents Beyond Coding",
+    "description": "Codex began as a tool for developers. Today, people are using it for much more: research, planning, file organization, automation, data analysis, presentations, and other everyday knowledge work.\n\nIn this OpenAI Forum conversation, Chris Nicholson of OpenAI Global Affairs speaks with Thibault Sottia",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=bMmEEa8-6fU",
+    "link": "https://www.youtube.com/watch?v=DLP9CagE3dU",
     "source": "YouTube – OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-05-08",
-    "title": "OpenAI's ChatGPT 5.5 Instant: The Good, The Bad And The Insane",
-    "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 GPT 5.5 Instant:\nhttps://deploymentsafety.openai.com/gpt-5-5-instant/introduction\nhttps://openai.com/index/gpt-5-5-instant/\n\nClassifiers paper: https://arxiv.org/pdf/2501.18837\n\nOur Patreon if you wish to support u",
+    "date": "2026-05-14",
+    "title": "Now in preview: Codex in the ChatGPT mobile app.",
+    "description": "Codex is rolling out in preview in the ChatGPT mobile app on iOS and Android.\n\nIn this demo, see how you can start, steer, unblock, and review Codex work from your phone while Codex keeps running on your computer, Mac mini, devbox, or managed remote environment, with your files and project context s",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=4nQnhjimB4Y",
-    "source": "YouTube – Two Minute Papers",
+    "link": "https://www.youtube.com/shorts/tk9qrk5G4RQ",
+    "source": "YouTube – OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-05-13",
-    "title": "Come usare Claude Code Gratis [Tutorial semplice e onesto]",
-    "description": "Compra il mio corso Crea il tuo Agente AI con Claude Code: https://www.raffaelegaito.com/claude-code-crea-agente-ai-corso-completo/?landing=true\n\nCompra il mio libro \"In cosa posso esserti utile?\", una guida molto pratica e poco emotiva all'IA https://amzn.to/4aMZrUX\n\nIn questo tutorial vi mostro co",
+    "date": "2026-05-14",
+    "title": "Inside image generation’s Renaissance moment — the OpenAI Podcast Ep. 19",
+    "description": "People are generating over 1.5 billion images a week in ChatGPT. In this episode, Product lead Adele Li and researcher Kenji Hata share some of the new use cases and trends since the launch of Images 2.0. \n\nTogether with host Andrew Mayne, they trace the progress from the early DALL-E days and dive ",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=V4_nD7h-N6A",
-    "source": "YouTube – Raffaele Gaito",
+    "link": "https://www.youtube.com/watch?v=bH2nP-aCFjk",
+    "source": "YouTube – OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-05-12",
-    "title": "Nessuno Ne Parla, ma Esiste un Trucco per Farti dare Risposte Migliori dall’IA.",
-    "description": "Nessuno ne parla, ma esiste un trucco per farti dare risposte migliori dall’IA.\n\n1️⃣ Ecco il prompt:\n“Dammi tre prospettive diverse su\n[la tua domanda].\nPer ogni prospettiva, spiega quali prove la supportanoe quali la contraddicono.\nPoi dimmi quale prospettiva ha il supporto più solido e perché”\n\nCo",
+    "date": "2026-05-19",
+    "title": "Non Sei Rimasto Indietro (Ancora): Capirai TUTTA l'AI in 29 Minuti",
+    "description": "Non sei rimasto indietro sull'intelligenza artificiale. Sei solo stato lasciato senza le basi. In questo video ti spiego TUTTI i 27 concetti fondamentali dell'AI in 27 minuti — da cos'è un LLM, ai token, alle allucinazioni, fino agli agenti AI e all'MCP. Niente tecnichese, niente fuffa: solo il mode",
     "category": "News",
-    "link": "https://www.youtube.com/shorts/_J4SUTCl1F0",
+    "link": "https://www.youtube.com/watch?v=mdpSRoOOl8E",
     "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
   },
   {
-    "date": "2026-05-11",
-    "title": "L’IA Ti Sta Spiando: Cambia Queste 7 Impostazioni Nascoste ADESSO",
-    "description": "La bugia sulla privacy dell'IA è che disattivare un'opzione basti. Non basta. In questo video ti mostro le 7 impostazioni reali per proteggere i tuoi dati su ChatGPT, Claude e Gemini nel 2026 — quelle che né OpenAI, né Anthropic, né Google ti spiegano chiaramente.\n\nIl 22 aprile 2026 OpenAI ha rilasc",
+    "date": "2026-05-15",
+    "title": "Il Growth Hack più Oscuro della Storia dell’IA",
+    "description": "Il Growth Hack più Oscuro della Storia dell’IA perché Grok, l’intelligenza artificiale di Elon Musk, è finita al centro di uno degli scandali AI più inquietanti degli ultimi anni: milioni di immagini sessualizzate generate senza consenso, accuse contro xAI, indagini internazionali e un risultato par",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=iC--r7ALoY4",
-    "source": "YouTube - Gabry Solutions",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-05-10",
-    "title": "Meta Ha Appena Ucciso Il Lavoro Da Dipendente",
-    "description": "Meta Ha Appena Ucciso Il Lavoro Da Dipendente\n\nMeta sta portando avanti il piano più subdolo \ne spaventoso del 2026. Senza che nessuno ne parli. \n\nSta usando i suoi dipendenti per addestrare il robot che li sostituirà. \n\n21 aprile 2026. \nReuters scopre un memo interno all’azienda. \nL'azienda sta ins",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/KBLzDDvsI4k",
-    "source": "YouTube - Gabry Solutions",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-05-08",
-    "title": "99% dei Marketer NON Sa Ancora Cosa Può Fare Claude Code nel 2026",
-    "description": "- Come Costruire un Team Marketing AI in 1 Giorno (Da Zero, Senza Codice) in questo video ti mostro come costruire un Team Marketing AI in 1 giorno, da zero e senza scrivere codice, usando Claude Code, Claude Skills e agenti AI specializzati.\n\nVedrai passo dopo passo come trasformare Claude in un ve",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=MCLQhhDpGAs",
+    "link": "https://www.youtube.com/shorts/ObMEYWfJWGY",
     "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
   }
