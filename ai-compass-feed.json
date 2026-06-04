@@ -9,147 +9,102 @@
     "badge": ""
   },
   {
-    "date": "2026-06-01",
-    "title": "PhyDrawGen: Physically Grounded Diagram Generation from Natural Language",
-    "description": "arXiv:2605.30512v1 Announce Type: new \nAbstract: Generating physics diagrams from text requires strict adherence to physical laws. While current generative models produce visually plausible outputs, they systematically hallucinate force vectors, ignore conservation laws, and violate geometric constr",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2605.30512",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-06-01",
-    "title": "EHRBench: An Automated and Reliable EHR-based Benchmark for Clinical Decision Making with LLMs",
-    "description": "arXiv:2605.30637v1 Announce Type: new \nAbstract: Clinical decision-making (CDM) is central to real-world clinical workflows, where clinicians infer diagnoses, select treatments, or anticipate future health outcomes under incomplete evidence. LLMs are increasingly used to support these decisions due ",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2605.30637",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-06-01",
-    "title": "Healthcare Mechanisms from Policy-as-Code Search under Strategic Provider Response",
-    "description": "arXiv:2605.30680v1 Announce Type: new \nAbstract: Healthcare mechanisms are inseparable from the strategic provider response they induce: existing healthcare AI benchmarks hold this response fixed and so cannot evaluate mechanisms by the equilibrium they produce. We recast hospital mechanism design a",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2605.30680",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-06-01",
-    "title": "MAVEN: Improving Generalization in Agentic Tool Calling",
-    "description": "arXiv:2605.30738v1 Announce Type: new \nAbstract: Generalization across agentic tool-calling environments remains a central challenge for reliable agentic reasoning systems. Although large language models achieve strong results on individual benchmarks, their ability to compose reasoning strategies, ",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2605.30738",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-06-01",
-    "title": "Learning Agent-Compatible Context Management for Long-Horizon Tasks",
-    "description": "arXiv:2605.30785v1 Announce Type: new \nAbstract: LLM agents increasingly face long-horizon tasks such as web search and deep research in real-world applications, where accumulated context can cause long-context degradation and reasoning failures. Prior work mitigates this through context management ",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2605.30785",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-05-29",
-    "title": "These Models are Crazy!",
-    "description": "\"It's taking me minutes and hours to do things that took teams weeks and months,\" - Lauren Steinberg, Loblaw Companies Limited.\n\nLauren, Chief Digital Officer at 🇨🇦 Canada’s largest retailer, shared how Codex and ChatGPT Images 2.0 are helping her team move faster, rethink workflows, and deliver bet",
+    "date": "2026-06-04",
+    "title": "How Endava is redesigning software delivery around AI agents",
+    "description": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
     "category": "News",
-    "link": "https://www.youtube.com/shorts/JA3tmYqCacA",
-    "source": "YouTube – OpenAI",
+    "link": "https://openai.com/index/endava-frontiers",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-06-02",
+    "title": "Codex is becoming a productivity tool for everyone",
+    "description": "The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation.",
+    "category": "News",
+    "link": "https://openai.com/index/codex-for-knowledge-work",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-06-01",
+    "title": "OpenAI frontier models and Codex are now available on AWS",
+    "description": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production.",
+    "category": "News",
+    "link": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+    "source": "OpenAI",
     "badge": "🔥"
   },
   {
     "date": "2026-05-29",
-    "title": "Loblaw Ships Faster with Codex",
-    "description": "Lauren, Chief Digital Officer at 🇨🇦 Canada’s largest retailer, shared how Codex and ChatGPT Images 2.0 are helping her team move faster, rethink workflows, and deliver better customer experiences.\n\nBuild with Codex ➡️ https://openai.com/codex/",
+    "title": "Strengthening societal resilience with Rosalind Biodefense",
+    "description": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=EYvzpZX2-Ww",
-    "source": "YouTube – OpenAI",
+    "link": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+    "source": "OpenAI",
     "badge": "🔥"
   },
   {
     "date": "2026-05-28",
-    "title": "How Abridge uses GPT-5.5 for clinical decision support",
-    "description": "At the point of care, more context usually means more complexity.\n\nChaitanya Asawa from Abridge shares how GPT-5.5 helps synthesize patient context, live clinical conversations, and medical information through stronger reasoning and tool use, helping clinicians get denser, more useful information wh",
+    "title": "MUFG aims to become AI-native with OpenAI",
+    "description": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=tXBRYPpIvms",
-    "source": "YouTube – OpenAI",
+    "link": "https://openai.com/index/mufg",
+    "source": "OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-05-26",
-    "title": "Sid vs Career | With ChatGPT",
-    "description": "Expertise at your fingertips with ChatGPT\n\nCredits\nDirector: Abhinav Pratiman\nDOP: Tassaduq Hussain\nProduction House: Early Man Film\nCreative agency: Hue & Why",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=KHasJMg4zV4",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
+    "date": "2026-06-04",
+    "title": "Toward Pre-Deployment Assurance for Enterprise AI Agents: Ontology-Grounded Simulation and Trust Certification",
+    "description": "arXiv:2606.04037v1 Announce Type: new \nAbstract: Pre-deployment verification of enterprise artificial intelligence (AI) agents remains a critical gap between large language model (LLM) capability benchmarking and production deployment. Post-deployment monitoring, human-in-the-loop controls, and prom",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2606.04037",
+    "source": "arXiv AI",
+    "badge": "📜"
   },
   {
-    "date": "2026-05-22",
-    "title": "Workspace agents in ChatGPT: Admin and builder controls",
-    "description": "Workspace agents in ChatGPT help teams turn repeatable workflows into shared agents that can pull in context, use tools, and move work forward on their own.\n\nIn this demo, you’ll see how admins and builders can set safeguards for workspace agents. Enterprise admins can centrally manage who can use, ",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=HaaKUFAOi84",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
+    "date": "2026-06-04",
+    "title": "SMAC-Talk: A Natural Language Extension of the StarCraft Multi-Agent Challenge for Large Language Models",
+    "description": "arXiv:2606.04202v1 Announce Type: new \nAbstract: As LLMs become more widely deployed, they are increasingly expected to work alongside other AI agents rather than operating in isolation. Effective coordination in these settings requires agents to communicate, share information and make decisions und",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2606.04202",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-06-04",
+    "title": "VAMPS: Visual-Assisted Mathematical Problem Solving Benchmark",
+    "description": "arXiv:2606.04244v1 Announce Type: new \nAbstract: Multimodal large language models are increasingly capable of complex reasoning, yet their performance often degrades when they must externalize a problem through a tool and then reason over the tool's output, specifically when they rely on visual aids",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2606.04244",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-06-04",
+    "title": "StepPRM-RTL: Stepwise Process-Reward Guided LLM Fine-Tuning for Enhanced RTL Synthesis",
+    "description": "arXiv:2606.04246v1 Announce Type: new \nAbstract: Automatic generation of RTL code for digital hardware designs remains challenging due to long-horizon reasoning, multi-step dependencies, and strict correctness constraints in Verilog and VHDL. We present StepPRM-RTL, a novel framework that combines s",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2606.04246",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-06-04",
+    "title": "Characterizing initial human-AI proof formalization workflows",
+    "description": "arXiv:2606.04273v1 Announce Type: new \nAbstract: For centuries, human mathematicians have written proofs to substantiate their mathematical arguments; yet, the ability to automatically verify the validity of proofs has long been a challenge. Advances in AI systems' ability to generate code and engag",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2606.04273",
+    "source": "arXiv AI",
+    "badge": "📜"
   },
   {
     "date": "2026-06-01",
-    "title": "Il grande errore con l'IA che fanno troppi (anche tu?)",
-    "description": "Compra il mio libro \"In cosa posso esserti utile?\", una guida molto pratica e poco emotiva all'IA https://amzn.to/4aMZrUX\n\nCompra il mio corso \"Crea un Agente AI con Claude Code\": https://www.raffaelegaito.com/claude-code-crea-agente-ai-corso-completo/?landing=true\n\nCon una tecnologia così potente c",
+    "title": "Lovable on How GPT-5.5 Unlocks Better Planning for Complex Builds",
+    "description": "“GPT-5.5 is a lot better at planning, which means that for large features, our users are much more likely to succeed in one shot.”\n\nAs Alexandre Pesant from Lovable shares, that planning jump unlocked more reliable complex builds: a 31% increase in intent understanding during planning and 22% fewer ",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=_uAOpAzen2o",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-05-30",
-    "title": "Opus 4.8 - Tutto quello che devi sapere",
-    "description": "Compra il mio corso \"Crea un Agente AI con Claude Code\": https://www.raffaelegaito.com/claude-code-crea-agente-ai-corso-completo/?landing=true\n\nCompra il mio libro \"In cosa posso esserti utile?\", una guida molto pratica e poco emotiva all'IA https://amzn.to/4aMZrUX\n\nAnthropic ha annunciato Claude Op",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=VuVXazZSBIc",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-05-31",
-    "title": "Le 6 Regole per Prompt Perfetti - Il Metodo di un Ingegnere AI",
-    "description": "Le 6 Regole per Prompt Perfetti - Il Metodo di un Ingegnere AI\nVuoi ottenere il massimo da ChatGPT e dall'Intelligenza Artificiale nel 2026? Smetti di usare i vecchi prompt generici e impara a comunicare con l'AI come un vero professionista. In questo video, ti mostro il framework definitivo in 6 st",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/MEWo8lWfHGY",
-    "source": "YouTube - Gabry Solutions",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-05-30",
-    "title": "Come Usare ChatGPT Così Bene Che Sembra ILLEGALE (Senza Competenze Tecniche)",
-    "description": "Come Usare ChatGPT Così Bene Che Sembra ILLEGALE (Senza Competenze Tecniche) Nessuno ne parla, ma esiste un framework per scrivere prompt su ChatGPT che è letteralmente \"illegale\". Si chiama Context Engineering ed è il nuovo standard utilizzato dai professionisti per ottenere risposte superiori del ",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/knIuzuqtgCM",
-    "source": "YouTube - Gabry Solutions",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-05-28",
-    "title": "NON usare ChatGPT per tutto (Usa questi invece)",
-    "description": "NON usare ChatGPT per tutto (Usa questi invece)\n\nSmetti di usare ChatGPT per ogni singola attività. Nel 2026, l'intelligenza artificiale si è iper-specializzata: usare un solo strumento per fare tutto significa perdere efficienza e qualità.\n\nIn questo video ti mostro esattamente quali sono le altern",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/lflAuoKPLQY",
-    "source": "YouTube - Gabry Solutions",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-05-22",
-    "title": "8 Cose ASSURDE che ho creato con l'AI in 16 minuti (senza una riga di codice)",
-    "description": "8 Cose ASSURDE che ho creato con l'AI in 16 minuti (senza una riga di codice) e In questo video ti mostro 8 casi d'uso reali per sfruttare Claude Design, il nuovo tool di Anthropic che sta rivoluzionando la creazione visiva con l'intelligenza artificiale. \n\nDimentica la teoria: andiamo dritti alla p",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=p7KfFll5tEc",
-    "source": "YouTube - Gabry Solutions",
+    "link": "https://www.youtube.com/watch?v=ZrEc46wUIPU",
+    "source": "YouTube – OpenAI",
     "badge": "🔥"
   }
 ]
