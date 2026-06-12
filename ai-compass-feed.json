@@ -9,147 +9,75 @@
     "badge": ""
   },
   {
-    "date": "2026-06-11",
-    "title": "OpenAI to acquire Ona",
-    "description": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
-    "category": "News",
-    "link": "https://openai.com/index/openai-to-acquire-ona",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-06-11",
-    "title": "BBVA puts AI at the core of banking with OpenAI",
-    "description": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-    "category": "News",
-    "link": "https://openai.com/index/bbva",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-06-10",
-    "title": "PRC-linked influence operations are targeting AI debates in the US",
-    "description": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims  about ChatGPT.",
-    "category": "News",
-    "link": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
     "date": "2026-06-12",
-    "title": "ToolSense: A Diagnostic Framework for Auditing Parametric Tool Knowledge in LLMs",
-    "description": "arXiv:2606.12451v1 Announce Type: new \nAbstract: Large language models deployed as agents over large tool catalogs face a critical tool-retrieval bottleneck. As embedding-based retrieval approaches rely on compact encoders that may under-capture specialized tool semantics, parametric tool retrieval ",
+    "title": "MLUBench: A Benchmark for Lifelong Unlearning Evaluation in MLLMs",
+    "description": "arXiv:2606.12809v1 Announce Type: new \nAbstract: Multimodal large language models (MLLMs) are trained on massive multimodal data, making data unlearning increasingly important as data owners may request the removal of specific content. In practice, these requests often arrive sequentially over time,",
     "category": "Paper",
-    "link": "https://arxiv.org/abs/2606.12451",
+    "link": "https://arxiv.org/abs/2606.12809",
     "source": "arXiv AI",
     "badge": "📜"
   },
   {
     "date": "2026-06-12",
-    "title": "TrajGenAgent: A Hierarchical LLM Agent for Human Mobility Trajectory Generation",
-    "description": "arXiv:2606.12657v1 Announce Type: new \nAbstract: Human mobility data is important for transportation, urban planning, and epidemic control, but large-scale trajectory collection is often costly and privacy-constrained, motivating realistic synthetic trajectory generation. Existing LLM-based generato",
+    "title": "Teach-and-Repeat: Accurately Extracting Operational Knowledge from Mobile Screen Demonstrations to Empower GUI Agents",
+    "description": "arXiv:2606.12817v1 Announce Type: new \nAbstract: Understanding the digital world on mobile devices is shifting from static UI perception to dynamic action comprehension. This capability enables models to convert visual state transitions into operational knowledge, defined as short natural-language s",
     "category": "Paper",
-    "link": "https://arxiv.org/abs/2606.12657",
+    "link": "https://arxiv.org/abs/2606.12817",
     "source": "arXiv AI",
     "badge": "📜"
   },
   {
     "date": "2026-06-12",
-    "title": "Deployment-Centered Evaluation: Predicting Query-Level Rejection Risk in a Clinical LLM System",
-    "description": "arXiv:2606.12702v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly integrated into clinical systems, making it essential to evaluate the real-world utility of these systems. However, static benchmarks tend to measure correctness rather than user acceptance, aggregate perf",
+    "title": "GeoNatureAgent Benchmark: Benchmarking LLM Agents for Environmental Geospatial Analysis Across Frontier and Open-Weight Foundation Models",
+    "description": "arXiv:2606.12821v1 Announce Type: new \nAbstract: Environmental scientists spend disproportionate effort on data wrangling rather than analysis, and AI agents that automate geospatial workflows remain unvalidated: no benchmark evaluates agents operating through structured tool calling against real AP",
     "category": "Paper",
-    "link": "https://arxiv.org/abs/2606.12702",
+    "link": "https://arxiv.org/abs/2606.12821",
     "source": "arXiv AI",
     "badge": "📜"
   },
   {
     "date": "2026-06-12",
-    "title": "Benchmarking AI Agents for Addressing Scientific Challenges Across Scales",
-    "description": "arXiv:2606.12736v1 Announce Type: new \nAbstract: AI agents are increasingly being developed to accelerate scientific discovery, yet their practical capabilities in real research settings remain poorly understood. Existing benchmarks for AI agents rarely capture the complexity, heterogeneity, and ext",
+    "title": "Topical Phase Transitions in Artificial Intelligence Research: Large-Scale Evidence and an Early-Warning Signature for Emerging Topics",
+    "description": "arXiv:2606.12828v1 Announce Type: new \nAbstract: Do research topics in artificial intelligence grow gradually, or do they advance through abrupt, detectable jumps? Analyzing 80,814 accepted main-track papers from five premier AI conferences (ACL, CVPR, ICLR, ICML, NeurIPS) spanning 2017 to 2025, we ",
     "category": "Paper",
-    "link": "https://arxiv.org/abs/2606.12736",
+    "link": "https://arxiv.org/abs/2606.12828",
     "source": "arXiv AI",
     "badge": "📜"
   },
   {
     "date": "2026-06-12",
-    "title": "The Containment Gap: How Deployed Agentic AI Frameworks Fail Public-Facing Safety Requirements",
-    "description": "arXiv:2606.12797v1 Announce Type: new \nAbstract: Agentic large language model systems that autonomously invoke tools, maintain persistent memory, and execute multi-step plans are increasingly deployed in public-facing domains, including government services, healthcare triage, and financial advising.",
+    "title": "Fantastic Scientific Agents and How to Build Them: AgentBuild for Rietveld Refinement",
+    "description": "arXiv:2606.12834v1 Announce Type: new \nAbstract: As scientific workflows shift from deterministic executables to LLM-based agents, the development practices on offer, such as fine-tuning, reinforcement learning, and prompt-and-go, bury the scientist's judgment. We propose treating agent construction",
     "category": "Paper",
-    "link": "https://arxiv.org/abs/2606.12797",
+    "link": "https://arxiv.org/abs/2606.12834",
     "source": "arXiv AI",
     "badge": "📜"
-  },
-  {
-    "date": "2026-06-11",
-    "title": "Build sales account strategies and outreach with Codex",
-    "description": "See how the sales plugin for Codex helps sales teams move from account context to seller-ready work.\n\nIn this demo, Codex prioritizes prospect accounts from Salesforce, creates a prospecting plan, drafts account-specific outreach, and sets up a morning cadence to keep the plan updated when account s",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=4YkOAYNZVOQ",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-06-11",
-    "title": "Training to cycle across Antarctica | with ChatGPT",
-    "description": "In November, @jamesbensonking will attempt to become the first person to cycle solo and unsupported from the edge of Antarctica to the South Pole, a journey that could take up to 60 days. But for James, the real challenge begins long before he sets foot or wheel on the ice.\n\nWith no existing bluepri",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=ACue0bPkrPs",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-06-10",
-    "title": "Create campaign concepts and assets with Codex",
-    "description": "See how the creative production plugin for Codex helps marketing teams move from product and campaign context to visual concepts, asset variations, and editable creative.\n\nIn this demo, Codex creates a campaign mood board, refines visual directions, generates a launch asset, and hands it off for fin",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=2ey7znf8SI0",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
   },
   {
     "date": "2026-06-09",
-    "title": "Codex for Finance: Faster Reports, Dashboards, and Decisions",
-    "description": "“Codex is essential in our finance workflows today. It's not just a niche tool for coding,” Wei Loke, Enterprise Platforms and Technology. \n\nWei leads AI initiatives across the finance org and sees our OpenAI teams leveraging Codex to build:\n\n✅ Internal apps across procurement and accounting\n✅ Slide",
+    "title": "OpenAI's CFO Presents the Future of Finance with University of California’s Chief Investment Officer",
+    "description": "OpenAI CFO Sarah Friar joined UC CIO Jagdeep Singh Bachher for an OpenAI Forum conversation on AI’s impact on finance and careers. Friar reflected on her nonlinear path from engineering to finance leadership, emphasizing curiosity, adaptability, and kindness as essential skills for students entering",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=IEYU-CgLo3E",
+    "link": "https://www.youtube.com/watch?v=76ABuBGX4IY",
     "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-06-09",
-    "title": "Codex for data science",
-    "description": "See how the data analytics plugin for Codex helps teams go from a business question to a decision-ready insight report using data from Databricks.\n\nIn this demo, Codex analyzes the data, explains what changed and why it matters, and packages the answer into a report your team can use.\n\nMore than 5 m",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=Lvk_VZOppIY",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-06-12",
-    "title": "L'impatto dell'IA sul mondo creator e influencer [Giovanni Spinelli]",
-    "description": "Vuoi vedere come l'AI sta cambiando l'influencer marketing? Scopri le potenzialità di Kolsquare e come applicarle alle tue campagne: https://bit.ly/4v18ysE\n\nCompra il mio corso \"Crea un Agente AI con Claude Code\": https://www.raffaelegaito.com/claude-code-crea-agente-ai-corso-completo/?landing=true\n",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=U3nw3VrKFrk",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-06-09",
-    "title": "Ho Provato i 17 Corsi AI Gratis di Claude: Fai Solo Questi 6",
-    "description": "Ho provato i 17 corsi AI gratuiti di Claude e in questo video ti dico quali 6 vale davvero la pena seguire.\n\nAnthropic Academy ha rilasciato una serie di corsi gratuiti e certificati su Claude, Claude Code, Claude Cowork, Claude API, MCP e AI Fluency. Il problema? Non tutti hanno lo stesso valore pe",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=GBCW8YRi-NE",
-    "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
   },
   {
     "date": "2026-06-08",
-    "title": "1 Prompt per Sbloccare la Modalità \"Giudice Estetico\" di ChatGPT",
-    "description": "1 Prompt per Sbloccare la Modalità \"Giudice Estetico\" di ChatGPT\n\nHai mai pensato di far valutare il tuo viso dall'Intelligenza Artificiale? In questo video ti mostro il nuovo trend che sta facendo impazzire internet: \n\ncome usare un semplice prompt per trasformare ChatGPT in un vero e proprio \"giud",
+    "title": "Intelligence At Work - Enterprise Readiness",
+    "description": "At our Intelligence at Work CEO event we shared updates to our product roadmap. Companies that are leading in this next chapter are really leaning in with AI and reimagining industry. \n\nFive Takeaways: \n\n1️⃣ ChatGPT + Codex: one unified experience.\n\n2️⃣ Agent Plugins: six role specific agents that d",
     "category": "News",
-    "link": "https://www.youtube.com/shorts/oX1-UMZdmsk",
-    "source": "YouTube - Gabry Solutions",
+    "link": "https://www.youtube.com/watch?v=gRSzTChV_bk",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-06-08",
+    "title": "Palo Alto Networks Moves Faster with GPT-5.5",
+    "description": "With GPT-5.5 and Codex, there were two big unlocks for Gunjan Patel and the Palo Alto Networks team: \n\n💥 Cyber security vulnerability reporting workflows: first pass output is detailed and understandable.\n💥 Token Efficiency. GPT-5.5 uses tools in parallel, considers more angles, and does it very eff",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=KWAE5G7nF8Q",
+    "source": "YouTube – OpenAI",
     "badge": "🔥"
   }
 ]
