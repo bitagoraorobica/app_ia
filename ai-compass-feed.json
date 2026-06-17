@@ -9,83 +9,92 @@
     "badge": ""
   },
   {
-    "date": "2026-06-12",
-    "title": "New OpenAI Academy courses for the next era of work",
-    "description": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
+    "date": "2026-06-17",
+    "title": "When Rules Learn: A Self-Evolving Agent for Legal Case Retrieval",
+    "description": "arXiv:2606.17220v1 Announce Type: new \nAbstract: Legal case retrieval remains challenging due to the complexity of legal language and the need for precise lexical alignment between queries and relevant cases. Although dense retrieval models have achieved notable progress, empirical studies show that",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2606.17220",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "Quantifying Consistency in LLM Logical Reasoning via Structural Uncertainty",
+    "description": "arXiv:2606.17312v1 Announce Type: new \nAbstract: Large language models can arrive at the same answer through reasoning paths that are unstable, contradictory, or difficult to rank consistently -- a failure mode especially prevalent in multi-step deductive reasoning. Existing methods assess reliabili",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2606.17312",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "MemTrace: Probing What Final Accuracy Misses in Long-Term Memory",
+    "description": "arXiv:2606.17328v1 Announce Type: new \nAbstract: LLM agents increasingly maintain long-term memory of user facts across sessions. Yet such memory is usually evaluated by aggregating accuracy over question rows or episodes. Because this approach scores question rows independently, even when several q",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2606.17328",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "Incumbent Advantage: Brand Bias and Cognitive Manipulation Dynamics in LLM Recommendation Systems",
+    "description": "arXiv:2606.17443v1 Announce Type: new \nAbstract: Large language models (LLMs) are becoming a major way for consumers to find products, but we do not yet understand how brands compete in this new channel. We study brand dynamics in LLM recommendations using skincare products -- a category where consu",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2606.17443",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "Dissecting model behavior through agent trajectories",
+    "description": "arXiv:2606.17454v1 Announce Type: new \nAbstract: AI agent performance is not just a modeling problem, it is fundamentally a systems problem. The advanced capabilities of models are realized through agent harnesses. Therefore, a gap between model assumptions and harness behavior can easily prevent th",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2606.17454",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-06-16",
+    "title": "Why Tejal Patwardhan stopped underestimating the models - Episode 21",
+    "description": "The old tests are getting too easy. Tejal Patwardhan leads OpenAI’s frontier evals team, which is finding new ways to measure and forecast progress as models become more capable. She and host Andrew Mayne discuss why evals matter for research, how benchmarks can break or get gamed, and what models n",
     "category": "News",
-    "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-06-15",
-    "title": "Orchestra-o1: Omnimodal Agent Orchestration",
-    "description": "arXiv:2606.13707v1 Announce Type: new \nAbstract: The recent success of agent swarms has shifted the paradigm of large language model (LLM)-based agents from single-agent workflows to multi-agent systems, highlighting the importance of agent orchestration for task decomposition and collaboration. How",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2606.13707",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-06-15",
-    "title": "WorkBench Revisited: Workplace Agents Two Years On",
-    "description": "arXiv:2606.13715v1 Announce Type: new \nAbstract: The best agent on WorkBench in March 2024, GPT-4, completed 43% of tasks and took an unintended harmful action, such as emailing the wrong person, on 26% of them. We re-visit the benchmark in June 2026 and find that the best agent to date, Claude Opus",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2606.13715",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-06-15",
-    "title": "TwinBI: An Agentic Digital Twin for Efficient Augmented Interactions with Business Intelligence Dashboards",
-    "description": "arXiv:2606.13731v1 Announce Type: new \nAbstract: Business intelligence (BI) increasingly combines dashboard interaction with LLM-based assistance, but these two modes often fall out of sync during multi-step analysis. As users switch between direct dashboard manipulation and natural-language queries",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2606.13731",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-06-15",
-    "title": "MA-ProofBench: A Two-Tiered Evaluation of LLMs for Theorem Proving in Mathematical Analysis",
-    "description": "arXiv:2606.13782v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have made notable progress in automated theorem proving, yet existing formal benchmarks remain limited in both mathematical coverage and difficulty. Most are concentrated in areas that are easier to formalize, such as alge",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2606.13782",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-06-15",
-    "title": "Poker Arena: Multi-Axis Profiling of Strategic Reasoning and Memory in LLMs",
-    "description": "arXiv:2606.13815v1 Announce Type: new \nAbstract: Strategic reasoning under uncertainty underpins consequential decisions in negotiation, finance, and policy, but prevailing game-play benchmarks collapse heterogeneous reasoning dimensions into a single scalar, leaving the capability structure of fron",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2606.13815",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-06-12",
-    "title": "Analyze earnings and update your investment thesis with Codex",
-    "description": "See how the public equity investing plugin for Codex turns a company’s latest quarter into a post-earnings analysis. \n\nUsing connected data from sources like Quartr, Daloopa, and S&amp;P Global, Codex evaluates a company’s growth drivers, guidance, margin trends, and quality of print. It then packag",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=Rlju1Z9e110",
+    "link": "https://www.youtube.com/watch?v=CFqjjKp9Y-Q",
     "source": "YouTube – OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-06-12",
-    "title": "From data to decisions: how LSEG is scaling trusted AI",
-    "description": "What happens when one of the world's leading financial markets infrastructure and data providers combines trusted market intelligence with AI?\n\nIn this customer story, LSEG shares how it's using ChatGPT Enterprise and OpenAI APIs to accelerate insight generation, speed up product innovation, and hel",
+    "date": "2026-06-15",
+    "title": "How Wayfair Uses GPT-5.5 to Power Catalog Enrichment Across 40M Products",
+    "description": "Fiona Tan and her @wayfair team are leveraging GPT-5.5 and our API to power their catalog enrichment program across 40M products — helping improve how product information is organized, differentiated, and understood.\n\nNext up? Pointing Codex at their gnarliest problems.\nhttps://openai.com/index/wayf",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=sU9-u5p-jA0",
+    "link": "https://www.youtube.com/watch?v=TDM2Dz_MuPk",
     "source": "YouTube – OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-06-12",
-    "title": "Dammi 25 Minuti e Ti Renderò PERICOLOSAMENTE Produttivo con Codex",
-    "description": "Dammi 25 Minuti e Ti Renderò PERICOLOSAMENTE Produttivo con Codex , anche se non hai mai scritto una riga di codice.\n\nCodex è cambiato radicalmente ad aprile 2026 con l'update \"Codex for (almost) everything\": non è più solo un agente di coding, è una workstation AI che esegue task sul tuo computer, ",
+    "date": "2026-06-15",
+    "title": "Codex as a Solutions Engineering Partner",
+    "description": "“A big part of my role as a solutions engineer is not only to build but to understand,” Stephanie Anani, Solutions Engineer, OpenAI. \n\nStephanie points Codex to Trustpilot reviews and will mock up a customer website based on the feedback to show them how easy it is to make changes. \n\nCodex can be a ",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=q5NjsphpwVE",
+    "link": "https://www.youtube.com/watch?v=_jNbM8pV9oI",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-06-11",
+    "title": "Customer Ignite Talk: Antonio Bravo Acin (Global Head of AI Transformation, BBVA) & OpenAI",
+    "description": "BBVA is bringing AI into the core of its business.\n\nIn this conversation, Antonio Bravo, Chief Data and AI Officer at BBVA, shares how the bank rolled out ChatGPT Enterprise to 120,000+ employees and built an AI strategy around six business-focused robots.\n\nHear how BBVA is using OpenAI and Codex to",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=UNJSk90Lz1c",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-06-15",
+    "title": "Dammi 19 Minuti e Avrai l'IA di Google GRATIS sul tuo PC",
+    "description": "Dammi 20 Minuti e Avrai l'IA di Google GRATIS sul tuo PC , in quanto Gemma 4 è il modello AI open-weight più potente di Google, e puoi farlo girare GRATIS sul tuo PC o smartphone, 100% offline e con privacy totale. In questo video ti mostro come installarlo in pochi minuti.In meno di 20 minuti impar",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=Gz46eOuIkYk",
     "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
   }
