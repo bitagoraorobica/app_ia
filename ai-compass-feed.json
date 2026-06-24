@@ -9,92 +9,173 @@
     "badge": ""
   },
   {
-    "date": "2026-06-17",
-    "title": "When Rules Learn: A Self-Evolving Agent for Legal Case Retrieval",
-    "description": "arXiv:2606.17220v1 Announce Type: new \nAbstract: Legal case retrieval remains challenging due to the complexity of legal language and the need for precise lexical alignment between queries and relevant cases. Although dense retrieval models have achieved notable progress, empirical studies show that",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2606.17220",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-06-17",
-    "title": "Quantifying Consistency in LLM Logical Reasoning via Structural Uncertainty",
-    "description": "arXiv:2606.17312v1 Announce Type: new \nAbstract: Large language models can arrive at the same answer through reasoning paths that are unstable, contradictory, or difficult to rank consistently -- a failure mode especially prevalent in multi-step deductive reasoning. Existing methods assess reliabili",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2606.17312",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-06-17",
-    "title": "MemTrace: Probing What Final Accuracy Misses in Long-Term Memory",
-    "description": "arXiv:2606.17328v1 Announce Type: new \nAbstract: LLM agents increasingly maintain long-term memory of user facts across sessions. Yet such memory is usually evaluated by aggregating accuracy over question rows or episodes. Because this approach scores question rows independently, even when several q",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2606.17328",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-06-17",
-    "title": "Incumbent Advantage: Brand Bias and Cognitive Manipulation Dynamics in LLM Recommendation Systems",
-    "description": "arXiv:2606.17443v1 Announce Type: new \nAbstract: Large language models (LLMs) are becoming a major way for consumers to find products, but we do not yet understand how brands compete in this new channel. We study brand dynamics in LLM recommendations using skincare products -- a category where consu",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2606.17443",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-06-17",
-    "title": "Dissecting model behavior through agent trajectories",
-    "description": "arXiv:2606.17454v1 Announce Type: new \nAbstract: AI agent performance is not just a modeling problem, it is fundamentally a systems problem. The advanced capabilities of models are realized through agent harnesses. Therefore, a gap between model assumptions and harness behavior can easily prevent th",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2606.17454",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-06-16",
-    "title": "Why Tejal Patwardhan stopped underestimating the models - Episode 21",
-    "description": "The old tests are getting too easy. Tejal Patwardhan leads OpenAI’s frontier evals team, which is finding new ways to measure and forecast progress as models become more capable. She and host Andrew Mayne discuss why evals matter for research, how benchmarks can break or get gamed, and what models n",
+    "date": "2026-06-24",
+    "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+    "description": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=CFqjjKp9Y-Q",
+    "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "Daybreak: Tools for securing every organization in the world",
+    "description": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+    "category": "News",
+    "link": "https://openai.com/index/daybreak-securing-the-world",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-06-21",
+    "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+    "description": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+    "category": "News",
+    "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "New usage analytics and updated spend controls for enterprises",
+    "description": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
+    "category": "News",
+    "link": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "Improving health intelligence in ChatGPT",
+    "description": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
+    "category": "News",
+    "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-06-24",
+    "title": "RIFT-Bench: Dynamic Red-teaming For Agentic AI Systems",
+    "description": "arXiv:2606.23927v1 Announce Type: new \nAbstract: Agentic AI systems powered by large language models (LLMs) are rapidly evolving into autonomous decision-making systems, exposing attack vectors beyond those of traditional LLM vulnerabilities. Existing security evaluations are often tied to specific ",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2606.23927",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-06-24",
+    "title": "Critique of Agent Model",
+    "description": "arXiv:2606.23991v1 Announce Type: new \nAbstract: What is an agent? What constitutes agency? With the rise of Large Language Model (LLM) systems marketed as ``coding agents'', ``AI co-scientists'', and other ``agentic\" tools that promise to drive up productivity, and at the same time, ``existential\" ",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2606.23991",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-06-24",
+    "title": "Beyond Trajectory Imitation: Strategy-Guided Policy Optimization for LLM Reasoning",
+    "description": "arXiv:2606.24064v1 Announce Type: new \nAbstract: Distilling reasoning capabilities from strong to weak language models typically involves imitating specific solution trajectories, effectively transferring what to answer rather than how to reason. This trajectory-level imitation encourages memorizati",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2606.24064",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-06-24",
+    "title": "ReMMD: Realistic Multilingual Multi-Image Agentic Verification for Multimodal Misinformation Detection",
+    "description": "arXiv:2606.24112v1 Announce Type: new \nAbstract: Multimodal misinformation detection is increasingly important because viral posts now combine long multilingual narratives, several images, mixed provenance, and subtle text--image framing errors. Existing benchmarks and methods remain poorly matched ",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2606.24112",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-06-24",
+    "title": "VeryTrace: Verifying Reasoning Traces through Compilable Formalism and Structured Verification",
+    "description": "arXiv:2606.24124v1 Announce Type: new \nAbstract: Multi-step reasoning with Chain-of-Thought (CoT) prompting remains fragile: logical errors or hallucinations in early steps silently propagate, producing confident but incorrect conclusions. This paper presents VeryTrace, a zero-shot verification-and-",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2606.24124",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-06-23",
+    "title": "ChatGPT Futures, Class of 2026: The Next Generation of AI Leaders",
+    "description": "We asked the ChatGPT Futures Class of 2026 what they hope AI helps people do next.\n\nTheir answers came back to access, education, connection, and possibility: AI that helps close gaps instead of widening them, gives more people the tools to learn and build, and creates more room for the human parts ",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/mVpCDzoNtxA",
     "source": "YouTube – OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-06-15",
-    "title": "How Wayfair Uses GPT-5.5 to Power Catalog Enrichment Across 40M Products",
-    "description": "Fiona Tan and her @wayfair team are leveraging GPT-5.5 and our API to power their catalog enrichment program across 40M products — helping improve how product information is organized, differentiated, and understood.\n\nNext up? Pointing Codex at their gnarliest problems.\nhttps://openai.com/index/wayf",
+    "date": "2026-06-23",
+    "title": "How Omio is building the future of conversational travel",
+    "description": "What happens when one of the world's leading travel platforms combines real-time transportation data with AI?\n\nIn this customer story, Omio shares how it's using ChatGPT, Codex, and the OpenAI API to reimagine how travelers discover and book journeys, while transforming how teams build and operate a",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=TDM2Dz_MuPk",
+    "link": "https://www.youtube.com/watch?v=qU5-komJ-GE",
     "source": "YouTube – OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-06-15",
-    "title": "Codex as a Solutions Engineering Partner",
-    "description": "“A big part of my role as a solutions engineer is not only to build but to understand,” Stephanie Anani, Solutions Engineer, OpenAI. \n\nStephanie points Codex to Trustpilot reviews and will mock up a customer website based on the feedback to show them how easy it is to make changes. \n\nCodex can be a ",
+    "date": "2026-06-22",
+    "title": "Meet the ChatGPT Futures, Class of 2026",
+    "description": "The next generation is already building the future with AI.\n\nThe ChatGPT Futures Class of 2026 came together in San Francisco to share the ideas they're pursuing, the projects they're building, and the experiences that inspired them to start.\n\nAs the first graduating class to have ChatGPT throughout",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=_jNbM8pV9oI",
+    "link": "https://www.youtube.com/shorts/GhCP2eDrKHk",
     "source": "YouTube – OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-06-11",
-    "title": "Customer Ignite Talk: Antonio Bravo Acin (Global Head of AI Transformation, BBVA) & OpenAI",
-    "description": "BBVA is bringing AI into the core of its business.\n\nIn this conversation, Antonio Bravo, Chief Data and AI Officer at BBVA, shares how the bank rolled out ChatGPT Enterprise to 120,000+ employees and built an AI strategy around six business-focused robots.\n\nHear how BBVA is using OpenAI and Codex to",
+    "date": "2026-06-18",
+    "title": "Improving health intelligence in ChatGPT",
+    "description": "Health is one of the most meaningful ways people use ChatGPT. \n\nEvery week, more than 230 million people turn to ChatGPT for help with health and wellness questions: making sense of health information, understanding lab results, preparing for appointments, navigating insurance, building healthier ha",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=UNJSk90Lz1c",
+    "link": "https://www.youtube.com/watch?v=UxY8zJKRrHU",
     "source": "YouTube – OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-06-15",
-    "title": "Dammi 19 Minuti e Avrai l'IA di Google GRATIS sul tuo PC",
-    "description": "Dammi 20 Minuti e Avrai l'IA di Google GRATIS sul tuo PC , in quanto Gemma 4 è il modello AI open-weight più potente di Google, e puoi farlo girare GRATIS sul tuo PC o smartphone, 100% offline e con privacy totale. In questo video ti mostro come installarlo in pochi minuti.In meno di 20 minuti impar",
+    "date": "2026-06-23",
+    "title": "When millions of AI agents meet",
+    "description": "The conversation of the moment is focused on one topic: AI agents. Unlike traditional language models that simply respond to a prompt, autonomous agents can execute multi-step plans and perform complex tasks on your behalf. But what happens when millions of these agents are not just working for us, ",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=Gz46eOuIkYk",
+    "link": "https://www.youtube.com/watch?v=V04bm-3d6EQ",
+    "source": "YouTube – DeepMind",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-06-23",
+    "title": "4 suggerimenti di Andrej Karphathy per potenziare Claude Code",
+    "description": "Compra il mio corso \"Crea un Agente AI con Claude Code\": https://www.raffaelegaito.com/claude-code-crea-agente-ai-corso-completo/?landing=true\n\nCompra il mio libro \"In cosa posso esserti utile?\", una guida molto pratica e poco emotiva all'IA https://amzn.to/4aMZrUX\n\nIn questo breve video vi mostro c",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=HlMX2rhxL70",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "Intelligenza Artificiale: ci aiuta o no a pensare?",
+    "description": "L'Intelligenza Artificiale ci sta aiutando a creare o ci sta disabituando a pensare?\n\nL'efficienza è letteralmente alla portata di tutti: basta un prompt per ottenere una risposta in pochi secondi, ma c'è un prezzo da pagare se deleghiamo tutto alla macchina: perdiamo il processo.\n\nÈ proprio nel pro",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/fc2OcvY2h4U",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "La narrativa del \"non serve studiare\" è pericolosa [Ivan Ranza]",
+    "description": "#adv Verifica i requisiti per l’ammissione e blocca la tua borsa di studio da 1.000 Euro: https://instituteoftechnology.epicode.com/it/epicode-institute-of-technology-feat-gaito/?utm_source=Youtube&amp;utm_medium=Video_YT&amp;utm_campaign=Gaito_Epicode\n\nCompra il mio corso \"Crea un Agente AI con Cla",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=SqTRbRLI8J8",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "Google ha appena ucciso l'AI a pagamento (Regalandola)",
+    "description": "Google ha appena ucciso l'AI a pagamento (Regalandola) e così Gemma 4 è gratis, ma non è generosità. Google ha appena ucciso l'AI a pagamento… regalandola. In questo video ti spiego la vera strategia dietro Gemma 4, il modello open weight gratuito di Google, e perché sta mettendo sotto pressione Ope",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=oqGxNlhG5uM",
     "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
   }
