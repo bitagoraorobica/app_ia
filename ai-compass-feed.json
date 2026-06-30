@@ -9,173 +9,119 @@
     "badge": ""
   },
   {
-    "date": "2026-06-24",
-    "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-    "description": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+    "date": "2026-06-29",
+    "title": "Mapping Europe’s AI Workforce Opportunity",
+    "description": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
     "category": "News",
-    "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+    "link": "https://openai.com/index/mapping-ai-jobs-transition-eu",
     "source": "OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-06-22",
-    "title": "Daybreak: Tools for securing every organization in the world",
-    "description": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+    "date": "2026-06-26",
+    "title": "Previewing GPT-5.6 Sol: a next-generation model",
+    "description": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
     "category": "News",
-    "link": "https://openai.com/index/daybreak-securing-the-world",
+    "link": "https://openai.com/index/previewing-gpt-5-6-sol",
     "source": "OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-06-21",
-    "title": "Samsung Electronics brings ChatGPT and Codex to employees",
-    "description": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+    "date": "2026-06-17",
+    "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+    "description": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
     "category": "News",
-    "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+    "link": "https://openai.com/index/ai-chemist-improves-reaction",
     "source": "OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-06-18",
-    "title": "New usage analytics and updated spend controls for enterprises",
-    "description": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
+    "date": "2026-06-30",
+    "title": "Recursive Self-Evolving Agents via Held-Out Selection",
+    "description": "arXiv:2606.28374v1 Announce Type: new \nAbstract: LLM agents are increasingly improved without weight updates by evolving a natural-language artifact, such as reflections, workflows, playbooks, cheatsheets, or optimized prompts, that conditions a frozen policy. Such methods are typically reported as ",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2606.28374",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "Data and Evaluation Closed-Loop for Model Capability Enhancement",
+    "description": "arXiv:2606.28471v1 Announce Type: new \nAbstract: Model capability is the central variable in LLM pre-training, yet is never observed directly: data shapes it prospectively, while evaluation reveals it only retrospectively, compressing samples, prompts, decoding, and scoring rules into one noisy scor",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2606.28471",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "GPTNT: Benchmarking Real-Time Collaboration Between Multimodal Agents on Keep Talking And Nobody Explodes",
+    "description": "arXiv:2606.28514v1 Announce Type: new \nAbstract: Multimodal models are increasingly deployed to solve tasks collaboratively with humans or other artificial agents. Existing benchmarks show that these models possess many of the required component capabilities, but the conditions that coincide in coll",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2606.28514",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "IMCBench: A benchmark for multimodal LLMs in Image-grounded Medical Conversations",
+    "description": "arXiv:2606.28556v1 Announce Type: new \nAbstract: Recent advances in large language models and vision-language models have enabled reasoning over multimodal data, offering opportunities for clinical applications such as decision support and triaging. However, existing medical AI benchmarks are fragme",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2606.28556",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "Search for Truth from Reasoning: A Dynamic Representation Editing Framework for Steering LLM Trajectories",
+    "description": "arXiv:2606.28589v1 Announce Type: new \nAbstract: Current approaches to enhance Large Language Model (LLM) reasoning, such as Chain-of-Thought and \"Wait\" prompts, primarily encourage models to think more, yet often fail to guide them toward Truth. While Representation Editing (RepE) offers a intrinsi",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2606.28589",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "Advent Accelerates Deals with ChatGPT + Codex",
+    "description": "ChatGPT + Codex are a one-two punch for investment firms. \n\n\"Having the ability to connect your deal folder with all of the context, and then be able to ask ChatGPT and Codex real time questions has been really impactful to our workflows,\" - Jasmine Azizi (Advent). \n\nFinancial firms hold a tremendou",
     "category": "News",
-    "link": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-06-18",
-    "title": "Improving health intelligence in ChatGPT",
-    "description": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
-    "category": "News",
-    "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-06-24",
-    "title": "RIFT-Bench: Dynamic Red-teaming For Agentic AI Systems",
-    "description": "arXiv:2606.23927v1 Announce Type: new \nAbstract: Agentic AI systems powered by large language models (LLMs) are rapidly evolving into autonomous decision-making systems, exposing attack vectors beyond those of traditional LLM vulnerabilities. Existing security evaluations are often tied to specific ",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2606.23927",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-06-24",
-    "title": "Critique of Agent Model",
-    "description": "arXiv:2606.23991v1 Announce Type: new \nAbstract: What is an agent? What constitutes agency? With the rise of Large Language Model (LLM) systems marketed as ``coding agents'', ``AI co-scientists'', and other ``agentic\" tools that promise to drive up productivity, and at the same time, ``existential\" ",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2606.23991",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-06-24",
-    "title": "Beyond Trajectory Imitation: Strategy-Guided Policy Optimization for LLM Reasoning",
-    "description": "arXiv:2606.24064v1 Announce Type: new \nAbstract: Distilling reasoning capabilities from strong to weak language models typically involves imitating specific solution trajectories, effectively transferring what to answer rather than how to reason. This trajectory-level imitation encourages memorizati",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2606.24064",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-06-24",
-    "title": "ReMMD: Realistic Multilingual Multi-Image Agentic Verification for Multimodal Misinformation Detection",
-    "description": "arXiv:2606.24112v1 Announce Type: new \nAbstract: Multimodal misinformation detection is increasingly important because viral posts now combine long multilingual narratives, several images, mixed provenance, and subtle text--image framing errors. Existing benchmarks and methods remain poorly matched ",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2606.24112",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-06-24",
-    "title": "VeryTrace: Verifying Reasoning Traces through Compilable Formalism and Structured Verification",
-    "description": "arXiv:2606.24124v1 Announce Type: new \nAbstract: Multi-step reasoning with Chain-of-Thought (CoT) prompting remains fragile: logical errors or hallucinations in early steps silently propagate, producing confident but incorrect conclusions. This paper presents VeryTrace, a zero-shot verification-and-",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2606.24124",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-06-23",
-    "title": "ChatGPT Futures, Class of 2026: The Next Generation of AI Leaders",
-    "description": "We asked the ChatGPT Futures Class of 2026 what they hope AI helps people do next.\n\nTheir answers came back to access, education, connection, and possibility: AI that helps close gaps instead of widening them, gives more people the tools to learn and build, and creates more room for the human parts ",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/mVpCDzoNtxA",
+    "link": "https://www.youtube.com/watch?v=f-HiB82Tl94",
     "source": "YouTube – OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-06-23",
-    "title": "How Omio is building the future of conversational travel",
-    "description": "What happens when one of the world's leading travel platforms combines real-time transportation data with AI?\n\nIn this customer story, Omio shares how it's using ChatGPT, Codex, and the OpenAI API to reimagine how travelers discover and book journeys, while transforming how teams build and operate a",
+    "date": "2026-06-26",
+    "title": "Builders Unscripted: Ep. 4 - Pietro Schirano",
+    "description": "Pietro Schirano, Founder & CEO of MagicPath sits down with Romain Huet to talk about pushing the creative edges of GPT-5.5 and using Codex to turn ideas into software.\n\n03:45 Images into sound\n07:57 Multi-agent Codex workflows\n14:34 Reviving hardware with Codex\n25:27 From doing to directing",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=qU5-komJ-GE",
+    "link": "https://www.youtube.com/watch?v=SPC_yCe1cUw",
     "source": "YouTube – OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-06-22",
-    "title": "Meet the ChatGPT Futures, Class of 2026",
-    "description": "The next generation is already building the future with AI.\n\nThe ChatGPT Futures Class of 2026 came together in San Francisco to share the ideas they're pursuing, the projects they're building, and the experiences that inspired them to start.\n\nAs the first graduating class to have ChatGPT throughout",
+    "date": "2026-06-27",
+    "title": "4 corsi gratuiti per sbloccare la modalità GENIO di Claude...",
+    "description": "4 corsi gratuiti per sbloccare la modalità GENIO di Claude...Nessuno ne parla, ma Anthropic ha appena rilasciato 16 corsi gratuiti sull'Intelligenza Artificiale, completi di certificazione ufficiale. In questo video scopriamo i 4 corsi fondamentali per sbloccare la vera \"modalità genio\" di Claude e ",
     "category": "News",
-    "link": "https://www.youtube.com/shorts/GhCP2eDrKHk",
-    "source": "YouTube – OpenAI",
+    "link": "https://www.youtube.com/shorts/xFrGLDZM5VY",
+    "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
   },
   {
-    "date": "2026-06-18",
-    "title": "Improving health intelligence in ChatGPT",
-    "description": "Health is one of the most meaningful ways people use ChatGPT. \n\nEvery week, more than 230 million people turn to ChatGPT for help with health and wellness questions: making sense of health information, understanding lab results, preparing for appointments, navigating insurance, building healthier ha",
+    "date": "2026-06-25",
+    "title": "L'IA è Tutta una Bolla? Risponde Chi la Costruisce Davvero in Italia",
+    "description": "L'IA è Tutta una Bolla? Risponde Chi la Costruisce Davvero in Italia in quanto la domanda di ora è: L'intelligenza artificiale è tutta una bolla? Per scoprirlo sono andato a Firenze, dentro una delle poche aziende che l'IA la costruisce DAVVERO in Italia, non a San Francisco. 🇮🇹\n\nMentre tutti parlan",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=UxY8zJKRrHU",
-    "source": "YouTube – OpenAI",
+    "link": "https://www.youtube.com/watch?v=jP-ZCPQ1C50",
+    "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
   },
   {
-    "date": "2026-06-23",
-    "title": "When millions of AI agents meet",
-    "description": "The conversation of the moment is focused on one topic: AI agents. Unlike traditional language models that simply respond to a prompt, autonomous agents can execute multi-step plans and perform complex tasks on your behalf. But what happens when millions of these agents are not just working for us, ",
+    "date": "2026-06-24",
+    "title": "NON fare UNA SOLA ricerca su Google prima di vedere questo",
+    "description": "NON fare UNA SOLA ricerca su Google prima di vedere questo perché Google sta cambiando per sempre il modo in cui cerchiamo informazioni online.\n\nCon AI Mode, Gemini, AI Overviews e le nuove funzioni di ricerca con intelligenza artificiale, Google non è più solo una barra dove scrivere parole chiave:",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=V04bm-3d6EQ",
-    "source": "YouTube – DeepMind",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-06-23",
-    "title": "4 suggerimenti di Andrej Karphathy per potenziare Claude Code",
-    "description": "Compra il mio corso \"Crea un Agente AI con Claude Code\": https://www.raffaelegaito.com/claude-code-crea-agente-ai-corso-completo/?landing=true\n\nCompra il mio libro \"In cosa posso esserti utile?\", una guida molto pratica e poco emotiva all'IA https://amzn.to/4aMZrUX\n\nIn questo breve video vi mostro c",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=HlMX2rhxL70",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-06-22",
-    "title": "Intelligenza Artificiale: ci aiuta o no a pensare?",
-    "description": "L'Intelligenza Artificiale ci sta aiutando a creare o ci sta disabituando a pensare?\n\nL'efficienza è letteralmente alla portata di tutti: basta un prompt per ottenere una risposta in pochi secondi, ma c'è un prezzo da pagare se deleghiamo tutto alla macchina: perdiamo il processo.\n\nÈ proprio nel pro",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/fc2OcvY2h4U",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-06-19",
-    "title": "La narrativa del \"non serve studiare\" è pericolosa [Ivan Ranza]",
-    "description": "#adv Verifica i requisiti per l’ammissione e blocca la tua borsa di studio da 1.000 Euro: https://instituteoftechnology.epicode.com/it/epicode-institute-of-technology-feat-gaito/?utm_source=Youtube&amp;utm_medium=Video_YT&amp;utm_campaign=Gaito_Epicode\n\nCompra il mio corso \"Crea un Agente AI con Cla",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=SqTRbRLI8J8",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-06-18",
-    "title": "Google ha appena ucciso l'AI a pagamento (Regalandola)",
-    "description": "Google ha appena ucciso l'AI a pagamento (Regalandola) e così Gemma 4 è gratis, ma non è generosità. Google ha appena ucciso l'AI a pagamento… regalandola. In questo video ti spiego la vera strategia dietro Gemma 4, il modello open weight gratuito di Google, e perché sta mettendo sotto pressione Ope",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=oqGxNlhG5uM",
+    "link": "https://www.youtube.com/shorts/Nujkv_vBk1Q",
     "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
   }
