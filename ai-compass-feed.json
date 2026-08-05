@@ -9,129 +9,84 @@
     "badge": ""
   },
   {
-    "date": "2026-07-31",
-    "title": "Disrupting a Criminal Scam Operation",
-    "description": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
-    "category": "News",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-07-29",
-    "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
-    "description": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
-    "category": "News",
-    "link": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-07-27",
-    "title": "How AI is expanding what people do at work",
-    "description": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
-    "category": "News",
-    "link": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-08-03",
-    "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
-    "description": "arXiv:2607.28629v1 Announce Type: new \nAbstract: The rapid transition from reactive large language models (LLMs) to persistent, action-capable systems has exposed critical gaps in the architectural understanding of Agentic AI, particularly in separating inference, orchestration, and execution layers",
+    "date": "2026-08-05",
+    "title": "On the missing benchmarks layer and a potential solution",
+    "description": "arXiv:2608.02996v1 Announce Type: new \nAbstract: Latin America is missing a foundational layer for native AI development: the benchmark layer. The benchmark layer does two things no other layer can - it audits AI systems against regional social requirements and it directs AI optimization in economic",
     "category": "Paper",
-    "link": "https://arxiv.org/abs/2607.28629",
+    "link": "https://arxiv.org/abs/2608.02996",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-08-05",
+    "title": "UrbanAgent: A Tool-Augmented Agent for Cross-System Urban Tasks",
+    "description": "arXiv:2608.03018v1 Announce Type: new \nAbstract: Modern cities rely on an increasing number of digital services to operate, but residents' daily needs are still difficult to meet. Services are fragmented and have little interoperability, placing a heavy operational burden on users. Existing digital ",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2608.03018",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-08-05",
+    "title": "LoCA: Forward-Only LLM Tuning after One-Shot Calibration with Local Credit Assignment",
+    "description": "arXiv:2608.03020v1 Announce Type: new \nAbstract: Parameter-efficient post-training reduces the number of trainable parameters, but still requires repeated end-to-end backpropagation through the frozen backbone. Every adaptation step therefore needs backward-capable hardware and must store or recompu",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2608.03020",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-08-05",
+    "title": "Evaluating Counterfactual Sensitivity to Patient Information in Medication-Safety Reasoning",
+    "description": "arXiv:2608.03028v1 Announce Type: new \nAbstract: Applying a valid medication-safety rule when its patient-specific conditions are not met can produce an incorrect decision. Existing medical evaluations largely use isolated and fixed scenarios. A model may therefore answer correctly by recalling a dr",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2608.03028",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-08-05",
+    "title": "CastFSR: A Fast--Slow--Reflect Agentic Reasoning Framework for Context-Aware Time Series Forecasting",
+    "description": "arXiv:2608.03031v1 Announce Type: new \nAbstract: Time series forecasting is fundamental to decision-making in complex systems, where future dynamics are influenced not only by historical observations but also by evolving contextual features. Recent advances in large language models (LLMs) have exten",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2608.03031",
     "source": "arXiv AI",
     "badge": "📜"
   },
   {
     "date": "2026-08-03",
-    "title": "Can AI Evaluate AI Scientists? A Benchmarking Study of Autonomous Research Generation Systems Using Automated Multi-Model Review",
-    "description": "arXiv:2607.28631v1 Announce Type: new \nAbstract: AI Scientist systems capable of autonomous research have the potential to significantly accelerate scientific discovery. However, evaluating and comparing the quality of AI-generated papers remains an open challenge. We propose and implement a rigorou",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2607.28631",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-08-03",
-    "title": "TAPR: Enhancing LLM Performance with a Task-Aware Prompt Rewriter",
-    "description": "arXiv:2607.28657v1 Announce Type: new \nAbstract: Large Language Models (LLMs) often require carefully crafted prompts to unlock their full potential, which can be a barrier for non-expert users. This work addresses the challenge by introducing a Task-Aware Prompt Rewriter (TAPR), a model that reform",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2607.28657",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-08-03",
-    "title": "How Hard Does It Think? Analyzing Step-Aware Reasoning Energy in LLM Chain-of-Thought Trajectories",
-    "description": "arXiv:2607.28674v1 Announce Type: new \nAbstract: Understanding how computational effort is allocated across individual chain-of-thought (CoT) reasoning steps remains an open challenge: existing interpretability methods rely on output-level signals or collapse processing depth into a single trajector",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2607.28674",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-08-03",
-    "title": "SciToolAgent-Evo: An Ontology-Aware Self-Evolving Agent for Open-World Scientific Tool Acquisition",
-    "description": "arXiv:2607.28692v1 Announce Type: new \nAbstract: Large language model (LLM) agents have been increasingly adopted in scientific research for organizing and invoking specialized computational tools. However, their reliance on predefined tool spaces with static semantics limits their applicability to ",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2607.28692",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-07-28",
-    "title": "Zapier vs. Tray comparison: Which is best for enterprise automation? [2026]",
-    "description": "It's easy to let edge cases influence your decision-making—thinking you need the most technical tool for the few times your developers will want to code their way out of a tough problem. And with enterprise software, it's tempting to assume you have to choose between power and ease of use. But that'",
+    "title": "Zapier's AI tools: Get to know our governed AI products and features",
+    "description": "I've been writing about AI and automation for Zapier for the last two years. In that time, I've seen Zapier ship one useful AI tool after another: some for automating securely with AI, and others for bringing secure automation into your AI tool of choice. Keeping up with these releases has been part",
     "category": "Automation",
-    "link": "https://zapier.com/blog/tray-vs-zapier",
+    "link": "https://zapier.com/blog/zapier-ai-guide",
     "source": "Zapier Blog",
     "badge": "🔁"
   },
   {
-    "date": "2026-07-27",
-    "title": "Prevent lock-in with AI model flexibility on Zapier",
-    "description": "Every AI provider comes with models of varying strengths. I'm a Claude stan because it just gets my writing style, but I'll often reach for Sonnet over the higher-tier models because its results are more consistent for me. And for some tasks, Claude's lineup doesn't cut it at all—when I need to proc",
+    "date": "2026-08-03",
+    "title": "Zapier Tables: Store, move, and act on your data automatically",
+    "description": "Plenty of tools can store data. But you probably don't need just a holding tank—you need your data to go somewhere and do something. And with most databases, moving data into other apps requires you to lean on integrations that may or may not work reliably. Zapier Tables was designed specifically fo",
     "category": "Automation",
-    "link": "https://zapier.com/blog/ai-model-flexibility",
+    "link": "https://zapier.com/blog/zapier-tables-guide",
     "source": "Zapier Blog",
     "badge": "🔁"
   },
   {
-    "date": "2026-07-27",
-    "title": "Which AI models can you automate on Zapier? (GPT-5.6 Sol, Gemini 3.6 Flash, Opus 5, and more)",
-    "description": "New AI models launch practically every week, and keeping up with which ones to use for specific workflows is a job in itself. Consider this article your living reference. At Zapier, we run every model through AutomationBench. It's our benchmark for testing how well models carry out multi-step workfl",
+    "date": "2026-08-03",
+    "title": "12 AI automation examples (and how teams built them)",
+    "description": "I use and write about AI for a living, but even I tend to roll my eyes whenever I see an ad for AI in the wild. They're usually generic and surface-level (\"AI can write emails for you!\" \"A chatbot can summarize books so you don't have to use your human brain to process them!\") and don't reflect how ",
     "category": "Automation",
-    "link": "https://zapier.com/blog/ai-models-on-zapier",
+    "link": "https://zapier.com/blog/ai-automation-examples",
     "source": "Zapier Blog",
     "badge": "🔁"
   },
   {
-    "date": "2026-07-28",
-    "title": "ChatGPT Work for Sales: Account Planning and Meeting Prep",
-    "description": "See how sales teams use ChatGPT Work to help sellers plan their day, prepare for customer meetings, and create the materials they need.\n\nGive every seller the context to show up prepared and focus on advising your customers.\n\nLearn how ChatGPT Work can help your sales team: https://openai.com/busine",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=hjXi7b01s2c",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-07-28",
-    "title": "ChatGPT Work for Sales: Pipeline and Forecast Intelligence",
-    "description": "See how sales teams use ChatGPT Work to spot sales pipeline risks, identify the deals that need attention, and recommend what to do next.\n\nSpend less time sorting through data and more time moving the right deals forward.\n\nLearn how ChatGPT Work can help your sales team: https://openai.com/business/",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=q9TPE7pKkIo",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-07-24",
-    "title": "Build Hour: Valuemaxxing with GPT-5.6",
-    "description": "Get more useful work from every token with GPT‑5.6. In this Build Hour, you’ll learn how to choose the right model for your workload—and migrate production agents while improving speed, cost, and performance.\n\nCharlie Guo (DevEx), Bryant Chou (Founder, Ploy) and Lorenzo Gentile (AI Engineer, Ploy) w",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=jyuyY86GJnA",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
+    "date": "2026-08-03",
+    "title": "AI frameworks: Definition, types, and how to choose",
+    "description": "Whenever there's a shiny new AI tool, it makes sense to dive in and see if it's worth introducing into your work. You start with a single tab in your browser, which somehow turns into a dozen, all filled with chatbots, automation workflows, and a master plan for synchronizing your systems. But at so",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/ai-frameworks",
+    "source": "Zapier Blog",
+    "badge": "🔁"
   }
 ]
