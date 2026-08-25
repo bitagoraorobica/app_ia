@@ -9,84 +9,237 @@
     "badge": ""
   },
   {
-    "date": "2026-08-05",
-    "title": "On the missing benchmarks layer and a potential solution",
-    "description": "arXiv:2608.02996v1 Announce Type: new \nAbstract: Latin America is missing a foundational layer for native AI development: the benchmark layer. The benchmark layer does two things no other layer can - it audits AI systems against regional social requirements and it directs AI optimization in economic",
+    "date": "2026-08-18",
+    "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+    "description": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
+    "category": "News",
+    "link": "https://openai.com/index/chatgpt-for-teens",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-08-18",
+    "title": "How NVIDIA scales expertise with ChatGPT Work",
+    "description": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
+    "category": "News",
+    "link": "https://openai.com/index/nvidia/chatgpt-work",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-08-13",
+    "title": "The builder’s guide to GPT‑5.6",
+    "description": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+    "category": "News",
+    "link": "https://openai.com/index/builders-guide-to-gpt-5-6",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-08-13",
+    "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+    "description": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+    "category": "News",
+    "link": "https://openai.com/index/previewing-ultrafast",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-08-12",
+    "title": "From assistance to execution: How enterprises put AI to work",
+    "description": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+    "category": "News",
+    "link": "https://openai.com/index/how-enterprises-put-ai-to-work",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-08-25",
+    "title": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference",
+    "description": "arXiv:2608.21362v1 Announce Type: new \nAbstract: Transformer-based large language models (LLMs) incur high prefill latency because key-value (KV) tensors must be recomputed for each request. Existing prefix-caching systems reduce this cost but require prompts to share a leading contiguous prefix, li",
     "category": "Paper",
-    "link": "https://arxiv.org/abs/2608.02996",
+    "link": "https://arxiv.org/abs/2608.21362",
     "source": "arXiv AI",
     "badge": "📜"
   },
   {
-    "date": "2026-08-05",
-    "title": "UrbanAgent: A Tool-Augmented Agent for Cross-System Urban Tasks",
-    "description": "arXiv:2608.03018v1 Announce Type: new \nAbstract: Modern cities rely on an increasing number of digital services to operate, but residents' daily needs are still difficult to meet. Services are fragmented and have little interoperability, placing a heavy operational burden on users. Existing digital ",
+    "date": "2026-08-25",
+    "title": "SchemaRouter: Field-Aware Tool Routing for Efficient Heterogeneous Agentic RAG",
+    "description": "arXiv:2608.21375v1 Announce Type: new \nAbstract: Heterogeneous agentic retrieval-augmented generation (RAG) systems increasingly orchestrate external APIs, internal databases, vector stores, and graph stores. Exposing all tool descriptions to an LLM agent, or selecting tools only by vector similarit",
     "category": "Paper",
-    "link": "https://arxiv.org/abs/2608.03018",
+    "link": "https://arxiv.org/abs/2608.21375",
     "source": "arXiv AI",
     "badge": "📜"
   },
   {
-    "date": "2026-08-05",
-    "title": "LoCA: Forward-Only LLM Tuning after One-Shot Calibration with Local Credit Assignment",
-    "description": "arXiv:2608.03020v1 Announce Type: new \nAbstract: Parameter-efficient post-training reduces the number of trainable parameters, but still requires repeated end-to-end backpropagation through the frozen backbone. Every adaptation step therefore needs backward-capable hardware and must store or recompu",
+    "date": "2026-08-25",
+    "title": "There Is No Neutral Harness: Modern LLM Leaderboards Are Manufactured by Config-Fragile Items",
+    "description": "arXiv:2608.21382v1 Announce Type: new \nAbstract: Multiple-choice benchmarks fix the questions and the correct answers, but not the harness: the order of the options, the wording of the prompt, and whether a language model's answer is read from generated text or from per-option likelihoods. Work on t",
     "category": "Paper",
-    "link": "https://arxiv.org/abs/2608.03020",
+    "link": "https://arxiv.org/abs/2608.21382",
     "source": "arXiv AI",
     "badge": "📜"
   },
   {
-    "date": "2026-08-05",
-    "title": "Evaluating Counterfactual Sensitivity to Patient Information in Medication-Safety Reasoning",
-    "description": "arXiv:2608.03028v1 Announce Type: new \nAbstract: Applying a valid medication-safety rule when its patient-specific conditions are not met can produce an incorrect decision. Existing medical evaluations largely use isolated and fixed scenarios. A model may therefore answer correctly by recalling a dr",
+    "date": "2026-08-25",
+    "title": "Spyre-Accelerated Retrieval-Augmented Generation on IBM LinuxONE: A Cloud-Native Architecture for Secure, High-Throughput Enterprise AI Inference",
+    "description": "arXiv:2608.21393v1 Announce Type: new \nAbstract: Running large language models inside enterprise environments has always bumped up against a practical wall: the data lives in one place, the AI horsepower sits somewhere else, and moving sensitive records between the two creates real headaches around ",
     "category": "Paper",
-    "link": "https://arxiv.org/abs/2608.03028",
+    "link": "https://arxiv.org/abs/2608.21393",
     "source": "arXiv AI",
     "badge": "📜"
   },
   {
-    "date": "2026-08-05",
-    "title": "CastFSR: A Fast--Slow--Reflect Agentic Reasoning Framework for Context-Aware Time Series Forecasting",
-    "description": "arXiv:2608.03031v1 Announce Type: new \nAbstract: Time series forecasting is fundamental to decision-making in complex systems, where future dynamics are influenced not only by historical observations but also by evolving contextual features. Recent advances in large language models (LLMs) have exten",
+    "date": "2026-08-25",
+    "title": "Retrieval-grounded robot program generation and simulation-based correction via Model Context Protocol",
+    "description": "arXiv:2608.21417v1 Announce Type: new \nAbstract: Flexible manufacturing requires industrial robots to be reprogrammed rapidly as product variants change. This paper presents a language-model-based workflow that generates, validates, and iteratively corrects ABB RAPID robot programs from natural lang",
     "category": "Paper",
-    "link": "https://arxiv.org/abs/2608.03031",
+    "link": "https://arxiv.org/abs/2608.21417",
     "source": "arXiv AI",
     "badge": "📜"
   },
   {
-    "date": "2026-08-03",
-    "title": "Zapier's AI tools: Get to know our governed AI products and features",
-    "description": "I've been writing about AI and automation for Zapier for the last two years. In that time, I've seen Zapier ship one useful AI tool after another: some for automating securely with AI, and others for bringing secure automation into your AI tool of choice. Keeping up with these releases has been part",
+    "date": "2026-08-21",
+    "title": "The 5 best Pipedream alternatives in 2026",
+    "description": "If you're here, you're looking for one of two things: a workflow builder to help you ship automations faster, or an embedded SDK you can drop into your own product so users can connect their accounts without you building OAuth infrastructure from scratch.  I work at Zapier, which solves both of thes",
     "category": "Automation",
-    "link": "https://zapier.com/blog/zapier-ai-guide",
+    "link": "https://zapier.com/blog/pipedream-alternatives",
     "source": "Zapier Blog",
     "badge": "🔁"
   },
   {
-    "date": "2026-08-03",
-    "title": "Zapier Tables: Store, move, and act on your data automatically",
-    "description": "Plenty of tools can store data. But you probably don't need just a holding tank—you need your data to go somewhere and do something. And with most databases, moving data into other apps requires you to lean on integrations that may or may not work reliably. Zapier Tables was designed specifically fo",
+    "date": "2026-08-21",
+    "title": "What are Gemini Gems? And how to use them",
+    "description": "If a NASA engineer and an amateur cook gave Google Gemini a similar set of prompts, they'd get similar responses—down to the style and structure. Sure, they could explicitly instruct it otherwise, but neither our engineer nor our cook has time to enter detailed instructions and additional context ev",
     "category": "Automation",
-    "link": "https://zapier.com/blog/zapier-tables-guide",
+    "link": "https://zapier.com/blog/gemini-gems",
     "source": "Zapier Blog",
     "badge": "🔁"
   },
   {
-    "date": "2026-08-03",
-    "title": "12 AI automation examples (and how teams built them)",
-    "description": "I use and write about AI for a living, but even I tend to roll my eyes whenever I see an ad for AI in the wild. They're usually generic and surface-level (\"AI can write emails for you!\" \"A chatbot can summarize books so you don't have to use your human brain to process them!\") and don't reflect how ",
+    "date": "2026-08-19",
+    "title": "What is ChatGPT Work?",
+    "description": "ChatGPT isn't really a chatbot anymore. Now, the focus is on agents, which is why the ChatGPT app suddenly looks very different. It's been rebuilt around a feature called ChatGPT Work. ChatGPT Work is basically Codex, OpenAI's coding tool, for regular people. It uses the same agentic foundation but ",
     "category": "Automation",
-    "link": "https://zapier.com/blog/ai-automation-examples",
+    "link": "https://zapier.com/blog/chatgpt-work",
     "source": "Zapier Blog",
     "badge": "🔁"
   },
   {
-    "date": "2026-08-03",
-    "title": "AI frameworks: Definition, types, and how to choose",
-    "description": "Whenever there's a shiny new AI tool, it makes sense to dive in and see if it's worth introducing into your work. You start with a single tab in your browser, which somehow turns into a dozen, all filled with chatbots, automation workflows, and a master plan for synchronizing your systems. But at so",
+    "date": "2026-08-14",
+    "title": "6 ways to automate Calendly with Zapier",
+    "description": "I have sent probably four hundred emails in my life that just said some version of \"does 2pm Thursday work for you?\" Calendly exists so none of us has to do that anymore. Invitees see your real availability and pick a slot without the back and forth. That solves the booking problem. It doesn't solve",
     "category": "Automation",
-    "link": "https://zapier.com/blog/ai-frameworks",
+    "link": "https://zapier.com/blog/automate-calendly",
     "source": "Zapier Blog",
     "badge": "🔁"
+  },
+  {
+    "date": "2026-08-18",
+    "title": "How to Turn a Business Question Into a Strategy Deck With ChatGPT Work | Tutorial",
+    "description": "Turn a business question into a clear recommendation—without spending days gathering research and building slides.\n\nIn this demo, Arvind from OpenAI’s Strategy & Business Operations team shows how he uses ChatGPT Work to pull together market research, customer data, and past strategy work; propose a",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=XjSJ6ybS9I8",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-08-18",
+    "title": "How to Create a Solid Blog Draft With ChatGPT Work | Tutorial",
+    "description": "Turn scattered launch materials into a solid first draft.\n\nSahil from OpenAI’s Marketing team shows how he uses ChatGPT Work to bring together product documentation, research, meeting notes, and messaging; follow an established blog template; and create a structured launch blog draft.\n\nHe then revie",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=0j9yDUDMrBs",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-08-18",
+    "title": "How to Prepare for Customer Meetings With ChatGPT Work | Tutorial",
+    "description": "Spend less time preparing for customer calls and following up afterward.\n\nAlex from OpenAI’s Sales team shows how he uses ChatGPT Work to gather account context and create a meeting brief. After the call, ChatGPT Work drafts notes, a follow-up email, and proposed CRM updates for his review..\n\nThe re",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=yQZgOSHHxjk",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-08-17",
+    "title": "How Base44 Uses GPT-5.6 to Build Apps With 20% Fewer Tokens",
+    "description": "Base44 helps people turn natural language into production-ready applications and custom AI agents—no coding required.\n\nIn this Startup Spotlight, Yoav Farhi, Staff AI Engineer at Base44, shares how the team tested GPT-5.6 across a wide range of app-building scenarios. Compared with GPT-5.5, GPT-5.6 ",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=Cxp2aZQqkYM",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "Previewing Ultrafast mode: GPT‑5.6 Sol at up to 14X the speed",
+    "description": "Today we’re previewing Ultrafast mode, a new service tier in the OpenAI API for GPT‑5.6 Sol. Powered by Cerebras, Ultrafast runs up to 14x faster than Standard processing and generates up to 750 output tokens per second.\n\nOpenAI technical staff are already seeing what that speed changes. One securit",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=EDWbX_-RYws",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-08-21",
+    "title": "Abbiamo perso il treno del digitale, sta succedendo di nuovo? [Angelo Cavallo]",
+    "description": "Compra il mio corso \"Crea un Agente AI con Claude Code\": https://www.raffaelegaito.com/claude-code-crea-agente-ai-corso-completo/?landing=true\n\nCompra il mio libro \"In cosa posso esserti utile?\", una guida molto pratica e poco emotiva all'IA https://amzn.to/4aMZrUX (link affiliato)\n\nL'Italia sa inve",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=tTH1d1n36wQ",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-08-19",
+    "title": "Il robot aspirapolvere batte l'umanoide",
+    "description": "Il robot aspirapolvere batte l'umanoide. \n\nClip estratta dall'intervista fatta a Gaia Contu su What’s Next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno.\n\nGuarda l'intervista completa: https://www.youtube.com/watch?v=w8MAOJqrMjM #short",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/sHE1nUJrLCM",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-08-19",
+    "title": "ChatGPT è appena diventato illimitato e gratis, ma c'è un prezzo (+19 Novità AI)",
+    "description": "ChatGPT è appena diventato illimitato e gratis, ma c'è un prezzo (+19 Novità AI) ChatGPT è appena diventato illimitato e gratis: chat di testo senza limiti sui piani Free e Go con GPT-5.6 Luna. Ma c'è un prezzo, ed è appena stato confermato: dal 24 agosto ChatGPT mostra la pubblicità in 31 Paesi eur",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=qpAjsVNCJgU",
+    "source": "YouTube - Gabry Solutions",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "Lo Sapevi che ChatGPT VENDE al Posto Tuo Tutto Quello Che Hai in Casa",
+    "description": "Lo Sapevi che ChatGPT VENDE al Posto Tuo Tutto Quello Che Hai in Casa e ChatGPT può aiutarti a vendere online gli oggetti che non usi più, partendo da una semplice foto fino ad arrivare all’annuncio su Facebook Marketplace.\n\nIn questo YouTube Short ti mostro un workflow pratico con ChatGPT per ricon",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/mbMRW7R7Hi8",
+    "source": "YouTube - Gabry Solutions",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-08-13",
+    "title": "Dammi 15 minuti e ChatGPT WORK lavorerà al posto tuo",
+    "description": "Come Padroneggiare il Nuovo ChatGPT Work (Corso Gratis) perché questa è la domanda del momento: Come posso padroneggiare il nuovo ChatGPT Work: con un corso completo gratis, in italiano, dall'installazione alle automazioni.\n\nChatGPT Work è il nuovo agente di OpenAI basato su GPT-5.6: non si limita a",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=D4p-tABbZXI",
+    "source": "YouTube - Gabry Solutions",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-08-10",
+    "title": "La migliore AI del mondo ora è Open Source (Kimi K3)",
+    "description": "La migliore AI del mondo ora è GRATIS (Kimi K3) , è open source e se la gioca alla pari con i modelli a pagamento più potenti in circolazione, GPT-5.6 Sol e Claude Fable 5.\n\nL'ho messa alla prova con i prompt più cattivi che ho. Non \"riassumi questa email\": lavori lunghi, complessi, con più strument",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=qSpjHEMf9hQ",
+    "source": "YouTube - Gabry Solutions",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-08-09",
+    "title": "NON Usare la Stessa AI per Tutto (Fai Questo Invece)",
+    "description": "NON Usare la Stessa AI per Tutto (Fai Questo Invece)\n\n#intelligenzaartificiale #chatgpt #gemini #claude",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/0UALBFgkosw",
+    "source": "YouTube - Gabry Solutions",
+    "badge": "🔥"
   }
 ]
