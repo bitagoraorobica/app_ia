@@ -9,236 +9,128 @@
     "badge": ""
   },
   {
-    "date": "2026-08-18",
-    "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
-    "description": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
-    "category": "News",
-    "link": "https://openai.com/index/chatgpt-for-teens",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-08-18",
-    "title": "How NVIDIA scales expertise with ChatGPT Work",
-    "description": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
-    "category": "News",
-    "link": "https://openai.com/index/nvidia/chatgpt-work",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-08-13",
-    "title": "The builder’s guide to GPT‑5.6",
-    "description": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
-    "category": "News",
-    "link": "https://openai.com/index/builders-guide-to-gpt-5-6",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-08-13",
-    "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-    "description": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
-    "category": "News",
-    "link": "https://openai.com/index/previewing-ultrafast",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
     "date": "2026-08-12",
-    "title": "From assistance to execution: How enterprises put AI to work",
-    "description": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+    "title": "How RingCentral builds AI-native work from engineering to ops",
+    "description": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
     "category": "News",
-    "link": "https://openai.com/index/how-enterprises-put-ai-to-work",
+    "link": "https://openai.com/index/ringcentral",
     "source": "OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-08-25",
-    "title": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference",
-    "description": "arXiv:2608.21362v1 Announce Type: new \nAbstract: Transformer-based large language models (LLMs) incur high prefill latency because key-value (KV) tensors must be recomputed for each request. Existing prefix-caching systems reduce this cost but require prompts to share a leading contiguous prefix, li",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2608.21362",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-08-25",
-    "title": "SchemaRouter: Field-Aware Tool Routing for Efficient Heterogeneous Agentic RAG",
-    "description": "arXiv:2608.21375v1 Announce Type: new \nAbstract: Heterogeneous agentic retrieval-augmented generation (RAG) systems increasingly orchestrate external APIs, internal databases, vector stores, and graph stores. Exposing all tool descriptions to an LLM agent, or selecting tools only by vector similarit",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2608.21375",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-08-25",
-    "title": "There Is No Neutral Harness: Modern LLM Leaderboards Are Manufactured by Config-Fragile Items",
-    "description": "arXiv:2608.21382v1 Announce Type: new \nAbstract: Multiple-choice benchmarks fix the questions and the correct answers, but not the harness: the order of the options, the wording of the prompt, and whether a language model's answer is read from generated text or from per-option likelihoods. Work on t",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2608.21382",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-08-25",
-    "title": "Spyre-Accelerated Retrieval-Augmented Generation on IBM LinuxONE: A Cloud-Native Architecture for Secure, High-Throughput Enterprise AI Inference",
-    "description": "arXiv:2608.21393v1 Announce Type: new \nAbstract: Running large language models inside enterprise environments has always bumped up against a practical wall: the data lives in one place, the AI horsepower sits somewhere else, and moving sensitive records between the two creates real headaches around ",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2608.21393",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-08-25",
-    "title": "Retrieval-grounded robot program generation and simulation-based correction via Model Context Protocol",
-    "description": "arXiv:2608.21417v1 Announce Type: new \nAbstract: Flexible manufacturing requires industrial robots to be reprogrammed rapidly as product variants change. This paper presents a language-model-based workflow that generates, validates, and iteratively corrects ABB RAPID robot programs from natural lang",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2608.21417",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-08-21",
-    "title": "The 5 best Pipedream alternatives in 2026",
-    "description": "If you're here, you're looking for one of two things: a workflow builder to help you ship automations faster, or an embedded SDK you can drop into your own product so users can connect their accounts without you building OAuth infrastructure from scratch.  I work at Zapier, which solves both of thes",
-    "category": "Automation",
-    "link": "https://zapier.com/blog/pipedream-alternatives",
-    "source": "Zapier Blog",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-08-21",
-    "title": "What are Gemini Gems? And how to use them",
-    "description": "If a NASA engineer and an amateur cook gave Google Gemini a similar set of prompts, they'd get similar responses—down to the style and structure. Sure, they could explicitly instruct it otherwise, but neither our engineer nor our cook has time to enter detailed instructions and additional context ev",
-    "category": "Automation",
-    "link": "https://zapier.com/blog/gemini-gems",
-    "source": "Zapier Blog",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-08-19",
-    "title": "What is ChatGPT Work?",
-    "description": "ChatGPT isn't really a chatbot anymore. Now, the focus is on agents, which is why the ChatGPT app suddenly looks very different. It's been rebuilt around a feature called ChatGPT Work. ChatGPT Work is basically Codex, OpenAI's coding tool, for regular people. It uses the same agentic foundation but ",
-    "category": "Automation",
-    "link": "https://zapier.com/blog/chatgpt-work",
-    "source": "Zapier Blog",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-08-14",
-    "title": "6 ways to automate Calendly with Zapier",
-    "description": "I have sent probably four hundred emails in my life that just said some version of \"does 2pm Thursday work for you?\" Calendly exists so none of us has to do that anymore. Invitees see your real availability and pick a slot without the back and forth. That solves the booking problem. It doesn't solve",
-    "category": "Automation",
-    "link": "https://zapier.com/blog/automate-calendly",
-    "source": "Zapier Blog",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-08-18",
-    "title": "How to Turn a Business Question Into a Strategy Deck With ChatGPT Work | Tutorial",
-    "description": "Turn a business question into a clear recommendation—without spending days gathering research and building slides.\n\nIn this demo, Arvind from OpenAI’s Strategy & Business Operations team shows how he uses ChatGPT Work to pull together market research, customer data, and past strategy work; propose a",
+    "date": "2026-08-11",
+    "title": "Daybreak models are now available on AWS",
+    "description": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=XjSJ6ybS9I8",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-08-18",
-    "title": "How to Create a Solid Blog Draft With ChatGPT Work | Tutorial",
-    "description": "Turn scattered launch materials into a solid first draft.\n\nSahil from OpenAI’s Marketing team shows how he uses ChatGPT Work to bring together product documentation, research, meeting notes, and messaging; follow an established blog template; and create a structured launch blog draft.\n\nHe then revie",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=0j9yDUDMrBs",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-08-18",
-    "title": "How to Prepare for Customer Meetings With ChatGPT Work | Tutorial",
-    "description": "Spend less time preparing for customer calls and following up afterward.\n\nAlex from OpenAI’s Sales team shows how he uses ChatGPT Work to gather account context and create a meeting brief. After the call, ChatGPT Work drafts notes, a follow-up email, and proposed CRM updates for his review..\n\nThe re",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=yQZgOSHHxjk",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-08-17",
-    "title": "How Base44 Uses GPT-5.6 to Build Apps With 20% Fewer Tokens",
-    "description": "Base44 helps people turn natural language into production-ready applications and custom AI agents—no coding required.\n\nIn this Startup Spotlight, Yoav Farhi, Staff AI Engineer at Base44, shares how the team tested GPT-5.6 across a wide range of app-building scenarios. Compared with GPT-5.5, GPT-5.6 ",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=Cxp2aZQqkYM",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-08-14",
-    "title": "Previewing Ultrafast mode: GPT‑5.6 Sol at up to 14X the speed",
-    "description": "Today we’re previewing Ultrafast mode, a new service tier in the OpenAI API for GPT‑5.6 Sol. Powered by Cerebras, Ultrafast runs up to 14x faster than Standard processing and generates up to 750 output tokens per second.\n\nOpenAI technical staff are already seeing what that speed changes. One securit",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=EDWbX_-RYws",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-08-21",
-    "title": "Abbiamo perso il treno del digitale, sta succedendo di nuovo? [Angelo Cavallo]",
-    "description": "Compra il mio corso \"Crea un Agente AI con Claude Code\": https://www.raffaelegaito.com/claude-code-crea-agente-ai-corso-completo/?landing=true\n\nCompra il mio libro \"In cosa posso esserti utile?\", una guida molto pratica e poco emotiva all'IA https://amzn.to/4aMZrUX (link affiliato)\n\nL'Italia sa inve",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=tTH1d1n36wQ",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-08-19",
-    "title": "Il robot aspirapolvere batte l'umanoide",
-    "description": "Il robot aspirapolvere batte l'umanoide. \n\nClip estratta dall'intervista fatta a Gaia Contu su What’s Next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno.\n\nGuarda l'intervista completa: https://www.youtube.com/watch?v=w8MAOJqrMjM #short",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/sHE1nUJrLCM",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-08-19",
-    "title": "ChatGPT è appena diventato illimitato e gratis, ma c'è un prezzo (+19 Novità AI)",
-    "description": "ChatGPT è appena diventato illimitato e gratis, ma c'è un prezzo (+19 Novità AI) ChatGPT è appena diventato illimitato e gratis: chat di testo senza limiti sui piani Free e Go con GPT-5.6 Luna. Ma c'è un prezzo, ed è appena stato confermato: dal 24 agosto ChatGPT mostra la pubblicità in 31 Paesi eur",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=qpAjsVNCJgU",
-    "source": "YouTube - Gabry Solutions",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-08-14",
-    "title": "Lo Sapevi che ChatGPT VENDE al Posto Tuo Tutto Quello Che Hai in Casa",
-    "description": "Lo Sapevi che ChatGPT VENDE al Posto Tuo Tutto Quello Che Hai in Casa e ChatGPT può aiutarti a vendere online gli oggetti che non usi più, partendo da una semplice foto fino ad arrivare all’annuncio su Facebook Marketplace.\n\nIn questo YouTube Short ti mostro un workflow pratico con ChatGPT per ricon",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/mbMRW7R7Hi8",
-    "source": "YouTube - Gabry Solutions",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-08-13",
-    "title": "Dammi 15 minuti e ChatGPT WORK lavorerà al posto tuo",
-    "description": "Come Padroneggiare il Nuovo ChatGPT Work (Corso Gratis) perché questa è la domanda del momento: Come posso padroneggiare il nuovo ChatGPT Work: con un corso completo gratis, in italiano, dall'installazione alle automazioni.\n\nChatGPT Work è il nuovo agente di OpenAI basato su GPT-5.6: non si limita a",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=D4p-tABbZXI",
-    "source": "YouTube - Gabry Solutions",
+    "link": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+    "source": "OpenAI",
     "badge": "🔥"
   },
   {
     "date": "2026-08-10",
-    "title": "La migliore AI del mondo ora è Open Source (Kimi K3)",
-    "description": "La migliore AI del mondo ora è GRATIS (Kimi K3) , è open source e se la gioca alla pari con i modelli a pagamento più potenti in circolazione, GPT-5.6 Sol e Claude Fable 5.\n\nL'ho messa alla prova con i prompt più cattivi che ho. Non \"riassumi questa email\": lavori lunghi, complessi, con più strument",
+    "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
+    "description": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=qSpjHEMf9hQ",
-    "source": "YouTube - Gabry Solutions",
+    "link": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+    "source": "OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-08-09",
-    "title": "NON Usare la Stessa AI per Tutto (Fai Questo Invece)",
-    "description": "NON Usare la Stessa AI per Tutto (Fai Questo Invece)\n\n#intelligenzaartificiale #chatgpt #gemini #claude",
+    "date": "2026-08-10",
+    "title": "Premium seats are coming to ChatGPT Business",
+    "description": "Premium seats are now available on ChatGPT Business, with 5x more usage, no five-hour usage limit, and flexible seat options for every teammate.",
     "category": "News",
-    "link": "https://www.youtube.com/shorts/0UALBFgkosw",
+    "link": "https://openai.com/index/premium-seats-chatgpt-business",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-08-10",
+    "title": "How Zapier transformed core marketing processes with ChatGPT Work",
+    "description": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
+    "category": "News",
+    "link": "https://openai.com/index/zapier",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-08-26",
+    "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
+    "description": "arXiv:2608.23568v1 Announce Type: new \nAbstract: Memory and RAG evaluations often treat the answering model's input as an implementation detail, even though systems may render the same history as a memory entry, summary, typed record, or raw excerpt. We introduce RENDER, a benchmark control that fix",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2608.23568",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-08-26",
+    "title": "ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect Generalization and Silent Semantic Divergence",
+    "description": "arXiv:2608.23569v1 Announce Type: new \nAbstract: State-of-the-art Natural Language to SQL (NL2SQL) models report execution accuracy exceeding 89 percent on established benchmarks such as Spider and BIRD. However, these benchmarks rely on simplified academic schemas and open-source SQL dialects that ",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2608.23569",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-08-26",
+    "title": "TRACE: Transition-Aware Residual Control for Multi-Objective Materials Discovery",
+    "description": "arXiv:2608.23631v1 Announce Type: new \nAbstract: Multi-objective materials discovery with LLM agents is often limited not only by how many candidates can be proposed, but by how effectively each costly property evaluation informs the next search step. Existing agents mainly store evaluated candidate",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2608.23631",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-08-26",
+    "title": "Automata from Agent Traces: Failure and Next-Step Prediction",
+    "description": "arXiv:2608.23670v1 Announce Type: new \nAbstract: LLM-based agents execute multi-step tasks, but their behavioral structure remains opaque: long unstructured traces resist the safety auditing and runtime monitoring that deployment requires. Existing approaches operate per-trace or success-only, so th",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2608.23670",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-08-26",
+    "title": "Serving Masked Diffusion LLMs: Characterization and Design Principles from Real Hardware",
+    "description": "arXiv:2608.23807v1 Announce Type: new \nAbstract: Masked diffusion language models (dLLMs) can in principle generate text faster than autoregressive (AR) models, since they denoise many tokens at once. Recent systems have begun building serving infrastructure for dLLMs, but none first measure how the",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2608.23807",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-08-25",
+    "title": "How to Manage Your Workspace With ChatGPT Work",
+    "description": "See how the ChatGPT admin plugin brings workspace administration into ChatGPT Work. Aarti Bagul, Member of GTM Staff at OpenAI, demonstrates how admins can analyze adoption and credit usage, update and share an AI rollout deck, and review and approve usage limit requests without switching between to",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=29SyCndnMZs",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "Inside Cricket’s Smartest Backroom | Rajasthan Royals | ChatGPT @rajasthanroyals",
+    "description": "What gives one of cricket’s smartest teams its edge before the first ball is bowled?\n\nGo behind the scenes with Rajasthan Royals as Kumar Sangakkara and the franchise’s analytics and technology teams reveal how ChatGPT and OpenAI tools support auction strategy, player analysis, match preparation, an",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=0XPk_MAwCW4",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-08-13",
+    "title": "Computer History in ChatGPT",
+    "description": "Codex & ChatGPT can now understand the context around what you’re working on.\n\nWhen you opt in to Computer History, it can help you pick up where you left off, get back to unfinished projects, and see suggested skills or scheduled tasks based on the work you do regularly.\n\nAvailable in the ChatGPT d",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=W-HhMUe9hOg",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-08-25",
+    "title": "Non copiare un SINGOLO testo da Claude finché non guardi questo!",
+    "description": "Non copiare un SINGOLO testo da Claude finché non guardi questo ! Stai ancora facendo copia e incolla dei testi generati da Claude, Gemini o ChatGPT? Fai molta attenzione: i modelli di intelligenza artificiale integrano ormai watermark matematici e caratteri nascosti invisibili a occhio nudo.\n\nIn qu",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/D25aqNEFpf4",
     "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
   }
