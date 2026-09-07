@@ -9,66 +9,165 @@
     "badge": ""
   },
   {
-    "date": "2026-09-02",
-    "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
-    "description": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
+    "date": "2026-09-07",
+    "title": "From Matching Models to Recruiting Agents: A Systematized Narrative Review of AI Recruitment Systems, Evaluation, and Governance",
+    "description": "arXiv:2609.04286v1 Announce Type: new \nAbstract: Artificial intelligence in recruitment has shifted the object being automated from profile pairs and ranked lists to multi-stage workflows that retrieve evidence, compare candidates, and support or execute actions. This systematized narrative review t",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2609.04286",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-09-07",
+    "title": "Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation",
+    "description": "arXiv:2609.04298v1 Announce Type: new \nAbstract: Evaluating agents on the growing number of agentic benchmarks is challenging because they often require complex environments and agent integrations. We introduce Harbor Adapters, a unified evaluation infrastructure for agentic benchmarks. Our work mak",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2609.04298",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-09-07",
+    "title": "Corporate Language Model (CLM): Transforming Tacit and Fragmented Enterprise Knowledge into a Sovereign, Auditable, and Executable Corporate Intelligence Layer",
+    "description": "arXiv:2609.04377v1 Announce Type: new \nAbstract: Enterprise AI deployments fail not from model inadequacy, but because organizations lack a structured substrate encoding how they decide, negotiate, and execute. Generic LLMs carry no firm-specific ontological priors; RAG remains brittle, with no path",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2609.04377",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-09-07",
+    "title": "HarvestBench: Measuring Whether LLM Agents Will Pay to Avoid Killing Animals",
+    "description": "arXiv:2609.04444v1 Announce Type: new \nAbstract: Benchmarks for the side effects an agent causes on the way to a goal already exist, but HarvestBench is the first to put a price on avoiding the side effect and to name that side effect as a living creature. It is a farm simulation: LLM sub-agents dri",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2609.04444",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-09-07",
+    "title": "PerfReasoning: How Well Do LLMs Reason on Hardware Performance?",
+    "description": "arXiv:2609.04476v1 Announce Type: new \nAbstract: Performance modeling is central to hardware design and software optimization, yet constructing these models requires structured reasoning about computation, data reuse, storage, and movement. We introduce PerfReasoning, a benchmark that evaluates LLMs",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2609.04476",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-09-07",
+    "title": "OpenAI research automation 🤖, Tim Cook's role 💼, agent secrets 👨‍💻",
+    "description": " [...]",
     "category": "News",
-    "link": "https://openai.com/index/atv-big-air-tour",
-    "source": "OpenAI",
+    "link": "https://tldr.tech/tech/2026-09-07",
+    "source": "TLDR",
     "badge": "🔥"
   },
   {
     "date": "2026-09-04",
-    "title": "Fresh Memory, Stale Plans: Dependency-Scoped Validation for Distributed LLM-Agent Memory",
-    "description": "arXiv:2609.03340v1 Announce Type: new \nAbstract: Distributed LLM-agent teams can read the latest shared facts and still act on an obsolete plan. A planner may derive an action from requirement $r_3$, another agent may commit $r_4$, and an executor may receive $r_4$ without replacing the plan derived",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2609.03340",
-    "source": "arXiv AI",
-    "badge": "📜"
+    "title": "Introducing GPT-6 Astra for developers",
+    "description": "Meet GPT-6 Astra, our latest frontier model for tasks where raw intelligence matters. Charlie Guo, Developer Experience Engineer at OpenAI, demonstrates improved Computer Use, stronger creative and knowledge-work outputs, and new asynchronous tool calling and steering in the Responses API.\n\nRead mor",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=bOC3DisEOfg",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
   },
   {
     "date": "2026-09-04",
-    "title": "Caught in the Story: Narrative Captivity in Multi-turn LLMs Conversation",
-    "description": "arXiv:2609.03407v1 Announce Type: new \nAbstract: People increasingly turn to large language models (LLMs) for everyday advice, making ethically charged interpersonal problems a practical moral-advisory context. Most prior work has studied this context through single-turn judgments or pressure-laden ",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2609.03407",
-    "source": "arXiv AI",
-    "badge": "📜"
+    "title": "Use ChatGPT Work to analyze ad performance and refine creative",
+    "description": "Turn ad insights into your next creative idea.\n\nThis demo follows a shopper from product discovery to a clearly labeled ad, then shows how our marketing team uses ChatGPT Work to compare the fictional NOVA campaign’s performance and explore what creative to try next.\n\nWatch the full webinar: https:/",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=5iu0nY9lIy8",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
   },
   {
     "date": "2026-09-04",
-    "title": "DuplexSpeechBench-IFEval: Evaluating Implicit Instruction Following in Full-Duplex Voice Agents",
-    "description": "arXiv:2609.03423v1 Announce Type: new \nAbstract: Full-duplex voice agents must continuously decide when to listen, backchannel, interrupt, handle speech overlaps, take the floor, and yield. Existing benchmarks largely test these behaviors through explicit turn-management instructions, while deployed",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2609.03423",
-    "source": "arXiv AI",
-    "badge": "📜"
+    "title": "Use ChatGPT Work to build custom creative tools",
+    "description": "Build the creative tools your team needs.\n\nThis is how our marketing team uses ChatGPT Work to turn a brief, brand book and wireframe into a custom design tool for fictional brand NOVA, then build campaign imagery and a product website.\n\nWatch the full webinar: https://goldcast.registration.public-p",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=D-QteDHdHes",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
   },
   {
     "date": "2026-09-04",
-    "title": "Do GUI Agents Know When Not to Act? Enabling Conflict-Aware Termination for Multimodal GUI Agents",
-    "description": "arXiv:2609.03438v1 Announce Type: new \nAbstract: Graphical user interface (GUI) agents are increasingly used to execute natural-language instructions on user interfaces, yet real users may issue infeasible instructions due to benign mistakes. A reliable agent should not only know how to act, but als",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2609.03438",
-    "source": "arXiv AI",
-    "badge": "📜"
+    "title": "Use ChatGPT Images to explore campaign concepts",
+    "description": "Explore more campaign ideas before choosing a direction.\n\nThis is how our marketing team used ChatGPT Images to explore billboard concepts from a scouting photo, compare visual directions and iterate before settling on a final composite.\n\nWatch the full webinar: https://goldcast.registration.public-",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=Ez-anO32D_s",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
   },
   {
     "date": "2026-09-04",
-    "title": "GrowPage: On-Demand KV Budgeting for Efficient LLM Reasoning Serving",
-    "description": "arXiv:2609.03494v1 Announce Type: new \nAbstract: Long-output reasoning has made the key--value (KV) cache a critical memory bottleneck for efficient LLM serving. Existing KV compression methods usually rely on a predefined per-request budget and adjust only which KV states are retained, leaving the ",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2609.03494",
-    "source": "arXiv AI",
-    "badge": "📜"
+    "title": "Use ChatGPT Work to create campaign emails",
+    "description": "Turn a brief into campaign emails your team can refine.\n\nThis is how our marketing team uses ChatGPT Work to build a shared library of use cases and draft emails from briefs, Figma templates and brand guidance—so reviews can focus on messaging and creative.\n\nWatch the full webinar: https://goldcast.",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=N-MJ1W8Vj9E",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
   },
   {
-    "date": "2026-09-02",
-    "title": "ChatGPT Scheduled Tasks: What they are and how to use them",
-    "description": "My laptop and phone are filled with apps dedicated to getting me to do specific things: there's a news app that compiles a customized daily reading list; there's a language learning app that prompts me to do daily French lessons; there's even one that's sole purpose is to remind me when to switch my",
-    "category": "Automation",
-    "link": "https://zapier.com/blog/chatgpt-scheduled-tasks",
-    "source": "Zapier Blog",
-    "badge": "🔁"
+    "date": "2026-09-04",
+    "title": "È uscito GPT6 (Astra) e sembra incredibile",
+    "description": "Compra il mio corso base \"Crea un Agente AI con Claude Code\": https://www.raffaelegaito.com/claude-code-crea-agente-ai-corso-completo/?landing=true \n\nCompra il mio corso intermedio “Fai il passo successivo con Claude Code”: https://www.raffaelegaito.com/corso-claude-code-passo-successivo/?landing=tr",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=wKux7mWtG6s",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-09-04",
+    "title": "Le skill che serviranno e quelle che scompariranno [Massimo Chieruzzi]",
+    "description": "#adv Ottieni il 10% di sconto su Hostinger: usa il link https://www.hostinger.com/gaitopod e inserisci il coupon GAITOPOD\n\nCompra il mio corso base \"Crea un Agente AI con Claude Code\": https://www.raffaelegaito.com/claude-code-crea-agente-ai-corso-completo/?landing=true \n\nCompra il mio corso interme",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=qE_qUrtw8DE",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-09-04",
+    "title": "Claude Ora Impara Guardandoti Lavorare… e Poi Fa Tutto da Solo",
+    "description": "Claude Ora Impara Guardandoti Lavorare… e Poi Fa Tutto da Solo perché Claude Cowork ora può imparare un processo semplicemente guardandoti lavorare grazie alla nuova funzione Record a Skill.\n\nRegistri quello che fai sul computer, insieme a clic, digitazione e voce, e Claude analizza il tuo workflow ",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/YAqe2ZWnwUg",
+    "source": "YouTube - Gabry Solutions",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-09-03",
+    "title": "4 Agenti AI per Automatizzare il 99% della Tua Vita (Per Principianti)",
+    "description": "4 Agenti AI per Automatizzare il 99% della Tua Vita (Per Principianti) e se vuoi costruire degli Agenti AI che lavorano davvero al posto tuo, anche se parti da zero? In questo video ti mostro 4 Agenti AI per automatizzare attività quotidiane, risparmiare ore ogni settimana e sfruttare davvero l’Inte",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=BerYBlrbuXo",
+    "source": "YouTube - Gabry Solutions",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-09-01",
+    "title": "Questo Prompt farà dire a ChatGPT TUTTO quello che sa su di te",
+    "description": "Questo prompt farà dire a ChatGPT TUTTO quello che sa su di te. In questo YouTube Short ti mostro un prompt ChatGPT avanzato per scoprire cosa l’AI può ricostruire su di te dalle informazioni e dalla memoria disponibili.\n\nCopia il prompt in ChatGPT e chiedigli di analizzare la tua narrativa nascosta",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/VZgIebVFl4k",
+    "source": "YouTube - Gabry Solutions",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-08-31",
+    "title": "ChatGPT Ora Può Guardarti Lavorare… per SOSTITUIRTI? (+30 Novità AI)",
+    "description": "ChatGPT Ora Può Guardarti Lavorare… per SOSTITUIRTI? (+30 Novità AI) e ora davvero \n\nChatGPT ora può guardarti lavorare. La cronologia del computer è appena arrivata in Italia: registra le app che usi e i documenti che apri, ti dice su cosa stavi lavorando e può trasformare i tuoi passaggi in una pr",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=ZW1jvEHsLDg",
+    "source": "YouTube - Gabry Solutions",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-08-30",
+    "title": "NON COMPRARE un Corso AI: 17 Corsi Anthropic sono GRATIS",
+    "description": "NON COMPRARE un corso AI prima di vedere questo. Anthropic ha lanciato Claude Academy, una piattaforma ufficiale con corsi AI GRATIS per imparare a usare Claude e l’intelligenza artificiale.\n\nNel video ti mostro i 17 corsi Anthropic gratuiti presenti nella Claude Academy che ho analizzato e quali so",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/uRsizcSF3nM",
+    "source": "YouTube - Gabry Solutions",
+    "badge": "🔥"
   }
 ]
