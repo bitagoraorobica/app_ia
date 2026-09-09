@@ -10,64 +10,46 @@
   },
   {
     "date": "2026-09-08",
-    "title": "ChatGPT writing styles ✍️ , ByteDance AI 📱, how agents test 👨‍💻",
-    "description": " [...]",
-    "category": "News",
-    "link": "https://tldr.tech/tech/2026-09-08",
-    "source": "TLDR",
-    "badge": "🔥"
+    "title": "What is Jasper AI? And how to use it",
+    "description": "Jasper was inescapable in the early years of the AI boom. With its quirky robot logo and \"Boss Mode,\" a tool that churned out long-form blog posts, it had more name recognition than any other AI writing assistant. Then ChatGPT came out and changed everything. For consumers, Jasper appeared to fall o",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/jasper-ai",
+    "source": "Zapier Blog",
+    "badge": "🔁"
   },
   {
-    "date": "2026-09-04",
-    "title": "Use ChatGPT Work to pressure-test marketing campaign briefs",
-    "description": "Sharpen your campaign brief before you go to market.\n\nThis is how our marketing team uses ChatGPT Work to simulate buyer discussions using existing customer research—so we can sharpen positioning and prepare better questions for real customer research.\n\nWatch the full webinar: https://goldcast.regis",
+    "date": "2026-09-08",
+    "title": "n8n vs. Power Automate: Which is best? [2026]",
+    "description": "n8n and Microsoft Power Automate both run multi-step workflows, connect to your business apps, and have spent the last few years adding AI to everything they ship. But they were built for completely different users: n8n for individual developers who want total control over their workflows, and Power",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/n8n-vs-power-automate",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-09-08",
+    "title": "Jasper vs. Copy.ai: Which is best? [2026]",
+    "description": "Jasper and Copy.ai were two of the first AI text generators to hit the market in the pre-ChatGPT days. (Remember a world without ChatGPT? Me neither.) But once chatbots became ubiquitous and ridiculously powerful, there wasn't much competitive advantage in being a slightly-prettier text generator. A",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/jasper-vs-copy-ai",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-09-08",
+    "title": "Introducing ChatGPT Images 2.5",
+    "description": "Say hello to ChatGPT Images 2.5—faster, sharper, smarter, with better tools for creating whatever you can dream of. \n\n- Faster image generation to keep your ideas flowing\n- Improved fidelity for more natural, recognizable images\n- Consistent details across multiple edits\n- Comment-based edits to cha",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=HHt8CPJRviA",
+    "link": "https://www.youtube.com/watch?v=6l7ble9P74o",
     "source": "YouTube – OpenAI",
     "badge": "🔥"
   },
   {
-    "date": "2026-09-04",
-    "title": "Use ChatGPT Work to turn marketing ideas into finished work",
-    "description": "Turn marketing ideas into work your team can review.\n\nThis is how our marketing team uses ChatGPT Work to connect its files and tools and build presentations, docs and creative assets—with marketers deciding what to refine and ship.\n\nWatch the full webinar: https://goldcast.registration.public-pr50.",
+    "date": "2026-09-08",
+    "title": "ChatGPT Può Trovare PARENTI che Non Sapevi di Avere",
+    "description": "ChatGPT Può Trovare PARENTI che Non Sapevi di Avere ChatGPT può aiutarti a ricostruire il tuo albero genealogico e a scoprire possibili parenti che non sapevi di avere.\n\nIn questo video ti mostro 4 prompt ChatGPT per partire dalle informazioni sulla tua famiglia, approfondire l’origine del tuo cogno",
     "category": "News",
-    "link": "https://www.youtube.com/watch?v=NSqlZ1L81nQ",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-09-03",
-    "title": "Introducing GPT-6 Astra: the most intelligent and aligned model in the world.",
-    "description": "GPT-6 Astra achieves state-of-the-art results on benchmarks for long-running computer-use tasks across professions and desktop apps, which means anything you can do on a computer, Astra can do for you, fast. \n\nIt’s also the best model for software engineering to date and our most aligned model yet, ",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=1QNsdr-Qx_I",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-08-28",
-    "title": "Use Your Computer and Browser",
-    "description": "See how ChatGPT Work can help with tasks in your desktop apps and browser. Use Computer to start music in Spotify, then combine Chrome and Google Calendar to prepare a time-off request and an out-of-office event. Learn how to share screen context with Appshots, grant access, and review the drafts be",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=981SivztzOc",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-08-28",
-    "title": "Talk to ChatGPT Work",
-    "description": "Brainstorm out loud and turn your ideas into a presentation with Voice in ChatGPT Work. In the desktop app, talk through ideas for a team event, ask ChatGPT to build a visual pitch deck, and review the result. You’ll also see how to continue the same task from your phone by connecting to your comput",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=DLcQSp_CIIc",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-09-07",
-    "title": "8 Lavori che Ho Delegato a ChatGPT Work (Con i MieiPrompt)",
-    "description": "8 Modi per Far Lavorare ChatGPT Work al Posto Tu perché ChatGPT Work può fare molto più che rispondere alle tue domande: può lavorare sui tuoi file, usare strumenti e plugin, navigare sul web e portare a termine attività al posto tuo. In questo video ti mostro 8 casi d'uso reali di ChatGPT Work, con",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=5TJsZ71shQk",
+    "link": "https://www.youtube.com/shorts/QElkDdVIsmM",
     "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
   }
