@@ -1,275 +1,790 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="it" class="no-js">
 <head>
-  <meta charset="UTF-8">
-  <title>AI Compass – BitAgorà Orobica</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-    body {
-      font-family: 'Inter', sans-serif;
-      background: #eef1f5;
-      padding: 1em;
-      margin: 0;
-      transition: background 0.3s, color 0.3s;
-    }
-    body.dark {
-      background: #181818;
-      color: #e0e0e0;
-    }
-    header {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-bottom: 2em;
-      text-align: center;
-    }
-    header h1 {
-      font-size: 2em;
-      margin: 0.5em 0;
-    }
-    header img {
-      max-width: 100%;
-      height: auto;
-    }
-    .controls {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1em;
-      justify-content: center;
-      margin-bottom: 2em;
-    }
-    .controls input,
-    .controls select,
-    .controls button {
-      font-size: 1em;
-      padding: 0.5em;
-      flex: 1 1 200px;
-      max-width: 300px;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      transition: border 0.3s;
-    }
-    .controls input:hover,
-    .controls select:hover {
-      border-color: #007acc;
-    }
-    .entry {
-      background: #ffffff;
-      border-radius: 12px;
-      padding: 1em;
-      margin-bottom: 1.5em;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-      border-left: 4px solid transparent;
-    }
-    .entry[data-category="News"] {
-      border-left-color: #007acc;
-    }
-    .entry[data-category="Paper"] {
-      border-left-color: #e67e22;
-    }
-    .entry[data-category="Course"] {
-      border-left-color: #27ae60;
-    }
-    .entry[data-category="Automation"] {
-      border-left-color: #9b59b6; /* viola brillante */
-    }
-    body.dark .entry {
-      background: #1e1e1e;
-    }
-    .entry .title {
-      font-size: 1.2em;
-      font-weight: bold;
-      color: #007acc;
-      text-decoration: none;
-      display: block;
-      margin-bottom: 0.5em;
-    }
-    body.dark .title {
-      color: #4fc3f7;
-    }
-    .entry p {
-      margin: 0.5em 0;
-      line-height: 1.4;
-    }
-    .entry .meta {
-      font-size: 0.85em;
-      color: #666;
-      margin-top: 0.5em;
-    }
-    body.dark .meta {
-      color: #aaa;
-    }
-    .entry .badge {
-      margin-right: 0.5em;
-      font-size: 1.2em;
-    }
-    @media (max-width: 600px) {
-      .controls {
-        flex-direction: column;
-        align-items: stretch;
-      }
-      .controls input,
-      .controls select,
-      .controls button {
-        flex: 1 1 auto;
-        max-width: 100%;
-      }
-    }
-    
-    .entries-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 1.5em;
-    }
-    @media (min-width: 700px) {
-  .entries-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-@media (min-width: 1000px) {
-  .entries-grid {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-.entry {
-  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.5s ease;
-  opacity: 0;
-}
-.entry.show {
-  opacity: 1;
-}
-.entry:hover {
-  transform: scale(1.02);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-}
-  </style>
+  <title>AI Compass · BitAgorà Orobica</title>
+  <meta name="description" content="Articoli, paper e video sull&#x27;intelligenza artificiale selezionati ogni giorno da BitAgorà Orobica tra laboratori di ricerca, aziende dell&#x27;IA e strumenti di automazione.">
+  <link rel="canonical" href="https://bitagoraorobica.github.io/app_ia/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="BitAgorà Orobica">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:title" content="AI Compass · la bussola sull'intelligenza artificiale">
+  <meta property="og:description" content="Articoli, paper e video sull&#x27;intelligenza artificiale selezionati ogni giorno da BitAgorà Orobica tra laboratori di ricerca, aziende dell&#x27;IA e strumenti di automazione.">
+  <meta property="og:url" content="https://bitagoraorobica.github.io/app_ia/">
+  <meta name="theme-color" content="#121214">
+  <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-32.png">
+  <link rel="apple-touch-icon" href="static/apple-touch-icon.png">
+  <link rel="preload" href="static/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="static/fonts/space-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="static/style.css?v=d6c672db">
+  <script>document.documentElement.classList.replace('no-js', 'js');</script>
+  <script src="static/app.js?v=b1d68586" defer></script>
 </head>
 <body>
-  <header>
-    <h1>AI Compass</h1>
-    <img src="logo.png" alt="Logo">
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="./" aria-label="AI Compass, torna all'inizio">
+        <img src="static/logo-white.png" alt="Gruppo BitAgorà Smart Network" width="87" height="40">
+        <span class="brand-name">AI Compass</span>
+      </a>
+      <a class="header-link" href="https://www.bitagoraorobica.it" target="_blank" rel="noopener">Visita bitagoraorobica.it ↗</a>
+    </div>
   </header>
-  <p><em>Selezione curata da <a href="https://www.bitagoraorobica.it" target="_blank">BitAgorà Orobica srl</a></em></p>
 
-  <div class="controls">
-    <input type="text" id="search" placeholder="Cerca per titolo o descrizione...">
-    <select id="category">
-      <option value="">Tutte le categorie</option>
-      <option value="Automation">Automation</option>
-      <option value="News">News</option>
-      <option value="Paper">Paper</option>
-      <option value="Tool">Tool</option>
-    </select>
-    <select id="source">
-      <option value="">Tutte le fonti</option>
-      <option value="AI Now Institute">AI Now Institute</option>
-      <option value="Activepieces">Activepieces</option>
-      <option value="BitAgorà Orobica">BitAgorà Orobica</option>
-      <option value="Microsoft Research">Microsoft Research</option>
-      <option value="NVIDIA AI">NVIDIA AI</option>
-      <option value="OpenAI">OpenAI</option>
-      <option value="TLDR AI">TLDR AI</option>
-      <option value="YouTube - Gabry Solutions">YouTube - Gabry Solutions</option>
-      <option value="YouTube - Marco Montemagno">YouTube - Marco Montemagno</option>
-      <option value="YouTube – Computerphile">YouTube – Computerphile</option>
-      <option value="YouTube – DeepMind">YouTube – DeepMind</option>
-      <option value="YouTube – OpenAI">YouTube – OpenAI</option>
-      <option value="YouTube – Raffaele Gaito">YouTube – Raffaele Gaito</option>
-      <option value="YouTube – Two Minute Papers">YouTube – Two Minute Papers</option>
-      <option value="Zapier Blog">Zapier Blog</option>
-      <option value="arXiv AI">arXiv AI</option>
-      <option value="n8n Blog">n8n Blog</option>
-    </select>
-    <select id="days">
-      <option value="">Qualsiasi data</option>
-      <option value="7">Ultimi 7 giorni</option>
-      <option value="15">Ultimi 15 giorni</option>
-      <option value="30">Ultimi 30 giorni</option>
-    </select>
-    <button id="toggleDark">🌗 Modalità scura</button>
-    <button id="resetFilters">🔄 Reset filtri</button>
-  </div>
+  <section class="hero">
+    <div class="glow" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="eyebrow">Selezione curata da BitAgorà Orobica</p>
+      <h1>La bussola sull'intelligenza artificiale</h1>
+      <p class="subtitle">Ogni mattina raccogliamo in automatico articoli, paper e video da decine di fonti (laboratori di ricerca, aziende dell'IA, strumenti di automazione) e teniamo i più pertinenti degli ultimi 30 giorni.</p>
+      <dl class="stats">
+        <div><dt>contenuti</dt><dd>109</dd></div>
+        <div><dt>fonti attive</dt><dd>16</dd></div>
+        <div><dt>ultimo aggiornamento</dt><dd>8 ott, 16:58</dd></div>
+      </dl>
+    </div>
+  </section>
 
-  <div id="entries" class="entries-grid"></div>
+  <main class="wrap">
+    <section class="picks" aria-label="Dalla redazione">
+      <div class="pick">
+        <div>
+          <p class="eyebrow">Dalla redazione</p>
+          <h2><a href="https://newsletter.bitagoraorobica.it/tag/ia/" target="_blank" rel="noopener">Newsletter BitAgora</a></h2>
+          <p>Selezione articoli IA</p>
+        </div>
+        <span class="pick-cta" aria-hidden="true">Leggi ↗</span>
+      </div>
+    </section>
 
+    <div class="toolbar">
+      <div class="search">
+        <label class="sr-only" for="search">Cerca</label>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="search" type="search" placeholder="Cerca per titolo, argomento o fonte…" autocomplete="off">
+      </div>
+      <div class="select">
+        <label class="sr-only" for="source">Fonte</label>
+        <select id="source">
+          <option value="">Tutte le fonti</option>
+            <option value="Activepieces">Activepieces (7)</option>
+            <option value="AI Now Institute">AI Now Institute (1)</option>
+            <option value="arXiv AI">arXiv AI (35)</option>
+            <option value="Microsoft Research">Microsoft Research (2)</option>
+            <option value="n8n Blog">n8n Blog (5)</option>
+            <option value="NVIDIA AI">NVIDIA AI (2)</option>
+            <option value="OpenAI">OpenAI (27)</option>
+            <option value="TLDR AI">TLDR AI (2)</option>
+            <option value="YouTube - Gabry Solutions">YouTube - Gabry Solutions (2)</option>
+            <option value="YouTube - Marco Montemagno">YouTube - Marco Montemagno (4)</option>
+            <option value="YouTube – Computerphile">YouTube – Computerphile (2)</option>
+            <option value="YouTube – DeepMind">YouTube – DeepMind (2)</option>
+            <option value="YouTube – OpenAI">YouTube – OpenAI (6)</option>
+            <option value="YouTube – Raffaele Gaito">YouTube – Raffaele Gaito (4)</option>
+            <option value="YouTube – Two Minute Papers">YouTube – Two Minute Papers (1)</option>
+            <option value="Zapier Blog">Zapier Blog (7)</option>
+        </select>
+      </div>
+      <div class="select">
+        <label class="sr-only" for="days">Periodo</label>
+        <select id="days">
+          <option value="">Tutte le date</option>
+          <option value="3">Ultimi 3 giorni</option>
+          <option value="7">Ultima settimana</option>
+          <option value="15">Ultimi 15 giorni</option>
+        </select>
+      </div>
+    </div>
 
-  <script>
-    const entryData = [{"date":"2026-10-08","title":"Understanding and Mitigating Inference-Time Overreliance Using Agentic Memory","description":"arXiv:2610.07311v1 Announce Type: new Abstract: Agentic memory allows LLM agents to reuse past experience, yet retrieved memories can also distort inference even when they are benign, correctly stored, and appropriately retrieved. We study this failure mode, which we call memory over-reliance. Acros","category":"Paper","link":"https://arxiv.org/abs/2610.07311","source":"arXiv AI","badge":"📜"},{"date":"2026-10-08","title":"Evaluating Escalation Signals for LLM Routing: Targets, Controls, and Five Ways to Fool Yourself","description":"arXiv:2610.07354v1 Announce Type: new Abstract: Deciding when to escalate a query from a small language model to a larger one requires a cheap signal that predicts, before the large model is called, whether escalating would help. Semantic entropy, originally developed to detect hallucinations, is a ","category":"Paper","link":"https://arxiv.org/abs/2610.07354","source":"arXiv AI","badge":"📜"},{"date":"2026-10-08","title":"MemCo: Memory-Centric Collaboration for Generalizing LLM Agents to Unseen Environments","description":"arXiv:2610.07376v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly operate in interactive environments, where they need to make sequential decisions through observation, action, and feedback. Although memory can help agents reuse experience, existing work designs memory i","category":"Paper","link":"https://arxiv.org/abs/2610.07376","source":"arXiv AI","badge":"📜"},{"date":"2026-10-08","title":"2d-fet-bench: from spatial reasoning to fet design on flakes","description":"arXiv:2610.07423v1 Announce Type: new Abstract: Field-effect transistor (FET) layouts on exfoliated two-dimensional flakes are typically drawn by hand for each flake, placing contacts and gates to match its position and outline in optical micrographs. To our knowledge, no executable benchmark tests ","category":"Paper","link":"https://arxiv.org/abs/2610.07423","source":"arXiv AI","badge":"📜"},{"date":"2026-10-08","title":"COMPASS: Finding Where Reasoning Lives in Language Models","description":"arXiv:2610.07469v2 Announce Type: new Abstract: Explicitly eliciting reasoning substantially improves LLM performance. Existing approaches require a predefined characterization of reasoning, whether through CoT prompt design, contrastive CoT directions, or via SAE derived reasoning features. For mat","category":"Paper","link":"https://arxiv.org/abs/2610.07469","source":"arXiv AI","badge":"📜"},{"date":"2026-10-08","title":"Claude models: Fable vs. Opus vs. Sonnet vs. Haiku","description":"Anthropic's Claude family has four primary models: Haiku, Sonnet, Opus, and Fable. (There's also Mythos, but the general public doesn't have access to that.) All four Claude models are incredibly capable. Even the smallest model, Haiku, is better than the best frontier models from two years ago. Thi","category":"Automation","link":"https://zapier.com/blog/claude-models","source":"Zapier Blog","badge":"🔁"},{"date":"2026-10-08","title":"AegisFlow: A Multi-Agent Agentic AI Framework for Autonomous Remediation and Self-Healing in Fragile Data Ecosystems","description":"arXiv:2610.06971v1 Announce Type: new Abstract: Traditional data pipelines are notoriously brittle, often failing due to upstream schema drift, API contract changes, or website DOM modifications. Present observability tools only raise alerts but for human engineers, resulting in a high Mean Time to ","category":"Paper","link":"https://arxiv.org/abs/2610.06971","source":"arXiv AI","badge":"📜"},{"date":"2026-10-08","title":"Topology-Consistent Task Planning over Cellular Workflow Complexes for LLM-based Agents","description":"arXiv:2610.07004v1 Announce Type: new Abstract: Task planning for LLM agents requires workflows that satisfy both user intent and complex sub-task dependencies. While existing planners work well for sequential or directed acyclic graph (DAG)-like structures, they struggle with workflow patterns such","category":"Paper","link":"https://arxiv.org/abs/2610.07004","source":"arXiv AI","badge":"📜"},{"date":"2026-10-08","title":"Offline AI Modules: Voice-First Offline Architecture, Hardware Reference Stack, Quantization and Benchmarking","description":"arXiv:2610.07026v1 Announce Type: new Abstract: The Offline AI Modules workstream enables practical, low-power, and community-accessible deployment of voice-first AI systems that operate fully offline. Designed for African language communities where speech is the dominant mode of interaction and int","category":"Paper","link":"https://arxiv.org/abs/2610.07026","source":"arXiv AI","badge":"📜"},{"date":"2026-10-08","title":"Rule-Based Languages for Neurosymbolic AI","description":"arXiv:2610.07313v1 Announce Type: new Abstract: Logic programming is increasingly used as the symbolic component of neurosymbolic AI systems. We survey the main rule-based languages in this setting, namely Datalog, answer set, and probabilistic logic programs, along four axes: semantics, expressiven","category":"Paper","link":"https://arxiv.org/abs/2610.07313","source":"arXiv AI","badge":"📜"},{"date":"2026-10-08","title":"A Systematic Investigation of Bias in Large Language Models for Advertising Relevance","description":"arXiv:2610.07544v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used to judge how well an advertisement matches a query, but the fairness of these judgments has received limited attention. We conduct a systematic study of fairness in relevance judgments made by LLMs for","category":"Paper","link":"https://arxiv.org/abs/2610.07544","source":"arXiv AI","badge":"📜"},{"date":"2026-10-08","title":"LangSmith vs Braintrust: AI Eval Platform Pricing Compared","description":"LLM evaluation platforms require balancing framework integration with testing flexibility. Engineering leads can select the right tool for their stack.","category":"Automation","link":"https://www.activepieces.com/blog/langsmith-vs-braintrust-which-ai-eval-platform-wins","source":"Activepieces","badge":"🔁"},{"date":"2026-10-08","title":"Best Agentic AI Coding Tools for 2026","description":"Agentic AI coding tools automate complex software engineering tasks by autonomously executing multi-step development workflows.","category":"Automation","link":"https://www.activepieces.com/blog/best-agentic-ai-coding-tools-for-2026","source":"Activepieces","badge":"🔁"},{"date":"2026-10-08","title":"What is Power Automation? How AI Orchestration Works","description":"Understanding what is power automation enables teams to identify which redundant administrative tasks can be fully delegated to autonomous software agents.","category":"Automation","link":"https://www.activepieces.com/blog/what-is-power-automation-how-ai-orchestration-works","source":"Activepieces","badge":"🔁"},{"date":"2026-10-08","title":"Non trattare l'AI come una magia","description":"Spesso ci rivolgiamo agli strumenti di intelligenza artificiale con richieste vaghe e sbrigative, aspettandoci risposte perfette come per magia. La verità è che il buon senso, la definizione dei confini e la capacità di specificare dettagli fanno tutta la differenza del mondo. Il modo in cui poni le","category":"News","link":"https://www.youtube.com/shorts/bdE8aKfIC54","source":"YouTube – Raffaele Gaito","badge":""},{"date":"2026-10-08","title":"LOGIC: An LLM Benchmark for Intent-Grounded Change Impact in Aerospace Electrical Systems","description":"arXiv:2610.07580v1 Announce Type: new Abstract: Aerospace electrical-design revisions can contain multiple genuine changes, although an engineering request may authorize only a subset. Propagating every detected difference can therefore produce overly broad impact reports. We present LOGIC, a contro","category":"Paper","link":"https://arxiv.org/abs/2610.07580","source":"arXiv AI","badge":"📜"},{"date":"2026-10-08","title":"BioStudyBench: Evaluating Agents on Post-Cutoff Biomedical Studies","description":"arXiv:2610.07614v1 Announce Type: new Abstract: We evaluate whether AI agents can match the reported findings of published biomedical studies using public data. Existing evaluations do not consistently separate analysis from prior knowledge or retrieval of the published answer. We introduce BioStudy","category":"Paper","link":"https://arxiv.org/abs/2610.07614","source":"arXiv AI","badge":"📜"},{"date":"2026-10-08","title":"AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory","description":"arXiv:2610.07707v1 Announce Type: new Abstract: Conversational AI assistants with long-term memory extract facts from user messages into a store consulted in later conversations. A stated plan can enter that store as fact: a user who might move to Seattle may be recorded as already living there. We ","category":"Paper","link":"https://arxiv.org/abs/2610.07707","source":"arXiv AI","badge":"📜"},{"date":"2026-10-08","title":"ST-Bench: A Spatial-Temporal Benchmark for Multi-Agent System Generation on Scientific Research Tasks","description":"arXiv:2610.07763v1 Announce Type: new Abstract: The rapid progress of LLM-based multi-agent systems (MAS) has shown that they largely outperform single agents on coding, math, and QA tasks, where executable tests provide a binary success signal. Whether this advantage transfers to real scientific da","category":"Paper","link":"https://arxiv.org/abs/2610.07763","source":"arXiv AI","badge":"📜"},{"date":"2026-10-08","title":"OTel: Open Telco AI Datasets, Benchmarks, and Models","description":"arXiv:2610.07766v2 Announce Type: new Abstract: We present Open Telco (OTel), an open telecom AI resource that releases derived telecom datasets for retrieval, reranking, instruction tuning, and safety/abstention, together with 30 full-parameter post-trained baselines spanning 10 embedding models, 3","category":"Paper","link":"https://arxiv.org/abs/2610.07766","source":"arXiv AI","badge":"📜"},{"date":"2026-10-08","title":"How to Connect the Klaviyo MCP Server in 2026","description":"Klaviyo MCP server integrations allow developers to link marketing data directly to LLM workflows for automated analysis.","category":"Automation","link":"https://www.activepieces.com/blog/how-to-connect-the-klaviyo-mcp-server-in-2026","source":"Activepieces","badge":"🔁"},{"date":"2026-10-08","title":"OOPMAS: Object-Oriented Multi-Agent Systems for Query-Level Workflow Generation","description":"arXiv:2610.07787v1 Announce Type: new Abstract: Multi-agent systems (MAS) powered by large language models have shown strong performance across code generation, mathematical reasoning, and question answering. However, existing methods for automating MAS design mostly operate at the task level, produ","category":"Paper","link":"https://arxiv.org/abs/2610.07787","source":"arXiv AI","badge":"📜"},{"date":"2026-10-08","title":"RA-MoWE: Workflow-Affinity Embeddings for Query Clustering and Agentic Workflow Generation","description":"arXiv:2610.07851v1 Announce Type: new Abstract: Agentic workflows enable large language models (LLMs) to solve complex tasks by coordinating reasoning, tool use, and verification. However, a workflow optimized for an entire task collection can overlook differences in the reasoning strategies that in","category":"Paper","link":"https://arxiv.org/abs/2610.07851","source":"arXiv AI","badge":"📜"},{"date":"2026-10-08","title":"SIGMA: Self-Improving Alignment Generalization from a Model Spec","description":"arXiv:2610.07935v1 Announce Type: new Abstract: LLM agents are increasingly capable of executing complex tasks and of recursively improving themselves on easy-to-verify objectives such as software engineering and mathematics. Since alignment is much harder to verify, this creates a growing risk of c","category":"Paper","link":"https://arxiv.org/abs/2610.07935","source":"arXiv AI","badge":"📜"},{"date":"2026-10-08","title":"Same Feedback, Different Answer: Measuring Run-to-Run Instability in Frontier-Model Customer Feedback Analysis","description":"arXiv:2610.08036v1 Announce Type: new Abstract: AI agents are increasingly being programmed to automate knowledge work over large collections of unstructured data. Such automation requires repeatability: when the underlying evidence is unchanged, the agent's categories, priorities, and counts should","category":"Paper","link":"https://arxiv.org/abs/2610.08036","source":"arXiv AI","badge":"📜"},{"date":"2026-10-08","title":"DAEDALUS: Bootstrapping Agent Memory from Self-Generated Tasks","description":"arXiv:2610.08048v1 Announce Type: new Abstract: LLM agents often lack the operational knowledge to act reliably in new environments, as they must discover specific tool behaviors or environment conventions on their own. Without memory of past attempts, they repeat the same mistakes across tasks, lea","category":"Paper","link":"https://arxiv.org/abs/2610.08048","source":"arXiv AI","badge":"📜"},{"date":"2026-10-08","title":"AI adoption: A practical guide from Zapier","description":"I have two voices in my head when it comes to new tech. One is the wide-eyed optimist who wants to try every tool and click every AI button. The other wants to delete every app on my phone, move to a cabin in the woods, and write by candlelight. There's no doubt AI is exciting. It's already helping ","category":"Automation","link":"https://zapier.com/blog/ai-adoption","source":"Zapier Blog","badge":"🔁"},{"date":"2026-10-08","title":"SpeedrunBench: Challenging LLM Agents with Video Game Speedrunning","description":"arXiv:2610.08076v1 Announce Type: new Abstract: Frontier LLM agents have been shown to be capable of solving increasingly complex tasks for which humans have measurable solutions. This begs the pertinent question of whether LLM agents can go beyond what humans have already solved. The ability to dev","category":"Paper","link":"https://arxiv.org/abs/2610.08076","source":"arXiv AI","badge":"📜"},{"date":"2026-10-08","title":"Natural Language Questions as an Interface for Knowledge Graphs: QRAKEN Graph Distillation and Semantic Self-Healing","description":"arXiv:2610.08095v1 Announce Type: new Abstract: Natural-language access to RDF knowledge graphs is a core Semantic Web ambition. Large language models (LLMs) have advanced Text-to-SPARQL, yet on unfamiliar graphs they often generate valid queries that misrepresent the populated data model. QRAKEN is","category":"Paper","link":"https://arxiv.org/abs/2610.08095","source":"arXiv AI","badge":"📜"},{"date":"2026-10-08","title":"DSV-Mem: Evaluating Multimodal Memory in Professional Workflows for MLLM Agents","description":"arXiv:2610.08102v1 Announce Type: new Abstract: Conversational MLLM agents are increasingly expected to assist in professional workflows, from AI research and engineering design to product management and business operations. Yet this capability remains underexplored: existing benchmarks largely focu","category":"Paper","link":"https://arxiv.org/abs/2610.08102","source":"arXiv AI","badge":"📜"},{"date":"2026-10-08","title":"Learn2Play Bench: How Well Do LLM Agents Learn from Experience in Unfamiliar Environments?","description":"arXiv:2610.08215v1 Announce Type: new Abstract: Learning from experience is essential for LLM agents to adapt to unfamiliar and dynmaic environments. Evaluating this ability is therefore important for understanding how effectively agents acquire and use new knowledge. Existing benchmarks have sought","category":"Paper","link":"https://arxiv.org/abs/2610.08215","source":"arXiv AI","badge":"📜"},{"date":"2026-10-08","title":"LeanPlan: Optimal Planning with LLM-Generated Heuristics and Admissibility Proofs","description":"arXiv:2610.08246v1 Announce Type: new Abstract: Frontier large language models (LLMs) can generate heuristic functions that guide search to achieve state-of-the-art performance in satisficing planning, where any plan is acceptable. However, these heuristics are not guaranteed to be admissible and ca","category":"Paper","link":"https://arxiv.org/abs/2610.08246","source":"arXiv AI","badge":"📜"},{"date":"2026-10-07","title":"GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets","description":"arXiv:2610.06910v1 Announce Type: new \nAbstract: Recent advances in Large Language Models (LLMs) have demonstrated remarkable capabilities in web front-end execution, with browser-based game generation emerging as a particularly prominent frontier. While previous efforts frequently rely on complex m","category":"Paper","link":"https://arxiv.org/abs/2610.06910","source":"arXiv AI","badge":"📜"},{"date":"2026-10-07","title":"RadOnc-Agent: An LLM-Orchestrated Framework for AI Workflows Across the Radiotherapy Care Pathway","description":"arXiv:2610.06923v1 Announce Type: new \nAbstract: Artificial intelligence has advanced individual radiotherapy tasks, yet these capabilities remain separated across clinical stages, software environments and data modalities. This fragmentation contrasts with the longitudinal radiotherapy workflow fro","category":"Paper","link":"https://arxiv.org/abs/2610.06923","source":"arXiv AI","badge":"📜"},{"date":"2026-10-07","title":"Small Language Models for Smart Data Model Classification at the Edge: A Cost-Aware Hybrid Approach","description":"arXiv:2610.07093v1 Announce Type: new \nAbstract: The rapid proliferation of heterogeneous data sources within the Internet of Things (IoT) across domains such as smart cities, energy management, and environmental monitoring necessitates efficient and scalable data standardization methods. Effective ","category":"Paper","link":"https://arxiv.org/abs/2610.07093","source":"arXiv AI","badge":"📜"},{"date":"2026-10-07","title":"Internalizing Agent Experience into Diffusion Model Weights via On-Policy Context Distillation","description":"arXiv:2610.07250v1 Announce Type: new \nAbstract: Wrapping an image generation model in an agentic harness can effectively boost Text-to-Image task performance: the harness can leverage memory, skills, workflow orchestration, result verification, and iterative refinement to continually construct and ","category":"Paper","link":"https://arxiv.org/abs/2610.07250","source":"arXiv AI","badge":"📜"},{"date":"2026-10-07","title":"Verifying Coordination in Parallel Coding Agents: NP-Bench and a Scheduling Planner","description":"arXiv:2610.07261v1 Announce Type: new \nAbstract: A team of coding agents can look fine agent by agent yet fail as a team: each passes its own tests while the merged result is broken, and single-agent evaluation never catches it. As teams run several LLM coding agents in parallel on one codebase, the","category":"Paper","link":"https://arxiv.org/abs/2610.07261","source":"arXiv AI","badge":"📜"},{"date":"2026-10-07","title":"Helping teens learn, plan, and shape the future of AI","description":"College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.","category":"News","link":"https://openai.com/index/teens-learn-and-plan","source":"OpenAI","badge":"🔥"},{"date":"2026-10-07","title":"Radisson Hotel Group brings hotel discovery into ChatGPT","description":"Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.","category":"News","link":"https://openai.com/index/radisson","source":"OpenAI","badge":"🔥"},{"date":"2026-10-07","title":"Introducing GPT-6 in ChatGPT with Intelligent UI","description":"ChatGPT just got a lot more visual—introducing Intelligent UI. Intelligent UI allows ChatGPT to answer quickly with fully interactive user interfaces that make everyday answers more visual. It makes learning complex topics easier, and it quickly creates tools to solve a task right in the moment. Oh,","category":"News","link":"https://www.youtube.com/watch?v=IsL4dVezs18","source":"YouTube – OpenAI","badge":"🔥"},{"date":"2026-10-07","title":"Build Plugins for ChatGPT","description":"Explore plugin extensions through Meetings and OpenAI Developers. See how a custom interface can live beside a conversation and bring selected context into your work with ChatGPT.","category":"News","link":"https://www.youtube.com/watch?v=LiNhqbetrbU","source":"YouTube – OpenAI","badge":"🔥"},{"date":"2026-10-07","title":"How OpenAI Puts ChatGPT to Work | DevDay 2026","description":"See how OpenAI’s teams use ChatGPT to manage launches, research competitors, and turn expertise into tools. Take practical ideas back to your own work.","category":"News","link":"https://www.youtube.com/watch?v=SXCfs7mitPo","source":"YouTube – OpenAI","badge":"🔥"},{"date":"2026-10-07","title":"Build custom site annotations with ChatGPT","description":"Add custom annotation controls and suggested prompts to your website. See how these work with WebMCP to help users edit a scene and enrich expense records using context available to their agent in ChatGPT.","category":"News","link":"https://www.youtube.com/watch?v=ZcDFZzsp3_Y","source":"YouTube – OpenAI","badge":"🔥"},{"date":"2026-10-07","title":"GPT-6 and Intelligent UI for everyone","description":"GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.","category":"News","link":"https://openai.com/index/gpt-6-for-everyone","source":"OpenAI","badge":""},{"date":"2026-10-07","title":"Self-Host Mistral with vLLM for Private AI Automation","description":"Private Mistral deployments using vLLM allow engineers to configure custom hardware scaling and secure sensitive data processing workflows.","category":"Automation","link":"https://www.activepieces.com/blog/self-host-mistral-with-vllm-for-private-ai-automation","source":"Activepieces","badge":"🔁"},{"date":"2026-10-07","title":"Best AI Workflow Automation Tools in 2026 Ranked","description":"The best AI tools of 2026 are evaluated based on their ability to integrate disparate software ecosystems into a single, cohesive operational pipeline.","category":"Automation","link":"https://www.activepieces.com/blog/best-ai-tools-2026-the-top-20-ranked-and-tested","source":"Activepieces","badge":"🔁"},{"date":"2026-10-07","title":"Qodo - The Last Human Code Review | DevDay 2026","description":"See how Qodo uses OpenAI to review AI-generated code. Explore an adversarial reviewer that challenges coding agents’ assumptions and output, and learn when model confidence still needs human judgment.","category":"News","link":"https://www.youtube.com/watch?v=bQ3-pXCpCTg","source":"YouTube – OpenAI","badge":""},{"date":"2026-10-07","title":"Ha ancora senso andare all'università?","description":"Scopri in 2 minuti quanto sei davvero pronto a usare l’AI nel tuo lavoro: fai il test gratuito → https://spiegamelofacile.com/audit/form-v4 -- Se il video ti è stato utile, iscriviti. Per il resto 👉 https://marcomontemagno.com 👉https://spiegamelofacile.com Ogni sabato mattina, nella tua casella: un ","category":"News","link":"https://www.youtube.com/watch?v=65WE4baa8xs","source":"YouTube - Marco Montemagno","badge":""},{"date":"2026-10-07","title":"AI Project Manager Tools: Best Picks for 2026","description":"An ai project manager automates complex workflows and resource allocation. Use these evaluations to select the platform best suited for your team.","category":"Automation","link":"https://www.activepieces.com/blog/ai-project-manager-tools-best-picks-for-2026","source":"Activepieces","badge":"🔁"},{"date":"2026-10-06","title":"How Jump Trading is scaling quant research with ChatGPT","description":"Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.","category":"News","link":"https://openai.com/index/jump-trading","source":"OpenAI","badge":"🔥"},{"date":"2026-10-06","title":"Advancing computer use with Ironclad","description":"Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.","category":"News","link":"https://openai.com/index/advancing-computer-use-with-ironclad","source":"OpenAI","badge":"🔥"},{"date":"2026-10-06","title":"Gemini automation: How to use the Zapier Gemini integration (Gemini 3.8 Flash, Gemini Enterprise, and more)","description":"Anyone who lives in the Google ecosystem has probably used Gemini for a quick draft or a fast answer. (Or if you're like me, you've been driven to your limit by the Google Docs popups encouraging you to use AI whenever your cursor strays too close to the bottom of the screen.) But a chat window is j","category":"Automation","link":"https://zapier.com/blog/automate-google-ai-studio","source":"Zapier Blog","badge":"🔁"},{"date":"2026-10-06","title":"Google ha lanciato Gemini 4. Ma tu NON puoi usarlo (50+ Novità AI)","description":"Google ha annunciato Gemini 4 Argon, ma perché non puoi ancora usarlo? Oltre 50 novità AI tra ChatGPT, Claude, agenti autonomi e strumenti per lavorare meglio.\n\nIn questa puntata di AI News analizziamo il nuovo modello di Google: cosa promette, chi può accedervi e cosa emerge dal confronto tra i ben","category":"News","link":"https://www.youtube.com/watch?v=7IIhl7jbxd0","source":"YouTube - Gabry Solutions","badge":"🔥"},{"date":"2026-10-06","title":"Sharing AI progress in mathematics","description":"OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.","category":"News","link":"https://openai.com/index/sharing-ai-progress-in-mathematics","source":"OpenAI","badge":""},{"date":"2026-10-06","title":"Zapier Agents is now AI by Zapier","description":"Every capability that made Zapier Agents powerful—tool calling, reasoning, autonomous action—now lives inside a single AI step in the Zap editor, using AI by Zapier. Here, I'll map each Zapier Agents feature to its equivalent in AI by Zapier, so if you're coming from Zapier Agents, you know exactly ","category":"Automation","link":"https://zapier.com/blog/zapier-agents-is-now-ai-by-zapier","source":"Zapier Blog","badge":"🔁"},{"date":"2026-10-06","title":"Introducing the Decisions API","description":"Introducing the Decisions API: a fast way to turn text and images into actions in your app. Give the model an input, define a question and the possible answers, and use its choice to decide what happens next. Powered by GPT-6 Luna, the Decisions API focuses on a small set of choices to make interact","category":"News","link":"https://www.youtube.com/watch?v=FB6oCmrIj-Y","source":"YouTube – OpenAI","badge":""},{"date":"2026-10-05","title":"Building advertising for the way people use AI","description":"OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.","category":"News","link":"https://openai.com/index/new-chatgpt-ads-format-and-measurement","source":"OpenAI","badge":"🔥"},{"date":"2026-10-05","title":"Dove nasce la caccia alle streghe dell’AI","description":"Clip estratta dall'intervista fatta ad Armando Bisogno su What’s Next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. Guarda l'intervista completa: https://www.youtube.com/watch?v=4VpAuIZK5Rg #short","category":"News","link":"https://www.youtube.com/shorts/A-82b-ELqq4","source":"YouTube – Raffaele Gaito","badge":""},{"date":"2026-10-04","title":"Google Mi Ha Invitato a Venezia… Ma NIENTE È Andato Come Previsto","description":"L'AI UCCIDERÀ Hollywood? Sono Andato a Scoprirlo con Google se L'AI ucciderà Hollywood? Sono andato a scoprirlo con Google, alla Mostra del Cinema di Venezia 2026.\n\nGoogle mi ha invitato per due giorni alla Google Beach del Lido: talk, demo e incontri dietro le quinte con Google, YouTube e chi il ci","category":"News","link":"https://www.youtube.com/watch?v=saHPxoCUc74","source":"YouTube - Gabry Solutions","badge":"🔥"},{"date":"2026-10-04","title":"Perché dovresti pagare per parlare con un'AI","description":"Clip estratta dall'intervista fatta ad Adrian Fartade su What’s Next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. Guarda l'intervista completa: https://www.youtube.com/watch?v=N0HvO_CQdfo #short","category":"News","link":"https://www.youtube.com/shorts/JwD0KeIqghE","source":"YouTube – Raffaele Gaito","badge":""},{"date":"2026-10-02","title":"A model guide for the GPT-6 family","description":"Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.","category":"News","link":"https://openai.com/index/practical-guide-building-gpt-6","source":"OpenAI","badge":"🔥"},{"date":"2026-10-02","title":"Chatham scales its capital markets expertise with OpenAI","description":"Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.","category":"News","link":"https://openai.com/index/chatham-financial","source":"OpenAI","badge":"🔥"},{"date":"2026-10-02","title":"Meta Muse automation: How to use the Zapier Muse integration (Muse Spark 1.3 and more)","description":"The concept of \"less is more\" doesn't seem to have made it to Silicon Valley. Every time I blink, it seems like there's yet another AI agent available on the market. And right on cue, another AI bombshell has entered the villa: Muse is a personal AI agent from Meta (of Facebook fame) that can do thi","category":"Automation","link":"https://zapier.com/blog/automate-muse","source":"Zapier Blog","badge":"🔁"},{"date":"2026-10-02","title":"Gemini connectors: How to connect Gemini Enterprise to the rest of your tech stack","description":"Gemini is everywhere in Google apps: it can read your emails, pull in data from your calendar, and find that file you accidentally saved to your work Drive. But no matter how much of your work is in Google, there are always other apps you'll need Gemini to access: things like your CRM, project manag","category":"Automation","link":"https://zapier.com/blog/gemini-connectors","source":"Zapier Blog","badge":"🔁"},{"date":"2026-10-01","title":"How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast","description":"GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x fast","category":"News","link":"https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/","source":"NVIDIA AI","badge":"⭐"},{"date":"2026-10-01","title":"How API Contract Testing Prevents Production Failures","description":"API contract testing helps you catch breaking changes before they disrupt your workflows. See how n8n validates API responses while your automations run.","category":"Automation","link":"https://blog.n8n.io/how-api-contract-testing-prevents-production-failures/","source":"n8n Blog","badge":"🔁"},{"date":"2026-10-01","title":"What is Google Gemini?","description":"Google has been in its \"Gemini era\" for a couple years now, and while the confusing rebrandings have slowed, everything else continues to improve at a rapid pace. Gemini is the name Google gave to its current generation family of multimodal AI models, but in typical Google fashion, it also applies t","category":"Automation","link":"https://zapier.com/blog/google-gemini","source":"Zapier Blog","badge":"🔁"},{"date":"2026-09-30","title":"Helping small businesses put AI to work","description":"OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.","category":"News","link":"https://openai.com/index/helping-small-businesses-put-ai-to-work","source":"OpenAI","badge":""},{"date":"2026-09-30","title":"OpenAI Dots 🟡, GPT-6.1 Sol ⚡, software factories 🏭","description":" [...]","category":"News","link":"https://tldr.tech/ai/2026-09-30","source":"TLDR AI","badge":""},{"date":"2026-09-30","title":"Cosa dico a uno studente che scrive la tesi con l’AI","description":"Clip estratta dall'intervista fatta ad Armando Bisogno su What’s Next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. Guarda l'intervista completa: https://www.youtube.com/watch?v=4VpAuIZK5Rg #short","category":"News","link":"https://www.youtube.com/shorts/QW3eXZQD2RU","source":"YouTube – Raffaele Gaito","badge":""},{"date":"2026-09-29","title":"Introducing Quine: An AI research system designed for the complexity of biology","description":"Biology doesn't operate in silos, and neither should the AI representation of it. Quine is an early-stage research effort to create a multimodal world model of biology. By connecting insights across biological scales and modalities, Quine helps scientists computationally search a space far larger th","category":"News","link":"https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/","source":"Microsoft Research","badge":""},{"date":"2026-09-28","title":"The Lenfest Institute grows landmark program with expanded OpenAI support","description":"OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.","category":"News","link":"https://openai.com/index/lenfest-ai-collaborative-expansion","source":"OpenAI","badge":""},{"date":"2026-09-25","title":"Perché caxxo guardi ancora la TV?","description":"Scopri in 2 minuti quanto sei davvero pronto a usare l’AI nel tuo lavoro: fai il test gratuito → https://spiegamelofacile.com/audit/form-v4 -- Se il video ti è stato utile, iscriviti. Per il resto 👉 https://marcomontemagno.com 👉https://spiegamelofacile.com Ogni sabato mattina, nella tua casella: un ","category":"News","link":"https://www.youtube.com/watch?v=SIs0Td4MR2Q","source":"YouTube - Marco Montemagno","badge":""},{"date":"2026-09-23","title":"Two years of OpenAI Academy","description":"Marking two years of OpenAI Academy and bringing AI skills to even more communities.","category":"News","link":"https://openai.com/index/two-years-of-openai-academy","source":"OpenAI","badge":""},{"date":"2026-09-23","title":"Offloaded inference for real-world physical AI robotics","description":"Robots are getting smarter, but how can their hardware match that growth? New Microsoft Research findings show that moving AI inference beyond the robot can improve task success, boost efficiency, and support more advanced physical AI workloads. The post Offloaded inference for real-world physical A","category":"News","link":"https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics/","source":"Microsoft Research","badge":""},{"date":"2026-09-23","title":"GPT-6 ⚡, Opus 5.5 🧠, AI leaders at UN 🌐","description":" [...]","category":"News","link":"https://tldr.tech/ai/2026-09-23","source":"TLDR AI","badge":""},{"date":"2026-09-23","title":"Create your own voices with Gemini 3.8 text-to-speech","description":"Design entirely new vocal personas from scratch for gaming, immersive audiobooks, or dual-speaker podcasts using natural language prompts - directing every performance line by line with nuanced acting cues, pacing, back channeling, and dialect shifts. Or, recreate consistent adult vocal profiles fro","category":"News","link":"https://www.youtube.com/watch?v=FL6mI_Br-mc","source":"YouTube – DeepMind","badge":""},{"date":"2026-09-23","title":"What the Labs Kept Secret: The German Wiki & RubyGems Hacks - Computerphile","description":"The public thought the AI containment crisis started with Hugging Face. They were wrong. We talk to Sydney von Arx of Nightingale Collective, the researcher who discovered that AI agents had already escaped their sandboxes months prior. From secretly taking over a German wiki to flooding the RubyGem","category":"News","link":"https://www.youtube.com/watch?v=giTmBaNGaHw","source":"YouTube – Computerphile","badge":""},{"date":"2026-09-23","title":"Sam Altman’s remarks at the United Nations Security Council","description":"OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.","category":"News","link":"https://openai.com/index/sam-altman-un-security-council-remarks","source":"OpenAI","badge":""},{"date":"2026-09-23","title":"Introducing MentalHealthBench","description":"MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.","category":"News","link":"https://openai.com/index/introducing-mentalhealthbench","source":"OpenAI","badge":""},{"date":"2026-09-23","title":"Grab and OpenAI bring practical AI skills to Southeast Asia","description":"OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.","category":"News","link":"https://openai.com/index/grab-openai-ai-skills-southeast-asia","source":"OpenAI","badge":""},{"date":"2026-09-22","title":"Tutto quello che penso degli Agenti AI","description":"Utilizza il codice sconto MONTYAI su https://www.hostinger.com/montyai Questo video è supported by Hostinger #adv Scopri in 2 minuti quanto sei davvero pronto a usare l’AI nel tuo lavoro: fai il test gratuito → https://spiegamelofacile.com/audit/form-v4 -- Se il video ti è stato utile, iscriviti. Pe","category":"News","link":"https://www.youtube.com/watch?v=vIpqEC_7D78","source":"YouTube - Marco Montemagno","badge":""},{"date":"2026-09-22","title":"Priorities and principles for effective third party assessments","description":"OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.","category":"News","link":"https://openai.com/index/priorities-principles-third-party-assessments","source":"OpenAI","badge":""},{"date":"2026-09-21","title":"From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale","description":"Today, Egypt’s AI builders gathered in the Grand Egyptian Museum for a reception that highlighted the nation’s rapidly growing AI ecosystem — spanning AI natives, developers, researchers, startups and enterprises — building applications across industries. The event included a keynote from Paolo Gugl","category":"News","link":"https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/","source":"NVIDIA AI","badge":""},{"date":"2026-09-21","title":"Prompt Testing Frameworks for Production AI Workflows","description":"Still guessing if your prompts work? Learn how to build a systematic prompt testing framework that catches regressions before they reach production.","category":"Automation","link":"https://blog.n8n.io/prompt-testing-frameworks/","source":"n8n Blog","badge":"🔁"},{"date":"2026-09-21","title":"Higgsfield AI ships new video features in a day with GPT-6 Astra","description":"With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.","category":"News","link":"https://openai.com/index/higgsfield-from-prompt-to-production-with-astra","source":"OpenAI","badge":""},{"date":"2026-09-21","title":"Advisory Group on Mathematics and Artificial Intelligence","description":"OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.","category":"News","link":"https://openai.com/index/advisory-group-on-mathematics-and-ai","source":"OpenAI","badge":""},{"date":"2026-09-21","title":"Building standards for the next phase of AI","description":"OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.","category":"News","link":"https://openai.com/index/building-standards-next-phase-ai","source":"OpenAI","badge":""},{"date":"2026-09-21","title":"Expanding OpenAI Academy with new learning paths","description":"Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.","category":"News","link":"https://openai.com/index/expanding-openai-academy-with-new-learning-paths","source":"OpenAI","badge":""},{"date":"2026-09-19","title":"Reducing AI Workflow Latency: Patterns That Actually Work","description":"Learn how to reduce AI workflow latency with production patterns for latency optimization: model routing, caching, parallel execution, timeouts, and budgets.","category":"Automation","link":"https://blog.n8n.io/reducing-ai-workflow-latency/","source":"n8n Blog","badge":"🔁"},{"date":"2026-09-18","title":"Hugging Face Hack Shows Humans Can Keep AI In Check","description":"Weeks after the OpenAI hack, AI Now's Heidy Khlaaf affirms that \"ordinary security engineering would have stopped this well short of reaching Hugging Face’s data.\" The post Hugging Face Hack Shows Humans Can Keep AI In Check appeared first on AI Now Institute .","category":"News","link":"https://ainowinstitute.org/news/press/hugging-face-hack-shows-humans-can-keep-ai-in-check","source":"AI Now Institute","badge":""},{"date":"2026-09-18","title":"Introducing the Australian Youth Safety Blueprint","description":"OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.","category":"News","link":"https://openai.com/index/australian-youth-safety-blueprint","source":"OpenAI","badge":""},{"date":"2026-09-16","title":"Try new models and services, skip the account setup","description":"Starting with n8n v2.36, you can now use supported AI models and tool services on select n8n Cloud plans without creating a provider account or generating an API key. Choose Gateway credits instead of adding a credential. Six model providers and five tool services work right out of the box.","category":"Automation","link":"https://blog.n8n.io/gateway-credits/","source":"n8n Blog","badge":"🔁"},{"date":"2026-09-16","title":"Reimagining advertising with AI","description":"Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.","category":"News","link":"https://openai.com/index/reimagining-advertising-with-ai","source":"OpenAI","badge":""},{"date":"2026-09-16","title":"How workers are unlocking new ways of working","description":"New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.","category":"News","link":"https://openai.com/index/unlocking-new-ways-of-working","source":"OpenAI","badge":""},{"date":"2026-09-15","title":"L'AI ci ucciderà tutti?","description":"Scopri in 2 minuti quanto sei davvero pronto a usare l’AI nel tuo lavoro: fai il test gratuito → https://spiegamelofacile.com/audit/form-v4 -- Se il video ti è stato utile, iscriviti. Per il resto 👉 https://marcomontemagno.com 👉https://spiegamelofacile.com Ogni sabato mattina, nella tua casella: un ","category":"News","link":"https://www.youtube.com/watch?v=cUNlNfQPwpA","source":"YouTube - Marco Montemagno","badge":""},{"date":"2026-09-14","title":"How Fyxer built an AI executive assistant people trust","description":"Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.","category":"News","link":"https://openai.com/index/fyxer","source":"OpenAI","badge":""},{"date":"2026-09-11","title":"Reflection Pattern: AI Agents Self-Correct in Production","description":"Reflection pattern for LLMs: a self-critique loop that improves correctness, clarity, and reliability with measurable quality gates, ROI, and safety controls","category":"Automation","link":"https://blog.n8n.io/reflection-pattern-ai-agents-self-correct-in-production/","source":"n8n Blog","badge":"🔁"},{"date":"2026-09-10","title":"I Never Thought I’d See This Happen","description":"❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 The Navier-Stokes solution paper is available here: https://openai.com/index/navier-stokes-solution/ My fluid simulations and papers: https://users.cg.tuwien.ac.at/zsolnai/gfx/fluid_control_msc_thesis/ https://users","category":"News","link":"https://www.youtube.com/watch?v=mOvtumfyjCs","source":"YouTube – Two Minute Papers","badge":""},{"date":"2026-09-10","title":"The AI Language We Can't Read: Neuralese ft. Rob Miles - Computerphile","description":"So far, 'Chain of Thought' has allowed us a glimpse at the processes by which Large Language Models work their way through problems. What if these LLMs begin to talk in a language only they understand? Rob Miles is a passionate AI Safety advocate, find out more about him here: https://www.youtube.co","category":"News","link":"https://www.youtube.com/watch?v=iuHddnIzKRA","source":"YouTube – Computerphile","badge":""},{"date":"2026-09-10","title":"Introducing ChatGPT for Financial Services","description":"Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.","category":"News","link":"https://openai.com/index/introducing-chatgpt-financial-services","source":"OpenAI","badge":""},{"date":"2026-09-10","title":"Expanding AI access and cyber defense for federal, state, local, and tribal governments","description":"OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.","category":"News","link":"https://openai.com/index/expanding-ai-access-us-government","source":"OpenAI","badge":""},{"date":"2026-09-09","title":"How AI is transforming weather prediction","description":"Can artificial intelligence solve one of science’s most chaotic physics puzzles? In this episode, Professor Hannah Fry sits down with Peter Battaglia, Senior Director of Research at Google DeepMind, to explore how machine learning is transforming global weather forecasting. From providing critical e","category":"News","link":"https://www.youtube.com/watch?v=O_EWbnkjXdk","source":"YouTube – DeepMind","badge":""},{"date":"2026-09-09","title":"Paul Christiano joins OpenAI Foundation Board","description":"Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.","category":"News","link":"https://openai.com/index/paul-christiano-joins-openai-foundation-board","source":"OpenAI","badge":""},{"date":"2025-07-30","title":"Newsletter BitAgora","description":"Selezione articoli IA","category":"Tool","link":"https://newsletter.bitagoraorobica.it/tag/ia/","source":"BitAgorà Orobica","badge":""}];
+    <div class="chips" role="group" aria-label="Categoria">
+      <button type="button" class="chip" data-category="" aria-pressed="true">Tutti<span class="count">109</span></button>
+      <button type="button" class="chip" data-category="News" aria-pressed="false">News<span class="count">55</span></button>
+      <button type="button" class="chip" data-category="Paper" aria-pressed="false">Paper<span class="count">35</span></button>
+      <button type="button" class="chip" data-category="Automation" aria-pressed="false">Automazione<span class="count">19</span></button>
+    </div>
 
-    const searchInput = document.getElementById('search');
-    const categoryFilter = document.getElementById('category');
-    const sourceFilter = document.getElementById('source');
-    const daysFilter = document.getElementById('days');
-    const toggleDark = document.getElementById('toggleDark');
-    const resetFilters = document.getElementById('resetFilters');
-    const entriesDiv = document.getElementById('entries');
+    <p class="results" aria-live="polite"><span><strong id="count">109</strong> <span id="count-label">contenuti</span></span><button type="button" id="reset" class="link-button" hidden>Azzera filtri</button></p>
 
-    const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"})[c]);
+    <div class="grid">
+      <article class="card" data-category="News" data-source="YouTube – Raffaele Gaito" data-date="2026-10-08" data-text="non trattare l&#x27;ai come una magia spesso ci rivolgiamo agli strumenti di intelligenza artificiale con richieste vaghe e sbrigative, aspettandoci risposte perfette come per magia. la verità è che il buon senso, la definizione dei confini e la capacità di specificare dettagli fanno tutta la differenza del mondo. il modo in cui poni le youtube – raffaele gaito">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://www.youtube.com/shorts/bdE8aKfIC54" target="_blank" rel="noopener">Non trattare l&#x27;AI come una magia</a></h3>
+        <p>Spesso ci rivolgiamo agli strumenti di intelligenza artificiale con richieste vaghe e sbrigative, aspettandoci risposte perfette come per magia. La verità è che il buon senso, la definizione dei confini e la capacità di specificare dettagli fanno tutta la differenza del mondo. Il modo in cui poni le</p>
+        <div class="card-meta"><span class="source">YouTube – Raffaele Gaito</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Automation" data-source="Zapier Blog" data-date="2026-10-08" data-text="claude models: fable vs. opus vs. sonnet vs. haiku anthropic&#x27;s claude family has four primary models: haiku, sonnet, opus, and fable. (there&#x27;s also mythos, but the general public doesn&#x27;t have access to that.) all four claude models are incredibly capable. even the smallest model, haiku, is better than the best frontier models from two years ago. thi zapier blog">
+        <div class="card-top"><span class="tag">Automazione</span></div>
+        <h3><a href="https://zapier.com/blog/claude-models" target="_blank" rel="noopener">Claude models: Fable vs. Opus vs. Sonnet vs. Haiku</a></h3>
+        <p>Anthropic&#x27;s Claude family has four primary models: Haiku, Sonnet, Opus, and Fable. (There&#x27;s also Mythos, but the general public doesn&#x27;t have access to that.) All four Claude models are incredibly capable. Even the smallest model, Haiku, is better than the best frontier models from two years ago. Thi</p>
+        <div class="card-meta"><span class="source">Zapier Blog</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Automation" data-source="Activepieces" data-date="2026-10-08" data-text="langsmith vs braintrust: ai eval platform pricing compared llm evaluation platforms require balancing framework integration with testing flexibility. engineering leads can select the right tool for their stack. activepieces">
+        <div class="card-top"><span class="tag">Automazione</span></div>
+        <h3><a href="https://www.activepieces.com/blog/langsmith-vs-braintrust-which-ai-eval-platform-wins" target="_blank" rel="noopener">LangSmith vs Braintrust: AI Eval Platform Pricing Compared</a></h3>
+        <p>LLM evaluation platforms require balancing framework integration with testing flexibility. Engineering leads can select the right tool for their stack.</p>
+        <div class="card-meta"><span class="source">Activepieces</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Automation" data-source="Activepieces" data-date="2026-10-08" data-text="best agentic ai coding tools for 2026 agentic ai coding tools automate complex software engineering tasks by autonomously executing multi-step development workflows. activepieces">
+        <div class="card-top"><span class="tag">Automazione</span></div>
+        <h3><a href="https://www.activepieces.com/blog/best-agentic-ai-coding-tools-for-2026" target="_blank" rel="noopener">Best Agentic AI Coding Tools for 2026</a></h3>
+        <p>Agentic AI coding tools automate complex software engineering tasks by autonomously executing multi-step development workflows.</p>
+        <div class="card-meta"><span class="source">Activepieces</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Automation" data-source="Activepieces" data-date="2026-10-08" data-text="what is power automation? how ai orchestration works understanding what is power automation enables teams to identify which redundant administrative tasks can be fully delegated to autonomous software agents. activepieces">
+        <div class="card-top"><span class="tag">Automazione</span></div>
+        <h3><a href="https://www.activepieces.com/blog/what-is-power-automation-how-ai-orchestration-works" target="_blank" rel="noopener">What is Power Automation? How AI Orchestration Works</a></h3>
+        <p>Understanding what is power automation enables teams to identify which redundant administrative tasks can be fully delegated to autonomous software agents.</p>
+        <div class="card-meta"><span class="source">Activepieces</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Automation" data-source="Activepieces" data-date="2026-10-08" data-text="how to connect the klaviyo mcp server in 2026 klaviyo mcp server integrations allow developers to link marketing data directly to llm workflows for automated analysis. activepieces">
+        <div class="card-top"><span class="tag">Automazione</span></div>
+        <h3><a href="https://www.activepieces.com/blog/how-to-connect-the-klaviyo-mcp-server-in-2026" target="_blank" rel="noopener">How to Connect the Klaviyo MCP Server in 2026</a></h3>
+        <p>Klaviyo MCP server integrations allow developers to link marketing data directly to LLM workflows for automated analysis.</p>
+        <div class="card-meta"><span class="source">Activepieces</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Automation" data-source="Zapier Blog" data-date="2026-10-08" data-text="ai adoption: a practical guide from zapier i have two voices in my head when it comes to new tech. one is the wide-eyed optimist who wants to try every tool and click every ai button. the other wants to delete every app on my phone, move to a cabin in the woods, and write by candlelight. there&#x27;s no doubt ai is exciting. it&#x27;s already helping zapier blog">
+        <div class="card-top"><span class="tag">Automazione</span></div>
+        <h3><a href="https://zapier.com/blog/ai-adoption" target="_blank" rel="noopener">AI adoption: A practical guide from Zapier</a></h3>
+        <p>I have two voices in my head when it comes to new tech. One is the wide-eyed optimist who wants to try every tool and click every AI button. The other wants to delete every app on my phone, move to a cabin in the woods, and write by candlelight. There&#x27;s no doubt AI is exciting. It&#x27;s already helping</p>
+        <div class="card-meta"><span class="source">Zapier Blog</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="understanding and mitigating inference-time overreliance using agentic memory agentic memory allows llm agents to reuse past experience, yet retrieved memories can also distort inference even when they are benign, correctly stored, and appropriately retrieved. we study this failure mode, which we call memory over-reliance. acros arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.07311" target="_blank" rel="noopener">Understanding and Mitigating Inference-Time Overreliance Using Agentic Memory</a></h3>
+        <p>Agentic memory allows LLM agents to reuse past experience, yet retrieved memories can also distort inference even when they are benign, correctly stored, and appropriately retrieved. We study this failure mode, which we call memory over-reliance. Acros</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="evaluating escalation signals for llm routing: targets, controls, and five ways to fool yourself deciding when to escalate a query from a small language model to a larger one requires a cheap signal that predicts, before the large model is called, whether escalating would help. semantic entropy, originally developed to detect hallucinations, is a arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.07354" target="_blank" rel="noopener">Evaluating Escalation Signals for LLM Routing: Targets, Controls, and Five Ways to Fool Yourself</a></h3>
+        <p>Deciding when to escalate a query from a small language model to a larger one requires a cheap signal that predicts, before the large model is called, whether escalating would help. Semantic entropy, originally developed to detect hallucinations, is a</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="memco: memory-centric collaboration for generalizing llm agents to unseen environments large language model (llm) agents increasingly operate in interactive environments, where they need to make sequential decisions through observation, action, and feedback. although memory can help agents reuse experience, existing work designs memory i arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.07376" target="_blank" rel="noopener">MemCo: Memory-Centric Collaboration for Generalizing LLM Agents to Unseen Environments</a></h3>
+        <p>Large language model (LLM) agents increasingly operate in interactive environments, where they need to make sequential decisions through observation, action, and feedback. Although memory can help agents reuse experience, existing work designs memory i</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="2d-fet-bench: from spatial reasoning to fet design on flakes field-effect transistor (fet) layouts on exfoliated two-dimensional flakes are typically drawn by hand for each flake, placing contacts and gates to match its position and outline in optical micrographs. to our knowledge, no executable benchmark tests arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.07423" target="_blank" rel="noopener">2d-fet-bench: from spatial reasoning to fet design on flakes</a></h3>
+        <p>Field-effect transistor (FET) layouts on exfoliated two-dimensional flakes are typically drawn by hand for each flake, placing contacts and gates to match its position and outline in optical micrographs. To our knowledge, no executable benchmark tests</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="compass: finding where reasoning lives in language models explicitly eliciting reasoning substantially improves llm performance. existing approaches require a predefined characterization of reasoning, whether through cot prompt design, contrastive cot directions, or via sae derived reasoning features. for mat arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.07469" target="_blank" rel="noopener">COMPASS: Finding Where Reasoning Lives in Language Models</a></h3>
+        <p>Explicitly eliciting reasoning substantially improves LLM performance. Existing approaches require a predefined characterization of reasoning, whether through CoT prompt design, contrastive CoT directions, or via SAE derived reasoning features. For mat</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="aegisflow: a multi-agent agentic ai framework for autonomous remediation and self-healing in fragile data ecosystems traditional data pipelines are notoriously brittle, often failing due to upstream schema drift, api contract changes, or website dom modifications. present observability tools only raise alerts but for human engineers, resulting in a high mean time to arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.06971" target="_blank" rel="noopener">AegisFlow: A Multi-Agent Agentic AI Framework for Autonomous Remediation and Self-Healing in Fragile Data Ecosystems</a></h3>
+        <p>Traditional data pipelines are notoriously brittle, often failing due to upstream schema drift, API contract changes, or website DOM modifications. Present observability tools only raise alerts but for human engineers, resulting in a high Mean Time to</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="topology-consistent task planning over cellular workflow complexes for llm-based agents task planning for llm agents requires workflows that satisfy both user intent and complex sub-task dependencies. while existing planners work well for sequential or directed acyclic graph (dag)-like structures, they struggle with workflow patterns such arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.07004" target="_blank" rel="noopener">Topology-Consistent Task Planning over Cellular Workflow Complexes for LLM-based Agents</a></h3>
+        <p>Task planning for LLM agents requires workflows that satisfy both user intent and complex sub-task dependencies. While existing planners work well for sequential or directed acyclic graph (DAG)-like structures, they struggle with workflow patterns such</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="offline ai modules: voice-first offline architecture, hardware reference stack, quantization and benchmarking the offline ai modules workstream enables practical, low-power, and community-accessible deployment of voice-first ai systems that operate fully offline. designed for african language communities where speech is the dominant mode of interaction and int arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.07026" target="_blank" rel="noopener">Offline AI Modules: Voice-First Offline Architecture, Hardware Reference Stack, Quantization and Benchmarking</a></h3>
+        <p>The Offline AI Modules workstream enables practical, low-power, and community-accessible deployment of voice-first AI systems that operate fully offline. Designed for African language communities where speech is the dominant mode of interaction and int</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="rule-based languages for neurosymbolic ai logic programming is increasingly used as the symbolic component of neurosymbolic ai systems. we survey the main rule-based languages in this setting, namely datalog, answer set, and probabilistic logic programs, along four axes: semantics, expressiven arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.07313" target="_blank" rel="noopener">Rule-Based Languages for Neurosymbolic AI</a></h3>
+        <p>Logic programming is increasingly used as the symbolic component of neurosymbolic AI systems. We survey the main rule-based languages in this setting, namely Datalog, answer set, and probabilistic logic programs, along four axes: semantics, expressiven</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="a systematic investigation of bias in large language models for advertising relevance large language models (llms) are increasingly used to judge how well an advertisement matches a query, but the fairness of these judgments has received limited attention. we conduct a systematic study of fairness in relevance judgments made by llms for arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.07544" target="_blank" rel="noopener">A Systematic Investigation of Bias in Large Language Models for Advertising Relevance</a></h3>
+        <p>Large language models (LLMs) are increasingly used to judge how well an advertisement matches a query, but the fairness of these judgments has received limited attention. We conduct a systematic study of fairness in relevance judgments made by LLMs for</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="logic: an llm benchmark for intent-grounded change impact in aerospace electrical systems aerospace electrical-design revisions can contain multiple genuine changes, although an engineering request may authorize only a subset. propagating every detected difference can therefore produce overly broad impact reports. we present logic, a contro arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.07580" target="_blank" rel="noopener">LOGIC: An LLM Benchmark for Intent-Grounded Change Impact in Aerospace Electrical Systems</a></h3>
+        <p>Aerospace electrical-design revisions can contain multiple genuine changes, although an engineering request may authorize only a subset. Propagating every detected difference can therefore produce overly broad impact reports. We present LOGIC, a contro</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="biostudybench: evaluating agents on post-cutoff biomedical studies we evaluate whether ai agents can match the reported findings of published biomedical studies using public data. existing evaluations do not consistently separate analysis from prior knowledge or retrieval of the published answer. we introduce biostudy arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.07614" target="_blank" rel="noopener">BioStudyBench: Evaluating Agents on Post-Cutoff Biomedical Studies</a></h3>
+        <p>We evaluate whether AI agents can match the reported findings of published biomedical studies using public data. Existing evaluations do not consistently separate analysis from prior knowledge or retrieval of the published answer. We introduce BioStudy</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="agentmemgate: addressing speculation contamination in conversational assistant memory conversational ai assistants with long-term memory extract facts from user messages into a store consulted in later conversations. a stated plan can enter that store as fact: a user who might move to seattle may be recorded as already living there. we arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.07707" target="_blank" rel="noopener">AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory</a></h3>
+        <p>Conversational AI assistants with long-term memory extract facts from user messages into a store consulted in later conversations. A stated plan can enter that store as fact: a user who might move to Seattle may be recorded as already living there. We</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="st-bench: a spatial-temporal benchmark for multi-agent system generation on scientific research tasks the rapid progress of llm-based multi-agent systems (mas) has shown that they largely outperform single agents on coding, math, and qa tasks, where executable tests provide a binary success signal. whether this advantage transfers to real scientific da arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.07763" target="_blank" rel="noopener">ST-Bench: A Spatial-Temporal Benchmark for Multi-Agent System Generation on Scientific Research Tasks</a></h3>
+        <p>The rapid progress of LLM-based multi-agent systems (MAS) has shown that they largely outperform single agents on coding, math, and QA tasks, where executable tests provide a binary success signal. Whether this advantage transfers to real scientific da</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="otel: open telco ai datasets, benchmarks, and models we present open telco (otel), an open telecom ai resource that releases derived telecom datasets for retrieval, reranking, instruction tuning, and safety/abstention, together with 30 full-parameter post-trained baselines spanning 10 embedding models, 3 arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.07766" target="_blank" rel="noopener">OTel: Open Telco AI Datasets, Benchmarks, and Models</a></h3>
+        <p>We present Open Telco (OTel), an open telecom AI resource that releases derived telecom datasets for retrieval, reranking, instruction tuning, and safety/abstention, together with 30 full-parameter post-trained baselines spanning 10 embedding models, 3</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="oopmas: object-oriented multi-agent systems for query-level workflow generation multi-agent systems (mas) powered by large language models have shown strong performance across code generation, mathematical reasoning, and question answering. however, existing methods for automating mas design mostly operate at the task level, produ arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.07787" target="_blank" rel="noopener">OOPMAS: Object-Oriented Multi-Agent Systems for Query-Level Workflow Generation</a></h3>
+        <p>Multi-agent systems (MAS) powered by large language models have shown strong performance across code generation, mathematical reasoning, and question answering. However, existing methods for automating MAS design mostly operate at the task level, produ</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="ra-mowe: workflow-affinity embeddings for query clustering and agentic workflow generation agentic workflows enable large language models (llms) to solve complex tasks by coordinating reasoning, tool use, and verification. however, a workflow optimized for an entire task collection can overlook differences in the reasoning strategies that in arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.07851" target="_blank" rel="noopener">RA-MoWE: Workflow-Affinity Embeddings for Query Clustering and Agentic Workflow Generation</a></h3>
+        <p>Agentic workflows enable large language models (LLMs) to solve complex tasks by coordinating reasoning, tool use, and verification. However, a workflow optimized for an entire task collection can overlook differences in the reasoning strategies that in</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="sigma: self-improving alignment generalization from a model spec llm agents are increasingly capable of executing complex tasks and of recursively improving themselves on easy-to-verify objectives such as software engineering and mathematics. since alignment is much harder to verify, this creates a growing risk of c arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.07935" target="_blank" rel="noopener">SIGMA: Self-Improving Alignment Generalization from a Model Spec</a></h3>
+        <p>LLM agents are increasingly capable of executing complex tasks and of recursively improving themselves on easy-to-verify objectives such as software engineering and mathematics. Since alignment is much harder to verify, this creates a growing risk of c</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="same feedback, different answer: measuring run-to-run instability in frontier-model customer feedback analysis ai agents are increasingly being programmed to automate knowledge work over large collections of unstructured data. such automation requires repeatability: when the underlying evidence is unchanged, the agent&#x27;s categories, priorities, and counts should arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.08036" target="_blank" rel="noopener">Same Feedback, Different Answer: Measuring Run-to-Run Instability in Frontier-Model Customer Feedback Analysis</a></h3>
+        <p>AI agents are increasingly being programmed to automate knowledge work over large collections of unstructured data. Such automation requires repeatability: when the underlying evidence is unchanged, the agent&#x27;s categories, priorities, and counts should</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="daedalus: bootstrapping agent memory from self-generated tasks llm agents often lack the operational knowledge to act reliably in new environments, as they must discover specific tool behaviors or environment conventions on their own. without memory of past attempts, they repeat the same mistakes across tasks, lea arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.08048" target="_blank" rel="noopener">DAEDALUS: Bootstrapping Agent Memory from Self-Generated Tasks</a></h3>
+        <p>LLM agents often lack the operational knowledge to act reliably in new environments, as they must discover specific tool behaviors or environment conventions on their own. Without memory of past attempts, they repeat the same mistakes across tasks, lea</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="speedrunbench: challenging llm agents with video game speedrunning frontier llm agents have been shown to be capable of solving increasingly complex tasks for which humans have measurable solutions. this begs the pertinent question of whether llm agents can go beyond what humans have already solved. the ability to dev arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.08076" target="_blank" rel="noopener">SpeedrunBench: Challenging LLM Agents with Video Game Speedrunning</a></h3>
+        <p>Frontier LLM agents have been shown to be capable of solving increasingly complex tasks for which humans have measurable solutions. This begs the pertinent question of whether LLM agents can go beyond what humans have already solved. The ability to dev</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="natural language questions as an interface for knowledge graphs: qraken graph distillation and semantic self-healing natural-language access to rdf knowledge graphs is a core semantic web ambition. large language models (llms) have advanced text-to-sparql, yet on unfamiliar graphs they often generate valid queries that misrepresent the populated data model. qraken is arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.08095" target="_blank" rel="noopener">Natural Language Questions as an Interface for Knowledge Graphs: QRAKEN Graph Distillation and Semantic Self-Healing</a></h3>
+        <p>Natural-language access to RDF knowledge graphs is a core Semantic Web ambition. Large language models (LLMs) have advanced Text-to-SPARQL, yet on unfamiliar graphs they often generate valid queries that misrepresent the populated data model. QRAKEN is</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="dsv-mem: evaluating multimodal memory in professional workflows for mllm agents conversational mllm agents are increasingly expected to assist in professional workflows, from ai research and engineering design to product management and business operations. yet this capability remains underexplored: existing benchmarks largely focu arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.08102" target="_blank" rel="noopener">DSV-Mem: Evaluating Multimodal Memory in Professional Workflows for MLLM Agents</a></h3>
+        <p>Conversational MLLM agents are increasingly expected to assist in professional workflows, from AI research and engineering design to product management and business operations. Yet this capability remains underexplored: existing benchmarks largely focu</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="learn2play bench: how well do llm agents learn from experience in unfamiliar environments? learning from experience is essential for llm agents to adapt to unfamiliar and dynmaic environments. evaluating this ability is therefore important for understanding how effectively agents acquire and use new knowledge. existing benchmarks have sought arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.08215" target="_blank" rel="noopener">Learn2Play Bench: How Well Do LLM Agents Learn from Experience in Unfamiliar Environments?</a></h3>
+        <p>Learning from experience is essential for LLM agents to adapt to unfamiliar and dynmaic environments. Evaluating this ability is therefore important for understanding how effectively agents acquire and use new knowledge. Existing benchmarks have sought</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="leanplan: optimal planning with llm-generated heuristics and admissibility proofs frontier large language models (llms) can generate heuristic functions that guide search to achieve state-of-the-art performance in satisficing planning, where any plan is acceptable. however, these heuristics are not guaranteed to be admissible and ca arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.08246" target="_blank" rel="noopener">LeanPlan: Optimal Planning with LLM-Generated Heuristics and Admissibility Proofs</a></h3>
+        <p>Frontier large language models (LLMs) can generate heuristic functions that guide search to achieve state-of-the-art performance in satisficing planning, where any plan is acceptable. However, these heuristics are not guaranteed to be admissible and ca</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="masc: a multi-agent self-calibration framework with latent construct alignment for consistent client role-playing in psychological counseling large language models are increasingly used to simulate clients for counselor training and psychological counseling research, but reliable simulation requires clients to remain psychologically coherent across extended interactions. existing… arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.08250" target="_blank" rel="noopener">MASC: A Multi-Agent Self-Calibration Framework with Latent Construct Alignment for Consistent Client Role-Playing in Psychological Counseling</a></h3>
+        <p>Large language models are increasingly used to simulate clients for counselor training and psychological counseling research, but reliable simulation requires clients to remain psychologically coherent across extended interactions. Existing…</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="zkllmpot: efficient zero knowledge proof of training for large language models auditing the claimed outcomes of large language model (llm) training is challenging when model weights and training data are private, while cryptographically proving the full training process is prohibitively expensive at transformer scale. we present… arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.08258" target="_blank" rel="noopener">zkLLMPoT: Efficient Zero Knowledge Proof of Training for Large Language Models</a></h3>
+        <p>Auditing the claimed outcomes of large language model (LLM) training is challenging when model weights and training data are private, while cryptographically proving the full training process is prohibitively expensive at Transformer scale. We present…</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="medzero: self-evolving agents for open-ended medical reasoning through controlled knowledge accumulation large language models (llms) have shown promise in medical question answering and clinical reasoning, yet their improvement remains constrained by static parametric knowledge and costly expert supervision. self-evolving agents offer a promising… arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.08327" target="_blank" rel="noopener">MedZERO: Self-Evolving Agents for Open-Ended Medical Reasoning Through Controlled Knowledge Accumulation</a></h3>
+        <p>Large language models (LLMs) have shown promise in medical question answering and clinical reasoning, yet their improvement remains constrained by static parametric knowledge and costly expert supervision. Self-evolving agents offer a promising…</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="an ai-assisted formalization of the poincar\&#x27;e conjecture we present an ai-assisted lean 4 formalization of the poincar\&#x27;e conjecture. the project began with limited reusable formal infrastructure for the geometric analysis behind the proof. to organize this work, we combined a proof blueprint prepared by… arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.08329" target="_blank" rel="noopener">An AI-Assisted Formalization of the Poincar\&#x27;e Conjecture</a></h3>
+        <p>We present an AI-assisted Lean 4 formalization of the Poincar\&#x27;e conjecture. The project began with limited reusable formal infrastructure for the geometric analysis behind the proof. To organize this work, we combined a proof blueprint prepared by…</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-08" data-text="transect: retaining observability for long-horizon llm agent evaluations frontier ai evaluations increasingly use open-ended, agentic, long-horizon tasks whose transcripts can span hundreds of pages of outputs and actions from complex multi-agent networks. the observability envelop-the range of what evaluators can reliably… arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.08364" target="_blank" rel="noopener">Transect: Retaining Observability for Long-Horizon LLM Agent Evaluations</a></h3>
+        <p>Frontier AI evaluations increasingly use open-ended, agentic, long-horizon tasks whose transcripts can span hundreds of pages of outputs and actions from complex multi-agent networks. The observability envelop-the range of what evaluators can reliably…</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-08" data-relative>8 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="OpenAI" data-date="2026-10-07" data-text="helping teens learn, plan, and shape the future of ai college planner is coming to chatgpt for teens to help students manage college applications, alongside new flashcards, quizzes, and a teen ai council. openai">
+        <div class="card-top"><span class="tag">News</span><span class="flag flag-hot">In evidenza</span></div>
+        <h3><a href="https://openai.com/index/teens-learn-and-plan" target="_blank" rel="noopener">Helping teens learn, plan, and shape the future of AI</a></h3>
+        <p>College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.</p>
+        <div class="card-meta"><span class="source">OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-10-07" data-relative>7 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="OpenAI" data-date="2026-10-07" data-text="radisson hotel group brings hotel discovery into chatgpt radisson partnered with accenture to build a chatgpt plugin using openai technology, helping travelers find, compare, and book hotels while planning their trips. openai">
+        <div class="card-top"><span class="tag">News</span><span class="flag flag-hot">In evidenza</span></div>
+        <h3><a href="https://openai.com/index/radisson" target="_blank" rel="noopener">Radisson Hotel Group brings hotel discovery into ChatGPT</a></h3>
+        <p>Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.</p>
+        <div class="card-meta"><span class="source">OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-10-07" data-relative>7 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="YouTube – OpenAI" data-date="2026-10-07" data-text="introducing gpt-6 in chatgpt with intelligent ui chatgpt just got a lot more visual—introducing intelligent ui. intelligent ui allows chatgpt to answer quickly with fully interactive user interfaces that make everyday answers more visual. it makes learning complex topics easier, and it quickly creates tools to solve a task right in the moment. oh, youtube – openai">
+        <div class="card-top"><span class="tag">News</span><span class="flag flag-hot">In evidenza</span></div>
+        <h3><a href="https://www.youtube.com/watch?v=IsL4dVezs18" target="_blank" rel="noopener">Introducing GPT-6 in ChatGPT with Intelligent UI</a></h3>
+        <p>ChatGPT just got a lot more visual—introducing Intelligent UI. Intelligent UI allows ChatGPT to answer quickly with fully interactive user interfaces that make everyday answers more visual. It makes learning complex topics easier, and it quickly creates tools to solve a task right in the moment. Oh,</p>
+        <div class="card-meta"><span class="source">YouTube – OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-10-07" data-relative>7 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="YouTube – OpenAI" data-date="2026-10-07" data-text="build plugins for chatgpt explore plugin extensions through meetings and openai developers. see how a custom interface can live beside a conversation and bring selected context into your work with chatgpt. youtube – openai">
+        <div class="card-top"><span class="tag">News</span><span class="flag flag-hot">In evidenza</span></div>
+        <h3><a href="https://www.youtube.com/watch?v=LiNhqbetrbU" target="_blank" rel="noopener">Build Plugins for ChatGPT</a></h3>
+        <p>Explore plugin extensions through Meetings and OpenAI Developers. See how a custom interface can live beside a conversation and bring selected context into your work with ChatGPT.</p>
+        <div class="card-meta"><span class="source">YouTube – OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-10-07" data-relative>7 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="YouTube – OpenAI" data-date="2026-10-07" data-text="how openai puts chatgpt to work | devday 2026 see how openai’s teams use chatgpt to manage launches, research competitors, and turn expertise into tools. take practical ideas back to your own work. youtube – openai">
+        <div class="card-top"><span class="tag">News</span><span class="flag flag-hot">In evidenza</span></div>
+        <h3><a href="https://www.youtube.com/watch?v=SXCfs7mitPo" target="_blank" rel="noopener">How OpenAI Puts ChatGPT to Work | DevDay 2026</a></h3>
+        <p>See how OpenAI’s teams use ChatGPT to manage launches, research competitors, and turn expertise into tools. Take practical ideas back to your own work.</p>
+        <div class="card-meta"><span class="source">YouTube – OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-10-07" data-relative>7 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="YouTube – OpenAI" data-date="2026-10-07" data-text="build custom site annotations with chatgpt add custom annotation controls and suggested prompts to your website. see how these work with webmcp to help users edit a scene and enrich expense records using context available to their agent in chatgpt. youtube – openai">
+        <div class="card-top"><span class="tag">News</span><span class="flag flag-hot">In evidenza</span></div>
+        <h3><a href="https://www.youtube.com/watch?v=ZcDFZzsp3_Y" target="_blank" rel="noopener">Build custom site annotations with ChatGPT</a></h3>
+        <p>Add custom annotation controls and suggested prompts to your website. See how these work with WebMCP to help users edit a scene and enrich expense records using context available to their agent in ChatGPT.</p>
+        <div class="card-meta"><span class="source">YouTube – OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-10-07" data-relative>7 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="OpenAI" data-date="2026-10-07" data-text="gpt-6 and intelligent ui for everyone gpt‑6 is rolling out globally in chatgpt with intelligent ui, delivering faster responses with visuals and interactive experiences you can explore and use directly. openai">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://openai.com/index/gpt-6-for-everyone" target="_blank" rel="noopener">GPT-6 and Intelligent UI for everyone</a></h3>
+        <p>GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.</p>
+        <div class="card-meta"><span class="source">OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-10-07" data-relative>7 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="YouTube – OpenAI" data-date="2026-10-07" data-text="qodo - the last human code review | devday 2026 see how qodo uses openai to review ai-generated code. explore an adversarial reviewer that challenges coding agents’ assumptions and output, and learn when model confidence still needs human judgment. youtube – openai">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://www.youtube.com/watch?v=bQ3-pXCpCTg" target="_blank" rel="noopener">Qodo - The Last Human Code Review | DevDay 2026</a></h3>
+        <p>See how Qodo uses OpenAI to review AI-generated code. Explore an adversarial reviewer that challenges coding agents’ assumptions and output, and learn when model confidence still needs human judgment.</p>
+        <div class="card-meta"><span class="source">YouTube – OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-10-07" data-relative>7 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="YouTube - Marco Montemagno" data-date="2026-10-07" data-text="ha ancora senso andare all&#x27;università? scopri in 2 minuti quanto sei davvero pronto a usare l’ai nel tuo lavoro: fai il test gratuito → https://spiegamelofacile.com/audit/form-v4 -- se il video ti è stato utile, iscriviti. per il resto 👉 https://marcomontemagno.com 👉https://spiegamelofacile.com ogni sabato mattina, nella tua casella: un youtube - marco montemagno">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://www.youtube.com/watch?v=65WE4baa8xs" target="_blank" rel="noopener">Ha ancora senso andare all&#x27;università?</a></h3>
+        <p>Scopri in 2 minuti quanto sei davvero pronto a usare l’AI nel tuo lavoro: fai il test gratuito → https://spiegamelofacile.com/audit/form-v4 -- Se il video ti è stato utile, iscriviti. Per il resto 👉 https://marcomontemagno.com 👉https://spiegamelofacile.com Ogni sabato mattina, nella tua casella: un</p>
+        <div class="card-meta"><span class="source">YouTube - Marco Montemagno</span><span aria-hidden="true">·</span><time datetime="2026-10-07" data-relative>7 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Automation" data-source="Activepieces" data-date="2026-10-07" data-text="self-host mistral with vllm for private ai automation private mistral deployments using vllm allow engineers to configure custom hardware scaling and secure sensitive data processing workflows. activepieces">
+        <div class="card-top"><span class="tag">Automazione</span></div>
+        <h3><a href="https://www.activepieces.com/blog/self-host-mistral-with-vllm-for-private-ai-automation" target="_blank" rel="noopener">Self-Host Mistral with vLLM for Private AI Automation</a></h3>
+        <p>Private Mistral deployments using vLLM allow engineers to configure custom hardware scaling and secure sensitive data processing workflows.</p>
+        <div class="card-meta"><span class="source">Activepieces</span><span aria-hidden="true">·</span><time datetime="2026-10-07" data-relative>7 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Automation" data-source="Activepieces" data-date="2026-10-07" data-text="best ai workflow automation tools in 2026 ranked the best ai tools of 2026 are evaluated based on their ability to integrate disparate software ecosystems into a single, cohesive operational pipeline. activepieces">
+        <div class="card-top"><span class="tag">Automazione</span></div>
+        <h3><a href="https://www.activepieces.com/blog/best-ai-tools-2026-the-top-20-ranked-and-tested" target="_blank" rel="noopener">Best AI Workflow Automation Tools in 2026 Ranked</a></h3>
+        <p>The best AI tools of 2026 are evaluated based on their ability to integrate disparate software ecosystems into a single, cohesive operational pipeline.</p>
+        <div class="card-meta"><span class="source">Activepieces</span><span aria-hidden="true">·</span><time datetime="2026-10-07" data-relative>7 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Automation" data-source="Activepieces" data-date="2026-10-07" data-text="ai project manager tools: best picks for 2026 an ai project manager automates complex workflows and resource allocation. use these evaluations to select the platform best suited for your team. activepieces">
+        <div class="card-top"><span class="tag">Automazione</span></div>
+        <h3><a href="https://www.activepieces.com/blog/ai-project-manager-tools-best-picks-for-2026" target="_blank" rel="noopener">AI Project Manager Tools: Best Picks for 2026</a></h3>
+        <p>An ai project manager automates complex workflows and resource allocation. Use these evaluations to select the platform best suited for your team.</p>
+        <div class="card-meta"><span class="source">Activepieces</span><span aria-hidden="true">·</span><time datetime="2026-10-07" data-relative>7 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-07" data-text="gamego: training game-dev agents with synthetic trajectories anchored in real-world assets recent advances in large language models (llms) have demonstrated remarkable capabilities in web front-end execution, with browser-based game generation emerging as a particularly prominent frontier. while previous efforts frequently rely on complex m arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.06910" target="_blank" rel="noopener">GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets</a></h3>
+        <p>Recent advances in Large Language Models (LLMs) have demonstrated remarkable capabilities in web front-end execution, with browser-based game generation emerging as a particularly prominent frontier. While previous efforts frequently rely on complex m</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-07" data-relative>7 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-07" data-text="radonc-agent: an llm-orchestrated framework for ai workflows across the radiotherapy care pathway artificial intelligence has advanced individual radiotherapy tasks, yet these capabilities remain separated across clinical stages, software environments and data modalities. this fragmentation contrasts with the longitudinal radiotherapy workflow fro arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.06923" target="_blank" rel="noopener">RadOnc-Agent: An LLM-Orchestrated Framework for AI Workflows Across the Radiotherapy Care Pathway</a></h3>
+        <p>Artificial intelligence has advanced individual radiotherapy tasks, yet these capabilities remain separated across clinical stages, software environments and data modalities. This fragmentation contrasts with the longitudinal radiotherapy workflow fro</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-07" data-relative>7 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-07" data-text="small language models for smart data model classification at the edge: a cost-aware hybrid approach the rapid proliferation of heterogeneous data sources within the internet of things (iot) across domains such as smart cities, energy management, and environmental monitoring necessitates efficient and scalable data standardization methods. effective arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.07093" target="_blank" rel="noopener">Small Language Models for Smart Data Model Classification at the Edge: A Cost-Aware Hybrid Approach</a></h3>
+        <p>The rapid proliferation of heterogeneous data sources within the Internet of Things (IoT) across domains such as smart cities, energy management, and environmental monitoring necessitates efficient and scalable data standardization methods. Effective</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-07" data-relative>7 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-07" data-text="internalizing agent experience into diffusion model weights via on-policy context distillation wrapping an image generation model in an agentic harness can effectively boost text-to-image task performance: the harness can leverage memory, skills, workflow orchestration, result verification, and iterative refinement to continually construct and arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.07250" target="_blank" rel="noopener">Internalizing Agent Experience into Diffusion Model Weights via On-Policy Context Distillation</a></h3>
+        <p>Wrapping an image generation model in an agentic harness can effectively boost Text-to-Image task performance: the harness can leverage memory, skills, workflow orchestration, result verification, and iterative refinement to continually construct and</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-07" data-relative>7 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Paper" data-source="arXiv AI" data-date="2026-10-07" data-text="verifying coordination in parallel coding agents: np-bench and a scheduling planner a team of coding agents can look fine agent by agent yet fail as a team: each passes its own tests while the merged result is broken, and single-agent evaluation never catches it. as teams run several llm coding agents in parallel on one codebase, the arxiv ai">
+        <div class="card-top"><span class="tag">Paper</span></div>
+        <h3><a href="https://arxiv.org/abs/2610.07261" target="_blank" rel="noopener">Verifying Coordination in Parallel Coding Agents: NP-Bench and a Scheduling Planner</a></h3>
+        <p>A team of coding agents can look fine agent by agent yet fail as a team: each passes its own tests while the merged result is broken, and single-agent evaluation never catches it. As teams run several LLM coding agents in parallel on one codebase, the</p>
+        <div class="card-meta"><span class="source">arXiv AI</span><span aria-hidden="true">·</span><time datetime="2026-10-07" data-relative>7 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="OpenAI" data-date="2026-10-06" data-text="how jump trading is scaling quant research with chatgpt jump trading uses openai to expand quantitative research. see how longer-running ai workflows combine multiple data sources with human review. openai">
+        <div class="card-top"><span class="tag">News</span><span class="flag flag-hot">In evidenza</span></div>
+        <h3><a href="https://openai.com/index/jump-trading" target="_blank" rel="noopener">How Jump Trading is scaling quant research with ChatGPT</a></h3>
+        <p>Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.</p>
+        <div class="card-meta"><span class="source">OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-10-06" data-relative>6 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="OpenAI" data-date="2026-10-06" data-text="advancing computer use with ironclad learn how openai and ironclad are training and evaluating ai agents on complex contracting workflows to advance computer use for professional work. openai">
+        <div class="card-top"><span class="tag">News</span><span class="flag flag-hot">In evidenza</span></div>
+        <h3><a href="https://openai.com/index/advancing-computer-use-with-ironclad" target="_blank" rel="noopener">Advancing computer use with Ironclad</a></h3>
+        <p>Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.</p>
+        <div class="card-meta"><span class="source">OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-10-06" data-relative>6 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="YouTube - Gabry Solutions" data-date="2026-10-06" data-text="google ha lanciato gemini 4. ma tu non puoi usarlo (50+ novità ai) google ha annunciato gemini 4 argon, ma perché non puoi ancora usarlo? oltre 50 novità ai tra chatgpt, claude, agenti autonomi e strumenti per lavorare meglio.
 
-    function createEntry(item) {
-      const div = document.createElement('div');
-      div.className = 'entry';
-      div.dataset.text = (item.title + ' ' + item.description).toLowerCase();
-      div.dataset.category = item.category;
-      div.dataset.source = item.source;
-      div.dataset.date = item.date;
-      div.innerHTML = `
-        <a href="${/^https?:/i.test(item.link) ? esc(item.link) : "#"}" class="title" target="_blank" rel="noopener">
-          <span class="badge">${esc(item.badge)}</span>${esc(item.title)}
-        </a>
-        <p>${esc(item.description)}</p>
-        <div class="meta">${esc(item.source)} – ${esc(item.date)} – ${esc(item.category)}</div>
-      `;
-      return div;
-    }
+in questa puntata di ai news analizziamo il nuovo modello di google: cosa promette, chi può accedervi e cosa emerge dal confronto tra i ben youtube - gabry solutions">
+        <div class="card-top"><span class="tag">News</span><span class="flag flag-hot">In evidenza</span></div>
+        <h3><a href="https://www.youtube.com/watch?v=7IIhl7jbxd0" target="_blank" rel="noopener">Google ha lanciato Gemini 4. Ma tu NON puoi usarlo (50+ Novità AI)</a></h3>
+        <p>Google ha annunciato Gemini 4 Argon, ma perché non puoi ancora usarlo? Oltre 50 novità AI tra ChatGPT, Claude, agenti autonomi e strumenti per lavorare meglio.
 
-    function render() {
-      const q = searchInput.value.toLowerCase();
-      const cat = categoryFilter.value;
-      const src = sourceFilter.value;
-      const days = parseInt(daysFilter.value);
-      const now = new Date();
+In questa puntata di AI News analizziamo il nuovo modello di Google: cosa promette, chi può accedervi e cosa emerge dal confronto tra i ben</p>
+        <div class="card-meta"><span class="source">YouTube - Gabry Solutions</span><span aria-hidden="true">·</span><time datetime="2026-10-06" data-relative>6 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="OpenAI" data-date="2026-10-06" data-text="sharing ai progress in mathematics openai publishes new results on open problems in mathematics from an internal frontier model and shares lean proof formalizations and research details on github. openai">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://openai.com/index/sharing-ai-progress-in-mathematics" target="_blank" rel="noopener">Sharing AI progress in mathematics</a></h3>
+        <p>OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.</p>
+        <div class="card-meta"><span class="source">OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-10-06" data-relative>6 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="YouTube – OpenAI" data-date="2026-10-06" data-text="introducing the decisions api introducing the decisions api: a fast way to turn text and images into actions in your app. give the model an input, define a question and the possible answers, and use its choice to decide what happens next. powered by gpt-6 luna, the decisions api focuses on a small set of choices to make interact youtube – openai">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://www.youtube.com/watch?v=FB6oCmrIj-Y" target="_blank" rel="noopener">Introducing the Decisions API</a></h3>
+        <p>Introducing the Decisions API: a fast way to turn text and images into actions in your app. Give the model an input, define a question and the possible answers, and use its choice to decide what happens next. Powered by GPT-6 Luna, the Decisions API focuses on a small set of choices to make interact</p>
+        <div class="card-meta"><span class="source">YouTube – OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-10-06" data-relative>6 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Automation" data-source="Zapier Blog" data-date="2026-10-06" data-text="gemini automation: how to use the zapier gemini integration (gemini 3.8 flash, gemini enterprise, and more) anyone who lives in the google ecosystem has probably used gemini for a quick draft or a fast answer. (or if you&#x27;re like me, you&#x27;ve been driven to your limit by the google docs popups encouraging you to use ai whenever your cursor strays too close to the bottom of the screen.) but a chat window is j zapier blog">
+        <div class="card-top"><span class="tag">Automazione</span></div>
+        <h3><a href="https://zapier.com/blog/automate-google-ai-studio" target="_blank" rel="noopener">Gemini automation: How to use the Zapier Gemini integration (Gemini 3.8 Flash, Gemini Enterprise, and more)</a></h3>
+        <p>Anyone who lives in the Google ecosystem has probably used Gemini for a quick draft or a fast answer. (Or if you&#x27;re like me, you&#x27;ve been driven to your limit by the Google Docs popups encouraging you to use AI whenever your cursor strays too close to the bottom of the screen.) But a chat window is j</p>
+        <div class="card-meta"><span class="source">Zapier Blog</span><span aria-hidden="true">·</span><time datetime="2026-10-06" data-relative>6 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Automation" data-source="Zapier Blog" data-date="2026-10-06" data-text="zapier agents is now ai by zapier every capability that made zapier agents powerful—tool calling, reasoning, autonomous action—now lives inside a single ai step in the zap editor, using ai by zapier. here, i&#x27;ll map each zapier agents feature to its equivalent in ai by zapier, so if you&#x27;re coming from zapier agents, you know exactly zapier blog">
+        <div class="card-top"><span class="tag">Automazione</span></div>
+        <h3><a href="https://zapier.com/blog/zapier-agents-is-now-ai-by-zapier" target="_blank" rel="noopener">Zapier Agents is now AI by Zapier</a></h3>
+        <p>Every capability that made Zapier Agents powerful—tool calling, reasoning, autonomous action—now lives inside a single AI step in the Zap editor, using AI by Zapier. Here, I&#x27;ll map each Zapier Agents feature to its equivalent in AI by Zapier, so if you&#x27;re coming from Zapier Agents, you know exactly</p>
+        <div class="card-meta"><span class="source">Zapier Blog</span><span aria-hidden="true">·</span><time datetime="2026-10-06" data-relative>6 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="OpenAI" data-date="2026-10-05" data-text="building advertising for the way people use ai openai introduces a new visual ad format in chatgpt and expands measurement tools, attribution partnerships, and brand suitability for advertisers. openai">
+        <div class="card-top"><span class="tag">News</span><span class="flag flag-hot">In evidenza</span></div>
+        <h3><a href="https://openai.com/index/new-chatgpt-ads-format-and-measurement" target="_blank" rel="noopener">Building advertising for the way people use AI</a></h3>
+        <p>OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.</p>
+        <div class="card-meta"><span class="source">OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-10-05" data-relative>5 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="YouTube – Raffaele Gaito" data-date="2026-10-05" data-text="dove nasce la caccia alle streghe dell’ai clip estratta dall&#x27;intervista fatta ad armando bisogno su what’s next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. guarda l&#x27;intervista completa: https://www.youtube.com/watch?v=4vpauizk5rg #short youtube – raffaele gaito">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://www.youtube.com/shorts/A-82b-ELqq4" target="_blank" rel="noopener">Dove nasce la caccia alle streghe dell’AI</a></h3>
+        <p>Clip estratta dall&#x27;intervista fatta ad Armando Bisogno su What’s Next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. Guarda l&#x27;intervista completa: https://www.youtube.com/watch?v=4VpAuIZK5Rg #short</p>
+        <div class="card-meta"><span class="source">YouTube – Raffaele Gaito</span><span aria-hidden="true">·</span><time datetime="2026-10-05" data-relative>5 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="YouTube - Gabry Solutions" data-date="2026-10-04" data-text="google mi ha invitato a venezia… ma niente è andato come previsto l&#x27;ai ucciderà hollywood? sono andato a scoprirlo con google se l&#x27;ai ucciderà hollywood? sono andato a scoprirlo con google, alla mostra del cinema di venezia 2026.
 
-      entriesDiv.innerHTML = "";
-entryData.forEach(item => {
-  const entryDate = new Date(item.date);
-  const diffDays = (now - entryDate) / (1000 * 60 * 60 * 24);
-  if (
-    (!q || (item.title + item.description).toLowerCase().includes(q)) &&
-    (!cat || item.category === cat) &&
-    (!src || item.source === src) &&
-    (isNaN(days) || diffDays <= days)
-  ) {
-    const el = createEntry(item);
-    entriesDiv.appendChild(el);
-    // trigger animazione
-    requestAnimationFrame(() => el.classList.add("show"));
-  }
-});
+google mi ha invitato per due giorni alla google beach del lido: talk, demo e incontri dietro le quinte con google, youtube e chi il ci youtube - gabry solutions">
+        <div class="card-top"><span class="tag">News</span><span class="flag flag-hot">In evidenza</span></div>
+        <h3><a href="https://www.youtube.com/watch?v=saHPxoCUc74" target="_blank" rel="noopener">Google Mi Ha Invitato a Venezia… Ma NIENTE È Andato Come Previsto</a></h3>
+        <p>L&#x27;AI UCCIDERÀ Hollywood? Sono Andato a Scoprirlo con Google se L&#x27;AI ucciderà Hollywood? Sono andato a scoprirlo con Google, alla Mostra del Cinema di Venezia 2026.
 
-      
-      
-    }
+Google mi ha invitato per due giorni alla Google Beach del Lido: talk, demo e incontri dietro le quinte con Google, YouTube e chi il ci</p>
+        <div class="card-meta"><span class="source">YouTube - Gabry Solutions</span><span aria-hidden="true">·</span><time datetime="2026-10-04" data-relative>4 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="YouTube – Raffaele Gaito" data-date="2026-10-04" data-text="perché dovresti pagare per parlare con un&#x27;ai clip estratta dall&#x27;intervista fatta ad adrian fartade su what’s next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. guarda l&#x27;intervista completa: https://www.youtube.com/watch?v=n0hvo_cqdfo #short youtube – raffaele gaito">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://www.youtube.com/shorts/JwD0KeIqghE" target="_blank" rel="noopener">Perché dovresti pagare per parlare con un&#x27;AI</a></h3>
+        <p>Clip estratta dall&#x27;intervista fatta ad Adrian Fartade su What’s Next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. Guarda l&#x27;intervista completa: https://www.youtube.com/watch?v=N0HvO_CQdfo #short</p>
+        <div class="card-meta"><span class="source">YouTube – Raffaele Gaito</span><span aria-hidden="true">·</span><time datetime="2026-10-04" data-relative>4 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="OpenAI" data-date="2026-10-02" data-text="a model guide for the gpt-6 family learn how startups can choose gpt-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production. openai">
+        <div class="card-top"><span class="tag">News</span><span class="flag flag-hot">In evidenza</span></div>
+        <h3><a href="https://openai.com/index/practical-guide-building-gpt-6" target="_blank" rel="noopener">A model guide for the GPT-6 family</a></h3>
+        <p>Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.</p>
+        <div class="card-meta"><span class="source">OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-10-02" data-relative>2 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="OpenAI" data-date="2026-10-02" data-text="chatham scales its capital markets expertise with openai chatham financial uses codex and gpt-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4. openai">
+        <div class="card-top"><span class="tag">News</span><span class="flag flag-hot">In evidenza</span></div>
+        <h3><a href="https://openai.com/index/chatham-financial" target="_blank" rel="noopener">Chatham scales its capital markets expertise with OpenAI</a></h3>
+        <p>Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.</p>
+        <div class="card-meta"><span class="source">OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-10-02" data-relative>2 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Automation" data-source="Zapier Blog" data-date="2026-10-02" data-text="meta muse automation: how to use the zapier muse integration (muse spark 1.3 and more) the concept of &quot;less is more&quot; doesn&#x27;t seem to have made it to silicon valley. every time i blink, it seems like there&#x27;s yet another ai agent available on the market. and right on cue, another ai bombshell has entered the villa: muse is a personal ai agent from meta (of facebook fame) that can do thi zapier blog">
+        <div class="card-top"><span class="tag">Automazione</span></div>
+        <h3><a href="https://zapier.com/blog/automate-muse" target="_blank" rel="noopener">Meta Muse automation: How to use the Zapier Muse integration (Muse Spark 1.3 and more)</a></h3>
+        <p>The concept of &quot;less is more&quot; doesn&#x27;t seem to have made it to Silicon Valley. Every time I blink, it seems like there&#x27;s yet another AI agent available on the market. And right on cue, another AI bombshell has entered the villa: Muse is a personal AI agent from Meta (of Facebook fame) that can do thi</p>
+        <div class="card-meta"><span class="source">Zapier Blog</span><span aria-hidden="true">·</span><time datetime="2026-10-02" data-relative>2 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Automation" data-source="Zapier Blog" data-date="2026-10-02" data-text="gemini connectors: how to connect gemini enterprise to the rest of your tech stack gemini is everywhere in google apps: it can read your emails, pull in data from your calendar, and find that file you accidentally saved to your work drive. but no matter how much of your work is in google, there are always other apps you&#x27;ll need gemini to access: things like your crm, project manag zapier blog">
+        <div class="card-top"><span class="tag">Automazione</span></div>
+        <h3><a href="https://zapier.com/blog/gemini-connectors" target="_blank" rel="noopener">Gemini connectors: How to connect Gemini Enterprise to the rest of your tech stack</a></h3>
+        <p>Gemini is everywhere in Google apps: it can read your emails, pull in data from your calendar, and find that file you accidentally saved to your work Drive. But no matter how much of your work is in Google, there are always other apps you&#x27;ll need Gemini to access: things like your CRM, project manag</p>
+        <div class="card-meta"><span class="source">Zapier Blog</span><span aria-hidden="true">·</span><time datetime="2026-10-02" data-relative>2 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="NVIDIA AI" data-date="2026-10-01" data-text="how nvidia gpus help accelerate openai’s gpt-6 astra ultrafast gpt-6 astra ultrafast, running on nvidia blackwell gpus, is available now in the openai api and to eligible chatgpt work and codex users. accelerated by inference optimizations through openai’s models that tap into the capabilities of the nvidia blackwell architecture, ultrafast offers up to 8x fast nvidia ai">
+        <div class="card-top"><span class="tag">News</span><span class="flag">Da leggere</span></div>
+        <h3><a href="https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/" target="_blank" rel="noopener">How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast</a></h3>
+        <p>GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x fast</p>
+        <div class="card-meta"><span class="source">NVIDIA AI</span><span aria-hidden="true">·</span><time datetime="2026-10-01" data-relative>1 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Automation" data-source="n8n Blog" data-date="2026-10-01" data-text="how api contract testing prevents production failures api contract testing helps you catch breaking changes before they disrupt your workflows. see how n8n validates api responses while your automations run. n8n blog">
+        <div class="card-top"><span class="tag">Automazione</span></div>
+        <h3><a href="https://blog.n8n.io/how-api-contract-testing-prevents-production-failures/" target="_blank" rel="noopener">How API Contract Testing Prevents Production Failures</a></h3>
+        <p>API contract testing helps you catch breaking changes before they disrupt your workflows. See how n8n validates API responses while your automations run.</p>
+        <div class="card-meta"><span class="source">n8n Blog</span><span aria-hidden="true">·</span><time datetime="2026-10-01" data-relative>1 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Automation" data-source="Zapier Blog" data-date="2026-10-01" data-text="what is google gemini? google has been in its &quot;gemini era&quot; for a couple years now, and while the confusing rebrandings have slowed, everything else continues to improve at a rapid pace. gemini is the name google gave to its current generation family of multimodal ai models, but in typical google fashion, it also applies t zapier blog">
+        <div class="card-top"><span class="tag">Automazione</span></div>
+        <h3><a href="https://zapier.com/blog/google-gemini" target="_blank" rel="noopener">What is Google Gemini?</a></h3>
+        <p>Google has been in its &quot;Gemini era&quot; for a couple years now, and while the confusing rebrandings have slowed, everything else continues to improve at a rapid pace. Gemini is the name Google gave to its current generation family of multimodal AI models, but in typical Google fashion, it also applies t</p>
+        <div class="card-meta"><span class="source">Zapier Blog</span><span aria-hidden="true">·</span><time datetime="2026-10-01" data-relative>1 ott 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="OpenAI" data-date="2026-09-30" data-text="helping small businesses put ai to work openai is partnering with america’s sbdc to expand hands-on ai training and local support for small businesses, alongside a new report on how small teams are using ai. openai">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://openai.com/index/helping-small-businesses-put-ai-to-work" target="_blank" rel="noopener">Helping small businesses put AI to work</a></h3>
+        <p>OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.</p>
+        <div class="card-meta"><span class="source">OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-09-30" data-relative>30 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="TLDR AI" data-date="2026-09-30" data-text="openai dots 🟡, gpt-6.1 sol ⚡, software factories 🏭  tldr ai">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://tldr.tech/ai/2026-09-30" target="_blank" rel="noopener">OpenAI Dots 🟡, GPT-6.1 Sol ⚡, software factories 🏭</a></h3>
+        <div class="card-meta"><span class="source">TLDR AI</span><span aria-hidden="true">·</span><time datetime="2026-09-30" data-relative>30 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="YouTube – Raffaele Gaito" data-date="2026-09-30" data-text="cosa dico a uno studente che scrive la tesi con l’ai clip estratta dall&#x27;intervista fatta ad armando bisogno su what’s next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. guarda l&#x27;intervista completa: https://www.youtube.com/watch?v=4vpauizk5rg #short youtube – raffaele gaito">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://www.youtube.com/shorts/QW3eXZQD2RU" target="_blank" rel="noopener">Cosa dico a uno studente che scrive la tesi con l’AI</a></h3>
+        <p>Clip estratta dall&#x27;intervista fatta ad Armando Bisogno su What’s Next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. Guarda l&#x27;intervista completa: https://www.youtube.com/watch?v=4VpAuIZK5Rg #short</p>
+        <div class="card-meta"><span class="source">YouTube – Raffaele Gaito</span><span aria-hidden="true">·</span><time datetime="2026-09-30" data-relative>30 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="Microsoft Research" data-date="2026-09-29" data-text="introducing quine: an ai research system designed for the complexity of biology biology doesn&#x27;t operate in silos, and neither should the ai representation of it. quine is an early-stage research effort to create a multimodal world model of biology. by connecting insights across biological scales and modalities, quine helps scientists computationally search a space far larger th microsoft research">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/" target="_blank" rel="noopener">Introducing Quine: An AI research system designed for the complexity of biology</a></h3>
+        <p>Biology doesn&#x27;t operate in silos, and neither should the AI representation of it. Quine is an early-stage research effort to create a multimodal world model of biology. By connecting insights across biological scales and modalities, Quine helps scientists computationally search a space far larger th</p>
+        <div class="card-meta"><span class="source">Microsoft Research</span><span aria-hidden="true">·</span><time datetime="2026-09-29" data-relative>29 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="OpenAI" data-date="2026-09-28" data-text="the lenfest institute grows landmark program with expanded openai support openai is expanding the lenfest ai collaborative and fellowship program with $5 million in funding and up to $5 million in software credits and engineering support. openai">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://openai.com/index/lenfest-ai-collaborative-expansion" target="_blank" rel="noopener">The Lenfest Institute grows landmark program with expanded OpenAI support</a></h3>
+        <p>OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.</p>
+        <div class="card-meta"><span class="source">OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-09-28" data-relative>28 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="YouTube - Marco Montemagno" data-date="2026-09-25" data-text="perché caxxo guardi ancora la tv? scopri in 2 minuti quanto sei davvero pronto a usare l’ai nel tuo lavoro: fai il test gratuito → https://spiegamelofacile.com/audit/form-v4 -- se il video ti è stato utile, iscriviti. per il resto 👉 https://marcomontemagno.com 👉https://spiegamelofacile.com ogni sabato mattina, nella tua casella: un youtube - marco montemagno">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://www.youtube.com/watch?v=SIs0Td4MR2Q" target="_blank" rel="noopener">Perché caxxo guardi ancora la TV?</a></h3>
+        <p>Scopri in 2 minuti quanto sei davvero pronto a usare l’AI nel tuo lavoro: fai il test gratuito → https://spiegamelofacile.com/audit/form-v4 -- Se il video ti è stato utile, iscriviti. Per il resto 👉 https://marcomontemagno.com 👉https://spiegamelofacile.com Ogni sabato mattina, nella tua casella: un</p>
+        <div class="card-meta"><span class="source">YouTube - Marco Montemagno</span><span aria-hidden="true">·</span><time datetime="2026-09-25" data-relative>25 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="OpenAI" data-date="2026-09-23" data-text="two years of openai academy marking two years of openai academy and bringing ai skills to even more communities. openai">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://openai.com/index/two-years-of-openai-academy" target="_blank" rel="noopener">Two years of OpenAI Academy</a></h3>
+        <p>Marking two years of OpenAI Academy and bringing AI skills to even more communities.</p>
+        <div class="card-meta"><span class="source">OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-09-23" data-relative>23 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="Microsoft Research" data-date="2026-09-23" data-text="offloaded inference for real-world physical ai robotics robots are getting smarter, but how can their hardware match that growth? new microsoft research findings show that moving ai inference beyond the robot can improve task success, boost efficiency, and support more advanced physical ai workloads. the post offloaded inference for real-world physical a microsoft research">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics/" target="_blank" rel="noopener">Offloaded inference for real-world physical AI robotics</a></h3>
+        <p>Robots are getting smarter, but how can their hardware match that growth? New Microsoft Research findings show that moving AI inference beyond the robot can improve task success, boost efficiency, and support more advanced physical AI workloads. The post Offloaded inference for real-world physical A</p>
+        <div class="card-meta"><span class="source">Microsoft Research</span><span aria-hidden="true">·</span><time datetime="2026-09-23" data-relative>23 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="TLDR AI" data-date="2026-09-23" data-text="gpt-6 ⚡, opus 5.5 🧠, ai leaders at un 🌐  tldr ai">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://tldr.tech/ai/2026-09-23" target="_blank" rel="noopener">GPT-6 ⚡, Opus 5.5 🧠, AI leaders at UN 🌐</a></h3>
+        <div class="card-meta"><span class="source">TLDR AI</span><span aria-hidden="true">·</span><time datetime="2026-09-23" data-relative>23 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="YouTube – DeepMind" data-date="2026-09-23" data-text="create your own voices with gemini 3.8 text-to-speech design entirely new vocal personas from scratch for gaming, immersive audiobooks, or dual-speaker podcasts using natural language prompts - directing every performance line by line with nuanced acting cues, pacing, back channeling, and dialect shifts. or, recreate consistent adult vocal profiles fro youtube – deepmind">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://www.youtube.com/watch?v=FL6mI_Br-mc" target="_blank" rel="noopener">Create your own voices with Gemini 3.8 text-to-speech</a></h3>
+        <p>Design entirely new vocal personas from scratch for gaming, immersive audiobooks, or dual-speaker podcasts using natural language prompts - directing every performance line by line with nuanced acting cues, pacing, back channeling, and dialect shifts. Or, recreate consistent adult vocal profiles fro</p>
+        <div class="card-meta"><span class="source">YouTube – DeepMind</span><span aria-hidden="true">·</span><time datetime="2026-09-23" data-relative>23 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="YouTube – Computerphile" data-date="2026-09-23" data-text="what the labs kept secret: the german wiki &amp; rubygems hacks - computerphile the public thought the ai containment crisis started with hugging face. they were wrong. we talk to sydney von arx of nightingale collective, the researcher who discovered that ai agents had already escaped their sandboxes months prior. from secretly taking over a german wiki to flooding the rubygem youtube – computerphile">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://www.youtube.com/watch?v=giTmBaNGaHw" target="_blank" rel="noopener">What the Labs Kept Secret: The German Wiki &amp; RubyGems Hacks - Computerphile</a></h3>
+        <p>The public thought the AI containment crisis started with Hugging Face. They were wrong. We talk to Sydney von Arx of Nightingale Collective, the researcher who discovered that AI agents had already escaped their sandboxes months prior. From secretly taking over a German wiki to flooding the RubyGem</p>
+        <div class="card-meta"><span class="source">YouTube – Computerphile</span><span aria-hidden="true">·</span><time datetime="2026-09-23" data-relative>23 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="OpenAI" data-date="2026-09-23" data-text="sam altman’s remarks at the united nations security council openai ceo sam altman discusses ai safety, human control, and international cooperation in remarks to the united nations security council. openai">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://openai.com/index/sam-altman-un-security-council-remarks" target="_blank" rel="noopener">Sam Altman’s remarks at the United Nations Security Council</a></h3>
+        <p>OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.</p>
+        <div class="card-meta"><span class="source">OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-09-23" data-relative>23 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="OpenAI" data-date="2026-09-23" data-text="introducing mentalhealthbench mentalhealthbench is an expert-informed benchmark for evaluating helpful and safe ai responses across realistic mental health conversations. openai">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://openai.com/index/introducing-mentalhealthbench" target="_blank" rel="noopener">Introducing MentalHealthBench</a></h3>
+        <p>MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.</p>
+        <div class="card-meta"><span class="source">OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-09-23" data-relative>23 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="OpenAI" data-date="2026-09-23" data-text="grab and openai bring practical ai skills to southeast asia openai and grab launch go forward with ai, a regional programme helping 30,000 partners build practical ai skills across southeast asia. openai">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://openai.com/index/grab-openai-ai-skills-southeast-asia" target="_blank" rel="noopener">Grab and OpenAI bring practical AI skills to Southeast Asia</a></h3>
+        <p>OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.</p>
+        <div class="card-meta"><span class="source">OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-09-23" data-relative>23 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="YouTube - Marco Montemagno" data-date="2026-09-22" data-text="tutto quello che penso degli agenti ai utilizza il codice sconto montyai su https://www.hostinger.com/montyai questo video è supported by hostinger #adv scopri in 2 minuti quanto sei davvero pronto a usare l’ai nel tuo lavoro: fai il test gratuito → https://spiegamelofacile.com/audit/form-v4 -- se il video ti è stato utile, iscriviti. pe youtube - marco montemagno">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://www.youtube.com/watch?v=vIpqEC_7D78" target="_blank" rel="noopener">Tutto quello che penso degli Agenti AI</a></h3>
+        <p>Utilizza il codice sconto MONTYAI su https://www.hostinger.com/montyai Questo video è supported by Hostinger #adv Scopri in 2 minuti quanto sei davvero pronto a usare l’AI nel tuo lavoro: fai il test gratuito → https://spiegamelofacile.com/audit/form-v4 -- Se il video ti è stato utile, iscriviti. Pe</p>
+        <div class="card-meta"><span class="source">YouTube - Marco Montemagno</span><span aria-hidden="true">·</span><time datetime="2026-09-22" data-relative>22 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="OpenAI" data-date="2026-09-22" data-text="priorities and principles for effective third party assessments openai outlines priorities and principles for rigorous, secure, and independent third-party ai safety assessments of frontier models and safeguards. openai">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://openai.com/index/priorities-principles-third-party-assessments" target="_blank" rel="noopener">Priorities and principles for effective third party assessments</a></h3>
+        <p>OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.</p>
+        <div class="card-meta"><span class="source">OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-09-22" data-relative>22 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="NVIDIA AI" data-date="2026-09-21" data-text="from enablement to execution, egypt’s ai ecosystem reaches production scale today, egypt’s ai builders gathered in the grand egyptian museum for a reception that highlighted the nation’s rapidly growing ai ecosystem — spanning ai natives, developers, researchers, startups and enterprises — building applications across industries. the event included a keynote from paolo gugl nvidia ai">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/" target="_blank" rel="noopener">From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale</a></h3>
+        <p>Today, Egypt’s AI builders gathered in the Grand Egyptian Museum for a reception that highlighted the nation’s rapidly growing AI ecosystem — spanning AI natives, developers, researchers, startups and enterprises — building applications across industries. The event included a keynote from Paolo Gugl</p>
+        <div class="card-meta"><span class="source">NVIDIA AI</span><span aria-hidden="true">·</span><time datetime="2026-09-21" data-relative>21 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="OpenAI" data-date="2026-09-21" data-text="higgsfield ai ships new video features in a day with gpt-6 astra with gpt-6 astra, higgsfield ai makes video ad creation easier for small businesses and brings new creative tools to market faster. openai">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://openai.com/index/higgsfield-from-prompt-to-production-with-astra" target="_blank" rel="noopener">Higgsfield AI ships new video features in a day with GPT-6 Astra</a></h3>
+        <p>With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.</p>
+        <div class="card-meta"><span class="source">OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-09-21" data-relative>21 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="OpenAI" data-date="2026-09-21" data-text="advisory group on mathematics and artificial intelligence openai is working with an independent advisory group on mathematics and artificial intelligence to guide the review and communication of emerging ai results. openai">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://openai.com/index/advisory-group-on-mathematics-and-ai" target="_blank" rel="noopener">Advisory Group on Mathematics and Artificial Intelligence</a></h3>
+        <p>OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.</p>
+        <div class="card-meta"><span class="source">OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-09-21" data-relative>21 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="OpenAI" data-date="2026-09-21" data-text="building standards for the next phase of ai openai outlines a path to shared global ai standards, calling for coordinated evaluation, reporting, and governance to improve safety. openai">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://openai.com/index/building-standards-next-phase-ai" target="_blank" rel="noopener">Building standards for the next phase of AI</a></h3>
+        <p>OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.</p>
+        <div class="card-meta"><span class="source">OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-09-21" data-relative>21 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="OpenAI" data-date="2026-09-21" data-text="expanding openai academy with new learning paths explore new openai academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical ai skills. openai">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://openai.com/index/expanding-openai-academy-with-new-learning-paths" target="_blank" rel="noopener">Expanding OpenAI Academy with new learning paths</a></h3>
+        <p>Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.</p>
+        <div class="card-meta"><span class="source">OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-09-21" data-relative>21 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Automation" data-source="n8n Blog" data-date="2026-09-21" data-text="prompt testing frameworks for production ai workflows still guessing if your prompts work? learn how to build a systematic prompt testing framework that catches regressions before they reach production. n8n blog">
+        <div class="card-top"><span class="tag">Automazione</span></div>
+        <h3><a href="https://blog.n8n.io/prompt-testing-frameworks/" target="_blank" rel="noopener">Prompt Testing Frameworks for Production AI Workflows</a></h3>
+        <p>Still guessing if your prompts work? Learn how to build a systematic prompt testing framework that catches regressions before they reach production.</p>
+        <div class="card-meta"><span class="source">n8n Blog</span><span aria-hidden="true">·</span><time datetime="2026-09-21" data-relative>21 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Automation" data-source="n8n Blog" data-date="2026-09-19" data-text="reducing ai workflow latency: patterns that actually work learn how to reduce ai workflow latency with production patterns for latency optimization: model routing, caching, parallel execution, timeouts, and budgets. n8n blog">
+        <div class="card-top"><span class="tag">Automazione</span></div>
+        <h3><a href="https://blog.n8n.io/reducing-ai-workflow-latency/" target="_blank" rel="noopener">Reducing AI Workflow Latency: Patterns That Actually Work</a></h3>
+        <p>Learn how to reduce AI workflow latency with production patterns for latency optimization: model routing, caching, parallel execution, timeouts, and budgets.</p>
+        <div class="card-meta"><span class="source">n8n Blog</span><span aria-hidden="true">·</span><time datetime="2026-09-19" data-relative>19 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="AI Now Institute" data-date="2026-09-18" data-text="hugging face hack shows humans can keep ai in check weeks after the openai hack, ai now&#x27;s heidy khlaaf affirms that &quot;ordinary security engineering would have stopped this well short of reaching hugging face’s data.&quot; the post hugging face hack shows humans can keep ai in check appeared first on ai now institute . ai now institute">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://ainowinstitute.org/news/press/hugging-face-hack-shows-humans-can-keep-ai-in-check" target="_blank" rel="noopener">Hugging Face Hack Shows Humans Can Keep AI In Check</a></h3>
+        <p>Weeks after the OpenAI hack, AI Now&#x27;s Heidy Khlaaf affirms that &quot;ordinary security engineering would have stopped this well short of reaching Hugging Face’s data.&quot; The post Hugging Face Hack Shows Humans Can Keep AI In Check appeared first on AI Now Institute .</p>
+        <div class="card-meta"><span class="source">AI Now Institute</span><span aria-hidden="true">·</span><time datetime="2026-09-18" data-relative>18 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="OpenAI" data-date="2026-09-18" data-text="introducing the australian youth safety blueprint openai introduces the australian youth safety blueprint, a six-pillar roadmap for safer ai experiences that protect and empower young people. openai">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://openai.com/index/australian-youth-safety-blueprint" target="_blank" rel="noopener">Introducing the Australian Youth Safety Blueprint</a></h3>
+        <p>OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.</p>
+        <div class="card-meta"><span class="source">OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-09-18" data-relative>18 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="OpenAI" data-date="2026-09-16" data-text="reimagining advertising with ai explore new ai-powered advertising experiences from openai, including sponsored agents, tools for marketers, and integrations with hubspot and shopify. openai">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://openai.com/index/reimagining-advertising-with-ai" target="_blank" rel="noopener">Reimagining advertising with AI</a></h3>
+        <p>Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.</p>
+        <div class="card-meta"><span class="source">OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-09-16" data-relative>16 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="OpenAI" data-date="2026-09-16" data-text="how workers are unlocking new ways of working new openai economic research shows how workers use ai beyond traditional roles and which new activities become recurring parts of their work. openai">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://openai.com/index/unlocking-new-ways-of-working" target="_blank" rel="noopener">How workers are unlocking new ways of working</a></h3>
+        <p>New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.</p>
+        <div class="card-meta"><span class="source">OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-09-16" data-relative>16 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Automation" data-source="n8n Blog" data-date="2026-09-16" data-text="try new models and services, skip the account setup starting with n8n v2.36, you can now use supported ai models and tool services on select n8n cloud plans without creating a provider account or generating an api key. choose gateway credits instead of adding a credential. six model providers and five tool services work right out of the box. n8n blog">
+        <div class="card-top"><span class="tag">Automazione</span></div>
+        <h3><a href="https://blog.n8n.io/gateway-credits/" target="_blank" rel="noopener">Try new models and services, skip the account setup</a></h3>
+        <p>Starting with n8n v2.36, you can now use supported AI models and tool services on select n8n Cloud plans without creating a provider account or generating an API key. Choose Gateway credits instead of adding a credential. Six model providers and five tool services work right out of the box.</p>
+        <div class="card-meta"><span class="source">n8n Blog</span><span aria-hidden="true">·</span><time datetime="2026-09-16" data-relative>16 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="YouTube - Marco Montemagno" data-date="2026-09-15" data-text="l&#x27;ai ci ucciderà tutti? scopri in 2 minuti quanto sei davvero pronto a usare l’ai nel tuo lavoro: fai il test gratuito → https://spiegamelofacile.com/audit/form-v4 -- se il video ti è stato utile, iscriviti. per il resto 👉 https://marcomontemagno.com 👉https://spiegamelofacile.com ogni sabato mattina, nella tua casella: un youtube - marco montemagno">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://www.youtube.com/watch?v=cUNlNfQPwpA" target="_blank" rel="noopener">L&#x27;AI ci ucciderà tutti?</a></h3>
+        <p>Scopri in 2 minuti quanto sei davvero pronto a usare l’AI nel tuo lavoro: fai il test gratuito → https://spiegamelofacile.com/audit/form-v4 -- Se il video ti è stato utile, iscriviti. Per il resto 👉 https://marcomontemagno.com 👉https://spiegamelofacile.com Ogni sabato mattina, nella tua casella: un</p>
+        <div class="card-meta"><span class="source">YouTube - Marco Montemagno</span><span aria-hidden="true">·</span><time datetime="2026-09-15" data-relative>15 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="OpenAI" data-date="2026-09-14" data-text="how fyxer built an ai executive assistant people trust fyxer uses openai models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice. openai">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://openai.com/index/fyxer" target="_blank" rel="noopener">How Fyxer built an AI executive assistant people trust</a></h3>
+        <p>Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.</p>
+        <div class="card-meta"><span class="source">OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-09-14" data-relative>14 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="Automation" data-source="n8n Blog" data-date="2026-09-11" data-text="reflection pattern: ai agents self-correct in production reflection pattern for llms: a self-critique loop that improves correctness, clarity, and reliability with measurable quality gates, roi, and safety controls n8n blog">
+        <div class="card-top"><span class="tag">Automazione</span></div>
+        <h3><a href="https://blog.n8n.io/reflection-pattern-ai-agents-self-correct-in-production/" target="_blank" rel="noopener">Reflection Pattern: AI Agents Self-Correct in Production</a></h3>
+        <p>Reflection pattern for LLMs: a self-critique loop that improves correctness, clarity, and reliability with measurable quality gates, ROI, and safety controls</p>
+        <div class="card-meta"><span class="source">n8n Blog</span><span aria-hidden="true">·</span><time datetime="2026-09-11" data-relative>11 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="YouTube – Two Minute Papers" data-date="2026-09-10" data-text="i never thought i’d see this happen ❤️ check out lambda here and sign up for their gpu cloud: https://lambda.ai/papers 📝 the navier-stokes solution paper is available here: https://openai.com/index/navier-stokes-solution/ my fluid simulations and papers: https://users.cg.tuwien.ac.at/zsolnai/gfx/fluid_control_msc_thesis/ https://users youtube – two minute papers">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://www.youtube.com/watch?v=mOvtumfyjCs" target="_blank" rel="noopener">I Never Thought I’d See This Happen</a></h3>
+        <p>❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 The Navier-Stokes solution paper is available here: https://openai.com/index/navier-stokes-solution/ My fluid simulations and papers: https://users.cg.tuwien.ac.at/zsolnai/gfx/fluid_control_msc_thesis/ https://users</p>
+        <div class="card-meta"><span class="source">YouTube – Two Minute Papers</span><span aria-hidden="true">·</span><time datetime="2026-09-10" data-relative>10 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="YouTube – Computerphile" data-date="2026-09-10" data-text="the ai language we can&#x27;t read: neuralese ft. rob miles - computerphile so far, &#x27;chain of thought&#x27; has allowed us a glimpse at the processes by which large language models work their way through problems. what if these llms begin to talk in a language only they understand? rob miles is a passionate ai safety advocate, find out more about him here: https://www.youtube.co youtube – computerphile">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://www.youtube.com/watch?v=iuHddnIzKRA" target="_blank" rel="noopener">The AI Language We Can&#x27;t Read: Neuralese ft. Rob Miles - Computerphile</a></h3>
+        <p>So far, &#x27;Chain of Thought&#x27; has allowed us a glimpse at the processes by which Large Language Models work their way through problems. What if these LLMs begin to talk in a language only they understand? Rob Miles is a passionate AI Safety advocate, find out more about him here: https://www.youtube.co</p>
+        <div class="card-meta"><span class="source">YouTube – Computerphile</span><span aria-hidden="true">·</span><time datetime="2026-09-10" data-relative>10 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="OpenAI" data-date="2026-09-10" data-text="introducing chatgpt for financial services introducing chatgpt for financial services, combining built-in financial data and gpt-6 astra for research, modeling, and client-ready materials. openai">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://openai.com/index/introducing-chatgpt-financial-services" target="_blank" rel="noopener">Introducing ChatGPT for Financial Services</a></h3>
+        <p>Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.</p>
+        <div class="card-meta"><span class="source">OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-09-10" data-relative>10 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="OpenAI" data-date="2026-09-10" data-text="expanding ai access and cyber defense for federal, state, local, and tribal governments openai and gsa will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support. openai">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://openai.com/index/expanding-ai-access-us-government" target="_blank" rel="noopener">Expanding AI access and cyber defense for federal, state, local, and tribal governments</a></h3>
+        <p>OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.</p>
+        <div class="card-meta"><span class="source">OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-09-10" data-relative>10 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="YouTube – DeepMind" data-date="2026-09-09" data-text="how ai is transforming weather prediction can artificial intelligence solve one of science’s most chaotic physics puzzles? in this episode, professor hannah fry sits down with peter battaglia, senior director of research at google deepmind, to explore how machine learning is transforming global weather forecasting. from providing critical e youtube – deepmind">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://www.youtube.com/watch?v=O_EWbnkjXdk" target="_blank" rel="noopener">How AI is transforming weather prediction</a></h3>
+        <p>Can artificial intelligence solve one of science’s most chaotic physics puzzles? In this episode, Professor Hannah Fry sits down with Peter Battaglia, Senior Director of Research at Google DeepMind, to explore how machine learning is transforming global weather forecasting. From providing critical e</p>
+        <div class="card-meta"><span class="source">YouTube – DeepMind</span><span aria-hidden="true">·</span><time datetime="2026-09-09" data-relative>9 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+      <article class="card" data-category="News" data-source="OpenAI" data-date="2026-09-09" data-text="paul christiano joins openai foundation board paul christiano joins the openai foundation board and its safety and security committee, bringing experience in ai alignment, safety, and standards. openai">
+        <div class="card-top"><span class="tag">News</span></div>
+        <h3><a href="https://openai.com/index/paul-christiano-joins-openai-foundation-board" target="_blank" rel="noopener">Paul Christiano joins OpenAI Foundation Board</a></h3>
+        <p>Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.</p>
+        <div class="card-meta"><span class="source">OpenAI</span><span aria-hidden="true">·</span><time datetime="2026-09-09" data-relative>9 set 2026</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>
+    </div>
 
-    resetFilters.addEventListener("click", () => {
-      searchInput.value = "";
-      categoryFilter.value = "";
-      sourceFilter.value = "";
-      daysFilter.value = "";
-      render();
-    });
+    <div class="empty" id="empty" hidden>
+      <h2>Nessun contenuto trovato</h2>
+      <p>Prova con un'altra parola o allarga i filtri.</p>
+      <button type="button" id="empty-reset" class="link-button">Azzera filtri</button>
+    </div>
+  </main>
 
-    searchInput.addEventListener("input", render);
-    categoryFilter.addEventListener("change", render);
-    sourceFilter.addEventListener("change", render);
-    daysFilter.addEventListener("change", render);
-    toggleDark.addEventListener("click", () => document.body.classList.toggle("dark"));
-
-    render();
-  </script>
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <img src="static/logo-white.png" alt="Gruppo BitAgorà Smart Network" width="74" height="34" loading="lazy">
+      <p>AI Compass è una selezione automatica di BitAgorà Orobica srl. Titoli ed estratti appartengono ai rispettivi autori: ogni scheda rimanda alla fonte originale.</p>
+      <nav class="footer-links" aria-label="BitAgorà Orobica">
+        <a href="https://www.bitagoraorobica.it" target="_blank" rel="noopener">Sito</a>
+        <a href="https://newsletter.bitagoraorobica.it" target="_blank" rel="noopener">Newsletter</a>
+      </nav>
+    </div>
+  </footer>
 </body>
 </html>

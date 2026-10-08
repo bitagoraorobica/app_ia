@@ -288,6 +288,51 @@
     "badge": "📜"
   },
   {
+    "date": "2026-10-08",
+    "title": "MASC: A Multi-Agent Self-Calibration Framework with Latent Construct Alignment for Consistent Client Role-Playing in Psychological Counseling",
+    "description": "arXiv:2610.08250v1 Announce Type: new Abstract: Large language models are increasingly used to simulate clients for counselor training and psychological counseling research, but reliable simulation requires clients to remain psychologically coherent across extended interactions. Existing…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.08250",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "zkLLMPoT: Efficient Zero Knowledge Proof of Training for Large Language Models",
+    "description": "arXiv:2610.08258v1 Announce Type: new Abstract: Auditing the claimed outcomes of large language model (LLM) training is challenging when model weights and training data are private, while cryptographically proving the full training process is prohibitively expensive at Transformer scale. We present…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.08258",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "MedZERO: Self-Evolving Agents for Open-Ended Medical Reasoning Through Controlled Knowledge Accumulation",
+    "description": "arXiv:2610.08327v1 Announce Type: new Abstract: Large language models (LLMs) have shown promise in medical question answering and clinical reasoning, yet their improvement remains constrained by static parametric knowledge and costly expert supervision. Self-evolving agents offer a promising…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.08327",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "An AI-Assisted Formalization of the Poincar\\'e Conjecture",
+    "description": "arXiv:2610.08329v1 Announce Type: new Abstract: We present an AI-assisted Lean 4 formalization of the Poincar\\'e conjecture. The project began with limited reusable formal infrastructure for the geometric analysis behind the proof. To organize this work, we combined a proof blueprint prepared by…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.08329",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "Transect: Retaining Observability for Long-Horizon LLM Agent Evaluations",
+    "description": "arXiv:2610.08364v1 Announce Type: new Abstract: Frontier AI evaluations increasingly use open-ended, agentic, long-horizon tasks whose transcripts can span hundreds of pages of outputs and actions from complex multi-agent networks. The observability envelop-the range of what evaluators can reliably…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.08364",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
     "date": "2026-10-07",
     "title": "GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets",
     "description": "arXiv:2610.06910v1 Announce Type: new \nAbstract: Recent advances in Large Language Models (LLMs) have demonstrated remarkable capabilities in web front-end execution, with browser-based game generation emerging as a particularly prominent frontier. While previous efforts frequently rely on complex m",
@@ -942,6 +987,7 @@
     "category": "Tool",
     "link": "https://newsletter.bitagoraorobica.it/tag/ia/",
     "source": "BitAgorà Orobica",
-    "badge": ""
+    "badge": "",
+    "manual": true
   }
 ]
