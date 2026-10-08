@@ -378,6 +378,51 @@
     "badge": "📜"
   },
   {
+    "date": "2026-10-08",
+    "title": "PlaySuite: A Large-Scale Benchmark for Interactive Visual Intelligence",
+    "description": "arXiv:2610.07127v1 Announce Type: cross Abstract: Recent advances in multimodal foundation models yield strong performance on static perception and reasoning benchmarks, yet such evaluations largely overlook a central aspect of intelligence: acting competently in dynamic environments over extended…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.07127",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "CroissantMiner: Automated Extraction and Validation of Croissant Metadata for ML Datasets",
+    "description": "arXiv:2610.07132v1 Announce Type: cross Abstract: Croissant has emerged as a standard for machine-readable dataset metadata, yet populating its fields remains labor-intensive and requires careful reading of accompanying dataset documentation. We present the first benchmark enabling end-to-end…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.07132",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "Agentic Design Space Exploration for Joint Hardware Configuration Selection and Mapping of AI Inference Workloads on Heterogeneous Edge SoCs",
+    "description": "arXiv:2610.07191v1 Announce Type: cross Abstract: Modern edge Systems-on-Chip (SoCs) integrate heterogeneous processing units (PUs) such as CPUs, GPUs, and NPUs, each with distinct performance and energy characteristics. Deploying AI inference workloads on them under real-time latency and energy…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.07191",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "Lineage-Aware Memory Governance: A Derivation-Gated Framework for Privacy-Preserving Column-Level Access Control in Enterprise AI Agents",
+    "description": "arXiv:2610.07258v1 Announce Type: cross Abstract: Enterprise AI agents that share a memory store face two unaddressed risks: sensitive data can leak through legitimately computed results the requester could not derive, and departments can silently compute a same-named key performance indicator…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.07258",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "Catching Developers in the Flow: Low-Latency Agentic Program Repair at Google Scale",
+    "description": "arXiv:2610.07289v1 Announce Type: cross Abstract: Manual repair of program failures is time-consuming and disruptive for software developers, particularly during the pre-submit phase where test failures occur within continuous integration systems. While Automated Program Repair has seen significant…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.07289",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
     "date": "2026-10-07",
     "title": "GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets",
     "description": "arXiv:2610.06910v1 Announce Type: new \nAbstract: Recent advances in Large Language Models (LLMs) have demonstrated remarkable capabilities in web front-end execution, with browser-based game generation emerging as a particularly prominent frontier. While previous efforts frequently rely on complex m",
