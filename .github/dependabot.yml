@@ -1,0 +1,23 @@
+# Aggiornamenti delle Actions e dei pacchetti Python, fissati a versioni esatte:
+# Dependabot apre una pull request al mese per ecosistema, da leggere prima del merge.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      actions:
+        patterns: ["*"]
+    commit-message:
+      prefix: "Aggiorna dipendenze"
+
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      python:
+        patterns: ["*"]
+    commit-message:
+      prefix: "Aggiorna dipendenze"
