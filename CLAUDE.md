@@ -62,6 +62,12 @@ le fa comparire allo scorrimento. Font, logo bianco e favicon sono in `static/` 
 CSS e JS sono linkati con `?v=<hash>` del contenuto, quindi una modifica arriva subito ai browser.
 `static/og-image.png` è l'anteprima per i social: si rigenera da `tools/og-image.html` (comando nel file).
 
+**`ai-compass-feed.json` ha un consumatore esterno**: `migration_insight` (repo privato, motore editoriale di
+BitAgorà) lo legge in `scripts/fetch_tldr.py` (fonte `appai`) per il suo digest settimanale. Usa i campi
+`title`, `description`, `link`, `date`, `source`, e per filtrare `manual`, `category` (scarta `Paper`),
+`source` (scarta quelle che iniziano con `TLDR`) e `badge` (🔥 +3, ⭐ +2 di score). Se cambiano nomi o valori
+di questi campi, va aggiornato anche lì.
+
 Il workflow ha due job: `aggiorna` (esegue lo script, committa JSON/HTML/already_seen come
 `github-actions[bot]`, prepara `_site/` con `index.html`, `ai-compass-feed.json` e la cartella `static/`) e `pubblica`
 (`actions/deploy-pages`). GitHub Pages è configurato con sorgente "GitHub Actions", non "deploy from branch":
