@@ -183,6 +183,11 @@ def testo_semplice(s):
     return re.sub(r"\s+", " ", html.unescape(s)).strip()
 
 
+def dominio_base(host):
+    """'blog.n8n.io' → 'n8n.io'. Basta per i domini delle fonti attuali (nessun .co.uk e simili)."""
+    return ".".join((host or "").lower().split(".")[-2:])
+
+
 def data_pubblicazione(entry):
     parsed = entry.get("published_parsed") or entry.get("updated_parsed")
     return datetime(*parsed[:6], tzinfo=timezone.utc) if parsed else None
@@ -231,7 +236,8 @@ def raccogli_rss(seen_links, cutoff):
             continue
 
         accettate = 0
-        scartate = {"già visti": 0, "vecchi": 0, "punteggio basso": 0, "link non validi": 0, "altro": 0}
+        dominio_fonte = dominio_base(urlparse(url).hostname)
+        scartate = {"già visti": 0, "vecchi": 0, "punteggio basso": 0, "link fuori dominio": 0, "link non validi": 0, "altro": 0}
         for entry in entries:
             if accettate >= max_items_per_feed:
                 break
@@ -241,6 +247,10 @@ def raccogli_rss(seen_links, cutoff):
             # Solo link web: un feed compromesso potrebbe inserire link "javascript:" che eseguono codice
             if not title or urlparse(link).scheme not in ("http", "https") or len(title) > 250:
                 scartate["altro"] += 1
+                continue
+            # Il link deve stare sul dominio del feed: un feed compromesso non può mandare i lettori altrove
+            if dominio_base(urlparse(link).hostname) != dominio_fonte:
+                scartate["link fuori dominio"] += 1
                 continue
             if link in seen_links:
                 scartate["già visti"] += 1

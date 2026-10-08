@@ -38,7 +38,9 @@ pull request non fanno partire il workflow, che parte solo dopo il merge su `mai
    incluse, senza filtri di punteggio.
 2. **Archivio** — dal `ai-compass-feed.json` precedente tiene le voci RSS degli ultimi `max_age_days` (30)
    giorni. Senza questo passaggio ogni giro mostrerebbe solo gli articoli nuovi di quel giro.
-3. **Raccolta RSS** — itera `rss_feeds`; per ogni voce scarta: link già in `data/already_seen.txt`, più vecchia
+3. **Raccolta RSS** — itera `rss_feeds`; per ogni voce scarta: link non http/https o fuori dal dominio del feed
+   (`dominio_base`: ultimi due livelli, es. `blog.n8n.io` → `n8n.io`; una fonte nuova i cui articoli stanno su
+   un altro dominio verrebbe scartata in blocco), link già in `data/already_seen.txt`, più vecchia
    di 30 giorni, score < `min_score_required` (5). Lo score somma i pesi del dizionario `keywords` trovati in
    titolo+descrizione (arXiv −1): le keyword di 1-3 lettere ("ai", "gpt", "llm") solo come parola intera, le
    altre a inizio parola — mai come sottostringa, altrimenti "ai" scatta in "said", "email", "OpenAI". Solo per i domini fuori da `skip_check_domains` fa una
