@@ -333,6 +333,51 @@
     "badge": "📜"
   },
   {
+    "date": "2026-10-08",
+    "title": "ScienceClaw: Benchmarking Continual Self-Evolution of AI-for-Science Agents Across the Natural and Social Sciences",
+    "description": "arXiv:2610.08691v1 Announce Type: new Abstract: Large language model agents are accelerating scientific automation, yet verified executions rarely become persistent program-level improvements, and existing evaluations do not examine this process across sequential tasks in both the natural and…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.08691",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "WorldSolver: Can LLM Agents Simulate the Physical Dynamics via Solver Generation?",
+    "description": "arXiv:2610.08720v1 Announce Type: new Abstract: LLM-based agents are increasingly advancing scientific and engineering problem solving, with physics simulation emerging as a challenging yet practical testbed for reproducing complex physical phenomena with application in embodied AI, games and…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.08720",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "Sherpa: Teaching LLMs to Teach Adaptively",
+    "description": "arXiv:2610.08778v1 Announce Type: new Abstract: Large language models (LLMs) have become increasingly capable problem solvers, but being able to solve a problem is not the same as being able to teach it. Existing approaches to training LLMs as teachers rely on demonstrations, preference data, or…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.08778",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "DART-ES: Difficulty-Aware Reweighting and Targeted Replay for Fine-Tuning LLMs with Evolution Strategies",
+    "description": "arXiv:2610.06993v1 Announce Type: cross Abstract: Evolution Strategies (ES) enable memory efficient full parameter fine-tuning of large language models (LLMs) using only forward computation. However, standard ES uniformly averages rewards across problems and compresses problem level population…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.06993",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "Towards a Unified Misuse Monitoring Benchmark",
+    "description": "arXiv:2610.07089v1 Announce Type: cross Abstract: LLM agents increasingly act in multi-actor environments, exposing them to misuse from multiple sources: decomposition attacks, where a harmful request is split into innocuous sub-requests, and prompt injection attacks, where a compromised tool…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.07089",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
     "date": "2026-10-07",
     "title": "GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets",
     "description": "arXiv:2610.06910v1 Announce Type: new \nAbstract: Recent advances in Large Language Models (LLMs) have demonstrated remarkable capabilities in web front-end execution, with browser-based game generation emerging as a particularly prominent frontier. While previous efforts frequently rely on complex m",
