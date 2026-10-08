@@ -189,6 +189,60 @@
     "badge": "🔁"
   },
   {
+    "date": "2026-10-08",
+    "title": "OOPMAS: Object-Oriented Multi-Agent Systems for Query-Level Workflow Generation",
+    "description": "arXiv:2610.07787v1 Announce Type: new Abstract: Multi-agent systems (MAS) powered by large language models have shown strong performance across code generation, mathematical reasoning, and question answering. However, existing methods for automating MAS design mostly operate at the task level, produ",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.07787",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "RA-MoWE: Workflow-Affinity Embeddings for Query Clustering and Agentic Workflow Generation",
+    "description": "arXiv:2610.07851v1 Announce Type: new Abstract: Agentic workflows enable large language models (LLMs) to solve complex tasks by coordinating reasoning, tool use, and verification. However, a workflow optimized for an entire task collection can overlook differences in the reasoning strategies that in",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.07851",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "SIGMA: Self-Improving Alignment Generalization from a Model Spec",
+    "description": "arXiv:2610.07935v1 Announce Type: new Abstract: LLM agents are increasingly capable of executing complex tasks and of recursively improving themselves on easy-to-verify objectives such as software engineering and mathematics. Since alignment is much harder to verify, this creates a growing risk of c",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.07935",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "Same Feedback, Different Answer: Measuring Run-to-Run Instability in Frontier-Model Customer Feedback Analysis",
+    "description": "arXiv:2610.08036v1 Announce Type: new Abstract: AI agents are increasingly being programmed to automate knowledge work over large collections of unstructured data. Such automation requires repeatability: when the underlying evidence is unchanged, the agent's categories, priorities, and counts should",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.08036",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "DAEDALUS: Bootstrapping Agent Memory from Self-Generated Tasks",
+    "description": "arXiv:2610.08048v1 Announce Type: new Abstract: LLM agents often lack the operational knowledge to act reliably in new environments, as they must discover specific tool behaviors or environment conventions on their own. Without memory of past attempts, they repeat the same mistakes across tasks, lea",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.08048",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "AI adoption: A practical guide from Zapier",
+    "description": "I have two voices in my head when it comes to new tech. One is the wide-eyed optimist who wants to try every tool and click every AI button. The other wants to delete every app on my phone, move to a cabin in the woods, and write by candlelight. There's no doubt AI is exciting. It's already helping ",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/ai-adoption",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
     "date": "2026-10-07",
     "title": "GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets",
     "description": "arXiv:2610.06910v1 Announce Type: new \nAbstract: Recent advances in Large Language Models (LLMs) have demonstrated remarkable capabilities in web front-end execution, with browser-based game generation emerging as a particularly prominent frontier. While previous efforts frequently rely on complex m",
@@ -675,6 +729,33 @@
     "badge": ""
   },
   {
+    "date": "2026-09-21",
+    "title": "Advisory Group on Mathematics and Artificial Intelligence",
+    "description": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+    "category": "News",
+    "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-09-21",
+    "title": "Building standards for the next phase of AI",
+    "description": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+    "category": "News",
+    "link": "https://openai.com/index/building-standards-next-phase-ai",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-09-21",
+    "title": "Expanding OpenAI Academy with new learning paths",
+    "description": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
+    "category": "News",
+    "link": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
     "date": "2026-09-19",
     "title": "Reducing AI Workflow Latency: Patterns That Actually Work",
     "description": "Learn how to reduce AI workflow latency with production patterns for latency optimization: model routing, caching, parallel execution, timeouts, and budgets.",
@@ -693,6 +774,15 @@
     "badge": ""
   },
   {
+    "date": "2026-09-18",
+    "title": "Introducing the Australian Youth Safety Blueprint",
+    "description": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+    "category": "News",
+    "link": "https://openai.com/index/australian-youth-safety-blueprint",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
     "date": "2026-09-16",
     "title": "Try new models and services, skip the account setup",
     "description": "Starting with n8n v2.36, you can now use supported AI models and tool services on select n8n Cloud plans without creating a provider account or generating an API key. Choose Gateway credits instead of adding a credential. Six model providers and five tool services work right out of the box.",
@@ -700,6 +790,15 @@
     "link": "https://blog.n8n.io/gateway-credits/",
     "source": "n8n Blog",
     "badge": "🔁"
+  },
+  {
+    "date": "2026-09-16",
+    "title": "Reimagining advertising with AI",
+    "description": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+    "category": "News",
+    "link": "https://openai.com/index/reimagining-advertising-with-ai",
+    "source": "OpenAI",
+    "badge": ""
   },
   {
     "date": "2026-09-15",
