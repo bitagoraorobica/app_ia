@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- Sorgente di static/og-image.png, l'anteprima per i social (1200x630). Per rigenerarla, dalla cartella tools/:
+     chrome --headless --hide-scrollbars --allow-file-access-from-files --force-device-scale-factor=1 \
+            --window-size=1200,630 --screenshot=../static/og-image.png og-image.html -->
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face { font-family: 'Inter'; font-weight: 100 900; src: url('../static/fonts/inter-latin-wght-normal.woff2') format('woff2-variations'); }
+  @font-face { font-family: 'Space Grotesk'; font-weight: 300 700; src: url('../static/fonts/space-grotesk-latin-wght-normal.woff2') format('woff2-variations'); }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    width: 1200px; height: 630px; overflow: hidden; position: relative;
+    background: #0a0a0b; color: #f3f2ee; font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .glow {
+    position: absolute; inset: -40% 30% auto -20%; height: 110%;
+    background: radial-gradient(50% 60% at 35% 20%, rgba(246,171,0,0.22) 0%, transparent 70%);
+  }
+  .symbol {
+    position: absolute; right: -40px; top: 50%; transform: translateY(-50%);
+    height: 560px; opacity: 0.07;
+  }
+  .frame {
+    position: absolute; inset: 0; padding: 64px 80px 60px;
+    display: flex; flex-direction: column;
+  }
+  .logo { height: 62px; width: auto; display: block; align-self: flex-start; }
+  .content { margin-top: auto; margin-bottom: auto; }
+  .eyebrow {
+    display: inline-flex; align-items: center; gap: 12px;
+    font-size: 21px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+    color: #f6ab00; margin: 0 0 22px;
+  }
+  .eyebrow::before { content: ''; width: 11px; height: 11px; border-radius: 50%; background: #f6ab00; }
+  h1 {
+    font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 72px; line-height: 1.05;
+    letter-spacing: -0.02em; color: #fff; margin: 0 0 24px; max-width: 980px;
+  }
+  .sub { font-size: 28px; line-height: 1.45; color: #9a9aa2; margin: 0; max-width: 1020px; }
+  .bottom {
+    display: flex; align-items: center; justify-content: space-between;
+    border-top: 1px solid rgba(255,255,255,0.09); padding-top: 26px;
+    font-size: 22px; color: #9a9aa2;
+  }
+  .name { font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 26px; color: #fff; }
+  .url { color: #f6ab00; font-weight: 500; }
+</style>
+</head>
+<body>
+  <div class="glow"></div>
+  <img class="symbol" src="simbolo.png" alt="">
+  <div class="frame">
+    <img class="logo" src="../static/logo-white.png" alt="">
+    <div class="content">
+      <p class="eyebrow">Selezione curata da BitAgorà Orobica</p>
+      <h1>La bussola sull'intelligenza artificiale</h1>
+      <p class="sub">Articoli, paper e video sull'IA scelti ogni mattina da decine di fonti</p>
+    </div>
+    <div class="bottom">
+      <span class="name">AI Compass</span>
+      <span class="url">bitagoraorobica.github.io/app_ia</span>
+    </div>
+  </div>
+</body>
+</html>

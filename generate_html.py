@@ -143,6 +143,13 @@ def build_html(all_entries, generato=None):
   <meta property="og:title" content="AI Compass · la bussola sull'intelligenza artificiale">
   <meta property="og:description" content="{escape(descrizione_sito)}">
   <meta property="og:url" content="{SITE_URL}">
+  <meta property="og:image" content="{SITE_URL}static/og-image.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="AI Compass di BitAgorà Orobica: la bussola sull'intelligenza artificiale">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{SITE_URL}static/og-image.png">
   <meta name="theme-color" content="#121214">
   <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-32.png">
   <link rel="apple-touch-icon" href="static/apple-touch-icon.png">
