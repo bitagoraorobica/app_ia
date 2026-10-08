@@ -243,6 +243,51 @@
     "badge": "🔁"
   },
   {
+    "date": "2026-10-08",
+    "title": "SpeedrunBench: Challenging LLM Agents with Video Game Speedrunning",
+    "description": "arXiv:2610.08076v1 Announce Type: new Abstract: Frontier LLM agents have been shown to be capable of solving increasingly complex tasks for which humans have measurable solutions. This begs the pertinent question of whether LLM agents can go beyond what humans have already solved. The ability to dev",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.08076",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "Natural Language Questions as an Interface for Knowledge Graphs: QRAKEN Graph Distillation and Semantic Self-Healing",
+    "description": "arXiv:2610.08095v1 Announce Type: new Abstract: Natural-language access to RDF knowledge graphs is a core Semantic Web ambition. Large language models (LLMs) have advanced Text-to-SPARQL, yet on unfamiliar graphs they often generate valid queries that misrepresent the populated data model. QRAKEN is",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.08095",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "DSV-Mem: Evaluating Multimodal Memory in Professional Workflows for MLLM Agents",
+    "description": "arXiv:2610.08102v1 Announce Type: new Abstract: Conversational MLLM agents are increasingly expected to assist in professional workflows, from AI research and engineering design to product management and business operations. Yet this capability remains underexplored: existing benchmarks largely focu",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.08102",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "Learn2Play Bench: How Well Do LLM Agents Learn from Experience in Unfamiliar Environments?",
+    "description": "arXiv:2610.08215v1 Announce Type: new Abstract: Learning from experience is essential for LLM agents to adapt to unfamiliar and dynmaic environments. Evaluating this ability is therefore important for understanding how effectively agents acquire and use new knowledge. Existing benchmarks have sought",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.08215",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "LeanPlan: Optimal Planning with LLM-Generated Heuristics and Admissibility Proofs",
+    "description": "arXiv:2610.08246v1 Announce Type: new Abstract: Frontier large language models (LLMs) can generate heuristic functions that guide search to achieve state-of-the-art performance in satisficing planning, where any plan is acceptable. However, these heuristics are not guaranteed to be admissible and ca",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.08246",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
     "date": "2026-10-07",
     "title": "GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets",
     "description": "arXiv:2610.06910v1 Announce Type: new \nAbstract: Recent advances in Large Language Models (LLMs) have demonstrated remarkable capabilities in web front-end execution, with browser-based game generation emerging as a particularly prominent frontier. While previous efforts frequently rely on complex m",
@@ -801,12 +846,30 @@
     "badge": ""
   },
   {
+    "date": "2026-09-16",
+    "title": "How workers are unlocking new ways of working",
+    "description": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+    "category": "News",
+    "link": "https://openai.com/index/unlocking-new-ways-of-working",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
     "date": "2026-09-15",
     "title": "L'AI ci ucciderà tutti?",
     "description": "Scopri in 2 minuti quanto sei davvero pronto a usare l’AI nel tuo lavoro: fai il test gratuito → https://spiegamelofacile.com/audit/form-v4 -- Se il video ti è stato utile, iscriviti. Per il resto 👉 https://marcomontemagno.com 👉https://spiegamelofacile.com Ogni sabato mattina, nella tua casella: un ",
     "category": "News",
     "link": "https://www.youtube.com/watch?v=cUNlNfQPwpA",
     "source": "YouTube - Marco Montemagno",
+    "badge": ""
+  },
+  {
+    "date": "2026-09-14",
+    "title": "How Fyxer built an AI executive assistant people trust",
+    "description": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+    "category": "News",
+    "link": "https://openai.com/index/fyxer",
+    "source": "OpenAI",
     "badge": ""
   },
   {
@@ -837,12 +900,39 @@
     "badge": ""
   },
   {
+    "date": "2026-09-10",
+    "title": "Introducing ChatGPT for Financial Services",
+    "description": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+    "category": "News",
+    "link": "https://openai.com/index/introducing-chatgpt-financial-services",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-09-10",
+    "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+    "description": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+    "category": "News",
+    "link": "https://openai.com/index/expanding-ai-access-us-government",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
     "date": "2026-09-09",
     "title": "How AI is transforming weather prediction",
     "description": "Can artificial intelligence solve one of science’s most chaotic physics puzzles? In this episode, Professor Hannah Fry sits down with Peter Battaglia, Senior Director of Research at Google DeepMind, to explore how machine learning is transforming global weather forecasting. From providing critical e",
     "category": "News",
     "link": "https://www.youtube.com/watch?v=O_EWbnkjXdk",
     "source": "YouTube – DeepMind",
+    "badge": ""
+  },
+  {
+    "date": "2026-09-09",
+    "title": "Paul Christiano joins OpenAI Foundation Board",
+    "description": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+    "category": "News",
+    "link": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+    "source": "OpenAI",
     "badge": ""
   },
   {
