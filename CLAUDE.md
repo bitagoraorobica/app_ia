@@ -35,7 +35,8 @@ pull request non fanno partire il workflow, che parte solo dopo il merge su `mai
 `aggiorna_feed.py` (orchestratore):
 
 1. **Voci manuali** — `data/voci_manuali.csv` (colonne Date/Title/Description/Category/Link/Source), sempre
-   incluse, senza filtri di punteggio.
+   incluse, senza filtri di punteggio, marcate `"manual": true` nel JSON (la pagina le mostra a parte, in
+   "Dalla redazione", fuori dai filtri).
 2. **Archivio** — dal `ai-compass-feed.json` precedente tiene le voci RSS degli ultimi `max_age_days` (30)
    giorni. Senza questo passaggio ogni giro mostrerebbe solo gli articoli nuovi di quel giro.
 3. **Raccolta RSS** — itera `rss_feeds`; per ogni voce scarta: link non http/https o fuori dal dominio del feed
@@ -52,10 +53,15 @@ pull request non fanno partire il workflow, che parte solo dopo il merge su `mai
 Le fonti tolte perché senza feed RSS sono elencate in un commento sotto `rss_feeds`: prima di
 reinserirne una, verificare che il feed esista davvero.
 
-`generate_html.py` rigenera da zero `index.html` (CSS/JS inline, dati inline come JSON, filtri lato client per
-categoria/fonte/periodo, ricerca, dark mode). Le opzioni dei filtri categoria e fonte derivano dai dati.
+`generate_html.py` rigenera da zero `index.html`: tutte le schede sono già nel markup (testi con escape, link
+non http/https sostituiti da `#`), così la pagina funziona anche senza JavaScript. Stile e comportamento stanno
+in `static/`: `style.css` riprende i token del brand kit di www.bitagoraorobica.it
+(`new_site/BRAND_KIT_BITAGORA.md`: tema scuro per scelta, giallo `#f6ab00` unico accento, Space Grotesk + Inter),
+`app.js` filtra le schede mostrando/nascondendo (ricerca, categoria, fonte, periodo), mette le date relative e
+le fa comparire allo scorrimento. Font, logo bianco e favicon sono in `static/` (niente CDN né Google Fonts).
+CSS e JS sono linkati con `?v=<hash>` del contenuto, quindi una modifica arriva subito ai browser.
 
 Il workflow ha due job: `aggiorna` (esegue lo script, committa JSON/HTML/already_seen come
-`github-actions[bot]`, prepara `_site/` con `index.html`, `ai-compass-feed.json`, `logo.png`) e `pubblica`
+`github-actions[bot]`, prepara `_site/` con `index.html`, `ai-compass-feed.json` e la cartella `static/`) e `pubblica`
 (`actions/deploy-pages`). GitHub Pages è configurato con sorgente "GitHub Actions", non "deploy from branch":
 i push fatti con `GITHUB_TOKEN` non farebbero ripartire la build da branch.

@@ -188,6 +188,13 @@ def dominio_base(host):
     return ".".join((host or "").lower().split(".")[-2:])
 
 
+def tronca(testo, limite):
+    """Taglia all'ultima parola intera entro il limite, invece che a metà parola."""
+    if len(testo) <= limite:
+        return testo
+    return testo[:limite].rsplit(" ", 1)[0].rstrip(",;:.") + "…"
+
+
 def data_pubblicazione(entry):
     parsed = entry.get("published_parsed") or entry.get("updated_parsed")
     return datetime(*parsed[:6], tzinfo=timezone.utc) if parsed else None
@@ -216,6 +223,7 @@ def leggi_voci_manuali():
                 "link": campo("Link"),
                 "source": campo("Source"),
                 "badge": "",
+                "manual": True,
             })
     return voci
 
@@ -259,8 +267,6 @@ def raccogli_rss(seen_links, cutoff):
             if not published or published < cutoff:
                 scartate["vecchi"] += 1
                 continue
-            if len(description) < 30:
-                description += " [...]"
 
             score = calcola_score(title, description)
             if "arxiv" in url:
@@ -286,7 +292,7 @@ def raccogli_rss(seen_links, cutoff):
             nuove.append({
                 "date": published.strftime("%Y-%m-%d"),
                 "title": title,
-                "description": description[:300],
+                "description": tronca(description, 300),
                 "category": category,
                 "link": link,
                 "source": source,

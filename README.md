@@ -12,7 +12,8 @@ Ogni mattina il workflow [`aggiorna.yml`](.github/workflows/aggiorna.yml) esegue
 2. scarica i feed RSS, scarta i link già visti ([`data/already_seen.txt`](data/already_seen.txt)), quelli più
    vecchi di 30 giorni e quelli con punteggio troppo basso (somma dei pesi delle keyword trovate);
 3. unisce i nuovi articoli a quelli degli ultimi 30 giorni già in archivio e scrive `ai-compass-feed.json`;
-4. rigenera `index.html` con `generate_html.py`.
+4. rigenera `index.html` con `generate_html.py` (stile e filtri in `static/`, nello stile di
+   www.bitagoraorobica.it).
 
 Il workflow poi salva i file aggiornati nel repo e pubblica il sito su GitHub Pages.
 
@@ -23,7 +24,8 @@ Modifica `data/voci_manuali.csv` (anche dal browser, con la matita di GitHub) ag
     Date,Title,Description,Category,Link,Source
     2026-10-08,Titolo,Descrizione breve,News,https://esempio.it/articolo,Nome fonte
 
-Al salvataggio il sito si aggiorna da solo in un paio di minuti. Le voci manuali restano sempre visibili.
+Al salvataggio il sito si aggiorna da solo in un paio di minuti. Le voci manuali restano sempre visibili, in
+evidenza nel riquadro "Dalla redazione" sopra gli articoli.
 
 ## Aggiornare subito il sito
 

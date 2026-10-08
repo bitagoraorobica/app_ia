@@ -1,282 +1,233 @@
 # Genera index.html a partire da ai-compass-feed.json.
 # Richiamato da aggiorna_feed.py; si può lanciare anche da solo per rigenerare la pagina.
+# Qui si costruisce solo il markup: stile e filtri stanno in static/style.css e static/app.js.
 
+import hashlib
 import json
+import re
+from collections import Counter
+from datetime import date, datetime, timezone
 from html import escape
+from urllib.parse import urlparse
+
+try:
+    from zoneinfo import ZoneInfo
+    FUSO = ZoneInfo("Europe/Rome")
+except Exception:  # database dei fusi orari assente: si ripiega su UTC
+    FUSO = timezone.utc
 
 INPUT_JSON = "ai-compass-feed.json"
 OUTPUT_HTML = "index.html"
-LOGO_FILE = "logo.png"
+SITE_URL = "https://bitagoraorobica.github.io/app_ia/"
+
+MESI = ["gen", "feb", "mar", "apr", "mag", "giu", "lug", "ago", "set", "ott", "nov", "dic"]
+
+# Nome mostrato per ogni categoria (il valore nel JSON resta quello originale) e ordine nei filtri
+ETICHETTE_CATEGORIE = {"News": "News", "Paper": "Paper", "Automation": "Automazione", "Course": "Corsi", "Tool": "Strumenti"}
+ORDINE_CATEGORIE = ["News", "Paper", "Automation", "Course", "Tool"]
+
+# I badge emoji del JSON diventano etichette; 📜 e 🔁 ripetono la categoria e non si mostrano
+ETICHETTE_BADGE = {"🔥": ("In evidenza", "flag flag-hot"), "⭐": ("Da leggere", "flag")}
+
+PREFISSO_ARXIV = re.compile(r"^arXiv:\S+\s+Announce Type:\s*\S+\s+Abstract:\s*", re.IGNORECASE)
+
+ICONA_CERCA = (
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" '
+    'stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>'
+)
 
 
-def opzioni(valori):
-    return "".join(f'\n      <option value="{escape(v)}">{escape(v)}</option>' for v in valori)
+def pulisci_descrizione(testo):
+    testo = PREFISSO_ARXIV.sub("", testo or "")
+    return re.sub(r"\s*\[\.\.\.\]$", "", testo).strip()
 
 
-def build_html(all_entries):
-    # Ordina per data decrescente
-    all_entries = sorted(all_entries, key=lambda x: x["date"], reverse=True)
+def link_sicuro(link):
+    return link if urlparse(link or "").scheme in ("http", "https") else "#"
 
-    # Estrai fonti e categorie per i filtri
-    sources = sorted(set(entry['source'] for entry in all_entries))
-    categories = sorted(set(entry['category'] for entry in all_entries))
 
-    # Codifica tutto il JSON inline come stringa JS ("</" spezzato per non chiudere lo <script>)
-    entry_data_js = json.dumps(all_entries, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+def data_breve(iso):
+    try:
+        d = date.fromisoformat(iso)
+    except ValueError:
+        return iso
+    return f"{d.day} {MESI[d.month - 1]} {d.year}"
 
-    # HTML completo
+
+def etichetta_categoria(categoria):
+    return ETICHETTE_CATEGORIE.get(categoria, categoria)
+
+
+def ordina_categorie(categorie):
+    return sorted(categorie, key=lambda c: (ORDINE_CATEGORIE.index(c) if c in ORDINE_CATEGORIE else len(ORDINE_CATEGORIE), c))
+
+
+def versione(percorso):
+    """Impronta del file, aggiunta all'URL: i browser riscaricano CSS e JS solo quando cambiano."""
+    with open(percorso, "rb") as f:
+        return hashlib.sha1(f.read()).hexdigest()[:8]
+
+
+def scheda(e):
+    descrizione = pulisci_descrizione(e.get("description", ""))
+    testo_ricerca = f'{e["title"]} {descrizione} {e["source"]}'.lower()
+    badge = ETICHETTE_BADGE.get(e.get("badge", ""))
+    flag = f'<span class="{badge[1]}">{badge[0]}</span>' if badge else ""
+    paragrafo = f"\n        <p>{escape(descrizione)}</p>" if descrizione else ""
+    return f"""      <article class="card" data-category="{escape(e["category"])}" data-source="{escape(e["source"])}" data-date="{escape(e["date"])}" data-text="{escape(testo_ricerca)}">
+        <div class="card-top"><span class="tag">{escape(etichetta_categoria(e["category"]))}</span>{flag}</div>
+        <h3><a href="{escape(link_sicuro(e["link"]))}" target="_blank" rel="noopener">{escape(e["title"])}</a></h3>{paragrafo}
+        <div class="card-meta"><span class="source">{escape(e["source"])}</span><span aria-hidden="true">·</span><time datetime="{escape(e["date"])}" data-relative>{escape(data_breve(e["date"]))}</time><span class="arrow" aria-hidden="true">↗</span></div>
+      </article>"""
+
+
+def voce_redazione(e):
+    descrizione = pulisci_descrizione(e.get("description", ""))
+    return f"""      <div class="pick">
+        <div>
+          <p class="eyebrow">Dalla redazione</p>
+          <h2><a href="{escape(link_sicuro(e["link"]))}" target="_blank" rel="noopener">{escape(e["title"])}</a></h2>
+          <p>{escape(descrizione)}</p>
+        </div>
+        <span class="pick-cta" aria-hidden="true">Leggi ↗</span>
+      </div>"""
+
+
+def build_html(all_entries, generato=None):
+    generato = generato or datetime.now(FUSO)
+    manuali = [e for e in all_entries if e.get("manual")]
+    # Per data, dal più recente; nello stesso giorno prima "In evidenza" e "Da leggere", poi News,
+    # Automazione e Paper (il sito è divulgativo: i paper restano, ma non aprono la giornata)
+    priorita_badge = {"🔥": 0, "⭐": 1}
+    priorita_categoria = {"News": 0, "Automation": 1, "Paper": 2}
+    articoli = sorted(
+        (e for e in all_entries if not e.get("manual")),
+        key=lambda e: (priorita_badge.get(e.get("badge"), 2), priorita_categoria.get(e["category"], 1)),
+    )
+    articoli.sort(key=lambda e: e["date"], reverse=True)
+
+    per_categoria = Counter(e["category"] for e in articoli)
+    per_fonte = Counter(e["source"] for e in articoli)
+
+    chips = [f'<button type="button" class="chip" data-category="" aria-pressed="true">Tutti<span class="count">{len(articoli)}</span></button>']
+    chips += [
+        f'<button type="button" class="chip" data-category="{escape(c)}" aria-pressed="false">'
+        f'{escape(etichetta_categoria(c))}<span class="count">{per_categoria[c]}</span></button>'
+        for c in ordina_categorie(per_categoria)
+    ]
+    fonti = "".join(
+        f'\n            <option value="{escape(s)}">{escape(s)} ({n})</option>' for s, n in sorted(per_fonte.items(), key=lambda x: x[0].lower())
+    )
+    redazione = ""
+    if manuali:
+        redazione = '    <section class="picks" aria-label="Dalla redazione">\n' + "\n".join(voce_redazione(e) for e in manuali) + "\n    </section>\n\n"
+    chips_html = "\n      ".join(chips)
+    schede_html = "\n".join(scheda(e) for e in articoli)
+    aggiornato = f"{generato.day} {MESI[generato.month - 1]}, {generato:%H:%M}"
+    descrizione_sito = (
+        "Articoli, paper e video sull'intelligenza artificiale selezionati ogni giorno da BitAgorà Orobica "
+        "tra laboratori di ricerca, aziende dell'IA e strumenti di automazione."
+    )
+
     return f"""<!DOCTYPE html>
-<html lang="it">
+<html lang="it" class="no-js">
 <head>
-  <meta charset="UTF-8">
-  <title>AI Compass – BitAgorà Orobica</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-  <style>
-    * {{
-      box-sizing: border-box;
-    }}
-    body {{
-      font-family: 'Inter', sans-serif;
-      background: #eef1f5;
-      padding: 1em;
-      margin: 0;
-      transition: background 0.3s, color 0.3s;
-    }}
-    body.dark {{
-      background: #181818;
-      color: #e0e0e0;
-    }}
-    header {{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-bottom: 2em;
-      text-align: center;
-    }}
-    header h1 {{
-      font-size: 2em;
-      margin: 0.5em 0;
-    }}
-    header img {{
-      max-width: 100%;
-      height: auto;
-    }}
-    .controls {{
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1em;
-      justify-content: center;
-      margin-bottom: 2em;
-    }}
-    .controls input,
-    .controls select,
-    .controls button {{
-      font-size: 1em;
-      padding: 0.5em;
-      flex: 1 1 200px;
-      max-width: 300px;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      transition: border 0.3s;
-    }}
-    .controls input:hover,
-    .controls select:hover {{
-      border-color: #007acc;
-    }}
-    .entry {{
-      background: #ffffff;
-      border-radius: 12px;
-      padding: 1em;
-      margin-bottom: 1.5em;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-      border-left: 4px solid transparent;
-    }}
-    .entry[data-category="News"] {{
-      border-left-color: #007acc;
-    }}
-    .entry[data-category="Paper"] {{
-      border-left-color: #e67e22;
-    }}
-    .entry[data-category="Course"] {{
-      border-left-color: #27ae60;
-    }}
-    .entry[data-category="Automation"] {{
-      border-left-color: #9b59b6; /* viola brillante */
-    }}
-    body.dark .entry {{
-      background: #1e1e1e;
-    }}
-    .entry .title {{
-      font-size: 1.2em;
-      font-weight: bold;
-      color: #007acc;
-      text-decoration: none;
-      display: block;
-      margin-bottom: 0.5em;
-    }}
-    body.dark .title {{
-      color: #4fc3f7;
-    }}
-    .entry p {{
-      margin: 0.5em 0;
-      line-height: 1.4;
-    }}
-    .entry .meta {{
-      font-size: 0.85em;
-      color: #666;
-      margin-top: 0.5em;
-    }}
-    body.dark .meta {{
-      color: #aaa;
-    }}
-    .entry .badge {{
-      margin-right: 0.5em;
-      font-size: 1.2em;
-    }}
-    @media (max-width: 600px) {{
-      .controls {{
-        flex-direction: column;
-        align-items: stretch;
-      }}
-      .controls input,
-      .controls select,
-      .controls button {{
-        flex: 1 1 auto;
-        max-width: 100%;
-      }}
-    }}
-    
-    .entries-grid {{
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 1.5em;
-    }}
-    @media (min-width: 700px) {{
-  .entries-grid {{
-    grid-template-columns: 1fr 1fr;
-  }}
-}}
-@media (min-width: 1000px) {{
-  .entries-grid {{
-    grid-template-columns: 1fr 1fr 1fr;
-  }}
-}}
-.entry {{
-  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.5s ease;
-  opacity: 0;
-}}
-.entry.show {{
-  opacity: 1;
-}}
-.entry:hover {{
-  transform: scale(1.02);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-}}
-  </style>
+  <title>AI Compass · BitAgorà Orobica</title>
+  <meta name="description" content="{escape(descrizione_sito)}">
+  <link rel="canonical" href="{SITE_URL}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="BitAgorà Orobica">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:title" content="AI Compass · la bussola sull'intelligenza artificiale">
+  <meta property="og:description" content="{escape(descrizione_sito)}">
+  <meta property="og:url" content="{SITE_URL}">
+  <meta name="theme-color" content="#121214">
+  <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-32.png">
+  <link rel="apple-touch-icon" href="static/apple-touch-icon.png">
+  <link rel="preload" href="static/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="static/fonts/space-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="static/style.css?v={versione("static/style.css")}">
+  <script>document.documentElement.classList.replace('no-js', 'js');</script>
+  <script src="static/app.js?v={versione("static/app.js")}" defer></script>
 </head>
 <body>
-  <header>
-    <h1>AI Compass</h1>
-    <img src="{LOGO_FILE}" alt="Logo">
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="./" aria-label="AI Compass, torna all'inizio">
+        <img src="static/logo-white.png" alt="Gruppo BitAgorà Smart Network" width="87" height="40">
+        <span class="brand-name">AI Compass</span>
+      </a>
+      <a class="header-link" href="https://www.bitagoraorobica.it" target="_blank" rel="noopener">Visita bitagoraorobica.it ↗</a>
+    </div>
   </header>
-  <p><em>Selezione curata da <a href="https://www.bitagoraorobica.it" target="_blank">BitAgorà Orobica srl</a></em></p>
 
-  <div class="controls">
-    <input type="text" id="search" placeholder="Cerca per titolo o descrizione...">
-    <select id="category">
-      <option value="">Tutte le categorie</option>{opzioni(categories)}
-    </select>
-    <select id="source">
-      <option value="">Tutte le fonti</option>{opzioni(sources)}
-    </select>
-    <select id="days">
-      <option value="">Qualsiasi data</option>
-      <option value="7">Ultimi 7 giorni</option>
-      <option value="15">Ultimi 15 giorni</option>
-      <option value="30">Ultimi 30 giorni</option>
-    </select>
-    <button id="toggleDark">🌗 Modalità scura</button>
-    <button id="resetFilters">🔄 Reset filtri</button>
-  </div>
+  <section class="hero">
+    <div class="glow" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="eyebrow">Selezione curata da BitAgorà Orobica</p>
+      <h1>La bussola sull'intelligenza artificiale</h1>
+      <p class="subtitle">Ogni mattina raccogliamo in automatico articoli, paper e video da decine di fonti (laboratori di ricerca, aziende dell'IA, strumenti di automazione) e teniamo i più pertinenti degli ultimi 30 giorni.</p>
+      <dl class="stats">
+        <div><dt>contenuti</dt><dd>{len(articoli)}</dd></div>
+        <div><dt>fonti attive</dt><dd>{len(per_fonte)}</dd></div>
+        <div><dt>ultimo aggiornamento</dt><dd>{aggiornato}</dd></div>
+      </dl>
+    </div>
+  </section>
 
-  <div id="entries" class="entries-grid"></div>
+  <main class="wrap">
+{redazione}    <div class="toolbar">
+      <div class="search">
+        <label class="sr-only" for="search">Cerca</label>
+        {ICONA_CERCA}
+        <input id="search" type="search" placeholder="Cerca per titolo, argomento o fonte…" autocomplete="off">
+      </div>
+      <div class="select">
+        <label class="sr-only" for="source">Fonte</label>
+        <select id="source">
+          <option value="">Tutte le fonti</option>{fonti}
+        </select>
+      </div>
+      <div class="select">
+        <label class="sr-only" for="days">Periodo</label>
+        <select id="days">
+          <option value="">Tutte le date</option>
+          <option value="3">Ultimi 3 giorni</option>
+          <option value="7">Ultima settimana</option>
+          <option value="15">Ultimi 15 giorni</option>
+        </select>
+      </div>
+    </div>
 
+    <div class="chips" role="group" aria-label="Categoria">
+      {chips_html}
+    </div>
 
-  <script>
-    const entryData = """ + entry_data_js + """;
+    <p class="results" aria-live="polite"><span><strong id="count">{len(articoli)}</strong> <span id="count-label">contenuti</span></span><button type="button" id="reset" class="link-button" hidden>Azzera filtri</button></p>
 
-    const searchInput = document.getElementById('search');
-    const categoryFilter = document.getElementById('category');
-    const sourceFilter = document.getElementById('source');
-    const daysFilter = document.getElementById('days');
-    const toggleDark = document.getElementById('toggleDark');
-    const resetFilters = document.getElementById('resetFilters');
-    const entriesDiv = document.getElementById('entries');
+    <div class="grid">
+{schede_html}
+    </div>
 
-    const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"})[c]);
+    <div class="empty" id="empty" hidden>
+      <h2>Nessun contenuto trovato</h2>
+      <p>Prova con un'altra parola o allarga i filtri.</p>
+      <button type="button" id="empty-reset" class="link-button">Azzera filtri</button>
+    </div>
+  </main>
 
-    function createEntry(item) {
-      const div = document.createElement('div');
-      div.className = 'entry';
-      div.dataset.text = (item.title + ' ' + item.description).toLowerCase();
-      div.dataset.category = item.category;
-      div.dataset.source = item.source;
-      div.dataset.date = item.date;
-      div.innerHTML = `
-        <a href="${/^https?:/i.test(item.link) ? esc(item.link) : "#"}" class="title" target="_blank" rel="noopener">
-          <span class="badge">${esc(item.badge)}</span>${esc(item.title)}
-        </a>
-        <p>${esc(item.description)}</p>
-        <div class="meta">${esc(item.source)} – ${esc(item.date)} – ${esc(item.category)}</div>
-      `;
-      return div;
-    }
-
-    function render() {
-      const q = searchInput.value.toLowerCase();
-      const cat = categoryFilter.value;
-      const src = sourceFilter.value;
-      const days = parseInt(daysFilter.value);
-      const now = new Date();
-
-      entriesDiv.innerHTML = "";
-entryData.forEach(item => {
-  const entryDate = new Date(item.date);
-  const diffDays = (now - entryDate) / (1000 * 60 * 60 * 24);
-  if (
-    (!q || (item.title + item.description).toLowerCase().includes(q)) &&
-    (!cat || item.category === cat) &&
-    (!src || item.source === src) &&
-    (isNaN(days) || diffDays <= days)
-  ) {
-    const el = createEntry(item);
-    entriesDiv.appendChild(el);
-    // trigger animazione
-    requestAnimationFrame(() => el.classList.add("show"));
-  }
-});
-
-      
-      
-    }
-
-    resetFilters.addEventListener("click", () => {
-      searchInput.value = "";
-      categoryFilter.value = "";
-      sourceFilter.value = "";
-      daysFilter.value = "";
-      render();
-    });
-
-    searchInput.addEventListener("input", render);
-    categoryFilter.addEventListener("change", render);
-    sourceFilter.addEventListener("change", render);
-    daysFilter.addEventListener("change", render);
-    toggleDark.addEventListener("click", () => document.body.classList.toggle("dark"));
-
-    render();
-  </script>
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <img src="static/logo-white.png" alt="Gruppo BitAgorà Smart Network" width="74" height="34" loading="lazy">
+      <p>AI Compass è una selezione automatica di BitAgorà Orobica srl. Titoli ed estratti appartengono ai rispettivi autori: ogni scheda rimanda alla fonte originale.</p>
+      <nav class="footer-links" aria-label="BitAgorà Orobica">
+        <a href="https://www.bitagoraorobica.it" target="_blank" rel="noopener">Sito</a>
+        <a href="https://newsletter.bitagoraorobica.it" target="_blank" rel="noopener">Newsletter</a>
+      </nav>
+    </div>
+  </footer>
 </body>
 </html>
 """
