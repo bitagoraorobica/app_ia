@@ -1,5 +1,104 @@
 [
   {
+    "date": "2026-10-09",
+    "title": "An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment",
+    "description": "arXiv:2610.10541v1 Announce Type: new Abstract: Knowledge Graph (KG) quality depends not only on downstream graph validation, but also on the quality of tabular metadata used before integration. In metadata-only Semantic Table Interpretation (STI), where cell values are unavailable, noisy, or…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.10541",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-09",
+    "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
+    "description": "arXiv:2610.10549v1 Announce Type: new Abstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterprise systems, data, and database schemas. Tabular data synthesis offers a…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.10549",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-09",
+    "title": "The Harness as the Only Mutable Surface: Compliance-Bounded Self-Evolution of LLM Agents in Credit Pipelines, with a Measured Admission Gate",
+    "description": "arXiv:2610.10629v1 Announce Type: new Abstract: Self-improving LLM agents can adapt a credit pipeline to a changed rule, but an agent that rewrites itself destroys the artefact a supervisor reviews: a named change, a recorded test, an approval. We argue that self-evolution is reviewable only if it…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.10629",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-09",
+    "title": "On the Clock: Towards Punctual and Productive Time-Budgeted AI Agents",
+    "description": "arXiv:2610.10833v1 Announce Type: new Abstract: We study whether small LLM agents can operate effectively under explicit wall-clock time budgets by both respecting the allocated runtime and using available time productively. We evaluate Qwen3.6-27B on five competitions from MLE-Bench Lite and…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.10833",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-09",
+    "title": "Reading the Room: Foundations, Design, and Challenges of Normative Competence in LLMs",
+    "description": "arXiv:2610.10906v1 Announce Type: new Abstract: Human communities are governed by normative systems: shared standards that produce \\textit{norms} dictating acceptable behavior, enforced through community sanctioning. Aligning increasingly autonomous AI systems with these norms is a central…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.10906",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-09",
+    "title": "Expensify ChatGPT Integration: Automated Expense Auditing",
+    "description": "Automated expense auditing reduces manual review time by using API workflows to flag policy violations against your company guidelines instantly.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/expensify-chatgpt-integration-automated-expense-auditing",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-09",
+    "title": "What is Mistral Large 4? Pricing and Benchmarks",
+    "description": "What is Mistral Large 4 and how does it compare to industry-leading AI models? Use these technical specifications to choose the right LLM for your project.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/what-is-mistral-large-4-pricing-and-benchmarks",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-09",
+    "title": "Step 5 Preview: How the New StepFun Model Impacts AI Automation",
+    "description": "Step 5 Preview capabilities allow engineers to evaluate if this architecture meets their specific requirements for complex, multimodal automation tasks.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/step-5-preview-how-the-new-stepfun-model-impacts-ai-automation",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-09",
+    "title": "Claude vs ChatGPT 2026: Which AI Should You Use?",
+    "description": "Comparing claude vs chatgpt helps organizations select the model that aligns with their specific data security requirements and automation needs.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/claude-vs-chatgpt-2026-which-ai-should-you-use",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-09",
+    "title": "How Sophos cuts threat response time by 96% with OpenAI Daybreak",
+    "description": "Sophos CTO John Peterson shares how agents built through OpenAI Daybreak combine AI with Sophos’s cybersecurity expertise to reduce average response time from 38 minutes to 89 seconds for cases using those agents. Hear how Sophos is helping its MDR team investigate threats faster, protect customers…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=MUHjyljBPHI",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-09",
+    "title": "Ecco perché l'Europa deve liberarsi del software americano [Bruno Giussani]",
+    "description": "Compra il mio corso base \"Crea un Agente AI con Claude Code\": https://www.raffaelegaito.com/claude-code-crea-agente-ai-corso-completo/?landing=true Compra il mio corso intermedio “Fai il passo successivo con Claude Code”…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=uETlIzQSJhQ",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
     "date": "2026-10-08",
     "title": "Understanding and Mitigating Inference-Time Overreliance Using Agentic Memory",
     "description": "arXiv:2610.07311v1 Announce Type: new Abstract: Agentic memory allows LLM agents to reuse past experience, yet retrieved memories can also distort inference even when they are benign, correctly stored, and appropriately retrieved. We study this failure mode, which we call memory over-reliance. Acros",
@@ -421,6 +520,96 @@
     "link": "https://arxiv.org/abs/2610.07289",
     "source": "arXiv AI",
     "badge": "📜"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+    "description": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+    "category": "News",
+    "link": "https://openai.com/index/oracle",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-08",
+    "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+    "description": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+    "category": "News",
+    "link": "https://openai.com/index/pollo-ai",
+    "source": "OpenAI",
+    "badge": "⭐"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "Disrupting AI-enabled “false front” operations",
+    "description": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+    "category": "News",
+    "link": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-08",
+    "title": "The best AI newsletters in 2026",
+    "description": "As a writer covering technology and AI, I spend plenty of time separating useful information from the hype. A good AI newsletter can help cut through that noise. But the best newsletter depends on what you need. Someone making AI strategy decisions needs different coverage than someone looking for…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/best-ai-newsletters",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "Gemini vs ChatGPT: Complete Comparison 2026",
+    "description": "Gemini vs chatgpt performance metrics for 2026 reveal which model handles complex API integrations and workflow orchestration more effectively.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/gemini-vs-chatgpt-for-unified-automation-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "More visual answers from GPT-6 with Intelligent UI",
+    "description": "GPT‑6 in ChatGPT introduces Intelligent UI, a new capability that allows ChatGPT to answer quickly with fully interactive user interfaces that make everyday answers more visual, make learning complex topics easier and that can quickly create a tool to solve a task right in the moment. GPT‑6 with…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/OgjMGn4T6Ok",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-08",
+    "title": "How Oracle Uses ChatGPT Work to Transform Recruitment",
+    "description": "“We’ve gone from zero to 100, not zero to 60.” Jan Ackerman shares how Oracle built a talent market intelligence tool with ChatGPT Work to transform hiring preparation. Starting with a job description, it researches comparable roles, benchmarks compensation, and assesses talent pools across…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/Rs5qLAnkNcI",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-08",
+    "title": "Get a more visual answer from GPT-6 with Intelligent UI",
+    "description": "GPT‑6 in ChatGPT introduces Intelligent UI, a new capability that allows ChatGPT to answer quickly with fully interactive user interfaces that make everyday answers more visual, make learning complex topics easier and that can quickly create a tool to solve a task right in the moment. GPT‑6 with…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/Wv0PRPMzkJg",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-08",
+    "title": "Play a game against GPT-6 with Intelligent UI",
+    "description": "GPT‑6 in ChatGPT introduces Intelligent UI, a new capability that allows ChatGPT to answer quickly with fully interactive user interfaces that make everyday answers more visual, make learning complex topics easier and that can quickly create a tool to solve a task right in the moment. GPT‑6 with…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/BHQF1xl2ScU",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-08",
+    "title": "La RIVOLUZIONE dell'AI di cui Nessuno Parla (Jev Spiegato semplice)",
+    "description": "La RIVOLUZIONE dell'AI di cui Nessuno Parla (Jev Spiegato semplice) perché Jev di TypeSafe AI è la rivoluzione dell'AI di cui nessuno parla: un'intelligenza artificiale che non scrive, decide. Te la spiego in modo semplice e la provo su casi veri della mia agenzia. Dietro Jev c'è Diogo Almeida, uno…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=P1p9Bs6b9wA",
+    "source": "YouTube - Gabry Solutions",
+    "badge": "🔥"
   },
   {
     "date": "2026-10-07",
