@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-10",
+    "title": "Can Agentic AI Replace Your RPA Bots? A Real Postmortem",
+    "description": "Agentic AI systems interpret interface changes dynamically to maintain workflow stability where traditional scripts frequently fail.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/can-agentic-ai-replace-your-rpa-bots-a-real-postmortem",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-10",
+    "title": "Building Business Processes with an AI Workflow Builder",
+    "description": "Workflow prompts act as non-interactive commands that execute logic without human oversight. Readers can evaluate how to integrate AI into automation.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/building-business-processes-with-an-ai-workflow-builder",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-10",
+    "title": "Automate Expensify Approvals with AI and Activepieces",
+    "description": "Expensify approval workflows integrated with AI allow finance teams to automatically validate receipts against company policies.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/automate-expensify-approvals-with-ai-and-activepieces",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-10",
+    "title": "ChatGPT Apps SDK: How to Build Business Workflows",
+    "description": "The ChatGPT Apps SDK enables developers to connect conversational interfaces directly to internal company tools and private databases.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/chatgpt-apps-sdk-how-to-build-business-workflows",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-10",
+    "title": "AI Agent vs Workflow: When to Use Each (2026 Guide)",
+    "description": "Determine if a task requires autonomous reasoning or if traditional automation is sufficient for your specific operational needs.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/ai-agent-vs-workflow-when-to-use-each-2026-guide",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
     "date": "2026-10-09",
     "title": "An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment",
     "description": "arXiv:2610.10541v1 Announce Type: new Abstract: Knowledge Graph (KG) quality depends not only on downstream graph validation, but also on the quality of tabular metadata used before integration. In metadata-only Semantic Table Interpretation (STI), where cell values are unavailable, noisy, or…",
@@ -96,6 +141,24 @@
     "category": "News",
     "link": "https://www.youtube.com/watch?v=uETlIzQSJhQ",
     "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-09",
+    "title": "Che DIAVOLO è Successo a Google Gemini?",
+    "description": "Che diavolo è successo a Google Gemini? A febbraio Google aveva l'AI più forte del mondo, oggi insegue Claude e ChatGPT. E Gemini 4 Argon, per ora, lo usano in pochissimi. In questo video ricostruisco otto mesi di corsa all'intelligenza artificiale: il Gemini 3.5 Pro annunciato al Google I/O e mai…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=HoB2GZmB510",
+    "source": "YouTube - Gabry Solutions",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-10-09",
+    "title": "Il cliente era pronto a comprare, poi ha aperto il sito",
+    "description": "Utilizza il codice sconto MONTY su https://www.hostinger.com/montyonline Questo video è supported by Hostinger #adv Scopri in 2 minuti quanto sei davvero pronto a usare l’AI nel tuo lavoro: fai il test gratuito → https://spiegamelofacile.com/audit/form-v4 -- Se il video ti è stato utile, iscriviti…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=SZs0PhsrvNk",
+    "source": "YouTube - Marco Montemagno",
     "badge": ""
   },
   {
@@ -610,6 +673,24 @@
     "link": "https://www.youtube.com/watch?v=P1p9Bs6b9wA",
     "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "How Oracle Uses ChatGPT Work to Transform Recruitment",
+    "description": "“We’ve gone from zero to 100, not zero to 60.” Jan Ackerman shares how Oracle built a talent market intelligence tool with ChatGPT Work to transform hiring preparation. Starting with a job description, it researches comparable roles, benchmarks compensation, and assesses talent pools across…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=Mm3EsJL73tM",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-08",
+    "title": "Make a game using GPT-6 with Intelligent UI",
+    "description": "GPT‑6 in ChatGPT introduces Intelligent UI, a new capability that allows ChatGPT to answer quickly with fully interactive user interfaces that make everyday answers more visual, make learning complex topics easier and that can quickly create a tool to solve a task right in the moment. GPT‑6 with…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/qmOOspYLhzg",
+    "source": "YouTube – OpenAI",
+    "badge": ""
   },
   {
     "date": "2026-10-07",
@@ -1238,24 +1319,6 @@
     "description": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
     "category": "News",
     "link": "https://openai.com/index/expanding-ai-access-us-government",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-09",
-    "title": "How AI is transforming weather prediction",
-    "description": "Can artificial intelligence solve one of science’s most chaotic physics puzzles? In this episode, Professor Hannah Fry sits down with Peter Battaglia, Senior Director of Research at Google DeepMind, to explore how machine learning is transforming global weather forecasting. From providing critical e",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=O_EWbnkjXdk",
-    "source": "YouTube – DeepMind",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-09",
-    "title": "Paul Christiano joins OpenAI Foundation Board",
-    "description": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
-    "category": "News",
-    "link": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
     "source": "OpenAI",
     "badge": ""
   },
