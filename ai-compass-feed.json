@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-11",
+    "title": "Wix ChatGPT Integration: How to Build It (2026 Guide)",
+    "description": "Wix automation workflows connect your site forms to AI processing to categorize entries and trigger custom responses without manual intervention.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/wix-chatgpt-integration-how-to-build-it-2026-guide",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-11",
+    "title": "Playwright MCP server for Claude Code and Cursor",
+    "description": "Playwright MCP servers allow AI agents to navigate websites and extract data using natural language. You can build autonomous browser workflows.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/playwright-mcp-server-for-claude-code-and-cursor",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-11",
+    "title": "Jev Agent vs Browser Use for AI Automation in 2026",
+    "description": "Jev agent vs browser use differences help you select the right automation tool for your specific technical requirements and browser control needs.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/jev-agent-vs-browser-use-for-ai-automation-in-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-11",
+    "title": "GPT-6 Sol Launch: What Changed in 2026",
+    "description": "The GPT-6 Sol launch introduces tiered token pricing that allows developers to calculate exact operational savings for high-volume automation workflows.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/gpt-6-sol-launch-for-automation-builders-in-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-11",
+    "title": "GPT-6 Luna: Pricing, Benchmarks, and Performance in 2026",
+    "description": "GPT-6 Luna streamlines complex business tasks by prioritizing high-speed execution over deep reasoning. You can determine if this model fits your stack.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/gpt-6-luna-pricing-benchmarks-and-performance-in-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
     "date": "2026-10-10",
     "title": "Can Agentic AI Replace Your RPA Bots? A Real Postmortem",
     "description": "Agentic AI systems interpret interface changes dynamically to maintain workflow stability where traditional scripts frequently fail.",
@@ -1285,42 +1330,6 @@
     "link": "https://blog.n8n.io/reflection-pattern-ai-agents-self-correct-in-production/",
     "source": "n8n Blog",
     "badge": "🔁"
-  },
-  {
-    "date": "2026-09-10",
-    "title": "I Never Thought I’d See This Happen",
-    "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 The Navier-Stokes solution paper is available here: https://openai.com/index/navier-stokes-solution/ My fluid simulations and papers: https://users.cg.tuwien.ac.at/zsolnai/gfx/fluid_control_msc_thesis/ https://users",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=mOvtumfyjCs",
-    "source": "YouTube – Two Minute Papers",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-10",
-    "title": "The AI Language We Can't Read: Neuralese ft. Rob Miles - Computerphile",
-    "description": "So far, 'Chain of Thought' has allowed us a glimpse at the processes by which Large Language Models work their way through problems. What if these LLMs begin to talk in a language only they understand? Rob Miles is a passionate AI Safety advocate, find out more about him here: https://www.youtube.co",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=iuHddnIzKRA",
-    "source": "YouTube – Computerphile",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-10",
-    "title": "Introducing ChatGPT for Financial Services",
-    "description": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
-    "category": "News",
-    "link": "https://openai.com/index/introducing-chatgpt-financial-services",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-10",
-    "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-    "description": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
-    "category": "News",
-    "link": "https://openai.com/index/expanding-ai-access-us-government",
-    "source": "OpenAI",
-    "badge": ""
   },
   {
     "date": "2025-07-30",

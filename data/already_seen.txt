@@ -1238,3 +1238,8 @@ https://www.youtube.com/watch?v=Mm3EsJL73tM
 https://www.youtube.com/shorts/qmOOspYLhzg
 https://www.youtube.com/watch?v=HoB2GZmB510
 https://www.youtube.com/watch?v=SZs0PhsrvNk
+https://www.activepieces.com/blog/wix-chatgpt-integration-how-to-build-it-2026-guide
+https://www.activepieces.com/blog/playwright-mcp-server-for-claude-code-and-cursor
+https://www.activepieces.com/blog/jev-agent-vs-browser-use-for-ai-automation-in-2026
+https://www.activepieces.com/blog/gpt-6-sol-launch-for-automation-builders-in-2026
+https://www.activepieces.com/blog/gpt-6-luna-pricing-benchmarks-and-performance-in-2026
