@@ -1243,3 +1243,12 @@ https://www.activepieces.com/blog/playwright-mcp-server-for-claude-code-and-curs
 https://www.activepieces.com/blog/jev-agent-vs-browser-use-for-ai-automation-in-2026
 https://www.activepieces.com/blog/gpt-6-sol-launch-for-automation-builders-in-2026
 https://www.activepieces.com/blog/gpt-6-luna-pricing-benchmarks-and-performance-in-2026
+https://arxiv.org/abs/2610.12655
+https://arxiv.org/abs/2610.12789
+https://arxiv.org/abs/2610.12881
+https://arxiv.org/abs/2610.12954
+https://arxiv.org/abs/2610.12975
+https://www.activepieces.com/blog/cloudflare-decisions-api-launch-what-it-means
+https://www.activepieces.com/blog/connect-google-workspace-to-gemini-for-automation
+https://www.activepieces.com/blog/when-to-use-reasoning-models-vs-standard-llms-in-2026
+https://www.youtube.com/watch?v=QfjoOPnGYF4

@@ -1,5 +1,86 @@
 [
   {
+    "date": "2026-10-12",
+    "title": "CLEAT: Learning Value-Guided Clarification for Interactive Agents",
+    "description": "arXiv:2610.12655v1 Announce Type: new Abstract: LLM agents can execute increasingly complex tasks, but effective assistance also requires aligning their actions with goals and constraints that users may leave unstated. We study this problem as interactive intent alignment through clarification. Yet…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.12655",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-12",
+    "title": "EvoBelief: Falsifiable World Models for Self-Improving LLM Agents",
+    "description": "arXiv:2610.12789v1 Announce Type: new Abstract: Self-evolving LLM agents typically improve how they act through accumulated experience, reflection, or skills. Yet even procedurally capable agents can fail when their beliefs about environment dynamics are incomplete, incorrect, or outdated. We study…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.12789",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-12",
+    "title": "Mind the Spatial Gap: A Benchmark for Geospatial Reasoning and Constrained Spatial Editing",
+    "description": "arXiv:2610.12881v1 Announce Type: new Abstract: Understanding and manipulating spatial relations is fundamental to AI systems that reason about physical environments and construct grounded world models. However, existing evaluations of multimodal large language models (MLLMs) for spatial reasoning…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.12881",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-12",
+    "title": "MathVis: Can AI Reason through Drawing? A Benchmark for Mathematical Figure Generation",
+    "description": "arXiv:2610.12954v1 Announce Type: new Abstract: This paper introduces MathVis, a benchmark designed to evaluate LLMs' ability to visualize frontier mathematical problems and perform diagram-assisted reasoning. The benchmark consists of 512 tasks, each comprising a mathematical statement, a…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.12954",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-12",
+    "title": "SmartSalesBench: A Resistance-Aware Multi-Turn Benchmark for Evaluating LLM Sales Agents",
+    "description": "arXiv:2610.12975v1 Announce Type: new Abstract: We present SmartSalesBench, the first multi-turn conversational benchmark explicitly designed to evaluate large language model (LLM) sales agents against psychologically grounded, resistant buyer personas. Existing task-oriented dialogue benchmarks…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.12975",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-12",
+    "title": "Cloudflare Decisions API launch: What it means",
+    "description": "The Cloudflare Decisions API launch provides developers with a programmatic way to enforce security policies across automated workflows and AI agents.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/cloudflare-decisions-api-launch-what-it-means",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-12",
+    "title": "Connect Google Workspace to Gemini for Automation",
+    "description": "These extensions enable the AI to retrieve and process your private information directly from your Google Workspace account.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/connect-google-workspace-to-gemini-for-automation",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-12",
+    "title": "Choosing the Right AI for 2026 Workflows",
+    "description": "Selecting the appropriate artificial intelligence infrastructure requires balancing computational requirements with the need for long-term system flexibility.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/when-to-use-reasoning-models-vs-standard-llms-in-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-12",
+    "title": "Come creare presentazioni con questa AI (ChatLLM)",
+    "description": "#adv Prova ChatLLM di Abacus AI a questo link: http://chatllm.abacus.ai/rgf Compra il mio corso base \"Crea un Agente AI con Claude Code\": https://www.raffaelegaito.com/claude-code-crea-agente-ai-corso-completo/?landing=true Compra il mio corso intermedio “Fai il passo successivo con Claude Code”…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=QfjoOPnGYF4",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": "⭐"
+  },
+  {
     "date": "2026-10-11",
     "title": "Wix ChatGPT Integration: How to Build It (2026 Guide)",
     "description": "Wix automation workflows connect your site forms to AI processing to categorize entries and trigger custom responses without manual intervention.",
@@ -1321,15 +1402,6 @@
     "link": "https://openai.com/index/fyxer",
     "source": "OpenAI",
     "badge": ""
-  },
-  {
-    "date": "2026-09-11",
-    "title": "Reflection Pattern: AI Agents Self-Correct in Production",
-    "description": "Reflection pattern for LLMs: a self-critique loop that improves correctness, clarity, and reliability with measurable quality gates, ROI, and safety controls",
-    "category": "Automation",
-    "link": "https://blog.n8n.io/reflection-pattern-ai-agents-self-correct-in-production/",
-    "source": "n8n Blog",
-    "badge": "🔁"
   },
   {
     "date": "2025-07-30",
