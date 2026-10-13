@@ -1,5 +1,122 @@
 [
   {
+    "date": "2026-10-13",
+    "title": "When Faster Decisions Do Not Make Better Agents: An Empirical Study of Jev in Agent Workflows",
+    "description": "arXiv:2610.13092v1 Announce Type: new Abstract: AI agents depend on repeated decisions to accomplish tasks, with large language models (LLMs) commonly serving as their core decision makers. The recent emergence of Jev offers an opportunity to make these decisions faster and at lower cost. However…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.13092",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "DRYLAB-Bench: Benchmarking the Biosecurity Risk of Agentic LLM Mutation Design",
+    "description": "arXiv:2610.13116v1 Announce Type: new Abstract: As large language models (LLMs) acquire advanced biological design capabilities, they offer substantial research benefits but simultaneously introduce severe dual-use risks, such as engineering enhanced pathogens or drug-resistant bacteria. While…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.13116",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "Locate, Judge, Read: Role-Specialized Tool Agents over a Knowledge-Point Index for Open-Domain Multimodal Document QA",
+    "description": "arXiv:2610.13128v1 Announce Type: new Abstract: Question answering over large heterogeneous document collections requires first finding the right passages and then reading them, yet current retrieval-augmented agents give one model both kinds of tools and let it schedule itself. We present…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.13128",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "RoleWorld: Knowledge Transfer in World Modeling with Functional Role Abstractions",
+    "description": "arXiv:2610.13172v1 Announce Type: new Abstract: World models enable large language model (LLM) agents to anticipate action effects and make informed decisions. For generalization, it is desirable for such world models to transfer efficiently to new environments with similar interaction structure…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.13172",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "Masked Diffusion Language Agents for Tool-Integrated Chemical Reasoning",
+    "description": "arXiv:2610.13330v1 Announce Type: new Abstract: Designing tool-integrated reasoning agent systems for complex chemical tasks remains a fundamental challenge. Although recent chemical agents have demonstrated promising performance through the integration of external tools, they are still built on…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.13330",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "Scaling AI-driven chip design with open agent factories",
+    "description": "Open models and llm-d enabled IBM Research to explore quantum error correction hardware at 11.5× lower inference cost than an all-proprietary configuration.",
+    "category": "News",
+    "link": "https://research.ibm.com/blog/open-agent-factories-and-distributed-inference-for-chip-design?utm_medium=rss&utm_source=rss",
+    "source": "IBM Research AI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-13",
+    "title": "Build a morning AI news brief with You.com, Jev, and n8n",
+    "description": "Every weekday at 8am, this workflow searches the day's AI news, scores every article for materiality at about $0.00004 apiece, and posts one cited brief per topic to Slack. Topics with no real news get no post.",
+    "category": "Automation",
+    "link": "https://blog.n8n.io/spotlight-you-com/",
+    "source": "n8n Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "Self-Hosted AI Agent Builder: Best Options in 2026",
+    "description": "A self hosted ai agent builder allows teams to execute sensitive automation tasks on local servers.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/self-hosted-ai-agent-builder-best-options-in-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "On-Premise AI Automation: Architecture",
+    "description": "On premise AI automation requires specific hardware and network configurations to maintain full control over proprietary data and model training.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/on-premise-ai-automation-architecture",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "Self-Hosted AI Workflow Automation: A 2026 Guide",
+    "description": "Deploying these systems on private servers ensures complete control over sensitive data and operational logic without relying on third-party cloud providers.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/self-hosted-ai-workflow-automation-a-2026-guide",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "Private AI Workflow Automation for Regulated Firms",
+    "description": "Private AI workflow automation keeps sensitive corporate data behind internal firewalls. You will be able to configure secure, self-hosted environments.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/private-ai-workflow-automation-for-regulated-firms",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "OpenAI Just Changed What It Means To Do Math",
+    "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 The papers are available here: https://openai.com/index/sharing-ai-progress-in-mathematics/ https://github.com/openai/math 🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=z_sXLlLVUls",
+    "source": "YouTube – Two Minute Papers",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-13",
+    "title": "Tutti usano l'AI. Quasi nessuno ci guadagna.",
+    "description": "Tutti usano l'AI. Quasi nessuno ci guadagna. Clip estratta dall'intervista fatta a Bruno Giussani su What’s Next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. Guarda l'intervista completa: https://www.youtube.com/watch?v=uETlIzQSJhQ #short",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/XAxADuiZVy4",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
     "date": "2026-10-12",
     "title": "CLEAT: Learning Value-Guided Clarification for Interactive Agents",
     "description": "arXiv:2610.12655v1 Announce Type: new Abstract: LLM agents can execute increasingly complex tasks, but effective assistance also requires aligning their actions with goals and constraints that users may leave unstated. We study this problem as interactive intent alignment through clarification. Yet…",
@@ -79,6 +196,51 @@
     "link": "https://www.youtube.com/watch?v=QfjoOPnGYF4",
     "source": "YouTube – Raffaele Gaito",
     "badge": "⭐"
+  },
+  {
+    "date": "2026-10-12",
+    "title": "How distributed inference keeps large AI models moving",
+    "description": "Distributed inference serving is an air traffic control tower for AI traffic, and agentic workflows make it more necessary than ever.",
+    "category": "News",
+    "link": "https://research.ibm.com/blog/distributed-inference?utm_medium=rss&utm_source=rss",
+    "source": "IBM Research AI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-12",
+    "title": "Best Generative AI Tools for 2026: Ranked and Compared",
+    "description": "Generative AI tools are evaluated here based on their multimodal performance, processing speed, and data privacy standards.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/best-generative-ai-tools-for-2026-ranked-and-compared",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-12",
+    "title": "How Google Research Uses AI to Accelerate Scientific Discovery | The Google Research Podcast",
+    "description": "What does AI mean for scientific discovery? Sinéad Bovell sits down with Google Research’s Lizzie Dorfman and Michael Brenner. From the discovery of bacteria to the development of antibiotics, breakthroughs in science have always depended on tools that expand what humans can observe and calculate…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=dxq-3pimV-E",
+    "source": "YouTube – Google Research",
+    "badge": "⭐"
+  },
+  {
+    "date": "2026-10-12",
+    "title": "I Siti Fatti con l'AI Sono Tutti UGUALI... Finché Non Impari Questo",
+    "description": "Come creare un sito spettacolare con GPT-6 Astra e ChatGPT, senza scrivere una riga di codice: dal brief detto a voce al sito online, con foto e video creati con l'AI e un video che avanza mentre scorri la pagina. In questo tutorial costruiamo da zero il sito di Poggio Adagio, un casale in Val…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=PkuwvHAxUP4",
+    "source": "YouTube - Gabry Solutions",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-10-12",
+    "title": "Aziende AI cercano talenti: smetti di essere un curriculum #shorts",
+    "description": "In Italia ci sono 14.840 imprese che fanno dell'intelligenza artificiale il proprio mestiere (InfoCamere e Università di Padova, dati a fine 2025). Quasi tutte micro, oltre il 70% nate tra il 2021 e il 2025. Il dato che mi ha colpito: in queste aziende il costo mediano del lavoro è più alto del 74%…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/1hCq4v_vZKQ",
+    "source": "YouTube - Marco Montemagno",
+    "badge": ""
   },
   {
     "date": "2026-10-11",
