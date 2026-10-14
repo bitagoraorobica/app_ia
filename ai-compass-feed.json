@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-14",
+    "title": "n8n Self Hosted: How to Set It Up in 2026",
+    "description": "n8n self hosted deployments require a configured VPS and Docker to maintain full control over your automation workflows.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/n8n-self-hosted-how-to-set-it-up-in-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-14",
+    "title": "Best AI Chatbot Options Ranked for 2026: Top 5 Picks",
+    "description": "The best AI chatbot selection for your company depends on specific workflow needs like research, automation, or creative drafting.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/best-ai-chatbot-options-ranked-for-2026-top-5-picks",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-14",
+    "title": "Shared Inbox Automation: Route Emails to Chat with AI",
+    "description": "Shared inbox routing automation directs customer messages to specific team channels based on intent. You will identify which tools integrate best.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/shared-inbox-automation-route-emails-to-chat-with-ai",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-14",
+    "title": "Creative AI Platforms: Best Picks for 2026",
+    "description": "Creative AI platforms enable design teams to integrate automated workflows and ensure brand consistency across large-scale production projects.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/best-ai-tools-for-creatives-in-2026-for-teams",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-14",
+    "title": "Dropstone CLI Review: Terminal AI Coding Agent for 2026",
+    "description": "Dropstone CLI integrates autonomous AI agents directly into your shell to execute complex file system commands and automate repetitive terminal workflows.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/dropstone-cli-review-terminal-ai-coding-agent-for-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
     "date": "2026-10-13",
     "title": "When Faster Decisions Do Not Make Better Agents: An Empirical Study of Jev in Agent Workflows",
     "description": "arXiv:2610.13092v1 Announce Type: new Abstract: AI agents depend on repeated decisions to accomplish tasks, with large language models (LLMs) commonly serving as their core decision makers. The recent emergence of Jev offers an opportunity to make these decisions faster and at lower cost. However…",
@@ -114,6 +159,87 @@
     "category": "News",
     "link": "https://www.youtube.com/shorts/XAxADuiZVy4",
     "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-13",
+    "title": "Higgsfield takes AI video from 1 minute to over 10",
+    "description": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+    "category": "News",
+    "link": "https://openai.com/index/higgsfield-longer-videos-voice",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-13",
+    "title": "NVIDIA Announces New Investments in France’s Startups",
+    "description": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to application. France’s progress sits on deliberate groundwork. The AI Action…",
+    "category": "News",
+    "link": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
+    "source": "NVIDIA AI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-13",
+    "title": "Build n8n workflows with Gemini 4 Argon: MCP, the Assistant, and Agents",
+    "description": "Gemini 4 Argon just dropped, and n8n is one of the first companies to use and integrate the model. Check out how you can use it with your existing n8n workflows and how to build new ones. Here are the benchmarks Google published: Benchmarks reported by Google. Source: Gemini 4",
+    "category": "Automation",
+    "link": "https://blog.n8n.io/build-n8n-workflows-with-gemini-4-argon-mcp-the-assistant-and-agents/",
+    "source": "n8n Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "What are ChatGPT dots?",
+    "description": "ChatGPT dots don't come as a surprise. Always-on agents have been the next frontier AI since OpenClaw caused a run on Mac minis back in January 2026. OpenAI even hired OpenClaw's developer, Peter Steinberger. And OpenAI isn't alone in this: Meta has Muse, Gemini has Spark, and Anthropic is…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/chatgpt-dots",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "Block on Finding and Fixing Security Risks with OpenAI",
+    "description": "“Now you know and now you can take action before someone else knows.” A weakness in your code can be part of a much bigger attack. Seeing how those weaknesses connect gives defenders a clearer picture of where to act. Block’s Chief Information Security Officer, James Nettesheim, shares how OpenAI’s…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/9aDuSpVoB-Y",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-13",
+    "title": "Block on Finding and Fixing Security Risks with OpenAI",
+    "description": "“Now you know and now you can take action before someone else knows.” A weakness in your code can be part of a much bigger attack. Seeing how those weaknesses connect gives defenders a clearer picture of where to act. Block’s Chief Information Security Officer, James Nettesheim, shares how OpenAI’s…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=N6K_pxaAh0w",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-13",
+    "title": "Applying Gemini 4 for large-scale codebase maintenance in Chromium",
+    "description": "The Chromium codebase is millions of lines long and decades old. In the past, working with it has meant navigating decades of tangled features, where touching one component can unexpectedly affect another. Erik Chen, an engineer at Google, is using Gemini 4 Argon to ‘untangle’ the architecture. The…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=LVEfFyijQ2c",
+    "source": "YouTube – DeepMind",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-13",
+    "title": "Teaching a humanoid robot to play cornhole with Gemini 4 Argon",
+    "description": "In an internal test, Google DeepMind robotics researchers instructed Gemini 4 Argon to watch a video of a human playing cornhole. Using its video understanding and advanced reasoning capabilities, Gemini 4 built a virtual simulation in MuJoCo and accurately calculated the physics and whole-body…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=9PICEmtfpWU",
+    "source": "YouTube – DeepMind",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-13",
+    "title": "Untangling 500-page chemistry patents with Gemini 4",
+    "description": "Auditing chemistry literature usually means weeks of manual, error-prone reading, where a molecule’s structure can sit 50 pages away from its experimental readout. At Isomorphic Labs, researchers Brian Bender and Santosh Adhikari are using Gemini 4 Argon’s multimodal capabilities to help tackle…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=9jQA7IgPhBE",
+    "source": "YouTube – DeepMind",
     "badge": ""
   },
   {
