@@ -1,5 +1,95 @@
 [
   {
+    "date": "2026-10-15",
+    "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
+    "description": "arXiv:2610.14005v1 Announce Type: new Abstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become more capable than the current machines…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.14005",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-15",
+    "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+    "description": "arXiv:2610.14118v1 Announce Type: new Abstract: The rapid advancement of Large Language Models (LLMs) has driven their deployment toward general-purpose harness environments, where LLM-based agents operate in sandbox workspaces and interact directly with file systems and shells. While numerous…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.14118",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-15",
+    "title": "Long-Horizon-Terminal-Bench 2.0: Automating Diverse Task Construction and Measuring Sustained Agent Progress",
+    "description": "arXiv:2610.14146v1 Announce Type: new Abstract: Long-horizon terminal benchmarks measure whether an agent can sustain progress through extended workflows with process rewards, not only whether its final state passes a binary check. We present Long-Horizon-Terminal-Bench 2.0 (LHTB 2.0), an extension…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.14146",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-15",
+    "title": "VETNET: Assembling Benchmark Datasets for AI-Driven Veterinary Innovation",
+    "description": "arXiv:2610.14149v1 Announce Type: new Abstract: VETNET represents an ecosystem of live benchmark datasets and evaluation frameworks designed to accelerate AI-driven innovation in animal science and veterinary medicine through standardized, high-quality datasets and multi-institutional collaboration…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.14149",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-15",
+    "title": "Unconstrained CTI-REALM with Open-Weights",
+    "description": "arXiv:2610.14180v1 Announce Type: new Abstract: Organisations that want language-model agents for security work face a choice between open-weight models, which they can run and audit themselves, and far more expensive closed frontier models. We study that choice on CTI-REALM (arXiv:2603.13517), a…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.14180",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-15",
+    "title": "The Most Common Questions About Agent Evals, Answered",
+    "description": "Where to start with agent evals, offline vs online evals, evaluator types, LLM judges, benchmarks with Harbor, multi-turn evals, and keeping costs down.",
+    "category": "News",
+    "link": "https://www.langchain.com/blog/common-questions-about-agent-evals",
+    "source": "LangChain",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-15",
+    "title": "What Is Command A+? Cohere's AI Model Explained (2026)",
+    "description": "Understanding what is command a+ helps you determine if this enterprise-grade model fits your specific RAG and multi-step automation requirements.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/what-is-command-a-coheres-ai-model-explained-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-15",
+    "title": "AI Agent Workflow Examples: 7 Templates to Copy (2026)",
+    "description": "AI agent workflow examples score leads and alert teams via CRM and Slack. Choose which to implement in your sales process.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/ai-agent-workflow-examples-7-templates-to-copy-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-15",
+    "title": "Best AI Agent Templates to Run Today Without Code",
+    "description": "AI agent templates help you build automated workflows without coding. Compare Zapier and alternatives to find the right fit for your team.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/best-ai-agent-templates-to-run-today-without-code",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-15",
+    "title": "Workflow Templates: Free Options Compared (2026 Guide)",
+    "description": "Workflow templates differ in size, features, and integration options across six automation platforms. Compare the libraries to find your best fit.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/workflow-templates-free-options-compared-2026-guide",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
     "date": "2026-10-14",
     "title": "n8n Self Hosted: How to Set It Up in 2026",
     "description": "n8n self hosted deployments require a configured VPS and Docker to maintain full control over your automation workflows.",
@@ -43,6 +133,78 @@
     "link": "https://www.activepieces.com/blog/dropstone-cli-review-terminal-ai-coding-agent-for-2026",
     "source": "Activepieces",
     "badge": "🔁"
+  },
+  {
+    "date": "2026-10-14",
+    "title": "Amp puts AI agents to work beyond code with OpenAI models",
+    "description": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+    "category": "News",
+    "link": "https://openai.com/index/amp-beyond-coding",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-10-14",
+    "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+    "description": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+    "category": "News",
+    "link": "https://openai.com/index/third-moment-research",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-14",
+    "title": "How Block is building AI-powered security with OpenAI technology",
+    "description": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+    "category": "News",
+    "link": "https://openai.com/index/block-ai-powered-security",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-14",
+    "title": "Human-in-the-loop in AI workflows: HITL meaning, benefits, and practical patterns",
+    "description": "AI systems can route messages, update records, make decisions, and trigger entire workflows across multiple apps without you touching anything. But as AI shifts more and more from being an assistive tool to powering agentic systems, humans have a new kind of responsibility: making sure nothing goes…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/human-in-the-loop",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-14",
+    "title": "The best AI chatbots in 2026",
+    "description": "You've probably already subscribed to ChatGPT. Maybe your company rolled out Copilot. Your developer friends won't shut up about Claude. All the noise is confusing: which one should you actually use for your work? The answer depends on the actual task. The AI that's perfect for writing may fall…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/best-ai-chatbot",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-14",
+    "title": "Claude vs. ChatGPT: Which is best? [2026]",
+    "description": "When OpenAI launched ChatGPT in late 2022, tech writers (myself included) became obsessed with testing its limits. Could it write poetry? Debug code? Explain quantum physics to a five-year-old? Once Anthropic's Claude entered the scene a few months later, the focus shifted to head-to-head task…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/claude-vs-chatgpt",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-14",
+    "title": "AI Agent vs Chatbot: Pick the Best AI Agents in 2026",
+    "description": "The best AI agents are evaluated here to help you select the right automation platform for your specific business workflows and technical requirements.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/best-ai-agents",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-14",
+    "title": "Fallo UNA VOLTA. Ogni AI lavorerà meglio per te",
+    "description": "Fallo UNA VOLTA. Ogni AI lavorerà meglio per te quindi Fallo UNA VOLTA e ogni AI lavorerà meglio per te: ChatGPT, Claude, Gemini o quella che userai tra cinque anni. Costruisci la tua Piramide del Contesto e smetti di rispiegare all'AI chi sei a ogni chat. È il context engineering spiegato…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=8AVq92o2S7w",
+    "source": "YouTube - Gabry Solutions",
+    "badge": "🔥"
   },
   {
     "date": "2026-10-13",
@@ -1680,15 +1842,6 @@
     "category": "News",
     "link": "https://www.youtube.com/watch?v=cUNlNfQPwpA",
     "source": "YouTube - Marco Montemagno",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-14",
-    "title": "How Fyxer built an AI executive assistant people trust",
-    "description": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
-    "category": "News",
-    "link": "https://openai.com/index/fyxer",
-    "source": "OpenAI",
     "badge": ""
   },
   {
