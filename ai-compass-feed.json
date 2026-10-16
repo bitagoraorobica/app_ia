@@ -1,5 +1,86 @@
 [
   {
+    "date": "2026-10-16",
+    "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
+    "description": "arXiv:2610.20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an otherwise correct action may arrive too late. We introduce RealtimeBench, with 180 tasks across…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.20665",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-16",
+    "title": "When Reality Outpaces Cognition: A New Scaling Principle for Reliable Intelligence",
+    "description": "arXiv:2610.20764v1 Announce Type: new Abstract: This paper challenges the understanding capabilities of existing AI paradigms and emerging world models by asking a fundamental question: How quickly can reality change before an intelligent system can no longer reliably perceive, reason, and act? We…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.20764",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-16",
+    "title": "ARIA: Runtime Inspection and Amendment for Multi-Agent Systems",
+    "description": "arXiv:2610.20780v1 Announce Type: new Abstract: In LLM-based multi-agent systems (MAS), a local mistake can propagate as other agents build on it, turning a correctable error into a failed task. Diagnosing completed runs or repeatedly re-executing them to search for corrections does not provide a…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.20780",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-16",
+    "title": "SkillNEO: Non-Elitist Evolutionary Optimization of Agent Skills",
+    "description": "arXiv:2610.20926v1 Announce Type: new Abstract: Agent skills turn procedural knowledge into reusable artifacts, allowing LLM agents to accumulate and refine expertise through experience. Building on this, skill evolution iteratively improves skills using execution feedback. However, improvement may…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.20926",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-16",
+    "title": "MSP: Modality Self-Play for Training Multimodal LLMs Without Paired Cross-Modal Data",
+    "description": "arXiv:2610.20965v1 Announce Type: new Abstract: Large multimodal models have achieved remarkable progress by scaling model capacity and training on massive paired multimodal data. However, this paradigm introduces a fundamental bottleneck: aligned multimodal datasets are expensive to curate…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.20965",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-16",
+    "title": "SAP Business One AI Assistant: Edit Automations",
+    "description": "SAP Business One automation modifications require precise data mapping to function reliably within complex ERP workflows.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/sap-business-one-ai-assistant-edit-automations",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Slack AI Agents: Slackbot Skills by Plan (2026 Guide)",
+    "description": "Slack AI agents now feature shareable Slackbot skills that extend team automation.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/slack-ai-agents-slackbot-skills-by-plan-2026-guide",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-16",
+    "title": "NetSuite QuickStart for Startups",
+    "description": "NetSuite QuickStart is a free AI financial platform for startups. Evaluate whether its automation capabilities and pricing fit your startup's needs.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/netsuite-quickstart-for-startups",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Tante aziende usano l'AI, poche vedono risultati [Paolo Fontana]",
+    "description": "#adv [Alkemy] Data.Tech.AI, la practice di Alkemy Group specializzata nell’evoluzione di modelli di business potenziati dalla tecnologia e abilitati dall’AI. Compra il mio corso base \"Crea un Agente AI con Claude Code\"…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=3AAk3YC6vXE",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": "⭐"
+  },
+  {
     "date": "2026-10-15",
     "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
     "description": "arXiv:2610.14005v1 Announce Type: new Abstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become more capable than the current machines…",
@@ -88,6 +169,42 @@
     "link": "https://www.activepieces.com/blog/workflow-templates-free-options-compared-2026-guide",
     "source": "Activepieces",
     "badge": "🔁"
+  },
+  {
+    "date": "2026-10-15",
+    "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+    "description": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+    "category": "News",
+    "link": "https://openai.com/index/sullivan-cromwell",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-15",
+    "title": "Local LLMs vs GPT-4 for Business Reasoning in 2026",
+    "description": "Local LLMs and GPT-4 performance metrics allow managers to select the optimal architecture for secure, high-stakes enterprise decision-making tasks.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/can-local-llms-vs-gpt-4-handle-business-logic",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-15",
+    "title": "What Is Chatway MCP? A Plain-English Guide (2026)",
+    "description": "What is Chatway MCP? It's a connector for AI agents in Chatway inboxes, similar to automation tools. You'll understand its capabilities and what's missing.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/what-is-chatway-mcp-a-2026-guide-for-ai-agents",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-15",
+    "title": "GPT-Live-1.1 has new voices and better accents.",
+    "description": "New voices. Better accents. And less \"checking...\" GPT-Live-1.1 brings these updates to Voice in ChatGPT, Codex, and dots, with new voices in French, German, Hindi, Mexican Spanish, Korean, and Japanese. Rolling out today to all users. Coming soon to the API.",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=GyO8Ao7yKJc",
+    "source": "YouTube – OpenAI",
+    "badge": ""
   },
   {
     "date": "2026-10-14",
@@ -1833,15 +1950,6 @@
     "category": "News",
     "link": "https://openai.com/index/unlocking-new-ways-of-working",
     "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-15",
-    "title": "L'AI ci ucciderà tutti?",
-    "description": "Scopri in 2 minuti quanto sei davvero pronto a usare l’AI nel tuo lavoro: fai il test gratuito → https://spiegamelofacile.com/audit/form-v4 -- Se il video ti è stato utile, iscriviti. Per il resto 👉 https://marcomontemagno.com 👉https://spiegamelofacile.com Ogni sabato mattina, nella tua casella: un ",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=cUNlNfQPwpA",
-    "source": "YouTube - Marco Montemagno",
     "badge": ""
   },
   {
