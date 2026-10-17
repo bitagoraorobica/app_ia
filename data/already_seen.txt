@@ -1315,3 +1315,13 @@ https://www.activepieces.com/blog/can-local-llms-vs-gpt-4-handle-business-logic
 https://www.activepieces.com/blog/what-is-chatway-mcp-a-2026-guide-for-ai-agents
 https://www.youtube.com/watch?v=GyO8Ao7yKJc
 https://www.youtube.com/watch?v=3AAk3YC6vXE
+https://blog.n8n.io/enterprise-workflow-automation/
+https://www.activepieces.com/blog/langflow-vs-n8n-price-and-limits-for-ai-workflows
+https://www.activepieces.com/blog/flowise-vs-n8n-2026-which-tool-should-you-use
+https://www.activepieces.com/blog/dify-vs-n8n-features-pricing-and-use-cases-2026
+https://www.activepieces.com/blog/stripe-hubspot-integration-setup-guide-2026
+https://www.activepieces.com/blog/n8n-review-2026-pricing-licence-and-limits
+https://www.youtube.com/watch?v=GBOZIRK1ujw
+https://www.youtube.com/watch?v=OMxEUdIgsQc
+https://www.youtube.com/watch?v=Xb5Z09O7iUg
+https://www.youtube.com/watch?v=MtqeOPP6wPg

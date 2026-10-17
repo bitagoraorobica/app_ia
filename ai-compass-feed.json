@@ -1,5 +1,41 @@
 [
   {
+    "date": "2026-10-17",
+    "title": "Langflow vs n8n Price and Limits for AI Workflows",
+    "description": "Langflow vs n8n differ in purpose: one builds AI applications, the other adds AI to workflows. Compare their cost and features to choose the right tool.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/langflow-vs-n8n-price-and-limits-for-ai-workflows",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "Flowise vs n8n (2026): Which Tool Should You Use?",
+    "description": "Flowise vs n8n target different parts of AI agent projects. Flowise focuses on agent logic, n8n on workflows, so select based on your challenge.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/flowise-vs-n8n-2026-which-tool-should-you-use",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "Dify vs n8n: Features, Pricing and Use Cases (2026)",
+    "description": "Dify vs n8n serve different purposes: Dify powers AI chatbots and document retrieval, while n8n automates workflows with distinct limits and pricing.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/dify-vs-n8n-features-pricing-and-use-cases-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "Stripe HubSpot Integration: Setup Guide (2026)",
+    "description": "Stripe HubSpot integration syncs customers and payments through the native app, then add workflows for additional automation needs.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/stripe-hubspot-integration-setup-guide-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
     "date": "2026-10-16",
     "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
     "description": "arXiv:2610.20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an otherwise correct action may arrive too late. We introduce RealtimeBench, with 180 tasks across…",
@@ -79,6 +115,60 @@
     "link": "https://www.youtube.com/watch?v=3AAk3YC6vXE",
     "source": "YouTube – Raffaele Gaito",
     "badge": "⭐"
+  },
+  {
+    "date": "2026-10-16",
+    "title": "12 Best Enterprise Workflow Automation Platforms",
+    "description": "Compare the top enterprise workflow automation platforms for technical teams. See how each tool handles control, scale, and AI workflows.",
+    "category": "Automation",
+    "link": "https://blog.n8n.io/enterprise-workflow-automation/",
+    "source": "n8n Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-16",
+    "title": "n8n Review 2026: Pricing, Licence, and Limits",
+    "description": "n8n review: a workflow automation tool built for technical teams seeking code control and self-hosting capabilities.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/n8n-review-2026-pricing-licence-and-limits",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Put your dot on call",
+    "description": "Ali, an engineer at OpenAI, used his dot to triage an on-call incident at 3am. His dot investigated the issue and started a Codex thread, so he could steer the work from his phone in the ChatGPT app.",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=GBOZIRK1ujw",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Put ChatGPT to work on shared team tasks",
+    "description": "Set up recurring work your team can manage together with team tasks in ChatGPT. Follow a legal team's daily intake workflow—from reviewing incoming requests and checking deadlines to refining shared instructions for the next run. Tasks run in the cloud, so teammates can review results, improve the…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=OMxEUdIgsQc",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-16",
+    "title": "GPT-6 Astra + ChatGPT Work Cambia TUTTO (Tu Parli, Lui Lavora)",
+    "description": "GPT-6 Astra + ChatGPT Work Cambia TUTTO (Tu Parli, Lui Lavora) per cui GPT-6 Astra dentro ChatGPT Work cambia tutto: tu gli dici cosa ti serve, lui fa il lavoro dall'inizio alla fine, direttamente sul tuo computer. In questo video ti mostro passo passo come attivarlo e i 4 casi d'uso in cui il…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=Xb5Z09O7iUg",
+    "source": "YouTube - Gabry Solutions",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Perché Musk ha fatto volare un'auto?",
+    "description": "Scopri in 2 minuti quanto sei davvero pronto a usare l’AI nel tuo lavoro: fai il test gratuito → https://spiegamelofacile.com/audit/form-v4 -- Se il video ti è stato utile, iscriviti. Per il resto 👉 https://marcomontemagno.com 👉https://spiegamelofacile.com Ogni sabato mattina, nella tua casella: un…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=MtqeOPP6wPg",
+    "source": "YouTube - Marco Montemagno",
+    "badge": ""
   },
   {
     "date": "2026-10-15",
@@ -1922,33 +2012,6 @@
     "description": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
     "category": "News",
     "link": "https://openai.com/index/australian-youth-safety-blueprint",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-16",
-    "title": "Try new models and services, skip the account setup",
-    "description": "Starting with n8n v2.36, you can now use supported AI models and tool services on select n8n Cloud plans without creating a provider account or generating an API key. Choose Gateway credits instead of adding a credential. Six model providers and five tool services work right out of the box.",
-    "category": "Automation",
-    "link": "https://blog.n8n.io/gateway-credits/",
-    "source": "n8n Blog",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-09-16",
-    "title": "Reimagining advertising with AI",
-    "description": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-    "category": "News",
-    "link": "https://openai.com/index/reimagining-advertising-with-ai",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-16",
-    "title": "How workers are unlocking new ways of working",
-    "description": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
-    "category": "News",
-    "link": "https://openai.com/index/unlocking-new-ways-of-working",
     "source": "OpenAI",
     "badge": ""
   },
