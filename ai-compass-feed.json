@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-10-18",
+    "title": "AI Data Leakage Prevention: A 2026 Guide for Workflows",
+    "description": "These technical strategies protect sensitive corporate information from being ingested by external large language models during routine automated processes.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/model-security-vs-data-security-in-ai-workflows",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-18",
+    "title": "L'AI ce l'hanno tutti. Il pilota no",
+    "description": "#adv Clip estratta dall'intervista fatta a Paolo Fontana, Managing Director [Alkemy] Data. Tech. AI, su What’s Next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. Guarda l'intervista completa: https://www.youtube.com/watch?v=3AAk3YC6vXE #short",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/80wGOpHr3eY",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
     "date": "2026-10-17",
     "title": "Langflow vs n8n Price and Limits for AI Workflows",
     "description": "Langflow vs n8n differ in purpose: one builds AI applications, the other adds AI to workflows. Compare their cost and features to choose the right tool.",
@@ -34,6 +52,33 @@
     "link": "https://www.activepieces.com/blog/stripe-hubspot-integration-setup-guide-2026",
     "source": "Activepieces",
     "badge": "🔁"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "Shopify HubSpot Integration vs Zapier or n8n in 2026",
+    "description": "Shopify HubSpot integration connects store data natively through the app, though custom automation requires additional workflow tools.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/shopify-hubspot-integration-vs-zapier-or-n8n-in-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "n8n Tutorial for Beginners 2026 (Your First Workflow)",
+    "description": "n8n tutorial shows how to wire nodes together to automate web requests. Turn incoming webhooks into spreadsheet rows and Slack messages without code.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/n8n-tutorial-for-beginners-2026-your-first-workflow",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "Non devi diventare esperto di AI",
+    "description": "#adv Clip estratta dall'intervista fatta a Paolo Fontana, Managing Director [Alkemy] Data. Tech. AI, su What’s Next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. Guarda l'intervista completa: https://www.youtube.com/watch?v=3AAk3YC6vXE #short",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/M4SVtf6lMbs",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": ""
   },
   {
     "date": "2026-10-16",
