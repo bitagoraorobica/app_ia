@@ -1,5 +1,113 @@
 [
   {
+    "date": "2026-10-19",
+    "title": "From Natural Language Intent to Executable Control: Hierarchical Feedback-Guided LLM Planning for Multi-component Cyber-Physical Systems",
+    "description": "arXiv:2610.22441v1 Announce Type: new Abstract: Large language models (LLMs) provide a convenient interface for translating natural language commands into task plans for cyber-physical systems (CPSs). However, two gaps hinder their use for real execution: generated plans may misinterpret or omit…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.22441",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-19",
+    "title": "Brain-Aligned Multimodal LLMs for Social and Emotional Understanding of Cartoon Movies",
+    "description": "arXiv:2610.22706v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) offer scalable annotations of social and affective content, but their temporal agreement with human judgments and neural predictive value require further evaluation. We compared diffusion-based and…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.22706",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-19",
+    "title": "GlobeBench: Evaluating Text-Based World Model Capabilities for Scalable Environment Simulations",
+    "description": "arXiv:2610.22708v1 Announce Type: new Abstract: Text-based world models have recently shown potential to simulate complex RL environment state transitions for a diverse set of use cases. However, no standardized benchmark exists to compare, study and improve these models. Through this paper, we…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.22708",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-19",
+    "title": "Between Spoilers and Guesswork: Avoiding Over-Specification in Coding Benchmarks",
+    "description": "arXiv:2610.22760v1 Announce Type: new Abstract: Benchmarks drive AI progress, but are hampered by task under-specification and over-specification. Task under-specification causes guesswork, where solutions have to make things up, or worse, resort to contamination or reward hacking. Task…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.22760",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-19",
+    "title": "Evo-B&B: Behavior-Aware LLM-Guided Joint Evolution of Branching and Node Selection Policies for MILP",
+    "description": "arXiv:2610.22861v1 Announce Type: new Abstract: In branch-and-bound for Mixed-Integer Linear Programming (MILP), branching and node selection are two critical and tightly coupled decisions, yet most existing learning-based approaches focus on optimizing them separately. We propose Evo-B&B, an…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.22861",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-19",
+    "title": "Gemini 4 Argon: Benchmarks, Pricing and Availability",
+    "description": "Gemini 4 Argon is Google's new reasoning model for solving complex problems. You can access it through developer platforms to enhance automation workflows.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/gemini-4-argon-benchmarks-pricing-and-availability",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-19",
+    "title": "Vellum AI alternatives for scaling AI agents (2026)",
+    "description": "Vellum platforms help teams manage complex AI workflows. Compare these specific operational tools to select the best infrastructure for your scaling needs.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/vellum-ai-alternatives-for-scaling-ai-agents-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-19",
+    "title": "ZCode Launch: New AI Coding Tool from Z.ai",
+    "description": "ZCode launch details provide the technical specifications and performance benchmarks needed to evaluate if this framework fits your development stack.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/zcode-launch-new-ai-coding-tool-for-automations",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-19",
+    "title": "Granola MCP Server Setup for Claude, ChatGPT, Cursor",
+    "description": "Granola MCP server lets an AI tool access your meeting notes. Add a URL to Claude, Cursor, or Activepieces and sign in through your browser.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/granola-mcp-server-setup-for-claude-chatgpt-cursor",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-19",
+    "title": "This is the new ChatGPT Voice, powered by GPT Live",
+    "description": "You’ll want to turn the sound on for this one. Read more here: https://chatgpt.com/features/voice/",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=mEulEkuxCnM",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-19",
+    "title": "This is the new ChatGPT Voice, powered by GPT Live",
+    "description": "Ein kleiner Tipp von uns: Ton an, denn das willst du hören. Hier weiterlesen: https://chatgpt.com/de-DE/features/voice/",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=xIEzjwReF2s",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-19",
+    "title": "This is the new ChatGPT Voice, powered by GPT Live",
+    "description": "Pour cette vidéo, pensez à activez le son pour ne rien manquer. En savoir plus: https://chatgpt.com/fr-FR/features/voice/",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=-vpwIHxkDFw",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
     "date": "2026-10-18",
     "title": "AI Data Leakage Prevention: A 2026 Guide for Workflows",
     "description": "These technical strategies protect sensitive corporate information from being ingested by external large language models during routine automated processes.",
@@ -2041,24 +2149,6 @@
     "link": "https://blog.n8n.io/reducing-ai-workflow-latency/",
     "source": "n8n Blog",
     "badge": "🔁"
-  },
-  {
-    "date": "2026-09-18",
-    "title": "Hugging Face Hack Shows Humans Can Keep AI In Check",
-    "description": "Weeks after the OpenAI hack, AI Now's Heidy Khlaaf affirms that \"ordinary security engineering would have stopped this well short of reaching Hugging Face’s data.\" The post Hugging Face Hack Shows Humans Can Keep AI In Check appeared first on AI Now Institute .",
-    "category": "News",
-    "link": "https://ainowinstitute.org/news/press/hugging-face-hack-shows-humans-can-keep-ai-in-check",
-    "source": "AI Now Institute",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-18",
-    "title": "Introducing the Australian Youth Safety Blueprint",
-    "description": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
-    "category": "News",
-    "link": "https://openai.com/index/australian-youth-safety-blueprint",
-    "source": "OpenAI",
-    "badge": ""
   },
   {
     "date": "2025-07-30",
