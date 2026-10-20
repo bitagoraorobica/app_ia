@@ -1342,3 +1342,12 @@ https://www.activepieces.com/blog/granola-mcp-server-setup-for-claude-chatgpt-cu
 https://www.youtube.com/watch?v=mEulEkuxCnM
 https://www.youtube.com/watch?v=xIEzjwReF2s
 https://www.youtube.com/watch?v=-vpwIHxkDFw
+https://openai.com/index/low-resource-programming-languages
+https://blog.n8n.io/n8n-nvidia-dgx-spark/
+https://www.activepieces.com/blog/amazon-bedrock-pricing-2026-models-and-token-costs
+https://www.activepieces.com/blog/gpt-61-sol-pricing-performance-and-how-to-route-requests
+https://www.activepieces.com/blog/harness2-google-research-repository-overview-2026
+https://www.youtube.com/watch?v=DQHtmW9ZlIs
+https://www.youtube.com/shorts/7lC2N9woZy4
+https://www.youtube.com/watch?v=ExVDpMeaWp0
+https://www.youtube.com/shorts/TxS1NIzTLiU

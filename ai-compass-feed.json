@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-10-20",
+    "title": "Amazon Bedrock Pricing (2026): Models and Token Costs",
+    "description": "Amazon Bedrock pricing uses a pay-per-use model with rates varying by AI model and pricing mode, letting you estimate costs before scaling automation tools.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/amazon-bedrock-pricing-2026-models-and-token-costs",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-20",
+    "title": "GPT-6.1 Sol: Pricing, Performance, and How to Route Requests",
+    "description": "GPT-6.1 Sol provides logic-heavy processing for enterprise systems. You can determine if this model improves your current automated workflows.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/gpt-61-sol-pricing-performance-and-how-to-route-requests",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-20",
+    "title": "L'AI e il paradosso del nuovo",
+    "description": "#adv Clip estratta dall'intervista fatta a Paolo Fontana, Managing Director [Alkemy] Data. Tech. AI, su What’s Next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. Guarda l'intervista completa: https://www.youtube.com/watch?v=3AAk3YC6vXE #short",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/TxS1NIzTLiU",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
     "date": "2026-10-19",
     "title": "From Natural Language Intent to Executable Control: Hierarchical Feedback-Guided LLM Planning for Multi-component Cyber-Physical Systems",
     "description": "arXiv:2610.22441v1 Announce Type: new Abstract: Large language models (LLMs) provide a convenient interface for translating natural language commands into task plans for cyber-physical systems (CPSs). However, two gaps hinder their use for real execution: generated plans may misinterpret or omit…",
@@ -106,6 +133,60 @@
     "link": "https://www.youtube.com/watch?v=-vpwIHxkDFw",
     "source": "YouTube – OpenAI",
     "badge": ""
+  },
+  {
+    "date": "2026-10-19",
+    "title": "Advancing coding in low‑resource programming languages",
+    "description": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+    "category": "News",
+    "link": "https://openai.com/index/low-resource-programming-languages",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-19",
+    "title": "Run your n8n AI workflows on NVIDIA DGX Spark, with no cloud API",
+    "description": "Most small businesses want the same handful of AI jobs. They want to draft emails, summarize calls, read invoices, search their own documents, and make the odd image. Plenty of them can't send customer data to a cloud API to do it. Often the reason is data privacy",
+    "category": "Automation",
+    "link": "https://blog.n8n.io/n8n-nvidia-dgx-spark/",
+    "source": "n8n Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-19",
+    "title": "Harness2: Google Research Repository Overview (2026)",
+    "description": "Harness2 is Google Research's new benchmarking repository for AI automation. Determine how it compares to existing workflow automation tools.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/harness2-google-research-repository-overview-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-19",
+    "title": "Cooking with Codex: Ep. 1",
+    "description": "In this episode of Cooking with Codex, an OpenAI dot helps plan a ramen recipe and organize prep in ChatGPT Space, with GPT-Live guiding the cooking process. Also covered: Codex cloud environments, which keep tasks running after a laptop is closed, and new Codex CLI features including voice input…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=DQHtmW9ZlIs",
+    "source": "YouTube – OpenAI",
+    "badge": "⭐"
+  },
+  {
+    "date": "2026-10-19",
+    "title": "Thomson Reuters on Building Trust in Legal AI | OpenAI",
+    "description": "Bringing legal expertise and frontier AI together starts with trust. For Thomson Reuters’ Camillo Speroni, that means output lawyers can verify, cite and put their name on. Camillo discusses Thomson Reuters’ work with OpenAI to bring HighQ and Thomson Reuters CoCounsel Legal into ChatGPT…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/7lC2N9woZy4",
+    "source": "YouTube – OpenAI",
+    "badge": "⭐"
+  },
+  {
+    "date": "2026-10-19",
+    "title": "Thomson Reuters on Building Trust in Legal AI | OpenAI",
+    "description": "Bringing legal expertise and frontier AI together starts with trust. For Thomson Reuters’ Camillo Speroni, that means output lawyers can verify, cite and put their name on. Camillo discusses Thomson Reuters’ work with OpenAI to bring HighQ and Thomson Reuters CoCounsel Legal into ChatGPT…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=ExVDpMeaWp0",
+    "source": "YouTube – OpenAI",
+    "badge": "⭐"
   },
   {
     "date": "2026-10-18",
@@ -2140,15 +2221,6 @@
     "link": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
     "source": "OpenAI",
     "badge": ""
-  },
-  {
-    "date": "2026-09-19",
-    "title": "Reducing AI Workflow Latency: Patterns That Actually Work",
-    "description": "Learn how to reduce AI workflow latency with production patterns for latency optimization: model routing, caching, parallel execution, timeouts, and budgets.",
-    "category": "Automation",
-    "link": "https://blog.n8n.io/reducing-ai-workflow-latency/",
-    "source": "n8n Blog",
-    "badge": "🔁"
   },
   {
     "date": "2025-07-30",
