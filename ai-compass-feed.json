@@ -1,5 +1,95 @@
 [
   {
+    "date": "2026-10-21",
+    "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
+    "description": "arXiv:2610.26887v1 Announce Type: new Abstract: Large language model (LLM) agents are evolving from conversational assistants into Cowork Agents capable of autonomous planning, tool use, and complex task execution. Financial analysis requires these agents to integrate cross-document evidence and…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.26887",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-21",
+    "title": "Pareto-Optimal RTL Code Generation via Multi-Objective Reinforcement Learning with Large Language Models",
+    "description": "arXiv:2610.26904v1 Announce Type: new Abstract: Recent studies have proposed reinforcement learning with verifiable rewards (RLVR) methods that enable LLMs to generate high-quality RTL circuits from natural-language specifications. Existing approaches optimize circuit PPA (Power, Performance, Area)…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.26904",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-21",
+    "title": "Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing",
+    "description": "arXiv:2610.26941v1 Announce Type: new Abstract: Large language models (LLMs) are enabling agents to move beyond predefined workflows toward autonomous planning and execution, creating new opportunities for smart manufacturing. However, dynamic environments, complex physical constraints, and…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.26941",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-21",
+    "title": "MAMath-Bench: Process-Aware and Robust Evaluation of Multimodal Multi-Agent Mathematical Reasoning",
+    "description": "arXiv:2610.26943v1 Announce Type: new Abstract: Mathematical reasoning is a fundamental capability for educational applications of Large Language Models (LLMs), where reliable problem solving requires not only correct answers but also coherent and verifiable reasoning processes. Multi-agent systems…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.26943",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-21",
+    "title": "LightCRS: Lightweight Multi-Domain Conversational Recommendation System",
+    "description": "arXiv:2610.26948v1 Announce Type: new Abstract: Conversational recommender systems have recently adopted vision-language models to match user dialogue intents with multimodal product information. However, extending these methods to many product domains faces a dilemma: deploying a separately…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.26948",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-21",
+    "title": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
+    "description": "Founded in a tent near the Berlin Wall in 1980, the Tempodrom moved several times before settling near Anhalter Bahnhof in 2001. Its permanent home has since hosted concerts, galas and political events. Today, it hosts a different kind of spectacle. GTC Berlin runs three days, with more than 100…",
+    "category": "News",
+    "link": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
+    "source": "NVIDIA AI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-21",
+    "title": "Beam 1.0: Speed and Accuracy Test Results (2026)",
+    "description": "Beam 1.0 changes AI automations with new capabilities for coding and reasoning. You can decide if this open-weight model suits your agentic workflows.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/beam-10-speed-and-accuracy-test-results-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-21",
+    "title": "Deepinfer (2026 Guide)",
+    "description": "Deepinfer is a new inference framework from DeepSeek released October 20, 2026. Learn what capabilities it introduces for AI automations.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/deepinfer-2026-guide",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-21",
+    "title": "Tutti usano l'AI, quasi nessuno ci guadagna.",
+    "description": "#adv Clip estratta dall'intervista fatta a Paolo Fontana, Managing Director [Alkemy] Data. Tech. AI, su What’s Next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. Guarda l'intervista completa: https://www.youtube.com/watch?v=3AAk3YC6vXE #short",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/z5qLS8w98YE",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-21",
+    "title": "Claude Code spiegato ai non programmatori [Talk AIWEEK 2026]",
+    "description": "Puoi scaricare l'ebook che dico nel video a questo link: https://raffaelegaito.activehosted.com/f/39 Compra il mio corso base \"Crea un Agente AI con Claude Code\": https://www.raffaelegaito.com/claude-code-crea-agente-ai-corso-completo/?landing=true Compra il mio corso intermedio “Fai il passo…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=lhbDo_6YdUQ",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
     "date": "2026-10-20",
     "title": "Amazon Bedrock Pricing (2026): Models and Token Costs",
     "description": "Amazon Bedrock pricing uses a pay-per-use model with rates varying by AI model and pricing mode, letting you estimate costs before scaling automation tools.",
@@ -24,6 +114,51 @@
     "category": "News",
     "link": "https://www.youtube.com/shorts/TxS1NIzTLiU",
     "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-20",
+    "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+    "description": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+    "category": "News",
+    "link": "https://openai.com/index/ted-taylor-restaurant",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-20",
+    "title": "OpenAI acquires Orchestra Bio",
+    "description": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+    "category": "News",
+    "link": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-20",
+    "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
+    "description": "The Barcelona Supercomputing Center (BSC)’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and training to support innovation across industries. Many of these companies are also members of the…",
+    "category": "News",
+    "link": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/",
+    "source": "NVIDIA AI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-20",
+    "title": "llm-d 1.0 hardens open-source AI inference for production",
+    "description": "The distributed inference framework makes serving large models on your own infrastructure reliable and affordable for the agentic era.",
+    "category": "News",
+    "link": "https://research.ibm.com/blog/llmd-1-0-is-ready-for-production-inference-serving?utm_medium=rss&utm_source=rss",
+    "source": "IBM Research AI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-20",
+    "title": "Build a Better Shopping Experience with OpenAI | Shopping Agent Demo",
+    "description": "See how an AI shopping agent can turn a room photo into a personalized shopping experience—from finding the right products to updating an order. In this demo for fictional home goods retailer Vesper & Alder, a shopper uses voice and images to create a cozy reading nook. The agent recommends…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=8n-SXxRIrm8",
+    "source": "YouTube – OpenAI",
     "badge": ""
   },
   {
