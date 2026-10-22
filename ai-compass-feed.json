@@ -1,5 +1,77 @@
 [
   {
+    "date": "2026-10-22",
+    "title": "Physical AI: Concepts, Techniques, and Challenges",
+    "description": "arXiv:2610.27045v1 Announce Type: new Abstract: In recent years, physical artificial intelligence (physical AI) has experienced rapid development, capturing significant attention in academia and industry. However, the field has yet to reach consensus on its definition, technical landscape, and core…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.27045",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "ReuF2F: Benchmarking Coding Agents on Formalized Undergraduate Research Problems",
+    "description": "arXiv:2610.27046v1 Announce Type: new Abstract: As AI systems begin to resolve open research problems, reliable verification becomes increasingly important. Formal mathematics provides a trusted framework for mathematical reasoning, enabling agents to produce machine-checkable proofs while…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.27046",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "EDMA: Entropy-Driven Multimodal Answering",
+    "description": "arXiv:2610.27120v1 Announce Type: new Abstract: Multimodal question answering (MMQA) is based on integrating heterogeneous data sources, selectively leveraging relevant modalities, and ignoring distractors. Existing approaches based on Multimodal Large Language Models (MLLMs) improve performance by…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.27120",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Magnolia: A Persistent-Memory Agent Framework for Computational Chemistry",
+    "description": "arXiv:2610.27230v1 Announce Type: new Abstract: Chemistry has recently entered a high-data regime as molecular databases from high-throughput platforms or computational studies have become available. Increasing automation within the chemical sciences leads to a more digital and precision chemistry…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.27230",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "EGI-BENCH: An Enterprise General Intelligence Benchmark Suite",
+    "description": "arXiv:2610.27234v1 Announce Type: new Abstract: Enterprise adoption of LLMs in agentic workflows is gated by evaluations that span a wide arc of abilities: CRM operations, heterogeneous-document retrieval, personal data understanding, multi-turn planning, tool use, function calling, long-horizon…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.27234",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Why Reinsurance Teams Need Dedicated AI App Access Tools Now",
+    "description": "Reinsurance AI access tools provide the necessary infrastructure to integrate LLMs without risking the exposure of sensitive treaty information.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/why-reinsurance-teams-need-dedicated-ai-app-access-tools-now",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "LiteLLM: Open-Source AI Gateway & LLM Proxy (2026)",
+    "description": "LiteLLM is an open-source AI gateway with a new release. Find out which features affect your automation workflows and integration options.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/litellm-open-source-ai-gateway-llm-proxy-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Best AI Writing Tools for 2026 (Tested & Ranked)",
+    "description": "Top-rated AI writing tools are evaluated based on their ability to automate complex drafting tasks and integrate directly into existing project workflows.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/best-ai-writing-tools-for-2026-tested-ranked",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
     "date": "2026-10-21",
     "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
     "description": "arXiv:2610.26887v1 Announce Type: new Abstract: Large language model (LLM) agents are evolving from conversational assistants into Cowork Agents capable of autonomous planning, tool use, and complex task execution. Financial analysis requires these agents to integrate cross-document evidence and…",
@@ -90,6 +162,78 @@
     "badge": ""
   },
   {
+    "date": "2026-10-21",
+    "title": "Using thousands of AI agents to uncover new leads in biological data",
+    "description": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+    "category": "News",
+    "link": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-21",
+    "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+    "description": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+    "category": "News",
+    "link": "https://openai.com/index/building-chatgpt-ad-stack",
+    "source": "OpenAI",
+    "badge": "⭐"
+  },
+  {
+    "date": "2026-10-21",
+    "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+    "description": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+    "category": "News",
+    "link": "https://openai.com/index/empowering-cyber-defenders",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-21",
+    "title": "How to implement AI training for employees",
+    "description": "Most teams don't struggle to implement AI in their daily workflows because they're resistant to change—they struggle because they haven't been given the structure to learn how to use it effectively. Employees who receive formal AI training are far more likely to see it as a boost to their…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/ai-training-for-employees",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-21",
+    "title": "n8n Review 2026: Is It Worth It? Pricing and Limits",
+    "description": "An n8n review shows whether this platform fits technical teams ready to self-host or pay per execution. Assess if n8n meets your workflow automation needs.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/n8n-review-2026-is-it-worth-it-pricing-and-limits",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-21",
+    "title": "n8n AI Agent Node Explained: Tools, Memory, Cost",
+    "description": "An n8n AI Agent node connects tools to a chat model that calls them in sequence until solving the problem. You'll see how to wire one into your workflows.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/n8n-ai-agent-node-explained-tools-memory-cost",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-21",
+    "title": "V7 cuts costs 78% while boosting accuracy with GPT‑5.6 Luna",
+    "description": "V7 Go organizes company files into a Context Graph that agents can query to screen investment deals and support insurance underwriting. On V7’s hardest graph-query tests across thousands of documents, GPT-6 Astra reached 89% accuracy. Read the full story: https://openai.com/index/v7/",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=20IRGgQwPkc",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-21",
+    "title": "Ho testato Gemini 4: Google è DAVVERO tornata?",
+    "description": "Ho testato Gemini 4 Argon, il nuovo modello di punta di Google, con 5 test concreti: è DAVVERO all'altezza di ChatGPT e Claude? Con Antigravity ho creato due videogiochi in vibe coding senza scrivere una riga di codice, gli ho fatto revisionare il codice scritto da Claude Opus 5.5, ho trasformato…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=poaWeJmPGW0",
+    "source": "YouTube - Gabry Solutions",
+    "badge": "🔥"
+  },
+  {
     "date": "2026-10-20",
     "title": "Amazon Bedrock Pricing (2026): Models and Token Costs",
     "description": "Amazon Bedrock pricing uses a pay-per-use model with rates varying by AI model and pricing mode, letting you estimate costs before scaling automation tools.",
@@ -160,6 +304,15 @@
     "link": "https://www.youtube.com/watch?v=8n-SXxRIrm8",
     "source": "YouTube – OpenAI",
     "badge": ""
+  },
+  {
+    "date": "2026-10-20",
+    "title": "Use one Zapier MCP server across all your AI tools",
+    "description": "Most teams don't stick to one AI tool. Your support team works in Claude, a few people swear by ChatGPT, and your engineers live in Cursor. Until now, each of those tools needed its own Zapier MCP server, with its own apps and skills to set up. Now you can connect all of them to one Zapier MCP…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/connect-multiple-ai-clients-zapier-mcp",
+    "source": "Zapier Blog",
+    "badge": "🔁"
   },
   {
     "date": "2026-10-19",
@@ -2300,60 +2453,6 @@
     "description": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
     "category": "News",
     "link": "https://openai.com/index/priorities-principles-third-party-assessments",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-21",
-    "title": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
-    "description": "Today, Egypt’s AI builders gathered in the Grand Egyptian Museum for a reception that highlighted the nation’s rapidly growing AI ecosystem — spanning AI natives, developers, researchers, startups and enterprises — building applications across industries. The event included a keynote from Paolo Gugl",
-    "category": "News",
-    "link": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
-    "source": "NVIDIA AI",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-21",
-    "title": "Prompt Testing Frameworks for Production AI Workflows",
-    "description": "Still guessing if your prompts work? Learn how to build a systematic prompt testing framework that catches regressions before they reach production.",
-    "category": "Automation",
-    "link": "https://blog.n8n.io/prompt-testing-frameworks/",
-    "source": "n8n Blog",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-09-21",
-    "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-    "description": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-    "category": "News",
-    "link": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-21",
-    "title": "Advisory Group on Mathematics and Artificial Intelligence",
-    "description": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-    "category": "News",
-    "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-21",
-    "title": "Building standards for the next phase of AI",
-    "description": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
-    "category": "News",
-    "link": "https://openai.com/index/building-standards-next-phase-ai",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-21",
-    "title": "Expanding OpenAI Academy with new learning paths",
-    "description": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
-    "category": "News",
-    "link": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
     "source": "OpenAI",
     "badge": ""
   },
