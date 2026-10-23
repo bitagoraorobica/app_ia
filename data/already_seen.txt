@@ -1383,3 +1383,15 @@ https://www.activepieces.com/blog/n8n-review-2026-is-it-worth-it-pricing-and-lim
 https://www.activepieces.com/blog/n8n-ai-agent-node-explained-tools-memory-cost
 https://www.youtube.com/watch?v=20IRGgQwPkc
 https://www.youtube.com/watch?v=poaWeJmPGW0
+https://openai.com/index/openai-nask-ai-safety-security-partnership
+https://openai.com/index/uber-chatgpt-work-rollout
+https://arxiv.org/abs/2610.28706
+https://arxiv.org/abs/2610.28826
+https://arxiv.org/abs/2610.28875
+https://arxiv.org/abs/2610.28982
+https://arxiv.org/abs/2610.29010
+https://blog.n8n.io/hallucination-detection-methods-for-ai-agent-workflows/
+https://zapier.com/blog/vetano-next-gen-zaps
+https://www.activepieces.com/blog/activepieces-vs-ifttt-workflow-automation-compared
+https://www.youtube.com/watch?v=l16Gw7oVLNQ
+https://www.youtube.com/watch?v=fs6dActC94k

@@ -1,5 +1,77 @@
 [
   {
+    "date": "2026-10-23",
+    "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+    "description": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+    "category": "News",
+    "link": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-23",
+    "title": "SpecEvo: Speculative Evolution with Large Language Models for Cost-Efficient Scientific Discovery",
+    "description": "arXiv:2610.28706v1 Announce Type: new Abstract: LLM-driven evolutionary search is a promising paradigm for scientific discovery, but existing methods remain costly and slow, often applying expensive reasoning uniformly while underusing evidence from failed, redundant, and saturated trials. We…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.28706",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-23",
+    "title": "Decision language models as affordable and rapid alternatives to LLM judges of clinical generative AI",
+    "description": "arXiv:2610.28826v1 Announce Type: new Abstract: Automated judges of clinical artificial intelligence (AI) outputs are necessary, but large language model (LLM) judges are costly and slow at scale. We compared Jev, a decision language model that returns structured judgments, with frontier and…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.28826",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-23",
+    "title": "To Manipulate or Not: Opinion Dynamics in LLM Interactions",
+    "description": "arXiv:2610.28875v1 Announce Type: new Abstract: Large language models increasingly take part in extended conversations where they can both shape and be shaped by another party's views, yet most persuasion research measures only one side of that exchange. We introduce a controlled LLM-LLM debate…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.28875",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-23",
+    "title": "Behavior Beyond Text: Evaluating Refusal Transfer Failure in LLM Agents",
+    "description": "arXiv:2610.28982v1 Announce Type: new Abstract: While large language models are increasingly deployed as tool-calling agents, their safety evaluations still focus primarily on their ability to refuse harmful requests in text. We investigate whether the refusal behavior in text transfers to tool…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.28982",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-23",
+    "title": "An Evidence-Driven Multi-Agent Compound AI System for Head and Neck Proton Radiotherapy Planning",
+    "description": "arXiv:2610.29010v1 Announce Type: new Abstract: Radiation treatment planning requires balancing competing objectives to satisfy clinical criteria while accommodating physicians' preferences. This study aims to develop an evidence-driven, multi-agent compound AI system that integrates DRL-based…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.29010",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-23",
+    "title": "Activepieces vs IFTTT: Workflow Automation Compared",
+    "description": "Activepieces vs IFTTT differ in pricing, automation triggers, and integrations available. See which platform matches your technical skill level and budget.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/activepieces-vs-ifttt-workflow-automation-compared",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-23",
+    "title": "Tutto quello che devi sapere sull'AI Act [Alessandro Vercellotti]",
+    "description": "Compra il mio corso base \"Crea un Agente AI con Claude Code\": https://www.raffaelegaito.com/claude-code-crea-agente-ai-corso-completo/?landing=true Compra il mio corso intermedio “Fai il passo successivo con Claude Code”…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=fs6dActC94k",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
     "date": "2026-10-22",
     "title": "Physical AI: Concepts, Techniques, and Challenges",
     "description": "arXiv:2610.27045v1 Announce Type: new Abstract: In recent years, physical artificial intelligence (physical AI) has experienced rapid development, capturing significant attention in academia and industry. However, the field has yet to reach consensus on its definition, technical landscape, and core…",
@@ -70,6 +142,42 @@
     "link": "https://www.activepieces.com/blog/best-ai-writing-tools-for-2026-tested-ranked",
     "source": "Activepieces",
     "badge": "🔁"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+    "description": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+    "category": "News",
+    "link": "https://openai.com/index/uber-chatgpt-work-rollout",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Hallucination Detection Methods for AI Agent Workflows",
+    "description": "AI agent hallucinations are hard to catch because they usually look like normal answers. An agent can invent a fact, misread retrieved context, or contradict itself without signaling that anything went wrong. Once that output triggers another workflow step, the mistake can quickly become a…",
+    "category": "Automation",
+    "link": "https://blog.n8n.io/hallucination-detection-methods-for-ai-agent-workflows/",
+    "source": "n8n Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "How a three-person hiring startup built its go-to-market engine before the rush",
+    "description": "Chris Fairley founded the hiring platform Vetano in early 2025. After a particularly challenging job-hunting experience, Chris found that a strong resume was no longer enough. Resumes get about seven seconds of attention, according to Ladders' eye-tracking research. With AI now screening many of…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/vetano-next-gen-zaps",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Uber rolls out ChatGPT Work to 30,000+ employees",
+    "description": "Following a 1,000-person pilot, Uber is bringing ChatGPT Work to more than 30,000 employees worldwide in its first company-wide deployment of an agentic platform for knowledge work. Uber CTO Praveen Neppalli Naga and OpenAI co-founder and President Greg Brockman discuss expanding AI beyond…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=l16Gw7oVLNQ",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
   },
   {
     "date": "2026-10-21",
@@ -2435,24 +2543,6 @@
     "description": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
     "category": "News",
     "link": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-22",
-    "title": "Tutto quello che penso degli Agenti AI",
-    "description": "Utilizza il codice sconto MONTYAI su https://www.hostinger.com/montyai Questo video è supported by Hostinger #adv Scopri in 2 minuti quanto sei davvero pronto a usare l’AI nel tuo lavoro: fai il test gratuito → https://spiegamelofacile.com/audit/form-v4 -- Se il video ti è stato utile, iscriviti. Pe",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=vIpqEC_7D78",
-    "source": "YouTube - Marco Montemagno",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-22",
-    "title": "Priorities and principles for effective third party assessments",
-    "description": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
-    "category": "News",
-    "link": "https://openai.com/index/priorities-principles-third-party-assessments",
     "source": "OpenAI",
     "badge": ""
   },
