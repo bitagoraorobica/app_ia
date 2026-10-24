@@ -1395,3 +1395,17 @@ https://zapier.com/blog/vetano-next-gen-zaps
 https://www.activepieces.com/blog/activepieces-vs-ifttt-workflow-automation-compared
 https://www.youtube.com/watch?v=l16Gw7oVLNQ
 https://www.youtube.com/watch?v=fs6dActC94k
+https://openai.com/index/scaling-storage-one-billion-users-part-two
+https://blog.n8n.io/ai-agent-memory-how-llm-agents-manage-state-in-production/
+https://zapier.com/blog/best-ai-agents
+https://www.activepieces.com/blog/activepieces-webhook-trigger-without-dropped-orders
+https://www.activepieces.com/blog/activepieces-ai-agents-how-to-build-them-2026-guide
+https://www.activepieces.com/blog/openshell-by-nvidia-sandbox-for-ai-agents-explained
+https://www.activepieces.com/blog/kimi-k3-1-pro-for-automation-teams-in-2026
+https://www.activepieces.com/blog/nemotron-35-super-vl-pricing-and-benchmarks-2026
+https://www.youtube.com/watch?v=6f7ojkd4_Wc
+https://www.youtube.com/shorts/7Cs5qyBlYQk
+https://www.youtube.com/watch?v=hgX1hgyWD4g
+https://www.youtube.com/shorts/2lNUGkCg_qc
+https://www.youtube.com/watch?v=m6MlxaFMmPI
+https://www.youtube.com/watch?v=nGaE-8wAkq4

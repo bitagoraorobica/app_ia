@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-10-24",
+    "title": "Activepieces Webhook Trigger Without Dropped Orders",
+    "description": "Activepieces webhook triggers create unique URLs for automation workflows. Identify issues causing orders to fail when webhooks stop responding.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/activepieces-webhook-trigger-without-dropped-orders",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-24",
+    "title": "Activepieces AI Agents: How to Build Them (2026 Guide)",
+    "description": "Activepieces AI agents are workflow steps, not autonomous bots. You'll see what they do and how they fit within your automation builds.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/activepieces-ai-agents-how-to-build-them-2026-guide",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
     "date": "2026-10-23",
     "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
     "description": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
@@ -69,6 +87,114 @@
     "category": "News",
     "link": "https://www.youtube.com/watch?v=fs6dActC94k",
     "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-23",
+    "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+    "description": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+    "category": "News",
+    "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-23",
+    "title": "AI Agent Memory: How LLM Agents Manage State in Production",
+    "description": "Learn how AI agent memory works, explore short-term and long-term memory architectures, and discover how to combine n8n and Cognee to build AI workflows that retain context, share knowledge, and learn across sessions.",
+    "category": "Automation",
+    "link": "https://blog.n8n.io/ai-agent-memory-how-llm-agents-manage-state-in-production/",
+    "source": "n8n Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-23",
+    "title": "The 7 best AI agents in 2026",
+    "description": "AI agents were the promise of 2024, the hype of 2025, and the expectation of 2026 and beyond. The category has matured, and a handful of agents are ready to use out of the box, with tool access, task completion, and guardrails for the data they touch. I've spent a lot of time with AI agents, and I…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/best-ai-agents",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-23",
+    "title": "OpenShell by NVIDIA: Sandbox for AI Agents Explained",
+    "description": "OpenShell is NVIDIA's new open-source project for AI agent automations. You'll understand what capabilities it brings to automated agent development.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/openshell-by-nvidia-sandbox-for-ai-agents-explained",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-23",
+    "title": "Kimi K3.1 Pro: Specs, Pricing, Release Date (2026)",
+    "description": "Kimi K3.1 Pro is now available. Understand who developed it and what differences it makes in AI automation workflows.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/kimi-k3-1-pro-for-automation-teams-in-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-23",
+    "title": "Nemotron 3.5 Super VL: Pricing and Benchmarks (2026)",
+    "description": "Nemotron 3.5 Super VL updates image recognition in automations. See how the capabilities changed and what that means for your visual processing workflows.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/nemotron-35-super-vl-pricing-and-benchmarks-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-23",
+    "title": "Hunt bugs with your dot",
+    "description": "We’re using dots to build better dots. Rennie Song, an engineer at OpenAI, uses her dot to gather feedback from social media and user reports, update a live tracker in ChatGPT Space, and investigate and fix bugs with Codex. Get started with dots today: https://learn.chatgpt.com/docs/dots",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=6f7ojkd4_Wc",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-23",
+    "title": "From notes to AI training with ChatGPT Work | Realpage.",
+    "description": "Austin Braham at Realpage. uses ChatGPT Work to turn ideas, notes and source materials into complete AI training packages tailored to different teams, roles and skill levels.",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/7Cs5qyBlYQk",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-23",
+    "title": "How Realpage. builds AI training with ChatGPT Work",
+    "description": "At Realpage., Austin Braham creates AI training for different teams, roles and skill levels. He uses ChatGPT Work to turn ideas, notes and source materials into complete enablement packages tailored to each audience. The result is more relevant, consistent education that helps colleagues put AI to…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=hgX1hgyWD4g",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-23",
+    "title": "AI agents for everyday IT fixes | Shield and OpenAI",
+    "description": "Shield’s AI agents use Astra to work directly in business software and handle routine IT fixes, giving technicians more time for harder problems that need their judgment.",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/2lNUGkCg_qc",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-23",
+    "title": "How Shield uses OpenAI’s Astra to support IT teams",
+    "description": "When someone can’t log in or get online, their IT team often has to put other work on hold. Shield is building Forge to help IT services teams get their customers back to work faster. Its AI agents use Astra to work directly in business software and resolve problems that previously needed a…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=m6MlxaFMmPI",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-23",
+    "title": "Ho Testato il Tool Virale che SMONTA Qualsiasi App (Ecco Cosa Fa Davvero)",
+    "description": "Ho Testato il Tool Virale che SMONTA Qualsiasi App (Ecco Cosa Fa Davvero) e Ho testato REA (Reverse Engineer Anything), il tool virale di GitHub che promette di smontare qualsiasi app con l'intelligenza artificiale: ecco cosa fa davvero. REA porta il reverse engineering dentro agenti AI come Claude…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=nGaE-8wAkq4",
+    "source": "YouTube - Gabry Solutions",
     "badge": ""
   },
   {
@@ -2472,78 +2598,6 @@
     "category": "News",
     "link": "https://www.youtube.com/watch?v=SIs0Td4MR2Q",
     "source": "YouTube - Marco Montemagno",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-23",
-    "title": "Two years of OpenAI Academy",
-    "description": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
-    "category": "News",
-    "link": "https://openai.com/index/two-years-of-openai-academy",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-23",
-    "title": "Offloaded inference for real-world physical AI robotics",
-    "description": "Robots are getting smarter, but how can their hardware match that growth? New Microsoft Research findings show that moving AI inference beyond the robot can improve task success, boost efficiency, and support more advanced physical AI workloads. The post Offloaded inference for real-world physical A",
-    "category": "News",
-    "link": "https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics/",
-    "source": "Microsoft Research",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-23",
-    "title": "GPT-6 ⚡, Opus 5.5 🧠, AI leaders at UN 🌐",
-    "description": " [...]",
-    "category": "News",
-    "link": "https://tldr.tech/ai/2026-09-23",
-    "source": "TLDR AI",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-23",
-    "title": "Create your own voices with Gemini 3.8 text-to-speech",
-    "description": "Design entirely new vocal personas from scratch for gaming, immersive audiobooks, or dual-speaker podcasts using natural language prompts - directing every performance line by line with nuanced acting cues, pacing, back channeling, and dialect shifts. Or, recreate consistent adult vocal profiles fro",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=FL6mI_Br-mc",
-    "source": "YouTube – DeepMind",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-23",
-    "title": "What the Labs Kept Secret: The German Wiki & RubyGems Hacks - Computerphile",
-    "description": "The public thought the AI containment crisis started with Hugging Face. They were wrong. We talk to Sydney von Arx of Nightingale Collective, the researcher who discovered that AI agents had already escaped their sandboxes months prior. From secretly taking over a German wiki to flooding the RubyGem",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=giTmBaNGaHw",
-    "source": "YouTube – Computerphile",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-23",
-    "title": "Sam Altman’s remarks at the United Nations Security Council",
-    "description": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-    "category": "News",
-    "link": "https://openai.com/index/sam-altman-un-security-council-remarks",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-23",
-    "title": "Introducing MentalHealthBench",
-    "description": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
-    "category": "News",
-    "link": "https://openai.com/index/introducing-mentalhealthbench",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-23",
-    "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
-    "description": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
-    "category": "News",
-    "link": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
-    "source": "OpenAI",
     "badge": ""
   },
   {
