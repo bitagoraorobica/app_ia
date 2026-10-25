@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-10-25",
+    "title": "Mistral Voxtral 3: Speech Models, Pricing & Benchmarks",
+    "description": "Mistral Voxtral 3 enables speech-to-text, text-to-speech, and live conversations in automation workflows. It is available via API or self-deployment.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/mistral-voxtral-3-speech-models-pricing-benchmarks",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
     "date": "2026-10-24",
     "title": "Activepieces Webhook Trigger Without Dropped Orders",
     "description": "Activepieces webhook triggers create unique URLs for automation workflows. Identify issues causing orders to fail when webhooks stop responding.",
@@ -14,6 +23,15 @@
     "description": "Activepieces AI agents are workflow steps, not autonomous bots. You'll see what they do and how they fit within your automation builds.",
     "category": "Automation",
     "link": "https://www.activepieces.com/blog/activepieces-ai-agents-how-to-build-them-2026-guide",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-24",
+    "title": "1Password for Agents: How It Works and Its Limits",
+    "description": "1Password for Agents lets you manage the credentials your AI automation needs when connecting to external services.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/1password-for-agents-how-it-works-and-its-limits",
     "source": "Activepieces",
     "badge": "🔁"
   },
@@ -195,6 +213,15 @@
     "category": "News",
     "link": "https://www.youtube.com/watch?v=nGaE-8wAkq4",
     "source": "YouTube - Gabry Solutions",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-23",
+    "title": "How AT&T is building AI-powered legal workflows with OpenAI",
+    "description": "AT&T’s David McAtee and Bill Ryan describe how AI is changing their legal team’s work—and what they plan to build with OpenAI next. One initiative is a natural-language intake system that would classify and prioritize legal matters, then connect them with relevant knowledge. The aim is to put…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=V39_L7uh66M",
+    "source": "YouTube – OpenAI",
     "badge": ""
   },
   {
