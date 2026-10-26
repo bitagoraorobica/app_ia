@@ -1412,3 +1412,12 @@ https://www.youtube.com/watch?v=nGaE-8wAkq4
 https://www.activepieces.com/blog/mistral-voxtral-3-speech-models-pricing-benchmarks
 https://www.activepieces.com/blog/1password-for-agents-how-it-works-and-its-limits
 https://www.youtube.com/watch?v=V39_L7uh66M
+https://arxiv.org/abs/2610.31882
+https://arxiv.org/abs/2610.31937
+https://arxiv.org/abs/2610.31985
+https://arxiv.org/abs/2610.32022
+https://arxiv.org/abs/2610.32026
+https://www.activepieces.com/blog/n8n-insights-dashboard-limits-by-plan-in-2026
+https://www.activepieces.com/blog/n8n-ldap-node-how-to-set-it-up-and-what-it-costs
+https://www.activepieces.com/blog/ai-visibility-tools-compared-by-plan-caps-2026
+https://www.activepieces.com/blog/resend-inboxes-draft-and-agent-api-endpoints-2026

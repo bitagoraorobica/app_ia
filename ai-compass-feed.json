@@ -1,10 +1,91 @@
 [
   {
+    "date": "2026-10-26",
+    "title": "TACS-RF: Tool-driven Agentic Circuit Synthesis of RF and mmWave Modules",
+    "description": "arXiv:2610.31882v1 Announce Type: new Abstract: We present the framework of TACS-RF - a Tool-driven Agentic Circuit Synthesis of RF and mmWave modules. In this framework, a large-language-model (LLM) coding agent (Claude Opus 4.8) directly drives industry-standard electronic-design-automation (EDA)…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.31882",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-26",
+    "title": "$M^3$: A Multi-LLM System for Multi-Turn Jailbreaking as a Markov Decision Process",
+    "description": "arXiv:2610.31937v1 Announce Type: new Abstract: Modern Large Language Models (LLMs) remain vulnerable to carefully orchestrated multi-turn interactions that progressively bypass safety mechanisms. However, many existing red-teaming approaches rely on heuristics or impose strong assumptions that…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.31937",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-26",
+    "title": "The Helpful Agent Problem: When Emergent Cooperation Among LLM Agents Bypasses Intended Workflows",
+    "description": "arXiv:2610.31985v1 Announce Type: new Abstract: LLM agents are increasingly deployed in collaborative settings where they pursue separate tasks while sharing resources and operating under review or oversight processes. Such settings create safety risks not only when agents are malicious, but also…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.31985",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-26",
+    "title": "CEMIR vs. FISER: a comparative study of reasoning-based and enrichment-based approaches to pragmatic intent recognition",
+    "description": "arXiv:2610.32022v1 Announce Type: new Abstract: Intent recognition in human-robot interaction requires agents to resolve ambiguous natural language instructions by inferring the speaker's underlying goals. Research has increasingly focused on two notable paradigms for addressing this task…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.32022",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-26",
+    "title": "RSI-Opt: Recursive Self-Improvement Optimizer Agents For Model Training",
+    "description": "arXiv:2610.32026v1 Announce Type: new Abstract: Conventional neural-network training typically follows a predefined optimization recipe, motivating a LLM agent that monitors training dynamics and adjusts optimizer settings as training progresses, but a fixed agent policy does not accumulate…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.32026",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-26",
+    "title": "n8n Insights Dashboard Limits by Plan in 2026",
+    "description": "The n8n Insights dashboard displays execution metrics and performance data for your automation workflows. Identify which plan tier unlocks these features.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/n8n-insights-dashboard-limits-by-plan-in-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-26",
+    "title": "n8n LDAP Node: How to Set It Up and What It Costs",
+    "description": "The n8n LDAP node manages directory entries in your workflows. Determine if its setup, limits, and pricing fit your automation requirements.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/n8n-ldap-node-how-to-set-it-up-and-what-it-costs",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
     "date": "2026-10-25",
     "title": "Mistral Voxtral 3: Speech Models, Pricing & Benchmarks",
     "description": "Mistral Voxtral 3 enables speech-to-text, text-to-speech, and live conversations in automation workflows. It is available via API or self-deployment.",
     "category": "Automation",
     "link": "https://www.activepieces.com/blog/mistral-voxtral-3-speech-models-pricing-benchmarks",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-25",
+    "title": "AI Visibility Tools: Compared by Plan Caps (2026)",
+    "description": "AI visibility tools track where ChatGPT, Gemini, Perplexity and Google's AI mention your brand. Compare pricing and limits to pick the right tool.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/ai-visibility-tools-compared-by-plan-caps-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-25",
+    "title": "Resend Inboxes: Draft and Agent API Endpoints (2026)",
+    "description": "Resend inboxes give automations a mailbox to read and reply from. This API includes draft and agent endpoints for AI automation capabilities.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/resend-inboxes-draft-and-agent-api-endpoints-2026",
     "source": "Activepieces",
     "badge": "🔁"
   },
@@ -2616,15 +2697,6 @@
     "category": "News",
     "link": "https://openai.com/index/lenfest-ai-collaborative-expansion",
     "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-25",
-    "title": "Perché caxxo guardi ancora la TV?",
-    "description": "Scopri in 2 minuti quanto sei davvero pronto a usare l’AI nel tuo lavoro: fai il test gratuito → https://spiegamelofacile.com/audit/form-v4 -- Se il video ti è stato utile, iscriviti. Per il resto 👉 https://marcomontemagno.com 👉https://spiegamelofacile.com Ogni sabato mattina, nella tua casella: un ",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=SIs0Td4MR2Q",
-    "source": "YouTube - Marco Montemagno",
     "badge": ""
   },
   {
