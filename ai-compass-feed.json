@@ -1,5 +1,104 @@
 [
   {
+    "date": "2026-10-27",
+    "title": "Conformance as a Distribution: Delegation Contracts, Error Budgets, and the Allocation of Evaluation Authority in Use-Based AI Regulation",
+    "description": "arXiv:2610.33112v1 Announce Type: new Abstract: Use-based AI regulation assigns obligations by deployment risk but lacks an evidentiary object to carry them. A benchmark score is a property of a model; conformance of a deployment is a failure rate under a declared distribution of contexts, bounded…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.33112",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-27",
+    "title": "Scaling Qualitative Analysis with Large Language Models: Development and Validation of the Smart Coder Framework for Human-LLM Collaborative Coding",
+    "description": "arXiv:2610.33205v1 Announce Type: new Abstract: Current uses of large language models (LLMs) for qualitative coding often rely on ad hoc prompting with limited guidance for reliability and human oversight. To address these limitations, we propose the Smart Coder Framework, a three-phase approach…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.33205",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-27",
+    "title": "Distilling Expert Judgment at Scale",
+    "description": "arXiv:2610.33233v1 Announce Type: new Abstract: Frontier AI models are increasingly deployed on topics where the stakes are high and expert judgment is required, including healthcare, defense, finance, governance, and politics. We present a general methodology for distilling expert human judgment…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.33233",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-27",
+    "title": "NewsBench: Expert-Grounded Evaluation of Epistemic Quality in AI News Reporting",
+    "description": "arXiv:2610.33240v1 Announce Type: new Abstract: As frontier AI systems increasingly serve as sources of political and current-events information, evaluating the epistemic quality of their responses is now especially consequential. Existing evaluations often focus narrowly on ideological alignment…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.33240",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-27",
+    "title": "BenchBench-Cloning: Evaluating Molecular Cloning Design and Protocol Development",
+    "description": "arXiv:2610.33355v1 Announce Type: new Abstract: Molecular cloning is one of the most routine wet-lab workflows, yet existing evaluations of language models in biology mostly test knowledge recall or isolated steps rather than end-to-end experimental planning. We introduce BenchBench-Cloning, a…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.33355",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-27",
+    "title": "Activepieces AI Workflow Builder: A 2026 Review",
+    "description": "Activepieces AI workflow builder converts plain language descriptions into executable workflow drafts available on the free plan with 1,000 monthly credits.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/activepieces-ai-workflow-builder-a-2026-review",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-27",
+    "title": "Indra OCR: Speed and Benchmark Scores (2026 Review)",
+    "description": "Indra OCR is Datalab's open optical character recognition model. Decide if it works for your automation workflow and Activepieces integration needs.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/indra-ocr-from-datalab-for-automation-workflows",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-27",
+    "title": "GPT 6.1 Terra: Features, Pricing, and Access (2026)",
+    "description": "GPT 6.1 Terra adds capabilities to automation workflows. See what's changed in this model and how it impacts your current automation setup.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/gpt-61-terra-features-pricing-and-access-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-27",
+    "title": "GPT 6.1 Terra Pro: Pricing, Speed and Capabilities",
+    "description": "GPT 6.1 Terra Pro adds new automation capabilities. Understand which workflow tasks could benefit from this model and how it changes what's automatable.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/gpt-61-terra-pro-pricing-speed-and-capabilities",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-27",
+    "title": "Activepieces Tutorial for Building Your First Workflow",
+    "description": "Activepieces tutorial explains how to connect apps with automated workflows. Set up your first automation using 744+ integrations.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/activepieces-tutorial-for-building-your-first-workflow",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-27",
+    "title": "Intelligenza Artificiale e Privacy",
+    "description": "Clip estratta dall'intervista fatta ad Alessandro Vercellotti su What’s Next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. Guarda l'intervista completa: https://www.youtube.com/watch?v=fs6dActC94k #short",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/ZvBOjS78GHg",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
     "date": "2026-10-26",
     "title": "TACS-RF: Tool-driven Agentic Circuit Synthesis of RF and mmWave Modules",
     "description": "arXiv:2610.31882v1 Announce Type: new Abstract: We present the framework of TACS-RF - a Tool-driven Agentic Circuit Synthesis of RF and mmWave modules. In this framework, a large-language-model (LLM) coding agent (Claude Opus 4.8) directly drives industry-standard electronic-design-automation (EDA)…",
@@ -61,6 +160,87 @@
     "link": "https://www.activepieces.com/blog/n8n-ldap-node-how-to-set-it-up-and-what-it-costs",
     "source": "Activepieces",
     "badge": "🔁"
+  },
+  {
+    "date": "2026-10-26",
+    "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+    "description": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+    "category": "News",
+    "link": "https://openai.com/index/greptile-code-review-codex-astra",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-26",
+    "title": "ChatGPT’s expanding world of work",
+    "description": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+    "category": "News",
+    "link": "https://openai.com/index/chatgpt-expanding-world-of-work",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-26",
+    "title": "PyTorch opens the AI ecosystem to a new accelerator class",
+    "description": "IBM has made Spyre a first-class PyTorch backend, giving developers the same workflows across devices.",
+    "category": "News",
+    "link": "https://research.ibm.com/blog/pytorch-spyre-accelerator-software-ecosystem-updates?utm_medium=rss&utm_source=rss",
+    "source": "IBM Research AI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-26",
+    "title": "Amp puts AI agents to work beyond code with OpenAI models",
+    "description": "Amp is building an AI agent that helps developers turn ideas into working software, from deciding what to build to writing code to onboarding customers. Sign in with ChatGPT gives Amp users access to more tokens for larger tasks, while Amp's conversational assistant, Puck, uses GPT‑Live‑1 to help…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=zUybw-9ejZ4",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-10-26",
+    "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+    "description": "Stack Overflow is building a knowledge intelligence platform that turns information scattered across workplace tools into verified knowledge for people and AI agents. The company's latest product, Stack Overflow for Agents, was built from the ground up by two engineers in just a few weeks using…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=8fp-G14hvUk",
+    "source": "YouTube – OpenAI",
+    "badge": "⭐"
+  },
+  {
+    "date": "2026-10-26",
+    "title": "Higgsfield takes AI video from 1 minute to over 10",
+    "description": "Higgsfield is building an AI video and image creation platform that helps creators and small teams produce everything from instructional videos to fashion campaigns. With GPT‑6 Astra, the company has gone from creating videos around one minute long to videos over 10 minutes. GPT‑Image‑2.5 helps…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=inrYeej3Big",
+    "source": "YouTube – OpenAI",
+    "badge": "⭐"
+  },
+  {
+    "date": "2026-10-26",
+    "title": "GPT-6.1 Terra is now in orbit",
+    "description": "GPT-6.1 Terra: delivering fast and capable computer use at a lower price. GPT-6.1 Terra understands what’s on screen, takes action across apps, writes naturally, and is a more capable model for your whole workday with the efficiency to take on more of it. GPT-6.1 Terra continues to advance the…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=tTuk4pGnT0A",
+    "source": "YouTube – OpenAI",
+    "badge": "⭐"
+  },
+  {
+    "date": "2026-10-26",
+    "title": "Mapping Methane Plumes from Space with AI | Google Research",
+    "description": "Methane is an invisible greenhouse gas that traps about 80 times as much heat as carbon dioxide over 20 years and drives roughly a quarter of today's human-made warming. Because it clears from the atmosphere in around nine years, finding and fixing the biggest emitters — oil and gas fields, coal…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=CIlqZpc5qAg",
+    "source": "YouTube – Google Research",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-26",
+    "title": "8 Cose PAZZESCHE che Puoi Creare con ChatGPT Sites (Anche un'App Vera)",
+    "description": "Il Web Design È MORTO? ChatGPT Ora Crea Siti e App da Solo grazie a ChatGPT ora crea siti e app da solo: con ChatGPT Sites scrivi una frase e ti ritrovi un sito online, con il suo link. Ecco 8 casi d'uso reali, passo passo. Il web design è morto? L'ho messo alla prova su 8 progetti veri dentro…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=LexcQOqz-xw",
+    "source": "YouTube - Gabry Solutions",
+    "badge": "🔥"
   },
   {
     "date": "2026-10-25",
