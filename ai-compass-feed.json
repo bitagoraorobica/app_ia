@@ -1,5 +1,140 @@
 [
   {
+    "date": "2026-10-28",
+    "title": "Legora is building the agentic operating system for legal work",
+    "description": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+    "category": "News",
+    "link": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-28",
+    "title": "Counting the Bandages: On measuring the time that AI saves",
+    "description": "arXiv:2610.35942v1 Announce Type: new Abstract: I consider what it means for AI assistance to save time. I contrast a stopwatch view, on which time saved is whatever the clock records, with a ledger view, on which it is a counterfactual that has to be read next to the errors the work lets through…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.35942",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "Skill Dreaming: Evolving Repository Skills through Pull Request Streams",
+    "description": "arXiv:2610.36188v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly rely on reusable skills for complex software engineering tasks, making skill libraries essential for repository development and maintenance. However, repository-specific skills must evolve with changing…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.36188",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "MARQ: A Modular, LLM-Agnostic Requirement Quality Assessor Infused with Systems Engineering Knowledge",
+    "description": "arXiv:2610.36234v1 Announce Type: new Abstract: Requirements engineering (RE) is foundational to systems engineering (SE), as requirement defects can propagate downstream and adversely affect development outcomes. Although large language models (LLMs) are promising for requirement quality…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.36234",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "Ontology-guided multi-agent reasoning for explainable differential diagnosis",
+    "description": "arXiv:2610.36325v1 Announce Type: new Abstract: Effective differential diagnosis depends on well structured and unambiguous patient case descriptions, since incomplete or ambiguous clinical information readily leads to diagnostic errors and inconsistent reasoning. Large Language Models (LLMs) have…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.36325",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "MAREval: A Multi-Agent Framework for Evaluating Natural Language Recommendation Explanations",
+    "description": "arXiv:2610.36389v1 Announce Type: new Abstract: Evaluating natural language explanations in recommender systems is essential for fostering user trust, transparency, and engagement. However, existing evaluation approaches like human evaluations, while accurate, are resource-intensive and impractical…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.36389",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "Notion AI Pricing 2026: Plans, Costs, Is It Worth It?",
+    "description": "Notion AI pricing offers three tiers with escalating features and costs. Compare them to determine whether the investment suits your workflow.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/notion-ai-pricing-2026-plans-costs-is-it-worth-it",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "How to Self-Host DeepSeek R1 for Private Automation",
+    "description": "DeepSeek R1 local deployment strategies help engineers secure private data while maintaining high-speed automated workflows.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/self-host-deepseek-r1-for-private-automation-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "Air-Gapped AI Deployment: How to Run Mistral (2026)",
+    "description": "Local LLM deployment ensures sensitive data remains on-premises by eliminating external network dependencies.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/air-gapped-ai-deployment-how-to-run-mistral-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "From legal bottleneck to business partner | Legora’s Emma Kadri Bergström",
+    "description": "NDA reviews once took up around 20% of Legora’s legal team’s capacity. Today, that figure is under 1%. General Counsel Emma Kadri Bergström shares how AI is helping her team reclaim time, support a rapidly growing business and take on more complex work, while keeping lawyers responsible for the…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=M2Oa42hF67E",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-28",
+    "title": "Building the future of legal work with AI | Legora CEO Max Junestrand",
+    "description": "Legora co-founder and CEO Max Junestrand wants to make legal expertise available wherever it’s needed. He shares how OpenAI helped turn that ambition into a platform, why staying AI-native matters as the company grows, and what becomes possible when lawyers can take on work that time and capacity…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=UOfmD1fY-i8",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-28",
+    "title": "Faster contract review. Broader legal analysis. | Legora’s Alex Fortescue-Webb",
+    "description": "When deadlines limit how many contracts lawyers can examine, important risks can go unseen. Alex Fortescue-Webb, Global Head of Legal Engineering at Legora, explains how AI powered by OpenAI models helps teams analyse thousands of contracts across multiple questions in minutes, expanding the scope…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=z-WZMjNsg-k",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-28",
+    "title": "How Legora is transforming legal work with OpenAI",
+    "description": "What can lawyers achieve when time is no longer the limit? Discover how Legora uses OpenAI models, ChatGPT and Codex to help legal teams review contracts faster, broaden their analysis and make more room for work that needs human judgment. Part of Intelligence at Work, a series exploring how…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=yJxZef1Ylok",
+    "source": "YouTube – OpenAI",
+    "badge": "⭐"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "Quanto si rischia con l'AI?",
+    "description": "Clip estratta dall'intervista fatta ad Alessandro Vercellotti su What’s Next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. Guarda l'intervista completa: https://www.youtube.com/watch?v=fs6dActC94k #short",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/eHNBH3PYjZ8",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-28",
+    "title": "Ma non dovevamo lavorare meno? [Talk AIWEEK 2026]",
+    "description": "Sarò speaker anche all'edizione 2027. Prendi il biglietto con il 20% di sconto usando il codice GAITO20 su https://aiweek.it/ Compra il mio corso base \"Crea un Agente AI con Claude Code\": https://www.raffaelegaito.com/claude-code-crea-agente-ai-corso-completo/?landing=true Compra il mio corso…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=OIZOvgmG3Eg",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
     "date": "2026-10-27",
     "title": "Conformance as a Distribution: Delegation Contracts, Error Budgets, and the Allocation of Evaluation Authority in Use-Based AI Regulation",
     "description": "arXiv:2610.33112v1 Announce Type: new Abstract: Use-based AI regulation assigns obligations by deployment risk but lacks an evidentiary object to carry them. A benchmark score is a property of a model; conformance of a deployment is a failure rate under a declared distribution of contexts, bounded…",
@@ -96,6 +231,60 @@
     "category": "News",
     "link": "https://www.youtube.com/shorts/ZvBOjS78GHg",
     "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-27",
+    "title": "Retell uses OpenAI models to help power 100M monthly calls",
+    "description": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+    "category": "News",
+    "link": "https://openai.com/index/retell-ai",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-27",
+    "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+    "description": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+    "category": "News",
+    "link": "https://openai.com/index/oracle-apps-in-chatgpt",
+    "source": "OpenAI",
+    "badge": "⭐"
+  },
+  {
+    "date": "2026-10-27",
+    "title": "The 6 best AI image generators in 2026",
+    "description": "AI image generators have been brewing (generating?) up a storm for the last few years. If you've been on social media, watched prime time news shows, or ordered from GrubHub, AI-generated images have been impossible to miss. These kinds of AI-generated images are everywhere, and sometimes you won't…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/best-ai-image-generator",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-27",
+    "title": "SerpApi Launch: Release Date, Pricing, Setup (2026)",
+    "description": "SerpApi launch provides search access for AI automation systems. You'll understand what was released and gain clarity on its actual release date.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/serpapi-launch-release-date-pricing-setup-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-27",
+    "title": "ContextGem: Document Data Extraction Guide (2026)",
+    "description": "ContextGem v1.3.0 released updates for extracting structured data from documents with LLMs. Understand which new capabilities affect document automation.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/contextgem-document-data-extraction-guide-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-27",
+    "title": "Lawyers Stay in Control | AT&T + OpenAI",
+    "description": "AT&T’s David McAtee and Bill Ryan discuss how AI can support legal work while lawyers remain responsible for strategy, judgment and decisions.",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/Yim7JrVzSkk",
+    "source": "YouTube – OpenAI",
     "badge": ""
   },
   {
@@ -483,6 +672,15 @@
     "category": "News",
     "link": "https://www.youtube.com/watch?v=V39_L7uh66M",
     "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-23",
+    "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
+    "description": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.",
+    "category": "News",
+    "link": "https://openai.com/index/anima",
+    "source": "OpenAI",
     "badge": ""
   },
   {
@@ -1213,6 +1411,15 @@
     "link": "https://www.youtube.com/watch?v=MtqeOPP6wPg",
     "source": "YouTube - Marco Montemagno",
     "badge": ""
+  },
+  {
+    "date": "2026-10-16",
+    "title": "How Localiza reorganized work around generative AI",
+    "description": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
+    "category": "News",
+    "link": "https://openai.com/index/localiza-generative-ai",
+    "source": "OpenAI",
+    "badge": "⭐"
   },
   {
     "date": "2026-10-15",
