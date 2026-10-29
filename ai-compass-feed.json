@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-10-29",
+    "title": "Why We're Moving n8n's Automation Team Beyond the Service Desk Model",
+    "description": "Romina da Costa, head of internal AI and automation at n8n, shares the four principles her team uses to help every team build and own its automations.",
+    "category": "Automation",
+    "link": "https://blog.n8n.io/why-were-moving-n8ns-automation-team-beyond-the-service-desk-model/",
+    "source": "n8n Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-29",
+    "title": "Gemini 4 Carbon: Benchmarks, Pricing and Review (2026)",
+    "description": "Gemini 4 Carbon, released as Google's strongest model, affects AI automations. Understand what changed and how it impacts your automation tools.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/gemini-4-carbon-benchmarks-pricing-and-review-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
     "date": "2026-10-28",
     "title": "Legora is building the agentic operating system for legal work",
     "description": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
@@ -133,6 +151,78 @@
     "link": "https://www.youtube.com/watch?v=OIZOvgmG3Eg",
     "source": "YouTube – Raffaele Gaito",
     "badge": ""
+  },
+  {
+    "date": "2026-10-28",
+    "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+    "description": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+    "category": "News",
+    "link": "https://openai.com/index/openai-servicenow-partnership-expansion",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-28",
+    "title": "Legora is building the agentic operating system for legal work",
+    "description": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+    "category": "News",
+    "link": "https://openai.com/index/legora",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-28",
+    "title": "Which AI model is best for workflow automation?",
+    "description": "Today, AutomationBench joins Fireworks' Specialized Intelligence Index (SII), bringing business workflow automation to a growing collection of practitioner-built benchmarks that compare AI models on real work. We're one of 32 new partners in this round, alongside teams covering fields like finance…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/automationbench-on-specialized-intelligence-index",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "The 9 best Notion alternatives in 2026",
+    "description": "Notion is a special app. Starting from an empty screen, you add notes and documents in a freeform way. Then, when the original page is too crowded, you create your first database and the possibilities explode: you can create a custom productivity system and change it as you evolve. But productivity…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/best-notion-alternatives",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "API credits, now in ChatGPT Pro and Business plans",
+    "description": "Starting today, eligible ChatGPT Pro and Business subscribers can claim up to $500 per month in API credits to build apps and agents. Credit amounts depend on the plan. Pro plans get $100, $200 or $500 per month by tier. Business plans get $20 per paid Standard seat or $100 per paid Premium seat…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=ujmyzWSj8IU",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-28",
+    "title": "Merge CEO Shensi Ding: AI fluency starts at the top",
+    "description": "“If you're an executive, you are the ceiling for AI fluency for your organization.” Merge co-founder and CEO Shensi Ding manages the non-R&D side of the business. She also codes. Using Codex, she asked it to help redesign a feature using the product’s existing design system. She describes it…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/kP26OlW5PBk",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-28",
+    "title": "Why Merge CEO Shensi Ding stays hands-on with Codex",
+    "description": "“If you're an executive, you are the ceiling for AI fluency for your organization.” Merge co-founder and CEO Shensi Ding manages the non-R&D side of the business. She also codes. With Codex, she asked for help redesigning a feature without prescribing the solution. It drew on Merge’s existing…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=6ep8Vvm4Bdw",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-28",
+    "title": "Ho Litigato con ChatGPT",
+    "description": "Scopri in 2 minuti quanto sei davvero pronto a usare l’AI nel tuo lavoro: fai il test gratuito → https://spiegamelofacile.com/audit/form-v4 -- Se il video ti è stato utile, iscriviti. Per il resto 👉 https://marcomontemagno.com 👉https://spiegamelofacile.com Ogni sabato mattina, nella tua casella: un…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=IzK6MD15TKk",
+    "source": "YouTube - Marco Montemagno",
+    "badge": "⭐"
   },
   {
     "date": "2026-10-27",
@@ -284,6 +374,24 @@
     "description": "AT&T’s David McAtee and Bill Ryan discuss how AI can support legal work while lawyers remain responsible for strategy, judgment and decisions.",
     "category": "News",
     "link": "https://www.youtube.com/shorts/Yim7JrVzSkk",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-27",
+    "title": "AI for Detection and Response | Cloudflare’s Mark Anderson",
+    "description": "Security teams face a constant stream of vulnerabilities and alerts. Cloudflare’s Mark Anderson describes using AI to automate detection and response so experts can focus on threats that need their judgment. He sees automation from companies like OpenAI as a way to take on routine security work and…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/vKMDQJpRSvA",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-27",
+    "title": "AI for Detection and Response | Cloudflare’s Mark Anderson",
+    "description": "Security teams face a constant stream of vulnerabilities and alerts. Cloudflare’s Mark Anderson describes using AI to automate detection and response so experts can focus on threats that need their judgment. He sees automation from companies like OpenAI as a way to take on routine security work and…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=ilG7LPrngkI",
     "source": "YouTube – OpenAI",
     "badge": ""
   },
@@ -3075,15 +3183,6 @@
     "category": "News",
     "link": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
     "source": "Microsoft Research",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-28",
-    "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-    "description": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
-    "category": "News",
-    "link": "https://openai.com/index/lenfest-ai-collaborative-expansion",
-    "source": "OpenAI",
     "badge": ""
   },
   {
