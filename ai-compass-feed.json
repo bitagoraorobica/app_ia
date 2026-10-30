@@ -1,5 +1,41 @@
 [
   {
+    "date": "2026-10-30",
+    "title": "IFTTT.ai: What It Is and How to Connect It (2026)",
+    "description": "ifttt.ai is IFTTT's new AI automation platform. Understand how its features compare to existing tools and what this launch means for automation.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/iftttai-what-it-is-and-how-to-connect-it-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Suno MCP: How to Connect It to AI Tools (2026 Guide)",
+    "description": "Suno MCP connects music generation to automation systems via a standard protocol. You can decide if it's better than integrating Suno's API separately.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/suno-mcp-how-to-connect-it-to-ai-tools-2026-guide",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Smetti di affidarti alla fortuna quando usi l'AI [Lucia Cenetiempo]",
+    "description": "Compra il mio corso base \"Crea un Agente AI con Claude Code\": https://www.raffaelegaito.com/claude-code-crea-agente-ai-corso-completo/?landing=true Compra il mio corso intermedio “Fai il passo successivo con Claude Code”…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=yeKhG1OclFM",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": "⭐"
+  },
+  {
+    "date": "2026-10-30",
+    "title": "È possibile fare una startup in 90 giorni?",
+    "description": "Utilizza il codice MONTY per avere uno sconto su Hostinger: https://www.hostinger.com/montystartup Questo video è supported by Hostinger #adv Scopri in 2 minuti quanto sei davvero pronto a usare l’AI nel tuo lavoro: fai il test gratuito → https://spiegamelofacile.com/audit/form-v4 -- Se il video ti…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=8fU9vdTxS-o",
+    "source": "YouTube - Marco Montemagno",
+    "badge": "⭐"
+  },
+  {
     "date": "2026-10-29",
     "title": "Why We're Moving n8n's Automation Team Beyond the Service Desk Model",
     "description": "Romina da Costa, head of internal AI and automation at n8n, shares the four principles her team uses to help every team build and own its automations.",
@@ -16,6 +52,87 @@
     "link": "https://www.activepieces.com/blog/gemini-4-carbon-benchmarks-pricing-and-review-2026",
     "source": "Activepieces",
     "badge": "🔁"
+  },
+  {
+    "date": "2026-10-29",
+    "title": "An updated Model Spec for more capable and beneficial AI",
+    "description": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+    "category": "News",
+    "link": "https://openai.com/index/updated-model-spec",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-29",
+    "title": "How Ropes & Gray is developing AI for transactional diligence",
+    "description": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+    "category": "News",
+    "link": "https://openai.com/index/ropes-gray-ai-diligence",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-29",
+    "title": "The 5 best AI project management tools in 2026",
+    "description": "When was the last time you looked at your project management app and didn't get a stress level spike? No matter how much you plan or reprioritize, it always feels like running a sprint on a tightrope. But now that AI is in the game, we can pass that stress over to the robots. With AI being added to…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/best-ai-project-management-tools",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-29",
+    "title": "The 6 best AI presentation makers in 2026",
+    "description": "The days of spending hours dragging images to just the right place on a slide are far behind us. You can now create a presentation with AI, giving the robots the job of setting the structure, adding the initial content, and executing on the aesthetics of your deck. All you have to do is tweak it…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/best-ai-presentation-maker",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-29",
+    "title": "What is ChatGPT? How it works and what it can do",
+    "description": "I've been writing about AI since before most people knew what it stood for, so a question as simple as \"What is ChatGPT?\" should be a softball. But as OpenAI has kept pushing ChatGPT forward with new models and features, it's gotten surprisingly hard to answer. ChatGPT isn't just a chatbot anymore…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/how-does-chatgpt-work",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-29",
+    "title": "How to use the OpenAI playground to tinker with OpenAI models",
+    "description": "ChatGPT can do basically anything you ask, but you really don't have a huge amount of control over its outputs. If you want to do more with OpenAI's models, you need to dig a little deeper. If you really want to see what the models can do and exert some control over how they respond, you need to…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/openai-playground",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-29",
+    "title": "AI cost management: How we track and optimize AI spend at Zapier",
+    "description": "Does $5,000 in AI spend equal $5,000 in value? If it does, that's a bad investment. A 1x return wouldn't get approved anywhere else in our budget, and AI doesn't get an exception. As the Chief Operating Officer at Zapier, the question I really care about is whether that investment returned more…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/ai-cost-management",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-29",
+    "title": "ChatGPT Enterprise at Zendesk: Putting Company Data to Work",
+    "description": "“We have about 600 applications that have been built by different people in the company.” At Zendesk, teams across sales, marketing, and operations are building applications for their own work. ChatGPT Enterprise is available to every employee, and business users are asking questions about their…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/GNYHDltnwZQ",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-29",
+    "title": "ChatGPT Enterprise at Zendesk: Putting Company Data to Work",
+    "description": "“We have about 600 applications that have been built by different people in the company.” At Zendesk, teams across sales, marketing, and operations are building applications for their own work. ChatGPT Enterprise is available to every employee, and business users are asking questions about their…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=L6pzlo1QvoM",
+    "source": "YouTube – OpenAI",
+    "badge": ""
   },
   {
     "date": "2026-10-28",
@@ -3174,15 +3291,6 @@
     "category": "News",
     "link": "https://www.youtube.com/shorts/QW3eXZQD2RU",
     "source": "YouTube – Raffaele Gaito",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-29",
-    "title": "Introducing Quine: An AI research system designed for the complexity of biology",
-    "description": "Biology doesn't operate in silos, and neither should the AI representation of it. Quine is an early-stage research effort to create a multimodal world model of biology. By connecting insights across biological scales and modalities, Quine helps scientists computationally search a space far larger th",
-    "category": "News",
-    "link": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
-    "source": "Microsoft Research",
     "badge": ""
   },
   {
