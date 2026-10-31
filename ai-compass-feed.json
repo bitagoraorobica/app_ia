@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-31",
+    "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+    "description": "arXiv:2610.37739v1 Announce Type: new Abstract: Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems remains challenging. We introduce…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.37739",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "Evaluating and improving AI agents for sequencing protocol understanding",
+    "description": "arXiv:2610.37851v1 Announce Type: new Abstract: Existing scientific-agent benchmarks rarely evaluate whether agents can reconstruct the exact molecular structures and generation workflows specified by sequencing protocols, a capability critical for analyzing customized sequencing assays. We…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.37851",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "FilingLoop: Evaluating and Evolving LLM Agents for Corporate Disclosure Review and Revision",
+    "description": "arXiv:2610.37905v1 Announce Type: new Abstract: Public disclosure repositories such as SEC EDGAR support informed investment through web access to corporate filings. Supporting their review with language model agents requires discovering unstated deficiencies across related documents, acquiring…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.37905",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "GARDEN: Generalist Autonomous Reward Design Through Evidence Navigation for Cooperative Multi-Agent Reinforcement Learning",
+    "description": "arXiv:2610.37926v1 Announce Type: new Abstract: Cooperative multi-agent reinforcement learning (MARL) enables teams of agents, such as robots and autonomous vehicles, to learn coordinated behavior, but what such teams learn is largely determined by their reward function. Because task success alone…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.37926",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "AI-Driven Digital Twin Framework for Warehouse Logistics Automation Optimization",
+    "description": "arXiv:2610.38101v1 Announce Type: new Abstract: In recent years, warehouse logistics optimization has increasingly focused on intelligent, data-driven systems to enhance operational efficiency. Conventional static product placement strategies are being progressively replaced by dynamic slotting…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.38101",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
     "date": "2026-10-30",
     "title": "IFTTT.ai: What It Is and How to Connect It (2026)",
     "description": "ifttt.ai is IFTTT's new AI automation platform. Understand how its features compare to existing tools and what this launch means for automation.",
@@ -34,6 +79,105 @@
     "link": "https://www.youtube.com/watch?v=8fU9vdTxS-o",
     "source": "YouTube - Marco Montemagno",
     "badge": "⭐"
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Making it easier for websites to express AI training preferences",
+    "description": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+    "category": "News",
+    "link": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Community safety report and new protections for teens",
+    "description": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+    "category": "News",
+    "link": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Fair use benefits everyone",
+    "description": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+    "category": "News",
+    "link": "https://openai.com/index/fair-use-benefits-everyone",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-30",
+    "title": "What is AI transformation in 2027? How to build a strategy for your business",
+    "description": "It can feel impossible to escape the pressure to \"do something\" with AI. Maybe your CEO just asked about your AI strategy in an all-hands, or your competitors are shipping faster thanks to automation. Or maybe you're just tired of watching your team lose hours every week to tasks a bot could easily…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/ai-transformation",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Grok automation: How to use the Zapier Grok integration (Grok 4.7, Grok Bot, and more)",
+    "description": "Grok has a very specific edge over other AI models: live access to X, so your agents can keep their finger on the pulse a little more easily. But outside of that, Grok models and agents are still solid alternatives to what OpenAI, Anthropic, and Google have on offer. And if you're using Grok for…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/automate-grok",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-30",
+    "title": "The best AI agent builder software in 2026",
+    "description": "AI agents have matured fast, and I've been in the weeds the whole time. These days, AI agents are running a lot of my processes in the background. And it's not just me or the Zapier team: 84% of enterprises plan to boost AI agent investments. Agents can run complex, org-wide workflows across your…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/best-ai-agent-builder",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Fastbrowse: Browser Automation Tool Review (2026)",
+    "description": "Fastbrowse is a browser-automation tool that changes how AI agents interact with web interfaces. See what capabilities it adds to automation workflows.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/fastbrowse-browser-automation-tool-review-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-10-30",
+    "title": "How Gen uses ChatGPT Work to turn data Into decisions | OpenAI",
+    "description": "“Before ChatGPT Work, we were walking. Now with ChatGPT Work, we are running.” For Gen's Howie Xu, that means understanding how a new product’s onboarding experience is working within two or three hours of release. Finding answers used to mean repeated handoffs across teams, functions, and time…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/7TtGMileCus",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-30",
+    "title": "How Gen uses ChatGPT Work to turn data Into decisions | OpenAI",
+    "description": "“Before ChatGPT Work, we were walking. Now with ChatGPT Work, we are running.” For Gen's Howie Xu, that means understanding how a new product’s onboarding experience is working within two or three hours of release. Finding answers used to mean repeated handoffs across teams, functions, and time…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=Oi9DHk57KeQ",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-30",
+    "title": "OpenAI Claims It Just Did The Impossible",
+    "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 OpenAI's paper is available here: https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf Our paper with the cherry splash ray tracing simulation at…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=CWdTBLsbaQs",
+    "source": "YouTube – Two Minute Papers",
+    "badge": ""
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Come Creare Animazioni PAZZESCHE con Claude (Prompt Gratis)",
+    "description": "Come Creare Animazioni PAZZESCHE con Claude (Prompt Gratis) senza installare nulla: motion graphics fatte solo di codice, con i prompt gratis da copiare. 🎁 ATLANTE GRATUITO (20 stili + prompt pronti): https://www.futurepedia.io/resources/ai-style-atlas/view Claude non ha un modello video, eppure…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=TjMf4YOtlf0",
+    "source": "YouTube - Gabry Solutions",
+    "badge": "🔥"
   },
   {
     "date": "2026-10-29",
@@ -3265,33 +3409,6 @@
     "link": "https://zapier.com/blog/google-gemini",
     "source": "Zapier Blog",
     "badge": "🔁"
-  },
-  {
-    "date": "2026-09-30",
-    "title": "Helping small businesses put AI to work",
-    "description": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
-    "category": "News",
-    "link": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-30",
-    "title": "OpenAI Dots 🟡, GPT-6.1 Sol ⚡, software factories 🏭",
-    "description": " [...]",
-    "category": "News",
-    "link": "https://tldr.tech/ai/2026-09-30",
-    "source": "TLDR AI",
-    "badge": ""
-  },
-  {
-    "date": "2026-09-30",
-    "title": "Cosa dico a uno studente che scrive la tesi con l’AI",
-    "description": "Clip estratta dall'intervista fatta ad Armando Bisogno su What’s Next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. Guarda l'intervista completa: https://www.youtube.com/watch?v=4VpAuIZK5Rg #short",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/QW3eXZQD2RU",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": ""
   },
   {
     "date": "2025-07-30",
