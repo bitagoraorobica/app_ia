@@ -3384,33 +3384,6 @@
     "badge": "🔁"
   },
   {
-    "date": "2026-10-01",
-    "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-    "description": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x fast",
-    "category": "News",
-    "link": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
-    "source": "NVIDIA AI",
-    "badge": "⭐"
-  },
-  {
-    "date": "2026-10-01",
-    "title": "How API Contract Testing Prevents Production Failures",
-    "description": "API contract testing helps you catch breaking changes before they disrupt your workflows. See how n8n validates API responses while your automations run.",
-    "category": "Automation",
-    "link": "https://blog.n8n.io/how-api-contract-testing-prevents-production-failures/",
-    "source": "n8n Blog",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-01",
-    "title": "What is Google Gemini?",
-    "description": "Google has been in its \"Gemini era\" for a couple years now, and while the confusing rebrandings have slowed, everything else continues to improve at a rapid pace. Gemini is the name Google gave to its current generation family of multimodal AI models, but in typical Google fashion, it also applies t",
-    "category": "Automation",
-    "link": "https://zapier.com/blog/google-gemini",
-    "source": "Zapier Blog",
-    "badge": "🔁"
-  },
-  {
     "date": "2025-07-30",
     "title": "Newsletter BitAgora",
     "description": "Selezione articoli IA",
