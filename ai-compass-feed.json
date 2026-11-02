@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-11-02",
+    "title": "Con l'IA chi resta a guardare è fregato",
+    "description": "Compra il mio corso base \"Crea un Agente AI con Claude Code\": https://www.raffaelegaito.com/claude-code-crea-agente-ai-corso-completo/?landing=true Compra il mio corso intermedio “Fai il passo successivo con Claude Code”…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=vSJBSYpskSo",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
     "date": "2026-10-31",
     "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
     "description": "arXiv:2610.37739v1 Announce Type: new Abstract: Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems remains challenging. We introduce…",
@@ -3346,42 +3355,6 @@
     "link": "https://www.youtube.com/shorts/JwD0KeIqghE",
     "source": "YouTube – Raffaele Gaito",
     "badge": ""
-  },
-  {
-    "date": "2026-10-02",
-    "title": "A model guide for the GPT-6 family",
-    "description": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
-    "category": "News",
-    "link": "https://openai.com/index/practical-guide-building-gpt-6",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-10-02",
-    "title": "Chatham scales its capital markets expertise with OpenAI",
-    "description": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
-    "category": "News",
-    "link": "https://openai.com/index/chatham-financial",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-10-02",
-    "title": "Meta Muse automation: How to use the Zapier Muse integration (Muse Spark 1.3 and more)",
-    "description": "The concept of \"less is more\" doesn't seem to have made it to Silicon Valley. Every time I blink, it seems like there's yet another AI agent available on the market. And right on cue, another AI bombshell has entered the villa: Muse is a personal AI agent from Meta (of Facebook fame) that can do thi",
-    "category": "Automation",
-    "link": "https://zapier.com/blog/automate-muse",
-    "source": "Zapier Blog",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-02",
-    "title": "Gemini connectors: How to connect Gemini Enterprise to the rest of your tech stack",
-    "description": "Gemini is everywhere in Google apps: it can read your emails, pull in data from your calendar, and find that file you accidentally saved to your work Drive. But no matter how much of your work is in Google, there are always other apps you'll need Gemini to access: things like your CRM, project manag",
-    "category": "Automation",
-    "link": "https://zapier.com/blog/gemini-connectors",
-    "source": "Zapier Blog",
-    "badge": "🔁"
   },
   {
     "date": "2025-07-30",
