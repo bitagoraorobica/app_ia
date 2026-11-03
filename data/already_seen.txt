@@ -1506,3 +1506,17 @@ https://www.youtube.com/watch?v=Oi9DHk57KeQ
 https://www.youtube.com/watch?v=CWdTBLsbaQs
 https://www.youtube.com/watch?v=TjMf4YOtlf0
 https://www.youtube.com/watch?v=vSJBSYpskSo
+https://openai.com/index/heimstaden
+https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai
+https://openai.com/index/lifeval
+https://openai.com/index/dan-driscoll-joins-openai
+https://arxiv.org/abs/2610.40890
+https://arxiv.org/abs/2610.40992
+https://arxiv.org/abs/2610.41025
+https://arxiv.org/abs/2610.41124
+https://arxiv.org/abs/2610.41129
+https://www.activepieces.com/blog/what-is-momentic-ai-test-automation-guide-2026
+https://www.activepieces.com/blog/momentic-ai-testing-platform-review-2026-guide
+https://www.activepieces.com/blog/triggerdev-open-source-workflow-orchestration-guide
+https://www.youtube.com/watch?v=Amm9ySSET4c
+https://www.youtube.com/watch?v=zK4g5crV4w4

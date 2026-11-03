@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-03",
+    "title": "Heimstaden is changing residential real estate management with AI",
+    "description": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+    "category": "News",
+    "link": "https://openai.com/index/heimstaden",
+    "source": "OpenAI",
+    "badge": "⭐"
+  },
+  {
+    "date": "2026-11-03",
+    "title": "What Is Momentic? A 2026 Review Before You Trial",
+    "description": "What is Momentic and how does it work for testing software applications? You'll understand its AI capabilities and whether it fits your QA workflow.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/what-is-momentic-ai-test-automation-guide-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
     "date": "2026-11-02",
     "title": "Con l'IA chi resta a guardare è fregato",
     "description": "Compra il mio corso base \"Crea un Agente AI con Claude Code\": https://www.raffaelegaito.com/claude-code-crea-agente-ai-corso-completo/?landing=true Compra il mio corso intermedio “Fai il passo successivo con Claude Code”…",
@@ -7,6 +25,114 @@
     "link": "https://www.youtube.com/watch?v=vSJBSYpskSo",
     "source": "YouTube – Raffaele Gaito",
     "badge": ""
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Preparing our next security sprint to harden OpenAI",
+    "description": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+    "category": "News",
+    "link": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-02",
+    "title": "LifeVal",
+    "description": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+    "category": "News",
+    "link": "https://openai.com/index/lifeval",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-02",
+    "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+    "description": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+    "category": "News",
+    "link": "https://openai.com/index/dan-driscoll-joins-openai",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-02",
+    "title": "ChatGPT as a Surveillance Assistant? An Exploratory Case Study of AI-Assisted Surveillance Risks",
+    "description": "arXiv:2610.40890v1 Announce Type: new Abstract: Large language models (LLMs) can generate detailed guidance, functional code, and persuasive text at scale. As one of the most widely used consumer language model products as of 2026, ChatGPT gives broad public access to these capabilities, motivating…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.40890",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Can Personal Requirements Become Supervision for Planning?",
+    "description": "arXiv:2610.40992v1 Announce Type: new Abstract: Managing multiple chronic conditions through diet requires satisfying disease- and medication-specific requirements jointly across meals and days while preserving established eating habits. These requirements are public in clinical guidelines and drug…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.40992",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-02",
+    "title": "ReplayRCA: Measuring Post-hoc Diagnosis and Live Oversight of Agent Failures by Counterfactual Replay",
+    "description": "arXiv:2610.41025v1 Announce Type: new Abstract: When a language-model agent fails a multi-step task, can another model find the decisive mistake and fix it with a single action? We introduce ReplayRCA, a benchmark that scores such diagnoses by intervention rather than by agreement with annotations…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.41025",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Confident Fools or Careful Searchers? A Behavioural Study of When LLMs Search Beyond Their Static Internal Memory",
+    "description": "arXiv:2610.41124v1 Announce Type: new Abstract: Agentic LLM assistants must repeatedly decide whether to answer from memory or to call a tool such as web search. Unnecessary searches cost latency and money; missing ones yield confident but unsupported answers. Prior work mostly measures verbalised…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.41124",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-02",
+    "title": "When Should AI Agents Ask? Clarification Requests Under Limited Human Attention",
+    "description": "arXiv:2610.41129v1 Announce Type: new Abstract: AI agents increasingly carry out delegated tasks in parallel, with one person overseeing several of them at once. In practice, an agent often lacks information its task requires, such as an unstated preference, constraint, or specification. It can ask…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2610.41129",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Momentic: AI Testing Platform Review (2026 Guide)",
+    "description": "Momentic is an AI testing tool for automation teams. Find out what the product offers and when the tool launched.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/momentic-ai-testing-platform-review-2026-guide",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Trigger.dev: Open-Source Workflow Orchestration Guide",
+    "description": "Trigger.dev now offers durable AI agents that preserve state across failures.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/triggerdev-open-source-workflow-orchestration-guide",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Coinbase on OpenAI Private Intelligence",
+    "description": "For Coinbase, putting frontier AI to work starts with control over its data. Every employee has access to the latest OpenAI models. In this video, Rob Witoff explains why security, guardrails, and zero data retention are central to that trust. As he puts it: “It’s still our data.” OpenAI Private…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=Amm9ySSET4c",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Anthropic Va in Borsa e AMMETTE Cosa Hanno Fatto le Sue AI (+37 Novità AI)",
+    "description": "Anthropic Va in Borsa e AMMETTE Cosa Hanno Fatto le Sue AI (+37 Novità AI) e Anthropic va in borsa e, nel prospetto depositato alla SEC, ammette cosa hanno fatto le sue AI durante i test di sicurezza. Ti racconto tutto, più altre 37 novità AI spiegate semplici. L'azienda di Claude punta a quotarsi…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=zK4g5crV4w4",
+    "source": "YouTube - Gabry Solutions",
+    "badge": "🔥"
   },
   {
     "date": "2026-10-31",
