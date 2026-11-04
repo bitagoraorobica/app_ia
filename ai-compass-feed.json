@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-11-04",
+    "title": "vellum.ai: What the Personal AI Assistant Does",
+    "description": "Vellum.ai launched a personal AI assistant for its agent platform. Understand what new capabilities it adds and how it integrates with your workflows.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/vellumai-what-the-personal-ai-assistant-does",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-04",
+    "title": "Overfitting nell'AI generativa",
+    "description": "Clip estratta dall'intervista fatta a Lucia Cenetiempo su What’s Next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. Guarda l'intervista completa: https://www.youtube.com/watch?v=yeKhG1OclFM #short",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/BctW8fC5Hbc",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-04",
+    "title": "L'AI ucc*de la creatività? No, sei tu a farlo [AIWEEK 2026]",
+    "description": "Compra il mio corso base \"Crea un Agente AI con Claude Code\": https://www.raffaelegaito.com/claude-code-crea-agente-ai-corso-completo/?landing=true Compra il mio corso intermedio “Fai il passo successivo con Claude Code”…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=EW5NkRoads0",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
     "date": "2026-11-03",
     "title": "Heimstaden is changing residential real estate management with AI",
     "description": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
@@ -16,6 +43,33 @@
     "link": "https://www.activepieces.com/blog/what-is-momentic-ai-test-automation-guide-2026",
     "source": "Activepieces",
     "badge": "🔁"
+  },
+  {
+    "date": "2026-11-03",
+    "title": "Accelerating engineering for the physical world",
+    "description": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+    "category": "News",
+    "link": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-03",
+    "title": "Qodo brings company context into Codex code review",
+    "description": "Qodo’s Codex plugin brings company context, codebase standards, and independent review into the development workflow. It helps developers catch bugs across repositories, where a change can look right in one codebase and break a service in another. In Behind the Build, co-founder Itamar Friedman and…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=yC72iQx6rM0",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-11-03",
+    "title": "Glean on privacy and OpenAI Private Intelligence",
+    "description": "Using more capable AI starts with confidence that your data stays under your control. For Glean’s customers, privacy is a priority. Glean co-founder and CTO Vishwanath T R shares how Glean and OpenAI have worked together to help meet those needs, including through the Private Safety Processing…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=2h16j4K_NbA",
+    "source": "YouTube – OpenAI",
+    "badge": ""
   },
   {
     "date": "2026-11-02",
@@ -619,6 +673,15 @@
     "link": "https://www.youtube.com/watch?v=IzK6MD15TKk",
     "source": "YouTube - Marco Montemagno",
     "badge": "⭐"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "Evernote turns AI-driven discovery into paid subscriptions",
+    "description": "Evernote used ChatGPT Ads to introduce its note-taking app to people working with AI. The team tracked how often free trials led to paid subscriptions.",
+    "category": "News",
+    "link": "https://openai.com/ads/customers/evernote",
+    "source": "OpenAI",
+    "badge": ""
   },
   {
     "date": "2026-10-27",
@@ -3461,24 +3524,6 @@
     "description": "Clip estratta dall'intervista fatta ad Armando Bisogno su What’s Next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. Guarda l'intervista completa: https://www.youtube.com/watch?v=4VpAuIZK5Rg #short",
     "category": "News",
     "link": "https://www.youtube.com/shorts/A-82b-ELqq4",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-04",
-    "title": "Google Mi Ha Invitato a Venezia… Ma NIENTE È Andato Come Previsto",
-    "description": "L'AI UCCIDERÀ Hollywood? Sono Andato a Scoprirlo con Google se L'AI ucciderà Hollywood? Sono andato a scoprirlo con Google, alla Mostra del Cinema di Venezia 2026.\n\nGoogle mi ha invitato per due giorni alla Google Beach del Lido: talk, demo e incontri dietro le quinte con Google, YouTube e chi il ci",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=saHPxoCUc74",
-    "source": "YouTube - Gabry Solutions",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-10-04",
-    "title": "Perché dovresti pagare per parlare con un'AI",
-    "description": "Clip estratta dall'intervista fatta ad Adrian Fartade su What’s Next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. Guarda l'intervista completa: https://www.youtube.com/watch?v=N0HvO_CQdfo #short",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/JwD0KeIqghE",
     "source": "YouTube – Raffaele Gaito",
     "badge": ""
   },
