@@ -38,7 +38,6 @@ rss_feeds = {
     "Stability AI": "https://stability.ai/news-updates?format=rss",
     "Replicate": "https://replicate.com/blog/rss",
     "LangChain": "https://www.langchain.com/blog/rss.xml",
-    "Weights & Biases": "https://wandb.ai/fully-connected/rss.xml",
     "Berkeley BAIR": "https://bair.berkeley.edu/blog/feed.xml",
     "NVIDIA AI": "https://blogs.nvidia.com/blog/category/generative-ai/feed/",
     "IBM Research AI": "https://research.ibm.com/rss",
@@ -48,8 +47,8 @@ rss_feeds = {
     "Partnership on AI": "https://partnershiponai.org/feed/",
 
     # Media & Portali
-    "The Batch (deeplearning.ai)": "https://charonhub.deeplearning.ai/rss/",
     "TLDR AI": "https://tldr.tech/api/rss/ai",
+    "PicX": "https://picx.dev/rss/news.en.xml",
 
     # Automation tools
     "n8n Blog": "https://blog.n8n.io/rss/",
@@ -74,6 +73,8 @@ rss_feeds = {
 # Semantic Scholar, Papers with Code (chiuso), AI Ethics Journal, Center for Humane Technology,
 # Make (403 Cloudflare), Pipedream, VentureBeat (429), Synced Review (fermo da agosto 2025).
 # TLDR "tech" sostituito da TLDR AI: nessun articolo superava la soglia.
+# Fonti tolte il 05/11/2026 dopo 28 giri senza articoli: The Batch (sempre 403 dai runner di GitHub),
+# Weights & Biases (feed vuoto o con sole voci oltre i 30 giorni).
 
 # === PUNTEGGIO ===
 keywords = {
@@ -138,14 +139,12 @@ skip_check_domains = [
     "stability.ai",
     "replicate.com",
     "langchain.com",
-    "wandb.ai",
 
     # Etica e policy
     "ainowinstitute.org",
     "partnershiponai.org",
 
     # Media & news
-    "deeplearning.ai",
     "tldr.tech",
 
     # Automation tools
