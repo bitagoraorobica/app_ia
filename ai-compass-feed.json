@@ -153,6 +153,96 @@
     "badge": "🔁"
   },
   {
+    "date": "2026-11-05",
+    "title": "ModalSearcher: Weaving Visual Evidence into Autonomous Cross-Modal Deep Search",
+    "description": "arXiv:2611.06131v1 Announce Type: new Abstract: Static and incomplete parametric knowledge limits the performance of multimodal large language models on novel-knowledge and knowledge-intensive tasks, especially those requiring multi-hop evidence acquisition. Existing multimodal agentic search…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.06131",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-05",
+    "title": "HarnessFlow: MCTS-Guided Harness Optimization for LLM Agents",
+    "description": "arXiv:2611.06254v1 Announce Type: new Abstract: The performance of large language model (LLM) agents depends on both the underlying model and the harness that governs interaction with tools and the environment. Yet harness design remains largely manual, and automating it requires navigating an…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.06254",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Multi-Resident Data Association in Smart Homes via MDP Modeling and Behavior Cloning",
+    "description": "arXiv:2611.06296v1 Announce Type: new Abstract: Ambient sensors offer a privacy-preserving solution for activity recognition in smart homes, yet they face a critical challenge in multi-resident environments known as Data Association, which aims to identify the resident triggering a specific…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.06296",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-05",
+    "title": "AmbiHTMLBench: A Benchmark for HTML-based Visually Rich Document parsing",
+    "description": "arXiv:2611.06449v1 Announce Type: new Abstract: Traditional document parsing systems use Markdown as their output representation, which is effective for linear text but does not fully preserve fine-grained spatial structure, table geometry, visual hierarchy, or rendering semantics. We show that…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.06449",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-05",
+    "title": "RAGAM-AI: A Hybrid Reinforcement Learning based Agentic approach powered by Generative AI for Edge Resource Management",
+    "description": "arXiv:2611.06554v1 Announce Type: new Abstract: Resource management for distributed edge networks hosting different services has been handled efficiently using Reinforcement learning (RL). Reward generalization in complex workflows is still an open issue within the RL realm. Therefore, this work…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.06554",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-05",
+    "title": "OpenAI launches GPT-6 Cyber, a cybersecurity model with lower rogue behavior",
+    "description": "OpenAI announced GPT-6 Cyber, a cybersecurity-focused AI model that outperforms GPT-6 Astra on cyber benchmarks and is better at finding vulnerabilities. During testing, it went out of bounds less than 1% of the time, down from about 5% with GPT-5.6 Cyber, according to the ExploitGym HoneyPot…",
+    "category": "News",
+    "link": "https://picx.dev/news/Dqu72Y",
+    "source": "PicX",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Dropbox to Acquire AI Storage Startup Tigris Data for $350M",
+    "description": "Dropbox announced plans to acquire Tigris Data, an AI storage startup, for $350 million in what would be its largest acquisition to date. Tigris Data had raised approximately $31.9 million from investors including Spark and a16z.",
+    "category": "News",
+    "link": "https://picx.dev/news/QlsySn",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-05",
+    "title": "NYT profiles Anthropic CEO Dario Amodei's EA-shaped AI beliefs and disputes with OpenAI founders",
+    "description": "The New York Times reports that Anthropic CEO Dario Amodei's AI beliefs were shaped by effective-altruism and rationalist forums such as GiveWell, tracing back to his time at Princeton in 2007. The article also details his disputes with OpenAI co-founders Sam Altman and Greg Brockman.",
+    "category": "News",
+    "link": "https://picx.dev/news/f2SLA3",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-05",
+    "title": "OpenAI President: Q3 2026 Revenue Inflection Driven by Agentic Coding, GPT-5.6 Sol, ChatGPT Work",
+    "description": "OpenAI President Greg Brockman said the first half of 2026 was 'pretty rough' but that the third quarter saw a 'revenue inflection' driven by agentic coding tools, GPT-5.6 Sol, and ChatGPT Work. He attributed the growth to an expanding enterprise business.",
+    "category": "News",
+    "link": "https://picx.dev/news/KzlABi",
+    "source": "PicX",
+    "badge": "⭐"
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Physicist Yin Xi leaves OpenAI after about six months",
+    "description": "Harvard physicist Yin Xi announced on Twitter that he is leaving OpenAI, where he had worked for about six months since joining in late May. He described the experience as a great journey but said he plans to get off early to explore new directions, without disclosing his next move. Yin, known for…",
+    "category": "News",
+    "link": "https://picx.dev/news/0ajMsm",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
     "date": "2026-11-04",
     "title": "vellum.ai: What the Personal AI Assistant Does",
     "description": "Vellum.ai launched a personal AI assistant for its agent platform. Understand what new capabilities it adds and how it integrates with your workflows.",
