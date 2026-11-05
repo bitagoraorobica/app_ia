@@ -1,5 +1,86 @@
 [
   {
+    "date": "2026-11-05",
+    "title": "Setting a new standard for responsible AI infrastructure",
+    "description": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+    "category": "News",
+    "link": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Agent Harness Awareness: Turning Verified Telemetry into Operational Control for Tool-Using Agents",
+    "description": "arXiv:2611.05391v1 Announce Type: new Abstract: Tool descriptions tell an agent what an action can do, but they do not necessarily reveal whether that action is healthy or suitable at the moment of use. Execution harnesses often possess this information through monitors, traces, and recent failures…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.05391",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Uncertainty-Aware Resource Orchestration for Agentic AI Systems",
+    "description": "arXiv:2611.05392v1 Announce Type: new Abstract: Agentic artificial intelligence (AI) systems powered by large language models (LLMs) execute as autonomous multi-step pipelines that dynamically invoke tools, integrate observations into memory, and iterate until a task is resolved or a resource…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.05392",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Can Large Language Models Review the Scientific Literature? A Test Against a 102-Article Benchmark",
+    "description": "arXiv:2611.05459v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used to support scientific literature reviews, yet evaluations often examine individual tasks rather than the review process as a whole. We assess six AI tools across four stages: finding relevant…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.05459",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-05",
+    "title": "SlackBench: Benchmarking Agents on Collaborative Projects Grounded in Real Code Repositories",
+    "description": "arXiv:2611.05512v1 Announce Type: new Abstract: AI Agents are becoming digital coworkers that can browse the web, write code, run experiments, and assist humans over extended horizons. Yet existing benchmarks fall short of real knowledge work: many rely on synthetic data or isolated tasks, missing…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.05512",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-05",
+    "title": "AGORA: Reliability-Aware Aggregation of LLM Judges via Item-Response Theory",
+    "description": "arXiv:2611.05556v1 Announce Type: new Abstract: LLM-as-a-judge is a common substitute for costly human evaluation, and aggregating several judges is the standard remedy for any single judge's bias. Judge pools mix judges of very different reliability, while the human-labeled sets that validate them…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.05556",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Introducing ChatGPT Images 2.6",
+    "description": "Images, upgraded—introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% faster image generation. Images, upgraded—introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50%…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=bJldMYfRvMQ",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Trailer Breccia",
+    "description": "Questa settimana a What's Next si parla di Design e AI E lo faccio con Riccardo Cambò, in arte Breccia, designer e content creator. Ci siamo fatti una bella chiacchierata su come l'intelligenza artificiale sta cambiando il mondo del design e, soprattutto il ruolo del designer. Altra puntata da non…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/qgpB6g4lHE0",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-05",
+    "title": "8 verità scomode sull'AI (la 7 fa paura)",
+    "description": "🎁 Scopri cosa puoi delegare agli agenti AI nel tuo lavoro: https://spiegamelofacile.com/weekend-ai/masterclass Iscriviti gratis alla mia masterclass di 30 minuti e ricevi anche l’instant book di 52 pagine. Scopri in 2 minuti quanto sei davvero pronto a usare l’AI nel tuo lavoro: fai il test…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=Y8C-x0j0Qt4",
+    "source": "YouTube - Marco Montemagno",
+    "badge": ""
+  },
+  {
     "date": "2026-11-04",
     "title": "vellum.ai: What the Personal AI Assistant Does",
     "description": "Vellum.ai launched a personal AI assistant for its agent platform. Understand what new capabilities it adds and how it integrates with your workflows.",
@@ -25,6 +106,51 @@
     "link": "https://www.youtube.com/watch?v=EW5NkRoads0",
     "source": "YouTube – Raffaele Gaito",
     "badge": ""
+  },
+  {
+    "date": "2026-11-04",
+    "title": "What is Claude Duet?",
+    "description": "Claude Duet is Anthropic's answer to Meta's Muse and OpenAI's dots. It's an always-on AI agent, which means that instead of waiting for you to type a prompt, it sends you a morning brief, checks your connected apps to see where it can be helpful, and works on tasks in the background. Terrifying? A…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/claude-duet",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-04",
+    "title": "Google Document AI Pricing: Cost per Page (2026 Guide)",
+    "description": "Google Document AI pricing charges per page for each processor type, with add-ons affecting costs, so you can forecast expenses for your workflows.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/google-document-ai-pricing-cost-per-page-2026-guide",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-04",
+    "title": "Vellum AI Alternatives in 2026, Sorted by Job",
+    "description": "Vellum AI alternatives vary by job: prompt testing, workflow automation, or evaluation. Match your specific need to find the right tool.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/vellum-ai-alternatives-in-2026-compared-by-job",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-04",
+    "title": "GPT-Image-2.6: Faster image generation with Flare and Sunburst",
+    "description": "We’re bringing GPT-Image-2.6 to Codex and the API. In the API, the 2.6 versions of Flare and Sunburst generate images 50% faster than before. Use Flare for a quick first pass on a poster or product shot. At low image quality, it can generate an image in as little as six seconds. When you need…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=9ZxCOHkfn_8",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-04",
+    "title": "Claude e ChatGPT Hanno Finalmente un Rivale SERIO (e Puoi Provarlo GRATIS)",
+    "description": "Claude e ChatGPT Hanno Finalmente un Rivale SERIO (e Puoi Provarlo GRATIS) Kimi K3.1 Pro sfida Claude e ChatGPT, e puoi provarlo gratis: l'ho messo alla prova contro Claude Opus 5.5 su 5 lavori veri. Moonshot AI ha lanciato Kimi K3.1 Pro il 23 ottobre 2026, dopo averlo testato in incognito su Arena…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=IcJ49rzLvrI",
+    "source": "YouTube - Gabry Solutions",
+    "badge": "🔥"
   },
   {
     "date": "2026-11-03",
@@ -187,6 +313,24 @@
     "link": "https://www.youtube.com/watch?v=zK4g5crV4w4",
     "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
+  },
+  {
+    "date": "2026-11-02",
+    "title": "L'errore numero 1 del personal brand (e la nicchia sei tu)",
+    "description": "🎁 Scopri cosa puoi delegare agli agenti AI nel tuo lavoro: https://spiegamelofacile.com/weekend-ai/masterclass Iscriviti gratis alla mia masterclass di 30 minuti e ricevi anche l’instant book di 52 pagine. Le relazioni vere sono inefficienti. Per definizione. Non c'è un ROI della relazione, non è…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/xCSzp9JlhCU",
+    "source": "YouTube - Marco Montemagno",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-01",
+    "title": "Il lavoro sicuro, per come la vedo io, non esiste",
+    "description": "🎁 Scopri cosa puoi delegare agli agenti AI nel tuo lavoro: https://spiegamelofacile.com/weekend-ai/masterclass Iscriviti gratis alla mia masterclass di 30 minuti e ricevi anche l’instant book di 52 pagine. In un mio video dicevo che il lavoro sicuro, per come la vedo io, non esiste: né con un…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/iWDIwzidY7I",
+    "source": "YouTube - Marco Montemagno",
+    "badge": ""
   },
   {
     "date": "2026-10-31",
@@ -3507,24 +3651,6 @@
     "category": "News",
     "link": "https://www.youtube.com/watch?v=FB6oCmrIj-Y",
     "source": "YouTube – OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-05",
-    "title": "Building advertising for the way people use AI",
-    "description": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
-    "category": "News",
-    "link": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-10-05",
-    "title": "Dove nasce la caccia alle streghe dell’AI",
-    "description": "Clip estratta dall'intervista fatta ad Armando Bisogno su What’s Next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. Guarda l'intervista completa: https://www.youtube.com/watch?v=4VpAuIZK5Rg #short",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/A-82b-ELqq4",
-    "source": "YouTube – Raffaele Gaito",
     "badge": ""
   },
   {
