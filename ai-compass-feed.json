@@ -1,5 +1,68 @@
 [
   {
+    "date": "2026-11-06",
+    "title": "The Two-Ledger Model: Transaction-Grain Cost Accounting for Multi-Agent AI Systems Across Clouds, Models, and Systems of Record",
+    "description": "arXiv:2611.06989v1 Announce Type: new Abstract: Enterprises run business transactions through multi-agent AI systems spanning clouds, large language models (LLMs), orchestration harnesses, and systems of record. Finance receives AI cost only at settlement grain, aggregated by SKU and charge period…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.06989",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-06",
+    "title": "When Verification Is Not Agreement: Cross-Agent LLM-to-Dafny Formalization",
+    "description": "arXiv:2611.07073v1 Announce Type: new Abstract: A verified Dafny postcondition certifies that a formula holds, but it does not guarantee that the result was reached through genuine independent reasoning. We introduce a cross-agent formalization protocol where a Specifier model translates clinical…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.07073",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-06",
+    "title": "PromptOps: Iterative Prompt Optimization for LLM-as-a-Judge Systems",
+    "description": "arXiv:2611.07123v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used as automated judges for evaluating the behavior of chatbots and other AI systems. In deployment, however, their agreement with the intended human evaluation policy may degrade as user interactions and…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.07123",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-06",
+    "title": "EnvOpt: Automated Optimization for Agent Environments",
+    "description": "arXiv:2611.07372v1 Announce Type: new Abstract: An LLM agent's cost and success depend on its model, its harness, and its environment. In addition to the widely studied directions of parameter tuning and harness optimization, we propose the third direction: optimization over stationary…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.07372",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-06",
+    "title": "Don't Prompt Your Agents. Equip Them: Skillware as a Modular Standard for Sovereign, Auditable, and Deterministic Capability Execution for Logical Systems",
+    "description": "arXiv:2611.07652v1 Announce Type: new Abstract: Current autonomous logical systems rely on a fragile assumption: that language models should dynamically write code, guess API payloads, and memorize operational constraints through prompt engineering. In practice, this burns massive context windows…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.07652",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-06",
+    "title": "GPT 6 Cyber: Gated Access, Scores and How to Apply",
+    "description": "GPT 6 Cyber must be approved and intentionally connected to workflows.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/gpt-6-cyber-gated-access-scores-and-how-to-apply",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-06",
+    "title": "IA e design, a che punto siamo? [Breccia]",
+    "description": "#adv Usa il link https://hostinger.com/gaitopod e inserisci il coupon GAITOPOD per avere il 10% di sconto su Hostinger Compra il mio corso base \"Crea un Agente AI con Claude Code\": https://www.raffaelegaito.com/claude-code-crea-agente-ai-corso-completo/?landing=true Compra il mio corso intermedio…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=KdfyRhwRDcI",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": "⭐"
+  },
+  {
     "date": "2026-11-05",
     "title": "Setting a new standard for responsible AI infrastructure",
     "description": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
@@ -243,6 +306,69 @@
     "badge": ""
   },
   {
+    "date": "2026-11-05",
+    "title": "Australian universities are creating AI-native graduates",
+    "description": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+    "category": "News",
+    "link": "https://openai.com/index/australian-universities-ai-native-graduates",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Merge builds product and business tools with OpenAI technology",
+    "description": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+    "category": "News",
+    "link": "https://openai.com/index/merge-builds-with-openai",
+    "source": "OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Franklin Templeton uses OpenAI to support investment research",
+    "description": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
+    "category": "News",
+    "link": "https://openai.com/index/franklin-templeton",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Perplexity launches Teammates, always-on AI agents for work",
+    "description": "Perplexity has launched Teammates, an always-on AI agent system for work that integrates with its Computer platform. Teammates can take on multiple roles within a workspace, pull existing projects, skills, and memory, and execute large-scale tasks simultaneously, similar to OpenAI's Dots and Claude…",
+    "category": "News",
+    "link": "https://picx.dev/news/NcdnXS",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-05",
+    "title": "NVIDIA Releases Cosmos 3 Open Models for Interactive World Simulation",
+    "description": "NVIDIA has released the Cosmos 3 open models on Hugging Face, designed for interactive world simulation. The models aim to enable real-time, controllable simulation of environments, supporting applications in robotics, autonomous driving, and embodied AI.",
+    "category": "News",
+    "link": "https://picx.dev/news/6sTEbN",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Sand.ai Raises $200M Series A+; Total $300M in 10 Months, Reaching Unicorn Status",
+    "description": "Video generation startup Sand.ai completed a $200 million Series A+ round, bringing its total funding to $300 million within 10 months and achieving unicorn status. The round was co-led by Cornerstone Capital and Wangsu Science & Technology, with participation from Shanghai state capital and Times…",
+    "category": "News",
+    "link": "https://picx.dev/news/L1dQdR",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-05",
+    "title": "How Mozilla strengthens Firefox security with GPT-6 Cyber",
+    "description": "Mozilla used GPT-6 Cyber to uncover previously unknown high-severity vulnerabilities in Firefox and identify architectural improvements. Its team shipped fixes to millions of users, turning findings into protections for the people who depend on the software. Hear Brian Grinstead, Distinguished…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=pXRZyOxbDL4",
+    "source": "YouTube – OpenAI",
+    "badge": "⭐"
+  },
+  {
     "date": "2026-11-04",
     "title": "vellum.ai: What the Personal AI Assistant Does",
     "description": "Vellum.ai launched a personal AI assistant for its agent platform. Understand what new capabilities it adds and how it integrates with your workflows.",
@@ -313,6 +439,24 @@
     "link": "https://www.youtube.com/watch?v=IcJ49rzLvrI",
     "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
+  },
+  {
+    "date": "2026-11-04",
+    "title": "AMD filing: ~$2.9B Taalas acquisition, $1.4B contingent on conditions",
+    "description": "AMD disclosed in a regulatory filing that it will pay approximately $2.9 billion in cash and stock to acquire Toronto-based AI chip startup Taalas, with $1.4 billion of that amount contingent on unspecified conditions. The deal was originally announced in August.",
+    "category": "News",
+    "link": "https://picx.dev/news/obKQEs",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-04",
+    "title": "Meta acquires Conductor, AI coding startup for parallel agents, team joins Superintelligence Labs",
+    "description": "Meta has acquired Conductor, an AI coding startup that lets software engineers manage multiple coding agents running in parallel on different aspects of a project. Conductor CEO Charlie Holtz stated the team will join Meta Superintelligence Labs. The acquisition fits Meta's push into AI-assisted…",
+    "category": "News",
+    "link": "https://picx.dev/news/sIstTn",
+    "source": "PicX",
+    "badge": ""
   },
   {
     "date": "2026-11-03",
@@ -3751,69 +3895,6 @@
     "link": "https://www.activepieces.com/blog/ai-project-manager-tools-best-picks-for-2026",
     "source": "Activepieces",
     "badge": "🔁"
-  },
-  {
-    "date": "2026-10-06",
-    "title": "How Jump Trading is scaling quant research with ChatGPT",
-    "description": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
-    "category": "News",
-    "link": "https://openai.com/index/jump-trading",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-10-06",
-    "title": "Advancing computer use with Ironclad",
-    "description": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
-    "category": "News",
-    "link": "https://openai.com/index/advancing-computer-use-with-ironclad",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-10-06",
-    "title": "Gemini automation: How to use the Zapier Gemini integration (Gemini 3.8 Flash, Gemini Enterprise, and more)",
-    "description": "Anyone who lives in the Google ecosystem has probably used Gemini for a quick draft or a fast answer. (Or if you're like me, you've been driven to your limit by the Google Docs popups encouraging you to use AI whenever your cursor strays too close to the bottom of the screen.) But a chat window is j",
-    "category": "Automation",
-    "link": "https://zapier.com/blog/automate-google-ai-studio",
-    "source": "Zapier Blog",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-06",
-    "title": "Google ha lanciato Gemini 4. Ma tu NON puoi usarlo (50+ Novità AI)",
-    "description": "Google ha annunciato Gemini 4 Argon, ma perché non puoi ancora usarlo? Oltre 50 novità AI tra ChatGPT, Claude, agenti autonomi e strumenti per lavorare meglio.\n\nIn questa puntata di AI News analizziamo il nuovo modello di Google: cosa promette, chi può accedervi e cosa emerge dal confronto tra i ben",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=7IIhl7jbxd0",
-    "source": "YouTube - Gabry Solutions",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-10-06",
-    "title": "Sharing AI progress in mathematics",
-    "description": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
-    "category": "News",
-    "link": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-06",
-    "title": "Zapier Agents is now AI by Zapier",
-    "description": "Every capability that made Zapier Agents powerful—tool calling, reasoning, autonomous action—now lives inside a single AI step in the Zap editor, using AI by Zapier. Here, I'll map each Zapier Agents feature to its equivalent in AI by Zapier, so if you're coming from Zapier Agents, you know exactly ",
-    "category": "Automation",
-    "link": "https://zapier.com/blog/zapier-agents-is-now-ai-by-zapier",
-    "source": "Zapier Blog",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-06",
-    "title": "Introducing the Decisions API",
-    "description": "Introducing the Decisions API: a fast way to turn text and images into actions in your app. Give the model an input, define a question and the possible answers, and use its choice to decide what happens next. Powered by GPT-6 Luna, the Decisions API focuses on a small set of choices to make interact",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=FB6oCmrIj-Y",
-    "source": "YouTube – OpenAI",
-    "badge": ""
   },
   {
     "date": "2025-07-30",
