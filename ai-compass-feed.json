@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-11-07",
+    "title": "Study suggests GPT-6 Astra's robot skills come from specialized training data, not emergent general intelligence",
+    "description": "A technical analysis speculates that GPT-6 Astra's robot-manipulation abilities may stem from specialized robot training data rather than emergent general intelligence. The study points to demos with NVIDIA and Unitree, and notes that OpenAI has not disclosed whether pre-training included…",
+    "category": "News",
+    "link": "https://picx.dev/news/nZi3HP",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-07",
+    "title": "OpenAI Details GPT-6 Use in Physical-World Engineering, Partnerships with Racing and Auto Firms",
+    "description": "On November 3, 2026, OpenAI published a post on accelerating physical-world engineering, describing GPT-6's use in mechanical, electrical, and system design, including an internal device design test and partnerships with Chip Ganassi Racing and Mazda. The post notes that while the model completed a…",
+    "category": "News",
+    "link": "https://picx.dev/news/kU1bx8",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-07",
+    "title": "Volevo la magia che l'AI mi ha venduto",
+    "description": "Clip estratta dall'intervista fatta a Riccardo Cambò, in arte Breccia, su What’s Next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. Guarda l'intervista completa: https://www.youtube.com/watch?v=KdfyRhwRDcI #short",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/HqWW0Iuj8O8",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
     "date": "2026-11-06",
     "title": "The Two-Ledger Model: Transaction-Grain Cost Accounting for Multi-Agent AI Systems Across Clouds, Models, and Systems of Record",
     "description": "arXiv:2611.06989v1 Announce Type: new Abstract: Enterprises run business transactions through multi-agent AI systems spanning clouds, large language models (LLMs), orchestration harnesses, and systems of record. Finance receives AI cost only at settlement grain, aggregated by SKU and charge period…",
@@ -61,6 +88,96 @@
     "link": "https://www.youtube.com/watch?v=KdfyRhwRDcI",
     "source": "YouTube – Raffaele Gaito",
     "badge": "⭐"
+  },
+  {
+    "date": "2026-11-06",
+    "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+    "description": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+    "category": "News",
+    "link": "https://openai.com/index/partnering-with-hacktron",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-06",
+    "title": "Measuring how AI agents handle everyday wet-lab science",
+    "description": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+    "category": "News",
+    "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-06",
+    "title": "OpenAI launches BioBasicsBench, 100-task benchmark for AI wet-lab agents",
+    "description": "OpenAI has introduced BioBasicsBench, a benchmark comprising 100 tasks that evaluate how well AI agents interpret raw experimental data and perform everyday wet-lab science. The benchmark is designed to measure agent capabilities in handling real-world laboratory workflows.",
+    "category": "News",
+    "link": "https://picx.dev/news/5oprgC",
+    "source": "PicX",
+    "badge": "⭐"
+  },
+  {
+    "date": "2026-11-06",
+    "title": "AI system using non-public Anthropic model proves Aaronson-Ambainis conjecture",
+    "description": "AI physics startup PSI reported that a system running a non-public Anthropic model proved the Aaronson-Ambainis conjecture, a quantum computing question open since 2008. The conjecture, proposed by Scott Aaronson and Andris Ambainis, is now a theorem according to PSI.",
+    "category": "News",
+    "link": "https://picx.dev/news/kzyoMa",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-06",
+    "title": "AI automation examples: 5 real things Zapier Sidekick has done",
+    "description": "A few months into our internal pilot, the Sidekick team noticed that most of what reached them was bug reports. Someone started a channel just for wins, a place where people could post what Sidekick had done for them. It filled up faster than anyone expected. We read through it, along with the…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/ai-automation-examples-sidekick",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-06",
+    "title": "LifeVal: Measuring AI progress on the tasks that matter in everyday life.",
+    "description": "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal, a new benchmark shaped by feedback from thousands of ChatGPT users on where they most want help from a personal assistant—from finding childcare to accessing government…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=hJOwOkLHRN0",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-11-06",
+    "title": "What Does AI Mean for the Future of Human Health? | The Google Research Podcast",
+    "description": "Most of what shapes human health doesn’t happen inside a doctor’s office—it happens in daily life, through sleep, diet, movement, and continuous physiological signals. In this episode of The Google Research Podcast, host Sinéad Bovell sits down with Google Research leads Katherine Chou and Dale…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=4XzcdKvF60A",
+    "source": "YouTube – Google Research",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-11-06",
+    "title": "The Future of AI Is Absolutely Incredible (Spencer Huang)",
+    "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers Chapters: 00:00 Intro 02:40 Why Robots Are Hard 08:16 The Perfect Data Diet 16:05 Intelligence Density 20:13 Building AI Worlds 22:10 Learning From Failure 25:41 The Reality Gap 29:35 Robots Get Injured Too 31:28 100…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=XgC1QTs6A2U",
+    "source": "YouTube – Two Minute Papers",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-06",
+    "title": "⁠Se Dovessi Imparare l'Al da Zero, Farei QUESTO",
+    "description": "Non Sei Indietro (Per Ora): Come Imparare l’AI in 26 Minuti e Come imparare l'AI nel 2026 partendo da zero: la roadmap completa dell'intelligenza artificiale, con i corsi da fare (molti gratuiti), quelli da saltare e il percorso giusto per quello che vuoi fare. Imparare l'AI oggi funziona come un…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=hWGNlPTJIwg",
+    "source": "YouTube - Gabry Solutions",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-11-06",
+    "title": "È possibile fare una startup da solo + AI, in 90 giorni?",
+    "description": "È possibile fare una startup da solo + AI, in 90 giorni? Utilizza il codice MONTY per avere uno sconto su Hostinger: https://www.hostinger.com/montystartup Questo video è supported by Hostinger #adv",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/ezCSvJ4EOKg",
+    "source": "YouTube - Marco Montemagno",
+    "badge": ""
   },
   {
     "date": "2026-11-05",
@@ -456,6 +573,15 @@
     "category": "News",
     "link": "https://picx.dev/news/sIstTn",
     "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-04",
+    "title": "OpenAI is already trying to shape the 2028 election",
+    "description": "In response to an essay written by OpenAI's chief global affairs officer, AI Now's Kate Brennan says \"This is written by a private company that is trying to advocate for policies for its own benefit. It is ahistorical at best and harmful at worst.” The post OpenAI is already trying to shape the…",
+    "category": "News",
+    "link": "https://ainowinstitute.org/news/openai-is-already-trying-to-shape-the-2028-election",
+    "source": "AI Now Institute",
     "badge": ""
   },
   {
@@ -3742,159 +3868,6 @@
     "link": "https://www.youtube.com/shorts/qmOOspYLhzg",
     "source": "YouTube – OpenAI",
     "badge": ""
-  },
-  {
-    "date": "2026-10-07",
-    "title": "GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets",
-    "description": "arXiv:2610.06910v1 Announce Type: new \nAbstract: Recent advances in Large Language Models (LLMs) have demonstrated remarkable capabilities in web front-end execution, with browser-based game generation emerging as a particularly prominent frontier. While previous efforts frequently rely on complex m",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.06910",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-07",
-    "title": "RadOnc-Agent: An LLM-Orchestrated Framework for AI Workflows Across the Radiotherapy Care Pathway",
-    "description": "arXiv:2610.06923v1 Announce Type: new \nAbstract: Artificial intelligence has advanced individual radiotherapy tasks, yet these capabilities remain separated across clinical stages, software environments and data modalities. This fragmentation contrasts with the longitudinal radiotherapy workflow fro",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.06923",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-07",
-    "title": "Small Language Models for Smart Data Model Classification at the Edge: A Cost-Aware Hybrid Approach",
-    "description": "arXiv:2610.07093v1 Announce Type: new \nAbstract: The rapid proliferation of heterogeneous data sources within the Internet of Things (IoT) across domains such as smart cities, energy management, and environmental monitoring necessitates efficient and scalable data standardization methods. Effective ",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.07093",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-07",
-    "title": "Internalizing Agent Experience into Diffusion Model Weights via On-Policy Context Distillation",
-    "description": "arXiv:2610.07250v1 Announce Type: new \nAbstract: Wrapping an image generation model in an agentic harness can effectively boost Text-to-Image task performance: the harness can leverage memory, skills, workflow orchestration, result verification, and iterative refinement to continually construct and ",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.07250",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-07",
-    "title": "Verifying Coordination in Parallel Coding Agents: NP-Bench and a Scheduling Planner",
-    "description": "arXiv:2610.07261v1 Announce Type: new \nAbstract: A team of coding agents can look fine agent by agent yet fail as a team: each passes its own tests while the merged result is broken, and single-agent evaluation never catches it. As teams run several LLM coding agents in parallel on one codebase, the",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.07261",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-07",
-    "title": "Helping teens learn, plan, and shape the future of AI",
-    "description": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
-    "category": "News",
-    "link": "https://openai.com/index/teens-learn-and-plan",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-10-07",
-    "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-    "description": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
-    "category": "News",
-    "link": "https://openai.com/index/radisson",
-    "source": "OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-10-07",
-    "title": "Introducing GPT-6 in ChatGPT with Intelligent UI",
-    "description": "ChatGPT just got a lot more visual—introducing Intelligent UI. Intelligent UI allows ChatGPT to answer quickly with fully interactive user interfaces that make everyday answers more visual. It makes learning complex topics easier, and it quickly creates tools to solve a task right in the moment. Oh,",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=IsL4dVezs18",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-10-07",
-    "title": "Build Plugins for ChatGPT",
-    "description": "Explore plugin extensions through Meetings and OpenAI Developers. See how a custom interface can live beside a conversation and bring selected context into your work with ChatGPT.",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=LiNhqbetrbU",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-10-07",
-    "title": "How OpenAI Puts ChatGPT to Work | DevDay 2026",
-    "description": "See how OpenAI’s teams use ChatGPT to manage launches, research competitors, and turn expertise into tools. Take practical ideas back to your own work.",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=SXCfs7mitPo",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-10-07",
-    "title": "Build custom site annotations with ChatGPT",
-    "description": "Add custom annotation controls and suggested prompts to your website. See how these work with WebMCP to help users edit a scene and enrich expense records using context available to their agent in ChatGPT.",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=ZcDFZzsp3_Y",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-10-07",
-    "title": "GPT-6 and Intelligent UI for everyone",
-    "description": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
-    "category": "News",
-    "link": "https://openai.com/index/gpt-6-for-everyone",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-07",
-    "title": "Self-Host Mistral with vLLM for Private AI Automation",
-    "description": "Private Mistral deployments using vLLM allow engineers to configure custom hardware scaling and secure sensitive data processing workflows.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/self-host-mistral-with-vllm-for-private-ai-automation",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-07",
-    "title": "Best AI Workflow Automation Tools in 2026 Ranked",
-    "description": "The best AI tools of 2026 are evaluated based on their ability to integrate disparate software ecosystems into a single, cohesive operational pipeline.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/best-ai-tools-2026-the-top-20-ranked-and-tested",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-07",
-    "title": "Qodo - The Last Human Code Review | DevDay 2026",
-    "description": "See how Qodo uses OpenAI to review AI-generated code. Explore an adversarial reviewer that challenges coding agents’ assumptions and output, and learn when model confidence still needs human judgment.",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=bQ3-pXCpCTg",
-    "source": "YouTube – OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-07",
-    "title": "Ha ancora senso andare all'università?",
-    "description": "Scopri in 2 minuti quanto sei davvero pronto a usare l’AI nel tuo lavoro: fai il test gratuito → https://spiegamelofacile.com/audit/form-v4 -- Se il video ti è stato utile, iscriviti. Per il resto 👉 https://marcomontemagno.com 👉https://spiegamelofacile.com Ogni sabato mattina, nella tua casella: un ",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=65WE4baa8xs",
-    "source": "YouTube - Marco Montemagno",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-07",
-    "title": "AI Project Manager Tools: Best Picks for 2026",
-    "description": "An ai project manager automates complex workflows and resource allocation. Use these evaluations to select the platform best suited for your team.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/ai-project-manager-tools-best-picks-for-2026",
-    "source": "Activepieces",
-    "badge": "🔁"
   },
   {
     "date": "2025-07-30",
