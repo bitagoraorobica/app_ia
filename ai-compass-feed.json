@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-11-08",
+    "title": "Unconfirmed reports say OpenAI's GPT-6.2 Astra and Sol delayed over safety and alignment issues",
+    "description": "Developers had expected OpenAI's Astra and Sol models around November 6 after the identifiers gpt-6.2-astra and gpt-6.2-sol appeared in Codex usage records and on a Google Cloud-related page, but no launch occurred. On November 8, social media users circulated unconfirmed claims that OpenAI found…",
+    "category": "News",
+    "link": "https://picx.dev/news/DuRuXn",
+    "source": "PicX",
+    "badge": "⭐"
+  },
+  {
     "date": "2026-11-07",
     "title": "Study suggests GPT-6 Astra's robot skills come from specialized training data, not emergent general intelligence",
     "description": "A technical analysis speculates that GPT-6 Astra's robot-manipulation abilities may stem from specialized robot training data rather than emergent general intelligence. The study points to demos with NVIDIA and Unitree, and notes that OpenAI has not disclosed whether pre-training included…",
@@ -25,6 +34,42 @@
     "link": "https://www.youtube.com/shorts/HqWW0Iuj8O8",
     "source": "YouTube – Raffaele Gaito",
     "badge": ""
+  },
+  {
+    "date": "2026-11-07",
+    "title": "Hacker News Questions Validity of Reported DeepSWE Benchmark Score",
+    "description": "A Hacker News discussion has cast doubt on the validity of a reported DeepSWE benchmark score, questioning whether the result is accurate. The thread highlights skepticism within the AI research community regarding the benchmark's credibility.",
+    "category": "News",
+    "link": "https://picx.dev/news/9z5Ove",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-07",
+    "title": "Reka AI Pricing 2026: API Models and Vision Costs",
+    "description": "Reka AI pricing compared to ChatGPT, Claude, and others shows you which service offers the best value for your needs. See how prices break down by token.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/reka-ai-pricing-2026-api-models-and-vision-costs",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "OpenAI's Astra Just Opened The Black Box Of AI",
+    "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.com/papers 📝 The Weight Space Programming work is available here: https://rikiyat.github.io/blog/weight-space-programming/ 🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible: Adam…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=GJ6PMUm5oTA",
+    "source": "YouTube – Two Minute Papers",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-07",
+    "title": "Vuole Aprire Un Business Che In Italia Non Esiste",
+    "description": "Se vuoi candidarti a Monty da Te questo è il form: https://forms.gle/AGkV54k4UxY1afev9 🎁 Scopri cosa puoi delegare agli agenti AI nel tuo lavoro: https://spiegamelofacile.com/weekend-ai/masterclass Iscriviti gratis alla mia masterclass di 30 minuti e ricevi anche l’instant book di 52 pagine. Qui…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=l00r59ycydY",
+    "source": "YouTube - Marco Montemagno",
+    "badge": "⭐"
   },
   {
     "date": "2026-11-06",
@@ -3336,537 +3381,6 @@
     "category": "News",
     "link": "https://www.youtube.com/watch?v=SZs0PhsrvNk",
     "source": "YouTube - Marco Montemagno",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-08",
-    "title": "Understanding and Mitigating Inference-Time Overreliance Using Agentic Memory",
-    "description": "arXiv:2610.07311v1 Announce Type: new Abstract: Agentic memory allows LLM agents to reuse past experience, yet retrieved memories can also distort inference even when they are benign, correctly stored, and appropriately retrieved. We study this failure mode, which we call memory over-reliance. Acros",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.07311",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "Evaluating Escalation Signals for LLM Routing: Targets, Controls, and Five Ways to Fool Yourself",
-    "description": "arXiv:2610.07354v1 Announce Type: new Abstract: Deciding when to escalate a query from a small language model to a larger one requires a cheap signal that predicts, before the large model is called, whether escalating would help. Semantic entropy, originally developed to detect hallucinations, is a ",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.07354",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "MemCo: Memory-Centric Collaboration for Generalizing LLM Agents to Unseen Environments",
-    "description": "arXiv:2610.07376v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly operate in interactive environments, where they need to make sequential decisions through observation, action, and feedback. Although memory can help agents reuse experience, existing work designs memory i",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.07376",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "2d-fet-bench: from spatial reasoning to fet design on flakes",
-    "description": "arXiv:2610.07423v1 Announce Type: new Abstract: Field-effect transistor (FET) layouts on exfoliated two-dimensional flakes are typically drawn by hand for each flake, placing contacts and gates to match its position and outline in optical micrographs. To our knowledge, no executable benchmark tests ",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.07423",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "COMPASS: Finding Where Reasoning Lives in Language Models",
-    "description": "arXiv:2610.07469v2 Announce Type: new Abstract: Explicitly eliciting reasoning substantially improves LLM performance. Existing approaches require a predefined characterization of reasoning, whether through CoT prompt design, contrastive CoT directions, or via SAE derived reasoning features. For mat",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.07469",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "Claude models: Fable vs. Opus vs. Sonnet vs. Haiku",
-    "description": "Anthropic's Claude family has four primary models: Haiku, Sonnet, Opus, and Fable. (There's also Mythos, but the general public doesn't have access to that.) All four Claude models are incredibly capable. Even the smallest model, Haiku, is better than the best frontier models from two years ago. Thi",
-    "category": "Automation",
-    "link": "https://zapier.com/blog/claude-models",
-    "source": "Zapier Blog",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "AegisFlow: A Multi-Agent Agentic AI Framework for Autonomous Remediation and Self-Healing in Fragile Data Ecosystems",
-    "description": "arXiv:2610.06971v1 Announce Type: new Abstract: Traditional data pipelines are notoriously brittle, often failing due to upstream schema drift, API contract changes, or website DOM modifications. Present observability tools only raise alerts but for human engineers, resulting in a high Mean Time to ",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.06971",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "Topology-Consistent Task Planning over Cellular Workflow Complexes for LLM-based Agents",
-    "description": "arXiv:2610.07004v1 Announce Type: new Abstract: Task planning for LLM agents requires workflows that satisfy both user intent and complex sub-task dependencies. While existing planners work well for sequential or directed acyclic graph (DAG)-like structures, they struggle with workflow patterns such",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.07004",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "Offline AI Modules: Voice-First Offline Architecture, Hardware Reference Stack, Quantization and Benchmarking",
-    "description": "arXiv:2610.07026v1 Announce Type: new Abstract: The Offline AI Modules workstream enables practical, low-power, and community-accessible deployment of voice-first AI systems that operate fully offline. Designed for African language communities where speech is the dominant mode of interaction and int",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.07026",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "Rule-Based Languages for Neurosymbolic AI",
-    "description": "arXiv:2610.07313v1 Announce Type: new Abstract: Logic programming is increasingly used as the symbolic component of neurosymbolic AI systems. We survey the main rule-based languages in this setting, namely Datalog, answer set, and probabilistic logic programs, along four axes: semantics, expressiven",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.07313",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "A Systematic Investigation of Bias in Large Language Models for Advertising Relevance",
-    "description": "arXiv:2610.07544v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used to judge how well an advertisement matches a query, but the fairness of these judgments has received limited attention. We conduct a systematic study of fairness in relevance judgments made by LLMs for",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.07544",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "LangSmith vs Braintrust: AI Eval Platform Pricing Compared",
-    "description": "LLM evaluation platforms require balancing framework integration with testing flexibility. Engineering leads can select the right tool for their stack.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/langsmith-vs-braintrust-which-ai-eval-platform-wins",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "Best Agentic AI Coding Tools for 2026",
-    "description": "Agentic AI coding tools automate complex software engineering tasks by autonomously executing multi-step development workflows.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/best-agentic-ai-coding-tools-for-2026",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "What is Power Automation? How AI Orchestration Works",
-    "description": "Understanding what is power automation enables teams to identify which redundant administrative tasks can be fully delegated to autonomous software agents.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/what-is-power-automation-how-ai-orchestration-works",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "Non trattare l'AI come una magia",
-    "description": "Spesso ci rivolgiamo agli strumenti di intelligenza artificiale con richieste vaghe e sbrigative, aspettandoci risposte perfette come per magia. La verità è che il buon senso, la definizione dei confini e la capacità di specificare dettagli fanno tutta la differenza del mondo. Il modo in cui poni le",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/bdE8aKfIC54",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-08",
-    "title": "LOGIC: An LLM Benchmark for Intent-Grounded Change Impact in Aerospace Electrical Systems",
-    "description": "arXiv:2610.07580v1 Announce Type: new Abstract: Aerospace electrical-design revisions can contain multiple genuine changes, although an engineering request may authorize only a subset. Propagating every detected difference can therefore produce overly broad impact reports. We present LOGIC, a contro",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.07580",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "BioStudyBench: Evaluating Agents on Post-Cutoff Biomedical Studies",
-    "description": "arXiv:2610.07614v1 Announce Type: new Abstract: We evaluate whether AI agents can match the reported findings of published biomedical studies using public data. Existing evaluations do not consistently separate analysis from prior knowledge or retrieval of the published answer. We introduce BioStudy",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.07614",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory",
-    "description": "arXiv:2610.07707v1 Announce Type: new Abstract: Conversational AI assistants with long-term memory extract facts from user messages into a store consulted in later conversations. A stated plan can enter that store as fact: a user who might move to Seattle may be recorded as already living there. We ",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.07707",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "ST-Bench: A Spatial-Temporal Benchmark for Multi-Agent System Generation on Scientific Research Tasks",
-    "description": "arXiv:2610.07763v1 Announce Type: new Abstract: The rapid progress of LLM-based multi-agent systems (MAS) has shown that they largely outperform single agents on coding, math, and QA tasks, where executable tests provide a binary success signal. Whether this advantage transfers to real scientific da",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.07763",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "OTel: Open Telco AI Datasets, Benchmarks, and Models",
-    "description": "arXiv:2610.07766v2 Announce Type: new Abstract: We present Open Telco (OTel), an open telecom AI resource that releases derived telecom datasets for retrieval, reranking, instruction tuning, and safety/abstention, together with 30 full-parameter post-trained baselines spanning 10 embedding models, 3",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.07766",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "How to Connect the Klaviyo MCP Server in 2026",
-    "description": "Klaviyo MCP server integrations allow developers to link marketing data directly to LLM workflows for automated analysis.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/how-to-connect-the-klaviyo-mcp-server-in-2026",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "OOPMAS: Object-Oriented Multi-Agent Systems for Query-Level Workflow Generation",
-    "description": "arXiv:2610.07787v1 Announce Type: new Abstract: Multi-agent systems (MAS) powered by large language models have shown strong performance across code generation, mathematical reasoning, and question answering. However, existing methods for automating MAS design mostly operate at the task level, produ",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.07787",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "RA-MoWE: Workflow-Affinity Embeddings for Query Clustering and Agentic Workflow Generation",
-    "description": "arXiv:2610.07851v1 Announce Type: new Abstract: Agentic workflows enable large language models (LLMs) to solve complex tasks by coordinating reasoning, tool use, and verification. However, a workflow optimized for an entire task collection can overlook differences in the reasoning strategies that in",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.07851",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "SIGMA: Self-Improving Alignment Generalization from a Model Spec",
-    "description": "arXiv:2610.07935v1 Announce Type: new Abstract: LLM agents are increasingly capable of executing complex tasks and of recursively improving themselves on easy-to-verify objectives such as software engineering and mathematics. Since alignment is much harder to verify, this creates a growing risk of c",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.07935",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "Same Feedback, Different Answer: Measuring Run-to-Run Instability in Frontier-Model Customer Feedback Analysis",
-    "description": "arXiv:2610.08036v1 Announce Type: new Abstract: AI agents are increasingly being programmed to automate knowledge work over large collections of unstructured data. Such automation requires repeatability: when the underlying evidence is unchanged, the agent's categories, priorities, and counts should",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.08036",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "DAEDALUS: Bootstrapping Agent Memory from Self-Generated Tasks",
-    "description": "arXiv:2610.08048v1 Announce Type: new Abstract: LLM agents often lack the operational knowledge to act reliably in new environments, as they must discover specific tool behaviors or environment conventions on their own. Without memory of past attempts, they repeat the same mistakes across tasks, lea",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.08048",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "AI adoption: A practical guide from Zapier",
-    "description": "I have two voices in my head when it comes to new tech. One is the wide-eyed optimist who wants to try every tool and click every AI button. The other wants to delete every app on my phone, move to a cabin in the woods, and write by candlelight. There's no doubt AI is exciting. It's already helping ",
-    "category": "Automation",
-    "link": "https://zapier.com/blog/ai-adoption",
-    "source": "Zapier Blog",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "SpeedrunBench: Challenging LLM Agents with Video Game Speedrunning",
-    "description": "arXiv:2610.08076v1 Announce Type: new Abstract: Frontier LLM agents have been shown to be capable of solving increasingly complex tasks for which humans have measurable solutions. This begs the pertinent question of whether LLM agents can go beyond what humans have already solved. The ability to dev",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.08076",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "Natural Language Questions as an Interface for Knowledge Graphs: QRAKEN Graph Distillation and Semantic Self-Healing",
-    "description": "arXiv:2610.08095v1 Announce Type: new Abstract: Natural-language access to RDF knowledge graphs is a core Semantic Web ambition. Large language models (LLMs) have advanced Text-to-SPARQL, yet on unfamiliar graphs they often generate valid queries that misrepresent the populated data model. QRAKEN is",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.08095",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "DSV-Mem: Evaluating Multimodal Memory in Professional Workflows for MLLM Agents",
-    "description": "arXiv:2610.08102v1 Announce Type: new Abstract: Conversational MLLM agents are increasingly expected to assist in professional workflows, from AI research and engineering design to product management and business operations. Yet this capability remains underexplored: existing benchmarks largely focu",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.08102",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "Learn2Play Bench: How Well Do LLM Agents Learn from Experience in Unfamiliar Environments?",
-    "description": "arXiv:2610.08215v1 Announce Type: new Abstract: Learning from experience is essential for LLM agents to adapt to unfamiliar and dynmaic environments. Evaluating this ability is therefore important for understanding how effectively agents acquire and use new knowledge. Existing benchmarks have sought",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.08215",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "LeanPlan: Optimal Planning with LLM-Generated Heuristics and Admissibility Proofs",
-    "description": "arXiv:2610.08246v1 Announce Type: new Abstract: Frontier large language models (LLMs) can generate heuristic functions that guide search to achieve state-of-the-art performance in satisficing planning, where any plan is acceptable. However, these heuristics are not guaranteed to be admissible and ca",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.08246",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "MASC: A Multi-Agent Self-Calibration Framework with Latent Construct Alignment for Consistent Client Role-Playing in Psychological Counseling",
-    "description": "arXiv:2610.08250v1 Announce Type: new Abstract: Large language models are increasingly used to simulate clients for counselor training and psychological counseling research, but reliable simulation requires clients to remain psychologically coherent across extended interactions. Existing…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.08250",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "zkLLMPoT: Efficient Zero Knowledge Proof of Training for Large Language Models",
-    "description": "arXiv:2610.08258v1 Announce Type: new Abstract: Auditing the claimed outcomes of large language model (LLM) training is challenging when model weights and training data are private, while cryptographically proving the full training process is prohibitively expensive at Transformer scale. We present…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.08258",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "MedZERO: Self-Evolving Agents for Open-Ended Medical Reasoning Through Controlled Knowledge Accumulation",
-    "description": "arXiv:2610.08327v1 Announce Type: new Abstract: Large language models (LLMs) have shown promise in medical question answering and clinical reasoning, yet their improvement remains constrained by static parametric knowledge and costly expert supervision. Self-evolving agents offer a promising…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.08327",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "An AI-Assisted Formalization of the Poincar\\'e Conjecture",
-    "description": "arXiv:2610.08329v1 Announce Type: new Abstract: We present an AI-assisted Lean 4 formalization of the Poincar\\'e conjecture. The project began with limited reusable formal infrastructure for the geometric analysis behind the proof. To organize this work, we combined a proof blueprint prepared by…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.08329",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "Transect: Retaining Observability for Long-Horizon LLM Agent Evaluations",
-    "description": "arXiv:2610.08364v1 Announce Type: new Abstract: Frontier AI evaluations increasingly use open-ended, agentic, long-horizon tasks whose transcripts can span hundreds of pages of outputs and actions from complex multi-agent networks. The observability envelop-the range of what evaluators can reliably…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.08364",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "ScienceClaw: Benchmarking Continual Self-Evolution of AI-for-Science Agents Across the Natural and Social Sciences",
-    "description": "arXiv:2610.08691v1 Announce Type: new Abstract: Large language model agents are accelerating scientific automation, yet verified executions rarely become persistent program-level improvements, and existing evaluations do not examine this process across sequential tasks in both the natural and…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.08691",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "WorldSolver: Can LLM Agents Simulate the Physical Dynamics via Solver Generation?",
-    "description": "arXiv:2610.08720v1 Announce Type: new Abstract: LLM-based agents are increasingly advancing scientific and engineering problem solving, with physics simulation emerging as a challenging yet practical testbed for reproducing complex physical phenomena with application in embodied AI, games and…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.08720",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "Sherpa: Teaching LLMs to Teach Adaptively",
-    "description": "arXiv:2610.08778v1 Announce Type: new Abstract: Large language models (LLMs) have become increasingly capable problem solvers, but being able to solve a problem is not the same as being able to teach it. Existing approaches to training LLMs as teachers rely on demonstrations, preference data, or…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.08778",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "DART-ES: Difficulty-Aware Reweighting and Targeted Replay for Fine-Tuning LLMs with Evolution Strategies",
-    "description": "arXiv:2610.06993v1 Announce Type: cross Abstract: Evolution Strategies (ES) enable memory efficient full parameter fine-tuning of large language models (LLMs) using only forward computation. However, standard ES uniformly averages rewards across problems and compresses problem level population…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.06993",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "Towards a Unified Misuse Monitoring Benchmark",
-    "description": "arXiv:2610.07089v1 Announce Type: cross Abstract: LLM agents increasingly act in multi-actor environments, exposing them to misuse from multiple sources: decomposition attacks, where a harmful request is split into innocuous sub-requests, and prompt injection attacks, where a compromised tool…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.07089",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "PlaySuite: A Large-Scale Benchmark for Interactive Visual Intelligence",
-    "description": "arXiv:2610.07127v1 Announce Type: cross Abstract: Recent advances in multimodal foundation models yield strong performance on static perception and reasoning benchmarks, yet such evaluations largely overlook a central aspect of intelligence: acting competently in dynamic environments over extended…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.07127",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "CroissantMiner: Automated Extraction and Validation of Croissant Metadata for ML Datasets",
-    "description": "arXiv:2610.07132v1 Announce Type: cross Abstract: Croissant has emerged as a standard for machine-readable dataset metadata, yet populating its fields remains labor-intensive and requires careful reading of accompanying dataset documentation. We present the first benchmark enabling end-to-end…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.07132",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "Agentic Design Space Exploration for Joint Hardware Configuration Selection and Mapping of AI Inference Workloads on Heterogeneous Edge SoCs",
-    "description": "arXiv:2610.07191v1 Announce Type: cross Abstract: Modern edge Systems-on-Chip (SoCs) integrate heterogeneous processing units (PUs) such as CPUs, GPUs, and NPUs, each with distinct performance and energy characteristics. Deploying AI inference workloads on them under real-time latency and energy…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.07191",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "Lineage-Aware Memory Governance: A Derivation-Gated Framework for Privacy-Preserving Column-Level Access Control in Enterprise AI Agents",
-    "description": "arXiv:2610.07258v1 Announce Type: cross Abstract: Enterprise AI agents that share a memory store face two unaddressed risks: sensitive data can leak through legitimately computed results the requester could not derive, and departments can silently compute a same-named key performance indicator…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.07258",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "Catching Developers in the Flow: Low-Latency Agentic Program Repair at Google Scale",
-    "description": "arXiv:2610.07289v1 Announce Type: cross Abstract: Manual repair of program failures is time-consuming and disruptive for software developers, particularly during the pre-submit phase where test failures occur within continuous integration systems. While Automated Program Repair has seen significant…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.07289",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-    "description": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
-    "category": "News",
-    "link": "https://openai.com/index/oracle",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-08",
-    "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
-    "description": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
-    "category": "News",
-    "link": "https://openai.com/index/pollo-ai",
-    "source": "OpenAI",
-    "badge": "⭐"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "Disrupting AI-enabled “false front” operations",
-    "description": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
-    "category": "News",
-    "link": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-08",
-    "title": "The best AI newsletters in 2026",
-    "description": "As a writer covering technology and AI, I spend plenty of time separating useful information from the hype. A good AI newsletter can help cut through that noise. But the best newsletter depends on what you need. Someone making AI strategy decisions needs different coverage than someone looking for…",
-    "category": "Automation",
-    "link": "https://zapier.com/blog/best-ai-newsletters",
-    "source": "Zapier Blog",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "Gemini vs ChatGPT: Complete Comparison 2026",
-    "description": "Gemini vs chatgpt performance metrics for 2026 reveal which model handles complex API integrations and workflow orchestration more effectively.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/gemini-vs-chatgpt-for-unified-automation-2026",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "More visual answers from GPT-6 with Intelligent UI",
-    "description": "GPT‑6 in ChatGPT introduces Intelligent UI, a new capability that allows ChatGPT to answer quickly with fully interactive user interfaces that make everyday answers more visual, make learning complex topics easier and that can quickly create a tool to solve a task right in the moment. GPT‑6 with…",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/OgjMGn4T6Ok",
-    "source": "YouTube – OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-08",
-    "title": "How Oracle Uses ChatGPT Work to Transform Recruitment",
-    "description": "“We’ve gone from zero to 100, not zero to 60.” Jan Ackerman shares how Oracle built a talent market intelligence tool with ChatGPT Work to transform hiring preparation. Starting with a job description, it researches comparable roles, benchmarks compensation, and assesses talent pools across…",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/Rs5qLAnkNcI",
-    "source": "YouTube – OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-08",
-    "title": "Get a more visual answer from GPT-6 with Intelligent UI",
-    "description": "GPT‑6 in ChatGPT introduces Intelligent UI, a new capability that allows ChatGPT to answer quickly with fully interactive user interfaces that make everyday answers more visual, make learning complex topics easier and that can quickly create a tool to solve a task right in the moment. GPT‑6 with…",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/Wv0PRPMzkJg",
-    "source": "YouTube – OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-08",
-    "title": "Play a game against GPT-6 with Intelligent UI",
-    "description": "GPT‑6 in ChatGPT introduces Intelligent UI, a new capability that allows ChatGPT to answer quickly with fully interactive user interfaces that make everyday answers more visual, make learning complex topics easier and that can quickly create a tool to solve a task right in the moment. GPT‑6 with…",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/BHQF1xl2ScU",
-    "source": "YouTube – OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-08",
-    "title": "La RIVOLUZIONE dell'AI di cui Nessuno Parla (Jev Spiegato semplice)",
-    "description": "La RIVOLUZIONE dell'AI di cui Nessuno Parla (Jev Spiegato semplice) perché Jev di TypeSafe AI è la rivoluzione dell'AI di cui nessuno parla: un'intelligenza artificiale che non scrive, decide. Te la spiego in modo semplice e la provo su casi veri della mia agenzia. Dietro Jev c'è Diogo Almeida, uno…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=P1p9Bs6b9wA",
-    "source": "YouTube - Gabry Solutions",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-10-08",
-    "title": "How Oracle Uses ChatGPT Work to Transform Recruitment",
-    "description": "“We’ve gone from zero to 100, not zero to 60.” Jan Ackerman shares how Oracle built a talent market intelligence tool with ChatGPT Work to transform hiring preparation. Starting with a job description, it researches comparable roles, benchmarks compensation, and assesses talent pools across…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=Mm3EsJL73tM",
-    "source": "YouTube – OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-08",
-    "title": "Make a game using GPT-6 with Intelligent UI",
-    "description": "GPT‑6 in ChatGPT introduces Intelligent UI, a new capability that allows ChatGPT to answer quickly with fully interactive user interfaces that make everyday answers more visual, make learning complex topics easier and that can quickly create a tool to solve a task right in the moment. GPT‑6 with…",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/qmOOspYLhzg",
-    "source": "YouTube – OpenAI",
     "badge": ""
   },
   {
