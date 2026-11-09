@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-11-09",
+    "title": "A single AI model simulates the behavior of many substances, from sliding sand to folding proteins",
+    "description": "By learning how matter moves, the WorldParticle system could assist with developing soft robots, medicines, and more.",
+    "category": "News",
+    "link": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
+    "source": "MIT AI News",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-09",
+    "title": "AI-assisted learning platform helps robots reason beyond literal commands",
+    "description": "The new approach, known as FLEX, could lead to more intuitive, interactive household and assistive robots.",
+    "category": "News",
+    "link": "https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109",
+    "source": "MIT AI News",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
+    "description": "As AI agents take on more work, they need capable open models and security that advances alongside them. Hyundai Motor Group is exploring NVIDIA NemoClaw blueprints and the NVIDIA OpenShell runtime, while AIM Intelligence is integrating its Starfort platform with NVIDIA OpenShell to support secure…",
+    "category": "News",
+    "link": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
+    "source": "NVIDIA AI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-09",
+    "title": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
+    "description": "NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models, agents and security. The collaboration lays the groundwork for Korean NPU and XPU…",
+    "category": "News",
+    "link": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
+    "source": "NVIDIA AI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-09",
+    "title": "MiniCPM-V 4.7 open-sourced: 35B MoE multimodal model runs on iPhone at 30+ tokens/s",
+    "description": "面壁智能 and OpenBMB have open-sourced MiniCPM-V 4.7, including a 35B-A3B MoE multimodal model that runs fully on-device, occupying about 3GB of memory and exceeding 30 tokens per second on the iPhone 18 Pro Max. The team calls this a milestone toward edge intelligence, with co-founder 刘知远 stating that…",
+    "category": "News",
+    "link": "https://picx.dev/news/VrEB7O",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-09",
+    "title": "La mia startup interessa a 40 persone. Quante pagheranno?",
+    "description": "Utilizza il codice MONTY per avere uno sconto su Hostinger: https://www.hostinger.com/montystartup Questo video è supported by Hostinger #adv 🎁 Scopri cosa puoi delegare agli agenti AI nel tuo lavoro: https://spiegamelofacile.com/weekend-ai/masterclass Iscriviti gratis alla mia masterclass di 30…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=9vRbnnIHA_Q",
+    "source": "YouTube - Marco Montemagno",
+    "badge": "🔥"
+  },
+  {
     "date": "2026-11-08",
     "title": "Unconfirmed reports say OpenAI's GPT-6.2 Astra and Sol delayed over safety and alignment issues",
     "description": "Developers had expected OpenAI's Astra and Sol models around November 6 after the identifiers gpt-6.2-astra and gpt-6.2-sol appeared in Codex usage records and on a Google Cloud-related page, but no launch occurred. On November 8, social media users circulated unconfirmed claims that OpenAI found…",
@@ -7,6 +61,15 @@
     "link": "https://picx.dev/news/DuRuXn",
     "source": "PicX",
     "badge": "⭐"
+  },
+  {
+    "date": "2026-11-08",
+    "title": "Il problema non è lo studente che usa l'AI. È il compito.",
+    "description": "Il problema non è lo studente che usa l'AI. È il compito. Secondo la Relazione CNEL sui servizi pubblici 2026, ripresa dal Sole 24 Ore il 7 novembre 2026, l’89% dei ragazzi italiani tra 9 e 16 anni usa l’intelligenza artificiale generativa e il 25% dei docenti dichiara di usarla in classe. Il primo…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/ufGoPyUrjwg",
+    "source": "YouTube - Marco Montemagno",
+    "badge": ""
   },
   {
     "date": "2026-11-07",
@@ -3265,123 +3328,6 @@
     "link": "https://www.activepieces.com/blog/ai-agent-vs-workflow-when-to-use-each-2026-guide",
     "source": "Activepieces",
     "badge": "🔁"
-  },
-  {
-    "date": "2026-10-09",
-    "title": "An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment",
-    "description": "arXiv:2610.10541v1 Announce Type: new Abstract: Knowledge Graph (KG) quality depends not only on downstream graph validation, but also on the quality of tabular metadata used before integration. In metadata-only Semantic Table Interpretation (STI), where cell values are unavailable, noisy, or…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.10541",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-09",
-    "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
-    "description": "arXiv:2610.10549v1 Announce Type: new Abstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterprise systems, data, and database schemas. Tabular data synthesis offers a…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.10549",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-09",
-    "title": "The Harness as the Only Mutable Surface: Compliance-Bounded Self-Evolution of LLM Agents in Credit Pipelines, with a Measured Admission Gate",
-    "description": "arXiv:2610.10629v1 Announce Type: new Abstract: Self-improving LLM agents can adapt a credit pipeline to a changed rule, but an agent that rewrites itself destroys the artefact a supervisor reviews: a named change, a recorded test, an approval. We argue that self-evolution is reviewable only if it…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.10629",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-09",
-    "title": "On the Clock: Towards Punctual and Productive Time-Budgeted AI Agents",
-    "description": "arXiv:2610.10833v1 Announce Type: new Abstract: We study whether small LLM agents can operate effectively under explicit wall-clock time budgets by both respecting the allocated runtime and using available time productively. We evaluate Qwen3.6-27B on five competitions from MLE-Bench Lite and…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.10833",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-09",
-    "title": "Reading the Room: Foundations, Design, and Challenges of Normative Competence in LLMs",
-    "description": "arXiv:2610.10906v1 Announce Type: new Abstract: Human communities are governed by normative systems: shared standards that produce \\textit{norms} dictating acceptable behavior, enforced through community sanctioning. Aligning increasingly autonomous AI systems with these norms is a central…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.10906",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-09",
-    "title": "Expensify ChatGPT Integration: Automated Expense Auditing",
-    "description": "Automated expense auditing reduces manual review time by using API workflows to flag policy violations against your company guidelines instantly.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/expensify-chatgpt-integration-automated-expense-auditing",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-09",
-    "title": "What is Mistral Large 4? Pricing and Benchmarks",
-    "description": "What is Mistral Large 4 and how does it compare to industry-leading AI models? Use these technical specifications to choose the right LLM for your project.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/what-is-mistral-large-4-pricing-and-benchmarks",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-09",
-    "title": "Step 5 Preview: How the New StepFun Model Impacts AI Automation",
-    "description": "Step 5 Preview capabilities allow engineers to evaluate if this architecture meets their specific requirements for complex, multimodal automation tasks.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/step-5-preview-how-the-new-stepfun-model-impacts-ai-automation",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-09",
-    "title": "Claude vs ChatGPT 2026: Which AI Should You Use?",
-    "description": "Comparing claude vs chatgpt helps organizations select the model that aligns with their specific data security requirements and automation needs.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/claude-vs-chatgpt-2026-which-ai-should-you-use",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-09",
-    "title": "How Sophos cuts threat response time by 96% with OpenAI Daybreak",
-    "description": "Sophos CTO John Peterson shares how agents built through OpenAI Daybreak combine AI with Sophos’s cybersecurity expertise to reduce average response time from 38 minutes to 89 seconds for cases using those agents. Hear how Sophos is helping its MDR team investigate threats faster, protect customers…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=MUHjyljBPHI",
-    "source": "YouTube – OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-09",
-    "title": "Ecco perché l'Europa deve liberarsi del software americano [Bruno Giussani]",
-    "description": "Compra il mio corso base \"Crea un Agente AI con Claude Code\": https://www.raffaelegaito.com/claude-code-crea-agente-ai-corso-completo/?landing=true Compra il mio corso intermedio “Fai il passo successivo con Claude Code”…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=uETlIzQSJhQ",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-09",
-    "title": "Che DIAVOLO è Successo a Google Gemini?",
-    "description": "Che diavolo è successo a Google Gemini? A febbraio Google aveva l'AI più forte del mondo, oggi insegue Claude e ChatGPT. E Gemini 4 Argon, per ora, lo usano in pochissimi. In questo video ricostruisco otto mesi di corsa all'intelligenza artificiale: il Gemini 3.5 Pro annunciato al Google I/O e mai…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=HoB2GZmB510",
-    "source": "YouTube - Gabry Solutions",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-10-09",
-    "title": "Il cliente era pronto a comprare, poi ha aperto il sito",
-    "description": "Utilizza il codice sconto MONTY su https://www.hostinger.com/montyonline Questo video è supported by Hostinger #adv Scopri in 2 minuti quanto sei davvero pronto a usare l’AI nel tuo lavoro: fai il test gratuito → https://spiegamelofacile.com/audit/form-v4 -- Se il video ti è stato utile, iscriviti…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=SZs0PhsrvNk",
-    "source": "YouTube - Marco Montemagno",
-    "badge": ""
   },
   {
     "date": "2025-07-30",
