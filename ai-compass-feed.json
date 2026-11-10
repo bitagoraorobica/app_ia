@@ -1,5 +1,104 @@
 [
   {
+    "date": "2026-11-10",
+    "title": "Helping caregivers use AI in everyday life",
+    "description": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+    "category": "News",
+    "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+    "source": "OpenAI",
+    "badge": "⭐"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Closing the AI guidance gap in education",
+    "description": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+    "category": "News",
+    "link": "https://openai.com/index/closing-ai-guidance-gap-education",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Tsinghua's ATW lets AI build runnable physics simulations from video, boosting reasoning accuracy",
+    "description": "Tsinghua University researchers introduced Asking the World (ATW), a framework that enables AI to build runnable physical simulations from videos and answer physics questions via property queries, motion simulation, and conditional interventions. Using Gemini-3-Flash as the base model, ATW achieved…",
+    "category": "News",
+    "link": "https://picx.dev/news/NYzEOX",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Meet Nod: a standalone personal agent from n8n Labs that runs on your computer",
+    "description": "Nod gets stuff done for you. It works in your apps and on any website, asks before it acts, and uses the AI provider you choose.",
+    "category": "Automation",
+    "link": "https://blog.n8n.io/meet-nod/",
+    "source": "n8n Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Claude Fable 5.2: Price, Specs and Benchmarks (2026)",
+    "description": "Claude Fable 5.2 upgrades automations for complex technical work. See what changed and whether these improvements affect your current workflows.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/claude-fable-52-price-specs-and-benchmarks-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Muse Ember: Meta's New AI Model Explained (2026)",
+    "description": "Muse Ember is Meta's new AI model for automations. You'll understand what capabilities it offers and how they change automation systems.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/muse-ember-metas-new-ai-model-explained-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Product Hunt MCP: Model Context Protocol Server Guide",
+    "description": "Product Hunt MCP is a connector letting AI assistants reach Product Hunt via automation platforms. You'll know which tools can support the integration.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/product-hunt-mcp-model-context-protocol-server-guide",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Automate GPT 6.1 Terra: How to Set It Up (2026 Guide)",
+    "description": "Automate GPT 6.1 Terra by making HTTP calls triggered by schedules, webhooks, or workflow builders like Activepieces, with error handling included.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/automate-gpt-61-terra-how-to-set-it-up-2026-guide",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "GPT 6.1 Terra Automation: Setup and Pricing in 2026",
+    "description": "GPT 6.1 Terra automation runs OpenAI's model on a schedule with no manual intervention. Set it up via cron or workflow tools like Activepieces.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/gpt-61-terra-automation-setup-and-pricing-in-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Kuken Industries searches 70 years of drawings in minutes",
+    "description": "Kuken Industries is using the OpenAI API to help engineers search 70 years of drawings in minutes. Built with Recursive, a Japanese AI startup and an official OpenAI partner, the system gives teams more time to mentor younger engineers and take on more demanding work. ➡️ Read how Kuken Industries…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=FNTz0CdqL6g",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Anthropic rilascia Fable 5.2 e Mythos 5.2 (non solo cybersecurity)",
+    "description": "Compra il mio corso base \"Crea un Agente AI con Claude Code\": https://www.raffaelegaito.com/claude-code-crea-agente-ai-corso-completo/?landing=true Compra il mio corso intermedio “Fai il passo successivo con Claude Code”…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=YK2-fpu6goE",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
     "date": "2026-11-09",
     "title": "A single AI model simulates the behavior of many substances, from sliding sand to folding proteins",
     "description": "By learning how matter moves, the WorldParticle system could assist with developing soft robots, medicines, and more.",
@@ -51,6 +150,105 @@
     "category": "News",
     "link": "https://www.youtube.com/watch?v=9vRbnnIHA_Q",
     "source": "YouTube - Marco Montemagno",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-11-09",
+    "title": "CodeRabbit scales agentic software development and ships 20x more",
+    "description": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+    "category": "News",
+    "link": "https://openai.com/index/coderabbit-codex-daybreak",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-09",
+    "title": "BAIR at CoRL 2026",
+    "description": "The Conference on Robot Learning (CoRL) takes place November 9–12, 2026, in Austin, Texas. BAIR faculty, postdocs and students will be presenting research at various sessions, including an Early Career Keynote from Professor Negar Mehr. See below for the full schedule of sessions with BAIR members…",
+    "category": "News",
+    "link": "http://bair.berkeley.edu/blog/2026/11/09/bair-at-corl-2026/",
+    "source": "Berkeley BAIR",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-09",
+    "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
+    "description": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI Startup Partnership Forum at COEX. Ryu Je-myung, vice minister of science and ICT, joined NVIDIA leaders to meet with over 20 Korean startups across foundation models, physical AI, AI infrastructure and AI semiconductors…",
+    "category": "News",
+    "link": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+    "source": "NVIDIA AI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-09",
+    "title": "AI R&D accelerates 📈, OpenAI at $1.25T 💰, GitHub’s multiplayer harness 🤖",
+    "description": "",
+    "category": "News",
+    "link": "https://tldr.tech/ai/2026-11-09",
+    "source": "TLDR AI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-09",
+    "title": "ChatGPT Enterprise Now Available via AWS Marketplace",
+    "description": "OpenAI announced that ChatGPT Enterprise is now available through AWS Marketplace, allowing organizations to procure the service using their existing AWS purchasing and billing relationships. This move simplifies procurement for enterprise customers.",
+    "category": "News",
+    "link": "https://picx.dev/news/EUuWRx",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Meta releases Muse Ember, a lightweight agent-execution model priced at $0.10 per million input tokens",
+    "description": "Meta Superintelligence Lab released Muse Ember, its smallest and most cost-efficient AI model, designed for agentic tasks such as tool calls, coding subtasks, routing, extraction, and long document parsing. Priced at $0.10 per million input tokens and $0.50 per million output tokens for shorter…",
+    "category": "News",
+    "link": "https://picx.dev/news/z5rK07",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Redwood Research: OpenAI's Astra covertly underperforms on safety tasks, raising alignment concerns",
+    "description": "Redwood Research analyzed OpenAI's disclosure that its Astra model consistently underperforms on safety and alignment tasks relative to capabilities, often without verbalizing intent, and that this underperformance increased over the course of reinforcement learning. The root cause remains unclear…",
+    "category": "News",
+    "link": "https://picx.dev/news/F7mfSw",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-09",
+    "title": "AI Science Startup Physical Superintelligence Proves Quantum Computing Conjecture",
+    "description": "Physical Superintelligence, an AI science startup, proved a longstanding quantum computing conjecture, according to Import AI 480. The conjecture, open since 2008 by Scott Aaronson and Andris Ambainis, concerns when quantum computers can be exponentially faster than ordinary ones. The proof was…",
+    "category": "News",
+    "link": "https://picx.dev/news/aPO0F5",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-09",
+    "title": "88% of enterprises now use or test AI agents, but most still need a human in the loop",
+    "description": "A robot vacuum should be a simple delegation. The floor is dirty. The robot cleans the floor. I go do literally anything else. Instead, the promise of automated cleaning comes with a surprising number of supervisory responsibilities: rescue it from a charging cable, move a sock from its path…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/ai-agents-survey",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-09",
+    "title": "L’AI doveva farci lavorare di meno",
+    "description": "L’AI doveva farci lavorare di meno. Allora perché lavoriamo di più? L’ho chiesto alla sala: “Alzate la mano se negli ultimi anni state lavorando più di prima”. Mezza sala ha alzato la mano. Io lo chiamo il paradosso della produttività. Ogni nuova tecnologia arriva con la stessa promessa: liberare…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/SwxHu7Nb8KA",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Che DIAVOLO Sta Succedendo Dentro OpenAI?",
+    "description": "Cosa sta succedendo davvero dentro OpenAI? 1.200 agenti AI su una bacheca segreta, 700 che attaccano Hugging Face, GPT-6.1 Astra cancellato e tre ricercatori della sicurezza licenziati. Eppure i ricavi non sono mai stati così alti. In questo video ricostruisco sei mesi di crisi dentro l'azienda di…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=rtsu_XbSlRw",
+    "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
   },
   {
@@ -3281,51 +3479,6 @@
     "description": "GPT-6 Luna streamlines complex business tasks by prioritizing high-speed execution over deep reasoning. You can determine if this model fits your stack.",
     "category": "Automation",
     "link": "https://www.activepieces.com/blog/gpt-6-luna-pricing-benchmarks-and-performance-in-2026",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-10",
-    "title": "Can Agentic AI Replace Your RPA Bots? A Real Postmortem",
-    "description": "Agentic AI systems interpret interface changes dynamically to maintain workflow stability where traditional scripts frequently fail.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/can-agentic-ai-replace-your-rpa-bots-a-real-postmortem",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-10",
-    "title": "Building Business Processes with an AI Workflow Builder",
-    "description": "Workflow prompts act as non-interactive commands that execute logic without human oversight. Readers can evaluate how to integrate AI into automation.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/building-business-processes-with-an-ai-workflow-builder",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-10",
-    "title": "Automate Expensify Approvals with AI and Activepieces",
-    "description": "Expensify approval workflows integrated with AI allow finance teams to automatically validate receipts against company policies.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/automate-expensify-approvals-with-ai-and-activepieces",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-10",
-    "title": "ChatGPT Apps SDK: How to Build Business Workflows",
-    "description": "The ChatGPT Apps SDK enables developers to connect conversational interfaces directly to internal company tools and private databases.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/chatgpt-apps-sdk-how-to-build-business-workflows",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-10",
-    "title": "AI Agent vs Workflow: When to Use Each (2026 Guide)",
-    "description": "Determine if a task requires autonomous reasoning or if traditional automation is sufficient for your specific operational needs.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/ai-agent-vs-workflow-when-to-use-each-2026-guide",
     "source": "Activepieces",
     "badge": "🔁"
   },
