@@ -1,5 +1,86 @@
 [
   {
+    "date": "2026-11-11",
+    "title": "Embodied Science Agents: Making Embodied Experimental Design Learnable",
+    "description": "arXiv:2611.12958v1 Announce Type: new Abstract: Recent advances in large models have accelerated AI for Science toward agentic science, where AI agents autonomously conduct scientific discovery. Realising this vision requires closing the loop between computational reasoning and physical…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.12958",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-11",
+    "title": "BuySideFlow: A Point-in-Time Benchmark for LLM Agents in Investment Research",
+    "description": "arXiv:2611.12966v1 Announce Type: new Abstract: Large language models (LLMs) can generate SQL and SQL--Python workflows for investment research, but ensuring point-in-time (PIT) validity remains challenging. Agents must enforce disclosure cutoffs and select the appropriate historical states and…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.12966",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-11",
+    "title": "ChipOmni: A General-Purpose AI Agent for Electronic Design Automation",
+    "description": "arXiv:2611.13020v1 Announce Type: new Abstract: Electronic design automation (EDA) workflows remain highly fragmented, requiring engineers to coordinate heterogeneous representations, specialised software tools, and iterative verification across multiple design stages. Although large language…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.13020",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-11",
+    "title": "Activation-Guided Graph Retrieval for Cognitive Memory Reconstruction in Language Model Systems",
+    "description": "arXiv:2611.13127v1 Announce Type: new Abstract: Retrieval-augmented language model systems generally select context by query-conditioned relevance. We argue that long-lived AI systems require a second operator: activation-conditioned memory availability. We specify an architecture in which request…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.13127",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-11",
+    "title": "Agent-Guided Discovery of Exchange-Correlation Functionals with Physics-based Validation",
+    "description": "arXiv:2611.13329v1 Announce Type: new Abstract: Accurate, compact exchange--correlation functionals are central to predictive density functional theory. Symbolic search and language-model agents can propose new functional forms, but it remains unclear whether their gains survive self-consistency…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.13329",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-11",
+    "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
+    "description": "Vision AI and robotics pick what’s worth recovering out of conveyor belts of used clothing, bottles and mixed recyclables, diverting thousands of tons of materials from landfills.",
+    "category": "News",
+    "link": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
+    "source": "NVIDIA AI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-11",
+    "title": "Shanghai AI4S open-sources REMORY, a 1.9B memory module for recursive self-improvement",
+    "description": "The Shanghai Academy of AI for Science, with Fudan University and Shanghai Chuangzhi Institute, open-sourced REMORY, a 1.9B-parameter memory module that enables small models to run independently for days via recursive self-improvement, achieving results near GPT-6.1-Terra. Trained fully…",
+    "category": "News",
+    "link": "https://picx.dev/news/LFVWYT",
+    "source": "PicX",
+    "badge": "⭐"
+  },
+  {
+    "date": "2026-11-11",
+    "title": "Chutes AI Automation Setup in 2026: Steps, Limits, Fixes",
+    "description": "Chutes AI automation means workflow tools send OpenAI-style requests on triggers and write responses for you.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/chutes-ai-automation-setup-in-2026-steps-limits-fixes",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-11",
+    "title": "Fal AI MCP Server: Connect Claude, ChatGPT & Agents",
+    "description": "Fal AI MCP servers let AI agents use fal.ai's image, video and audio models as tools. You can connect them to your agent infrastructure.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/fal-ai-mcp-server-connect-claude-chatgpt-agents",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
     "date": "2026-11-10",
     "title": "Helping caregivers use AI in everyday life",
     "description": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
@@ -96,6 +177,87 @@
     "category": "News",
     "link": "https://www.youtube.com/watch?v=YK2-fpu6goE",
     "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Work at the Frontier: AI’s effect on freelance work",
+    "description": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+    "category": "News",
+    "link": "https://openai.com/index/ai-effect-on-freelance-work",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-10",
+    "title": "New York AI safety law takes effect, requiring major developers to register and report incidents",
+    "description": "New York's comprehensive AI safety law has taken effect, imposing new oversight on major developers such as OpenAI and Anthropic. These companies must now register, disclose safety practices, and report critical incidents, with potential fines for non-compliance.",
+    "category": "News",
+    "link": "https://picx.dev/news/fNqCFJ",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-10",
+    "title": "OpenAI launches beta 'Business Agents' in ChatGPT for US e-commerce firms",
+    "description": "OpenAI announced the beta launch of 'Businesses' in ChatGPT, a suite of business-focused features including verified 'Business Agents' that represent brands and can assist users with tasks like comparison shopping. The feature is initially available to eligible e-commerce and online service…",
+    "category": "News",
+    "link": "https://picx.dev/news/245g5n",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-10",
+    "title": "TSMC plans up to $1B in Anthropic and OpenAI investments",
+    "description": "TSMC plans to invest up to $500 million in Anthropic at its IPO price and up to $500 million in OpenAI to acquire preferred stock, totaling up to $1 billion across the two AI developers. The move highlights the Taiwanese chipmaker's confidence in long-term demand for AI.",
+    "category": "News",
+    "link": "https://picx.dev/news/UgMPjT",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Build Safer n8n Agents and Workflows with Google Gemini 4 Carbon",
+    "description": "Gemini 4 Carbon is out and it's now available in n8n. Google is calling it its strongest model yet, with big gains in coding, long-running agentic work and cybersecurity. In Google's results, it posts a 53.9% on AutomationBench, a benchmark for automation work, topping",
+    "category": "Automation",
+    "link": "https://blog.n8n.io/build-safer-n8n-agents-and-workflows-with-google-gemini-4-carbon/",
+    "source": "n8n Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Answering your questions about GPT-Live",
+    "description": "We’re answering the internet’s questions about GPT-Live, starting with how it’s different from earlier voice models and what developers are using it for. Already building with GPT-Live? We’ll share practical tips for customizing your agent’s voice and improving delegation. What else would you like…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=5YXlrzC_RYE",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Introducing Businesses in ChatGPT in beta",
+    "description": "Now in beta: Businesses in ChatGPT. Claim your business, manage your information, and get insights on how people engage with you. With Business Hub, verified businesses can update their details and add product feeds with current pricing and availability. They can also see aggregated insights on…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=Z9k5oI3Paoc",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-10",
+    "title": "How CodeRabbit uses OpenAI to review AI-generated code",
+    "description": "CodeRabbit co-founder and CEO Harjot Gill explains how the team uses OpenAI models to help teams understand, review, and secure code produced by AI agents and decide what’s ready to ship. He also shares how CodeRabbit used Codex to ship 20x more software over 6 months with the same engineering…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=ZTxzWJeGFAA",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Ambizione e carriera oggi sono due cose molto diverse.",
+    "description": "Ambizione e carriera oggi sono due cose molto diverse. Fino a ieri l'ambizione lavorativa voleva dire passare per forza da un'azienda. Oggi puoi non lavorare in un'azienda e lanciare le tue iniziative: con gli agenti AI, programmi di intelligenza artificiale che svolgono compiti al posto tuo, è…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/IqXzxZ7tzBI",
+    "source": "YouTube - Marco Montemagno",
     "badge": ""
   },
   {
@@ -250,6 +412,15 @@
     "link": "https://www.youtube.com/watch?v=rtsu_XbSlRw",
     "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
+  },
+  {
+    "date": "2026-11-09",
+    "title": "OpenAI unveils Control Room to track and halt model workloads",
+    "description": "OpenAI introduced Control Room, a central system that monitors model workloads across its research infrastructure and can rapidly stop them when safety or security concerns arise. The system is designed to enhance human oversight and control over AI operations.",
+    "category": "News",
+    "link": "https://picx.dev/news/FcsFio",
+    "source": "PicX",
+    "badge": ""
   },
   {
     "date": "2026-11-08",
@@ -3436,51 +3607,6 @@
     "link": "https://www.youtube.com/shorts/1hCq4v_vZKQ",
     "source": "YouTube - Marco Montemagno",
     "badge": ""
-  },
-  {
-    "date": "2026-10-11",
-    "title": "Wix ChatGPT Integration: How to Build It (2026 Guide)",
-    "description": "Wix automation workflows connect your site forms to AI processing to categorize entries and trigger custom responses without manual intervention.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/wix-chatgpt-integration-how-to-build-it-2026-guide",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-11",
-    "title": "Playwright MCP server for Claude Code and Cursor",
-    "description": "Playwright MCP servers allow AI agents to navigate websites and extract data using natural language. You can build autonomous browser workflows.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/playwright-mcp-server-for-claude-code-and-cursor",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-11",
-    "title": "Jev Agent vs Browser Use for AI Automation in 2026",
-    "description": "Jev agent vs browser use differences help you select the right automation tool for your specific technical requirements and browser control needs.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/jev-agent-vs-browser-use-for-ai-automation-in-2026",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-11",
-    "title": "GPT-6 Sol Launch: What Changed in 2026",
-    "description": "The GPT-6 Sol launch introduces tiered token pricing that allows developers to calculate exact operational savings for high-volume automation workflows.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/gpt-6-sol-launch-for-automation-builders-in-2026",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-11",
-    "title": "GPT-6 Luna: Pricing, Benchmarks, and Performance in 2026",
-    "description": "GPT-6 Luna streamlines complex business tasks by prioritizing high-speed execution over deep reasoning. You can determine if this model fits your stack.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/gpt-6-luna-pricing-benchmarks-and-performance-in-2026",
-    "source": "Activepieces",
-    "badge": "🔁"
   },
   {
     "date": "2025-07-30",
