@@ -1,5 +1,68 @@
 [
   {
+    "date": "2026-11-13",
+    "title": "Helping robots fit into the human workplace",
+    "description": "Founded by Anthony Jules ’92, SM ’92 and Professor Emeritus Rodney Brooks, Robust AI’s robots are designed to collaborate with humans in factories and warehouses.",
+    "category": "News",
+    "link": "https://news.mit.edu/2026/helping-robots-fit-into-human-workplace-1113",
+    "source": "MIT AI News",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-13",
+    "title": "Meta launches outbound calling for Muse AI agent for paid US subscribers",
+    "description": "Meta has launched an outbound calling feature for its consumer AI agent Muse, allowing it to place calls to U.S. businesses on behalf of users. The feature, initially tested in September, is now available to paid US subscribers, with similar options offered by Gemini and startup Instinct.",
+    "category": "News",
+    "link": "https://picx.dev/news/Zpx15S",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-13",
+    "title": "Mirendil, founded by ex-Anthropic researchers, raises $1B Series A",
+    "description": "Mirendil, a startup founded by former Anthropic researchers to build self-improving AI, has raised a $1 billion Series A round led by Kleiner Perkins and Clearlake Capital. The funding comes six months after the company announced a $200 million seed round.",
+    "category": "News",
+    "link": "https://picx.dev/news/l0pSqb",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-13",
+    "title": "What Is AgentRun? Secure AI Agent Code Execution",
+    "description": "Understanding what is AgentRun allows developers to secure AI-driven workflows by isolating untrusted code execution within controlled environments.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/what-is-agentrun-secure-ai-agent-code-execution",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-13",
+    "title": "Gemini 4 Hydrogen: Benchmarks, Pricing & Speed (2026)",
+    "description": "Gemini 4 Hydrogen is Google's new model for coding and agentic workflows. See how automation builders might apply it to their existing tools.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/gemini-4-hydrogen-benchmarks-pricing-speed-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-13",
+    "title": "Tutto quello che devi sapere sui decision model [Marco De Rossi]",
+    "description": "Compra il mio corso base \"Crea un Agente AI con Claude Code\": https://www.raffaelegaito.com/claude-code-crea-agente-ai-corso-completo/?landing=true Compra il mio corso intermedio “Fai il passo successivo con Claude Code”…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=s9uEBaGsWgI",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-11-13",
+    "title": "Parliamo Dello Scandalo Di Nvidia",
+    "description": "🎁 Scopri cosa puoi delegare agli agenti AI nel tuo lavoro: https://spiegamelofacile.com/weekend-ai/masterclass Iscriviti gratis alla mia masterclass di 30 minuti e ricevi anche l’instant book di 52 pagine. Qui Monty e sul canale parlo di tecnologia, intelligenza artificiale, business…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=1mmg--lvmoQ",
+    "source": "YouTube - Marco Montemagno",
+    "badge": "⭐"
+  },
+  {
     "date": "2026-11-12",
     "title": "Supporting research on AI and children’s safety",
     "description": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
@@ -61,6 +124,42 @@
     "link": "https://www.activepieces.com/blog/mitra-mcp-what-it-is-and-how-to-use-it-2026",
     "source": "Activepieces",
     "badge": "🔁"
+  },
+  {
+    "date": "2026-11-12",
+    "title": "OpenAI backs bipartisan US effort to curb China's AI chip access",
+    "description": "OpenAI has confirmed to lawmakers that it supports a bipartisan congressional effort to restrict China's access to AI chips and chipmaking tools. The move aligns OpenAI with ongoing US policy debates over semiconductor export controls.",
+    "category": "News",
+    "link": "https://picx.dev/news/aJGUBM",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-12",
+    "title": "Google launches Gemini 4 Hydrogen, a low-cost agentic model, across products",
+    "description": "Google announced Gemini 4 Hydrogen, a new Flash-level multimodal model with a 1M token window, priced at $1.50/1M input and $7.50/1M output tokens. It is available across AI Studio, the Gemini API, Search, the Gemini app, and Antigravity, and introduces an xhigh reasoning level. Benchmarks show it…",
+    "category": "News",
+    "link": "https://picx.dev/news/CzNrLu",
+    "source": "PicX",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-11-12",
+    "title": "Businesses in ChatGPT: Features and Pricing (2026)",
+    "description": "Businesses in ChatGPT is OpenAI's new beta offering for enterprises. You'll determine whether this affects your current automation strategy and how.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/businesses-in-chatgpt-features-and-pricing-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-12",
+    "title": "Dammi 13 Minuti e ti Insegno Gemini da Zero",
+    "description": "Dammi 13 Minuti e ti Insegno Gemini da Zero e come usare Google Gemini da zero, aggiornato a novembre 2026: in 13 minuti scegli il piano giusto, lo imposti in 3 minuti e impari a farti dare risposte buone al primo colpo. Se hai visto una guida su Gemini prima di ottobre, tante cose non funzionano…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=6WjE14OhyTY",
+    "source": "YouTube - Gabry Solutions",
+    "badge": "⭐"
   },
   {
     "date": "2026-11-11",
@@ -3409,204 +3508,6 @@
     "link": "https://www.youtube.com/watch?v=8AVq92o2S7w",
     "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
-  },
-  {
-    "date": "2026-10-13",
-    "title": "When Faster Decisions Do Not Make Better Agents: An Empirical Study of Jev in Agent Workflows",
-    "description": "arXiv:2610.13092v1 Announce Type: new Abstract: AI agents depend on repeated decisions to accomplish tasks, with large language models (LLMs) commonly serving as their core decision makers. The recent emergence of Jev offers an opportunity to make these decisions faster and at lower cost. However…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.13092",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-13",
-    "title": "DRYLAB-Bench: Benchmarking the Biosecurity Risk of Agentic LLM Mutation Design",
-    "description": "arXiv:2610.13116v1 Announce Type: new Abstract: As large language models (LLMs) acquire advanced biological design capabilities, they offer substantial research benefits but simultaneously introduce severe dual-use risks, such as engineering enhanced pathogens or drug-resistant bacteria. While…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.13116",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-13",
-    "title": "Locate, Judge, Read: Role-Specialized Tool Agents over a Knowledge-Point Index for Open-Domain Multimodal Document QA",
-    "description": "arXiv:2610.13128v1 Announce Type: new Abstract: Question answering over large heterogeneous document collections requires first finding the right passages and then reading them, yet current retrieval-augmented agents give one model both kinds of tools and let it schedule itself. We present…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.13128",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-13",
-    "title": "RoleWorld: Knowledge Transfer in World Modeling with Functional Role Abstractions",
-    "description": "arXiv:2610.13172v1 Announce Type: new Abstract: World models enable large language model (LLM) agents to anticipate action effects and make informed decisions. For generalization, it is desirable for such world models to transfer efficiently to new environments with similar interaction structure…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.13172",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-13",
-    "title": "Masked Diffusion Language Agents for Tool-Integrated Chemical Reasoning",
-    "description": "arXiv:2610.13330v1 Announce Type: new Abstract: Designing tool-integrated reasoning agent systems for complex chemical tasks remains a fundamental challenge. Although recent chemical agents have demonstrated promising performance through the integration of external tools, they are still built on…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.13330",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-13",
-    "title": "Scaling AI-driven chip design with open agent factories",
-    "description": "Open models and llm-d enabled IBM Research to explore quantum error correction hardware at 11.5× lower inference cost than an all-proprietary configuration.",
-    "category": "News",
-    "link": "https://research.ibm.com/blog/open-agent-factories-and-distributed-inference-for-chip-design?utm_medium=rss&utm_source=rss",
-    "source": "IBM Research AI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-13",
-    "title": "Build a morning AI news brief with You.com, Jev, and n8n",
-    "description": "Every weekday at 8am, this workflow searches the day's AI news, scores every article for materiality at about $0.00004 apiece, and posts one cited brief per topic to Slack. Topics with no real news get no post.",
-    "category": "Automation",
-    "link": "https://blog.n8n.io/spotlight-you-com/",
-    "source": "n8n Blog",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-13",
-    "title": "Self-Hosted AI Agent Builder: Best Options in 2026",
-    "description": "A self hosted ai agent builder allows teams to execute sensitive automation tasks on local servers.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/self-hosted-ai-agent-builder-best-options-in-2026",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-13",
-    "title": "On-Premise AI Automation: Architecture",
-    "description": "On premise AI automation requires specific hardware and network configurations to maintain full control over proprietary data and model training.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/on-premise-ai-automation-architecture",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-13",
-    "title": "Self-Hosted AI Workflow Automation: A 2026 Guide",
-    "description": "Deploying these systems on private servers ensures complete control over sensitive data and operational logic without relying on third-party cloud providers.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/self-hosted-ai-workflow-automation-a-2026-guide",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-13",
-    "title": "Private AI Workflow Automation for Regulated Firms",
-    "description": "Private AI workflow automation keeps sensitive corporate data behind internal firewalls. You will be able to configure secure, self-hosted environments.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/private-ai-workflow-automation-for-regulated-firms",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-13",
-    "title": "OpenAI Just Changed What It Means To Do Math",
-    "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 The papers are available here: https://openai.com/index/sharing-ai-progress-in-mathematics/ https://github.com/openai/math 🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=z_sXLlLVUls",
-    "source": "YouTube – Two Minute Papers",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-13",
-    "title": "Tutti usano l'AI. Quasi nessuno ci guadagna.",
-    "description": "Tutti usano l'AI. Quasi nessuno ci guadagna. Clip estratta dall'intervista fatta a Bruno Giussani su What’s Next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. Guarda l'intervista completa: https://www.youtube.com/watch?v=uETlIzQSJhQ #short",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/XAxADuiZVy4",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-13",
-    "title": "Higgsfield takes AI video from 1 minute to over 10",
-    "description": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
-    "category": "News",
-    "link": "https://openai.com/index/higgsfield-longer-videos-voice",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-13",
-    "title": "NVIDIA Announces New Investments in France’s Startups",
-    "description": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to application. France’s progress sits on deliberate groundwork. The AI Action…",
-    "category": "News",
-    "link": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
-    "source": "NVIDIA AI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-13",
-    "title": "Build n8n workflows with Gemini 4 Argon: MCP, the Assistant, and Agents",
-    "description": "Gemini 4 Argon just dropped, and n8n is one of the first companies to use and integrate the model. Check out how you can use it with your existing n8n workflows and how to build new ones. Here are the benchmarks Google published: Benchmarks reported by Google. Source: Gemini 4",
-    "category": "Automation",
-    "link": "https://blog.n8n.io/build-n8n-workflows-with-gemini-4-argon-mcp-the-assistant-and-agents/",
-    "source": "n8n Blog",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-13",
-    "title": "What are ChatGPT dots?",
-    "description": "ChatGPT dots don't come as a surprise. Always-on agents have been the next frontier AI since OpenClaw caused a run on Mac minis back in January 2026. OpenAI even hired OpenClaw's developer, Peter Steinberger. And OpenAI isn't alone in this: Meta has Muse, Gemini has Spark, and Anthropic is…",
-    "category": "Automation",
-    "link": "https://zapier.com/blog/chatgpt-dots",
-    "source": "Zapier Blog",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-13",
-    "title": "Block on Finding and Fixing Security Risks with OpenAI",
-    "description": "“Now you know and now you can take action before someone else knows.” A weakness in your code can be part of a much bigger attack. Seeing how those weaknesses connect gives defenders a clearer picture of where to act. Block’s Chief Information Security Officer, James Nettesheim, shares how OpenAI’s…",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/9aDuSpVoB-Y",
-    "source": "YouTube – OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-13",
-    "title": "Block on Finding and Fixing Security Risks with OpenAI",
-    "description": "“Now you know and now you can take action before someone else knows.” A weakness in your code can be part of a much bigger attack. Seeing how those weaknesses connect gives defenders a clearer picture of where to act. Block’s Chief Information Security Officer, James Nettesheim, shares how OpenAI’s…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=N6K_pxaAh0w",
-    "source": "YouTube – OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-13",
-    "title": "Applying Gemini 4 for large-scale codebase maintenance in Chromium",
-    "description": "The Chromium codebase is millions of lines long and decades old. In the past, working with it has meant navigating decades of tangled features, where touching one component can unexpectedly affect another. Erik Chen, an engineer at Google, is using Gemini 4 Argon to ‘untangle’ the architecture. The…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=LVEfFyijQ2c",
-    "source": "YouTube – DeepMind",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-13",
-    "title": "Teaching a humanoid robot to play cornhole with Gemini 4 Argon",
-    "description": "In an internal test, Google DeepMind robotics researchers instructed Gemini 4 Argon to watch a video of a human playing cornhole. Using its video understanding and advanced reasoning capabilities, Gemini 4 built a virtual simulation in MuJoCo and accurately calculated the physics and whole-body…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=9PICEmtfpWU",
-    "source": "YouTube – DeepMind",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-13",
-    "title": "Untangling 500-page chemistry patents with Gemini 4",
-    "description": "Auditing chemistry literature usually means weeks of manual, error-prone reading, where a molecule’s structure can sit 50 pages away from its experimental readout. At Isomorphic Labs, researchers Brian Bender and Santosh Adhikari are using Gemini 4 Argon’s multimodal capabilities to help tackle…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=9jQA7IgPhBE",
-    "source": "YouTube – DeepMind",
-    "badge": ""
   },
   {
     "date": "2025-07-30",
