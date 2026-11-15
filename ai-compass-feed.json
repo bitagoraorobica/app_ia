@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-11-15",
+    "title": "RSI Arena launches to test AI self-improvement beyond benchmarks",
+    "description": "Bake AI, with Stanford, Hugging Face, Notre Dame, and the University of Washington, launched RSI Arena, a live-streamed experiment where AI agents autonomously post-train models without fixed benchmarks, using broad tasks and human blind voting. The study introduces the RSIHF framework, arguing…",
+    "category": "News",
+    "link": "https://picx.dev/news/qA7Hzh",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-15",
+    "title": "Salesforce Constant Contact Integration Without Code",
+    "description": "Salesforce Constant Contact integration syncs contacts when records update. You'll configure this workflow using Activepieces or similar automation tools.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/salesforce-constant-contact-integration-without-code",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-15",
+    "title": "Come Fare Il Primo Passo Se Stai Aprendo Un Business",
+    "description": "Se vuoi candidarti a Monty da Te questo è il form: https://forms.gle/AGkV54k4UxY1afev9 🎁 Scopri cosa puoi delegare agli agenti AI nel tuo lavoro: https://spiegamelofacile.com/weekend-ai/masterclass Iscriviti gratis alla mia masterclass di 30 minuti e ricevi anche l’instant book di 52 pagine. Qui…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=XwwcP3XiTJA",
+    "source": "YouTube - Marco Montemagno",
+    "badge": "⭐"
+  },
+  {
     "date": "2026-11-14",
     "title": "SynthCorp: A Platform for Creating Benchmarks for Data Agents",
     "description": "arXiv:2611.14765v1 Announce Type: new Abstract: Current benchmarks for LLM-driven data agents saturate quickly and cannot target specific capabilities. We present SynthCorp, a platform that creates customizable data estates and benchmarks by simulating how business events produce and modify…",
@@ -106,6 +133,15 @@
     "link": "https://www.activepieces.com/blog/insight7-voice-ai-agents-for-user-research-workflows",
     "source": "Activepieces",
     "badge": "🔁"
+  },
+  {
+    "date": "2026-11-14",
+    "title": "Helen Toner: AI CEOs still cannot be trusted after OpenAI board ouster",
+    "description": "In a podcast interview, Helen Toner, who voted to fire Sam Altman as an OpenAI board member, reiterated her distrust of AI CEOs, citing the failure of OpenAI's nonprofit board as an accountability mechanism. She discussed the board's intended role in ensuring safe AI over profit and the subsequent…",
+    "category": "News",
+    "link": "https://picx.dev/news/C09gpQ",
+    "source": "PicX",
+    "badge": ""
   },
   {
     "date": "2026-11-13",
@@ -231,6 +267,33 @@
     "category": "News",
     "link": "https://www.youtube.com/shorts/pfbfZKxUEDQ",
     "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-13",
+    "title": "Hugging Face and Ai2 release XYBench benchmark for detecting user misconceptions",
+    "description": "Hugging Face and the Allen Institute for AI (Ai2) have released XYBench, an 8,115-question benchmark that evaluates whether large language models can identify misconceptions in user requests and steer toward the user's actual underlying goal. The benchmark aims to test a model's ability to go…",
+    "category": "News",
+    "link": "https://picx.dev/news/Kiv2R4",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-13",
+    "title": "OpenAI launches ChatGPT Wallet for agent purchases, limited US rollout",
+    "description": "OpenAI announced ChatGPT Wallet, a payment feature that lets its Dots AI agents make purchases on behalf of users with approval and biometric verification. The limited rollout begins today for ChatGPT Pro subscribers in the US aged 18 and older with a US billing address and eligible US-issued cards.",
+    "category": "News",
+    "link": "https://picx.dev/news/sXknVd",
+    "source": "PicX",
+    "badge": "⭐"
+  },
+  {
+    "date": "2026-11-13",
+    "title": "The Verge reviews Anthropic's Claude Duet agent: neurotic but helpful for work",
+    "description": "The Verge reviewed Claude Duet, Anthropic's consumer AI agent, describing it as neurotic but surprisingly helpful for work-oriented tasks. The review notes Duet is more work-focused than competitors like Instinct, Meta's Muse, and OpenAI's Dots, and more consumer-friendly than Anthropic's own…",
+    "category": "News",
+    "link": "https://picx.dev/news/ZYC9mV",
+    "source": "PicX",
     "badge": ""
   },
   {
@@ -3436,132 +3499,6 @@
     "link": "https://openai.com/index/localiza-generative-ai",
     "source": "OpenAI",
     "badge": "⭐"
-  },
-  {
-    "date": "2026-10-15",
-    "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
-    "description": "arXiv:2610.14005v1 Announce Type: new Abstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become more capable than the current machines…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.14005",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-15",
-    "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
-    "description": "arXiv:2610.14118v1 Announce Type: new Abstract: The rapid advancement of Large Language Models (LLMs) has driven their deployment toward general-purpose harness environments, where LLM-based agents operate in sandbox workspaces and interact directly with file systems and shells. While numerous…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.14118",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-15",
-    "title": "Long-Horizon-Terminal-Bench 2.0: Automating Diverse Task Construction and Measuring Sustained Agent Progress",
-    "description": "arXiv:2610.14146v1 Announce Type: new Abstract: Long-horizon terminal benchmarks measure whether an agent can sustain progress through extended workflows with process rewards, not only whether its final state passes a binary check. We present Long-Horizon-Terminal-Bench 2.0 (LHTB 2.0), an extension…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.14146",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-15",
-    "title": "VETNET: Assembling Benchmark Datasets for AI-Driven Veterinary Innovation",
-    "description": "arXiv:2610.14149v1 Announce Type: new Abstract: VETNET represents an ecosystem of live benchmark datasets and evaluation frameworks designed to accelerate AI-driven innovation in animal science and veterinary medicine through standardized, high-quality datasets and multi-institutional collaboration…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.14149",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-15",
-    "title": "Unconstrained CTI-REALM with Open-Weights",
-    "description": "arXiv:2610.14180v1 Announce Type: new Abstract: Organisations that want language-model agents for security work face a choice between open-weight models, which they can run and audit themselves, and far more expensive closed frontier models. We study that choice on CTI-REALM (arXiv:2603.13517), a…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.14180",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-15",
-    "title": "The Most Common Questions About Agent Evals, Answered",
-    "description": "Where to start with agent evals, offline vs online evals, evaluator types, LLM judges, benchmarks with Harbor, multi-turn evals, and keeping costs down.",
-    "category": "News",
-    "link": "https://www.langchain.com/blog/common-questions-about-agent-evals",
-    "source": "LangChain",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-15",
-    "title": "What Is Command A+? Cohere's AI Model Explained (2026)",
-    "description": "Understanding what is command a+ helps you determine if this enterprise-grade model fits your specific RAG and multi-step automation requirements.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/what-is-command-a-coheres-ai-model-explained-2026",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-15",
-    "title": "AI Agent Workflow Examples: 7 Templates to Copy (2026)",
-    "description": "AI agent workflow examples score leads and alert teams via CRM and Slack. Choose which to implement in your sales process.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/ai-agent-workflow-examples-7-templates-to-copy-2026",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-15",
-    "title": "Best AI Agent Templates to Run Today Without Code",
-    "description": "AI agent templates help you build automated workflows without coding. Compare Zapier and alternatives to find the right fit for your team.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/best-ai-agent-templates-to-run-today-without-code",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-15",
-    "title": "Workflow Templates: Free Options Compared (2026 Guide)",
-    "description": "Workflow templates differ in size, features, and integration options across six automation platforms. Compare the libraries to find your best fit.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/workflow-templates-free-options-compared-2026-guide",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-15",
-    "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-    "description": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-    "category": "News",
-    "link": "https://openai.com/index/sullivan-cromwell",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-15",
-    "title": "Local LLMs vs GPT-4 for Business Reasoning in 2026",
-    "description": "Local LLMs and GPT-4 performance metrics allow managers to select the optimal architecture for secure, high-stakes enterprise decision-making tasks.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/can-local-llms-vs-gpt-4-handle-business-logic",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-15",
-    "title": "What Is Chatway MCP? A Plain-English Guide (2026)",
-    "description": "What is Chatway MCP? It's a connector for AI agents in Chatway inboxes, similar to automation tools. You'll understand its capabilities and what's missing.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/what-is-chatway-mcp-a-2026-guide-for-ai-agents",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-15",
-    "title": "GPT-Live-1.1 has new voices and better accents.",
-    "description": "New voices. Better accents. And less \"checking...\" GPT-Live-1.1 brings these updates to Voice in ChatGPT, Codex, and dots, with new voices in French, German, Hindi, Mexican Spanish, Korean, and Japanese. Rolling out today to all users. Coming soon to the API.",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=GyO8Ao7yKJc",
-    "source": "YouTube – OpenAI",
-    "badge": ""
   },
   {
     "date": "2025-07-30",
