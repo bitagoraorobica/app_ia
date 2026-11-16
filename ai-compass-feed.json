@@ -1,5 +1,140 @@
 [
   {
+    "date": "2026-11-16",
+    "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+    "description": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+    "category": "News",
+    "link": "https://openai.com/index/lvmh-media-division-partnership",
+    "source": "OpenAI",
+    "badge": "⭐"
+  },
+  {
+    "date": "2026-11-16",
+    "title": "The King’s Trust and OpenAI launch £1m partnership",
+    "description": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+    "category": "News",
+    "link": "https://openai.com/index/the-kings-trust-and-openai",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-16",
+    "title": "Verifiable pXRD: Hill-climbing pXRD structure determination with LLM agents",
+    "description": "arXiv:2611.17539v1 Announce Type: new Abstract: Autonomous crystal-structure determination from powder X-ray diffraction (pXRD) remains a key bottleneck for self-driving materials laboratories. We formulate the task of pXRD structure determination as a verifiable agentic search problem: candidate…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.17539",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-16",
+    "title": "AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs",
+    "description": "arXiv:2611.17621v1 Announce Type: new Abstract: Kernel optimization is essential for efficient large language model (LLM) training and inference on Ascend NPUs. Existing Ascend kernel benchmarks primarily focus on kernel generation, with less emphasis on the ability of agents to optimize existing…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.17621",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-16",
+    "title": "What LLM Agents See and What Users Say",
+    "description": "arXiv:2611.17639v1 Announce Type: new Abstract: Before an LLM agent cancels a reservation or deletes a folder for a user, what stops it from acting on a false assumption: what its tools show, or what the user says? In this work, we study this gap with presupposition theory from linguistics: an…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.17639",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-16",
+    "title": "OCTAVE: A Capability-Resolved Benchmark for End-to-End HTML5 Game Generation",
+    "description": "arXiv:2611.17681v1 Announce Type: new Abstract: Complete game generation requires agents to coordinate rules, interactions, states, and presentation over a long development process. A single aggregate score obscures which capabilities are implemented and which requirements remain unmet. We present…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.17681",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-16",
+    "title": "AutoRL: A Multi-Agent System towards Autonomous Reinforcement Learning",
+    "description": "arXiv:2611.17790v1 Announce Type: new Abstract: Recursive self-improvement (RSI) is one of the most promising paths toward an AI singularity for superintelligence. Achieving this vision requires AI systems to undertake the full training pipeline for iterative improvement. Reinforcement learning…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.17790",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-16",
+    "title": "FlashStates Hybrid Cache Management Boosts Prefill Throughput Up to 3.14x vs vLLM",
+    "description": "Researchers from Together AI, UIUC, and UT Austin propose FlashStates, a hybrid state cache management system for mixed-architecture LLMs that combine full attention with linear layers. On NVIDIA B200 GPUs, replaying real Claude Code traces, FlashStates achieves up to 3.14x prefill throughput over…",
+    "category": "News",
+    "link": "https://picx.dev/news/Wxsjpw",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-16",
+    "title": "OpenAI launches science blog; first post details GPT-6 Astra in particle physics",
+    "description": "OpenAI announced a new blog dedicated to scientific researchers, aiming to share how scientists use AI in research, including methods, result checking, and limitations. The first guest post, by UC Santa Barbara physicist Nathaniel Craig, describes using GPT-6 Astra to develop a candidate…",
+    "category": "News",
+    "link": "https://picx.dev/news/St7Ojk",
+    "source": "PicX",
+    "badge": "⭐"
+  },
+  {
+    "date": "2026-11-16",
+    "title": "Alibaba launches Qwen4-Max, a 2.4T-parameter MoE model with 1M context",
+    "description": "Alibaba released Qwen4-Max, a new flagship 2.4T-parameter mixture-of-experts model with native vision and a 1M-token context window, available via API on the Qwen AI platform. The company claims it outperforms Qwen3.8-Max with up to ~50% fewer tokens per task and lower costs, while smaller…",
+    "category": "News",
+    "link": "https://picx.dev/news/hjaJ5P",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-16",
+    "title": "What is x402? The Payment Protocol for AI Agents",
+    "description": "Understanding what is x402 protocol allows developers to integrate automated payment workflows for autonomous agents accessing paid digital resources.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/what-is-x402-the-ai-agent-payment-protocol-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-16",
+    "title": "Final Cut Pro MCP: How to Set It Up (2026 Guide)",
+    "description": "Final Cut Pro MCP is a community-built bridge that lets AI send commands to the video editor. Evaluate whether this third-party tool suits your workflow.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/final-cut-pro-mcp-how-to-set-it-up-2026-guide",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-16",
+    "title": "Automate Fal AI: Queue, Webhooks and Workflows (2026)",
+    "description": "Automate fal ai by posting jobs to the queue endpoint. Receive request IDs back, then poll for status updates or wait for webhooks to fetch results.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/automate-fal-ai-with-workflow-integrations",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-16",
+    "title": "What Is ZCode? Z.ai's Coding Agent Explained (2026)",
+    "description": "What is ZCode Agent 2026 is explained here to help you evaluate if this autonomous engineer fits your current software development and deployment workflows.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/what-is-zcode-a-developer-guide-to-z-ais-coding-agent",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-16",
+    "title": "Il mio maestro di scacchi ha fatto una cosa sola: ha registrato le lezioni.",
+    "description": "Il mio maestro di scacchi ha fatto una cosa sola: ha registrato le lezioni. Il lancio e la vendita del videocorso li ho fatti fare ai miei agenti di intelligenza artificiale (AI), programmi che svolgono compiti al posto nostro. Hanno gestito la campagna pubblicitaria e creato tutte le pubblicità…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/9RoxmGKs-Tg",
+    "source": "YouTube - Marco Montemagno",
+    "badge": ""
+  },
+  {
     "date": "2026-11-15",
     "title": "RSI Arena launches to test AI self-improvement beyond benchmarks",
     "description": "Bake AI, with Stanford, Hugging Face, Notre Dame, and the University of Washington, launched RSI Arena, a live-streamed experiment where AI agents autonomously post-train models without fixed benchmarks, using broad tasks and human blind voting. The study introduces the RSIHF framework, arguing…",
@@ -25,6 +160,42 @@
     "link": "https://www.youtube.com/watch?v=XwwcP3XiTJA",
     "source": "YouTube - Marco Montemagno",
     "badge": "⭐"
+  },
+  {
+    "date": "2026-11-15",
+    "title": "Our new blog for science",
+    "description": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+    "category": "News",
+    "link": "https://openai.com/index/our-new-blog-for-science",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-15",
+    "title": "OpenAI proposes lattice definition of Standard Model with GPT-6 Astra aid",
+    "description": "OpenAI published a blog post presenting a candidate nonperturbative lattice definition of the Standard Model. The post details how GPT-6 Astra assisted in transforming the initial idea into a rigorous proof.",
+    "category": "News",
+    "link": "https://picx.dev/news/hV07Ff",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-15",
+    "title": "Claude Fable 5.2 e Gemini 4 Carbon Sono Usciti in 24 ORE (Ecco Quale Usare +20 Novità AI)",
+    "description": "Claude Fable 5.2 e Gemini 4 Carbon, i due modelli AI più forti del momento, sono usciti a 24 ore di distanza. Ti dico quale conviene a te, quanto costano davvero (Claude Pro, Google AI Ultra) e come usarli senza bruciare il limite. Poi le altre 20 novità AI della settimana, da Nvidia a ChatGPT, con…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=4b74V5TOW5E",
+    "source": "YouTube - Gabry Solutions",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-11-15",
+    "title": "Il cliente al centro? Nel 2023 lo dicevo così: sono parole.",
+    "description": "Il cliente al centro? Nel 2023 lo dicevo così: sono parole. Poi nei fatti tutto viene tagliato, e noi clienti ci ritroviamo a fare attività in più. La roba costa uguale o di più, e il beneficio se lo prende l'azienda. Succede almeno con le aziende meno visionarie, quelle che vedono solo il…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/ZgZOSgPnKoY",
+    "source": "YouTube - Marco Montemagno",
+    "badge": ""
   },
   {
     "date": "2026-11-14",
@@ -3355,150 +3526,6 @@
     "link": "https://www.youtube.com/shorts/M4SVtf6lMbs",
     "source": "YouTube – Raffaele Gaito",
     "badge": ""
-  },
-  {
-    "date": "2026-10-16",
-    "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
-    "description": "arXiv:2610.20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an otherwise correct action may arrive too late. We introduce RealtimeBench, with 180 tasks across…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.20665",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-16",
-    "title": "When Reality Outpaces Cognition: A New Scaling Principle for Reliable Intelligence",
-    "description": "arXiv:2610.20764v1 Announce Type: new Abstract: This paper challenges the understanding capabilities of existing AI paradigms and emerging world models by asking a fundamental question: How quickly can reality change before an intelligent system can no longer reliably perceive, reason, and act? We…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.20764",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-16",
-    "title": "ARIA: Runtime Inspection and Amendment for Multi-Agent Systems",
-    "description": "arXiv:2610.20780v1 Announce Type: new Abstract: In LLM-based multi-agent systems (MAS), a local mistake can propagate as other agents build on it, turning a correctable error into a failed task. Diagnosing completed runs or repeatedly re-executing them to search for corrections does not provide a…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.20780",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-16",
-    "title": "SkillNEO: Non-Elitist Evolutionary Optimization of Agent Skills",
-    "description": "arXiv:2610.20926v1 Announce Type: new Abstract: Agent skills turn procedural knowledge into reusable artifacts, allowing LLM agents to accumulate and refine expertise through experience. Building on this, skill evolution iteratively improves skills using execution feedback. However, improvement may…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.20926",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-16",
-    "title": "MSP: Modality Self-Play for Training Multimodal LLMs Without Paired Cross-Modal Data",
-    "description": "arXiv:2610.20965v1 Announce Type: new Abstract: Large multimodal models have achieved remarkable progress by scaling model capacity and training on massive paired multimodal data. However, this paradigm introduces a fundamental bottleneck: aligned multimodal datasets are expensive to curate…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.20965",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-16",
-    "title": "SAP Business One AI Assistant: Edit Automations",
-    "description": "SAP Business One automation modifications require precise data mapping to function reliably within complex ERP workflows.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/sap-business-one-ai-assistant-edit-automations",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-16",
-    "title": "Slack AI Agents: Slackbot Skills by Plan (2026 Guide)",
-    "description": "Slack AI agents now feature shareable Slackbot skills that extend team automation.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/slack-ai-agents-slackbot-skills-by-plan-2026-guide",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-16",
-    "title": "NetSuite QuickStart for Startups",
-    "description": "NetSuite QuickStart is a free AI financial platform for startups. Evaluate whether its automation capabilities and pricing fit your startup's needs.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/netsuite-quickstart-for-startups",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-16",
-    "title": "Tante aziende usano l'AI, poche vedono risultati [Paolo Fontana]",
-    "description": "#adv [Alkemy] Data.Tech.AI, la practice di Alkemy Group specializzata nell’evoluzione di modelli di business potenziati dalla tecnologia e abilitati dall’AI. Compra il mio corso base \"Crea un Agente AI con Claude Code\"…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=3AAk3YC6vXE",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": "⭐"
-  },
-  {
-    "date": "2026-10-16",
-    "title": "12 Best Enterprise Workflow Automation Platforms",
-    "description": "Compare the top enterprise workflow automation platforms for technical teams. See how each tool handles control, scale, and AI workflows.",
-    "category": "Automation",
-    "link": "https://blog.n8n.io/enterprise-workflow-automation/",
-    "source": "n8n Blog",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-16",
-    "title": "n8n Review 2026: Pricing, Licence, and Limits",
-    "description": "n8n review: a workflow automation tool built for technical teams seeking code control and self-hosting capabilities.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/n8n-review-2026-pricing-licence-and-limits",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-16",
-    "title": "Put your dot on call",
-    "description": "Ali, an engineer at OpenAI, used his dot to triage an on-call incident at 3am. His dot investigated the issue and started a Codex thread, so he could steer the work from his phone in the ChatGPT app.",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=GBOZIRK1ujw",
-    "source": "YouTube – OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-16",
-    "title": "Put ChatGPT to work on shared team tasks",
-    "description": "Set up recurring work your team can manage together with team tasks in ChatGPT. Follow a legal team's daily intake workflow—from reviewing incoming requests and checking deadlines to refining shared instructions for the next run. Tasks run in the cloud, so teammates can review results, improve the…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=OMxEUdIgsQc",
-    "source": "YouTube – OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-16",
-    "title": "GPT-6 Astra + ChatGPT Work Cambia TUTTO (Tu Parli, Lui Lavora)",
-    "description": "GPT-6 Astra + ChatGPT Work Cambia TUTTO (Tu Parli, Lui Lavora) per cui GPT-6 Astra dentro ChatGPT Work cambia tutto: tu gli dici cosa ti serve, lui fa il lavoro dall'inizio alla fine, direttamente sul tuo computer. In questo video ti mostro passo passo come attivarlo e i 4 casi d'uso in cui il…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=Xb5Z09O7iUg",
-    "source": "YouTube - Gabry Solutions",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-10-16",
-    "title": "Perché Musk ha fatto volare un'auto?",
-    "description": "Scopri in 2 minuti quanto sei davvero pronto a usare l’AI nel tuo lavoro: fai il test gratuito → https://spiegamelofacile.com/audit/form-v4 -- Se il video ti è stato utile, iscriviti. Per il resto 👉 https://marcomontemagno.com 👉https://spiegamelofacile.com Ogni sabato mattina, nella tua casella: un…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=MtqeOPP6wPg",
-    "source": "YouTube - Marco Montemagno",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-16",
-    "title": "How Localiza reorganized work around generative AI",
-    "description": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
-    "category": "News",
-    "link": "https://openai.com/index/localiza-generative-ai",
-    "source": "OpenAI",
-    "badge": "⭐"
   },
   {
     "date": "2025-07-30",
