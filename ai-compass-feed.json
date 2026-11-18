@@ -1,5 +1,131 @@
 [
   {
+    "date": "2026-11-18",
+    "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+    "description": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+    "category": "News",
+    "link": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-18",
+    "title": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
+    "description": "arXiv:2611.21682v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly being explored for knowledge-intensive and safety-critical applications in nuclear engineering. However, existing nuclear-domain benchmarks provide limited content coverage or focus primarily on answer…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.21682",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Chain-of-Thought Controllability Can Reduce Chain-of-Thought Monitorability",
+    "description": "arXiv:2611.21799v1 Announce Type: new Abstract: Chain-of-thought (CoT) monitoring is a promising tool for detecting hidden goals, off-task behavior, and other failures in AI agents. One risk is that models could deliberately shape their reasoning to make it opaque to monitors. We stress-test this…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.21799",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Thinking Harder Doesn't Lead to Better Choices: Reasoning Effort Increases the Confidence but Not the Correctness of LLM Shopping Agents",
+    "description": "arXiv:2611.22033v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly deployed as autonomous shopping agents that process multimodal product listings (consisting of visual and text data) and recommend purchases on behalf of consumers. Naturally, one might assume that models…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.22033",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "ATLAS-Finance: Benchmarking AI Agents in Realistic Banking Environments",
+    "description": "arXiv:2611.22085v1 Announce Type: new Abstract: Professional work involves under-specified assignments, where relevant information is spread across workplace applications and may conflict or change over time. To evaluate how well frontier agents can perform economically valuable work in such…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.22085",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "RegimeCouncil: Paired-Evidence Routing For Memory Conflict Governance In LLM Agents",
+    "description": "arXiv:2611.22113v1 Announce Type: new Abstract: Language agents rely on long-term memory to personalize responses across extended interactions, yet stored facts quietly go stale as the world changes, and an agent often learns that using memory hurt only through delayed feedback after acting on an…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.22113",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "OpenAI reportedly delays GPT-6.2 and GPT-6.5 over safety and alignment issues",
+    "description": "A leaked post and a tipster claim OpenAI is delaying GPT-6.2 and GPT-6.5 releases due to safety and alignment concerns, with delays lasting several weeks. The tipster notes OpenAI faces challenges turning over 10 trillion parameter pretraining results into usable products, and community discussion…",
+    "category": "News",
+    "link": "https://picx.dev/news/j6afh1",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-18",
+    "title": "How to automate Telegram with your AI agent and Zapier",
+    "description": "These days, more and more customers prefer to interact with businesses through messaging. If you've already invested in chat-based marketing and sales, you're probably familiar with Telegram, a popular cloud-based, encrypted instant messaging service. But don't write it off as just another platform…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/automate-telegram",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "HubSpot Twilio Integration for SMS Workflows, No Code",
+    "description": "A HubSpot Twilio integration sends automated text messages triggered by customer events in your CRM. You can build one using a no-code automation platform.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/hubspot-twilio-integration-for-sms-workflows-no-code",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "vidIQ MCP: Setup, Credits, Pricing (2026 Guide)",
+    "description": "VidIQ MCP gives Claude or ChatGPT access to YouTube analytics for research. It's a data lookup tool, not automation that takes actions on your behalf.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/vidiq-mcp-setup-credits-pricing-2026-guide",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Topaz Video AI MCP Server: Setup Guide (2026)",
+    "description": "Topaz Video AI MCP merges MCP protocol with Topaz's video tool. You'll understand what actually exists and whether it fits your workflow.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/topaz-video-ai-mcp-server-setup-guide-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Agents API by Recall.ai: What It Is (2026 Guide)",
+    "description": "Agents API by Recall.ai automates workflow management for AI teams. See which capabilities were released and when.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/agents-api-by-recallai-what-it-is-2026-guide",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "ChatGPT for Sales: Pricing and Integrations (2026)",
+    "description": "ChatGPT for sales works with automation scripts and platforms. Its usefulness hinges on integration with your existing tools.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/chatgpt-for-sales-pricing-and-integrations-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Nel 2024 lo dicevo: vedremo tonnellate di agenzie.",
+    "description": "Nel 2024 lo dicevo: vedremo tonnellate di agenzie. Con l'intelligenza artificiale (AI) succederà quello che è successo con i social media: consulenti e un ecosistema intero per aiutare il piccolo, dal freelance alla piccola e media impresa, fino all'azienda gigante. È un'opportunità interessante…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/YHS54_Do1h8",
+    "source": "YouTube - Marco Montemagno",
+    "badge": ""
+  },
+  {
     "date": "2026-11-17",
     "title": "Strengthening NATO and allied cyber defenses with AI",
     "description": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
@@ -96,6 +222,114 @@
     "category": "News",
     "link": "https://www.youtube.com/watch?v=hAASMPKkaXA",
     "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Introducing GPT-6.2 Astra and Sol",
+    "description": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+    "category": "News",
+    "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-17",
+    "title": "OpenAI launches ChatGPT for Sales plugin with 30+ partner plugins",
+    "description": "OpenAI announced ChatGPT for Sales, a new plugin designed to assist with sales research, pitch preparation, and CRM updates. The release also includes over 30 new and expanded partner plugins within ChatGPT, aimed at streamlining deal progression.",
+    "category": "News",
+    "link": "https://picx.dev/news/6zTLNq",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Startup Calif says GPT-6 Cyber found Java RCE flaw 'Java4Shell'; Oracle patches",
+    "description": "Cybersecurity startup Calif reported that it used GPT-6 Cyber, an AI model, to uncover a remote code execution vulnerability in Java, dubbed 'Java4Shell'. Oracle has released a patch for the flaw, highlighting AI's potential to identify security holes in widely used software.",
+    "category": "News",
+    "link": "https://picx.dev/news/XmEdwy",
+    "source": "PicX",
+    "badge": "⭐"
+  },
+  {
+    "date": "2026-11-17",
+    "title": "MAI Code 2 and Code 2 Flash Models Released",
+    "description": "Hacker News threads discuss the release of MAI Code 2 and Code 2 Flash, two new coding-focused AI models. The discussion highlights their availability and potential impact on developer workflows.",
+    "category": "News",
+    "link": "https://picx.dev/news/Zrk9R2",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Microsoft unveils six AI models across coding, security, images, voice; MAI Code 2 claims 98% of GPT-6.1 Sol at 40% price",
+    "description": "Microsoft AI CEO Mustafa Suleyman announced six new AI models spanning coding, cybersecurity, images, and voice. The company claims its MAI Code 2 model achieves 98% of GPT-6.1 Sol's performance at 40% of the price, signaling progress in cost-efficient model development.",
+    "category": "News",
+    "link": "https://picx.dev/news/48cMUb",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-17",
+    "title": "CRM automation: A guide to automating your CRM with your AI agent and Zapier",
+    "description": "A customer relationship management tool (or CRM) is a critical hub for sales and marketing teams—but it's not just a place to store contact details. When used effectively, your CRM becomes a central command center for tracking relationships, managing pipelines, and coordinating touchpoints across…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/crm-automation",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Google Drive automation: Automate Google Drive from your AI agent with Zapier",
+    "description": "Remember rifling through old metal file cabinets filled to the brim with manila folders? Those cabinets required meticulous, organized systems—or else it would be impossible to find the documents you needed. We may have upgraded that file cabinet to Google Drive, but we still face that same…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/automate-google-drive",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Calendar automation: 5 ways to automate your calendar with your AI agent and Zapier",
+    "description": "My calendar basically dictates how I spend each and every moment of my work day. It helps me prioritize my tasks, prepare for meetings, and lets me know when I have downtime to get specific things done. But none of that is possible—or as streamlined—without the help of automation. From…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/connect-everything-calendar",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Facebook automation: 6 ways to streamline your Pages with your AI agent and Zapier",
+    "description": "Facebook Pages lets businesses promote their brand and start conversations with customers or prospects interested in learning more about their services. Your Facebook Page should be a central location where you share reviews, events, and anything else your audience might want to know. While setting…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/how-to-automate-your-business-facebook-page-for-easier-marketing",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Introducing ChatGPT for Sales",
+    "description": "Spend less time on busywork and more time selling with ChatGPT for Sales. The new Sales plugin and 30+ new and expanded partner plugins bring your customer context and sales tools together in ChatGPT. Prepare for calls, tailor proposals, and follow up faster with insights from the tools your team…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=pmOJIq7Ah00",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-17",
+    "title": "GPT-6.2 Astra and GPT-6.2 Sol—Models built for the real world",
+    "description": "We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. Both models deliver better results on demanding tasks with fewer output tokens, so you can get more done within your usage limits. For businesses and…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=C1zYX5jwqq4",
+    "source": "YouTube – OpenAI",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Se ti fai pagare a tempo, hai un limite di ore al giorno.",
+    "description": "Se ti fai pagare a tempo, hai un limite di ore al giorno. Le ore sono quelle lì. È un limite fisico: se stai male, quel giorno non incassi niente. Guardati in giro: chi si fa pagare in base al risultato che propone è una percentuale bassissima. Oggi, forse, con gli agenti di intelligenza…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/5JcmZ5WKTl4",
+    "source": "YouTube - Marco Montemagno",
     "badge": ""
   },
   {
@@ -3679,24 +3913,6 @@
     "link": "https://www.youtube.com/watch?v=ExVDpMeaWp0",
     "source": "YouTube – OpenAI",
     "badge": "⭐"
-  },
-  {
-    "date": "2026-10-18",
-    "title": "AI Data Leakage Prevention: A 2026 Guide for Workflows",
-    "description": "These technical strategies protect sensitive corporate information from being ingested by external large language models during routine automated processes.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/model-security-vs-data-security-in-ai-workflows",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-18",
-    "title": "L'AI ce l'hanno tutti. Il pilota no",
-    "description": "#adv Clip estratta dall'intervista fatta a Paolo Fontana, Managing Director [Alkemy] Data. Tech. AI, su What’s Next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. Guarda l'intervista completa: https://www.youtube.com/watch?v=3AAk3YC6vXE #short",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/80wGOpHr3eY",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": ""
   },
   {
     "date": "2025-07-30",
