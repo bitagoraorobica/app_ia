@@ -1,5 +1,95 @@
 [
   {
+    "date": "2026-11-19",
+    "title": "Big Brains, Tiny Board: Pupavision, an Agentic Physical AI Instrument for Monitoring Drosophila Pupariation and Lifecycle Transitions",
+    "description": "arXiv:2611.22136v1 Announce Type: new Abstract: Many biology experiments are limited by the availability and ease of use of instruments that monitor and record them. For example, the timing of pupariation in the fruit fly Drosophila melanogaster, a widely used model organism, can provide…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.22136",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-19",
+    "title": "Readie: Low-Latency Code Sandboxes for AI Agents",
+    "description": "arXiv:2611.22171v1 Announce Type: new Abstract: From quantitative research to personal assistance, AI agents act by iteratively generating and executing code. To decouple the agent harness from code execution, many agents offload execution to dedicated systems called code sandboxes. However…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.22171",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-19",
+    "title": "The Only Edge Was Memorized in Training: LLM Trading Agents Around Earnings and Bad News",
+    "description": "arXiv:2611.22177v1 Announce Type: new Abstract: Large language model (LLM) trading agents are tested on news, but news reaches stock prices within minutes, and a benchmark that replays headlines at their publication time finds no alpha in trading on them. Money can then remain in two places, before…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.22177",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-19",
+    "title": "Fine-Grained Japanese Clinical Named Entity Recognition: A Controlled Comparison of BERT and Open-Weight Large Language Models",
+    "description": "arXiv:2611.22219v1 Announce Type: new Abstract: Background: Generative large language models (LLMs) offer an alternative to encoder-based clinical named entity recognition (NER), but their performance on fine-grained Japanese extraction tasks and sensitivity to generation settings remain uncertain…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.22219",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-19",
+    "title": "HealthCLBench:Evaluating Context Learning in Health Conversations through Controlled Case Clusters",
+    "description": "arXiv:2611.22362v2 Announce Type: new Abstract: Complex health conversations require answers grounded in individual information and currently valid evidence. We evaluate health context learning: acquiring, integrating, and applying relevant context during inference with fixed model parameters to…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.22362",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-19",
+    "title": "Hackers Compromise Microsoft Agent Framework on PyPI, Steal Cloud Credentials",
+    "description": "Threat actors compromised Microsoft's official Agent Framework Python package on PyPI, publishing two malicious versions designed to exfiltrate cloud credentials and other sensitive data. The incident highlights supply-chain risks in the AI/LLM tooling ecosystem, urging users to verify package…",
+    "category": "News",
+    "link": "https://picx.dev/news/R1QyEm",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-19",
+    "title": "OpenAI: agents complete 46% of researchers' 2-4 hour tasks, up from 23% in March",
+    "description": "OpenAI reported that AI agents now autonomously complete 46% of its researchers' 2-to-4-hour tasks, up from 23% in March. The median researcher's agent usage reached $2,400 per day, reflecting growing reliance on AI systems in research and development.",
+    "category": "News",
+    "link": "https://picx.dev/news/reIYjy",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-19",
+    "title": "OpenAI Study Finds Coding Agents Accelerate AI Research Unevenly",
+    "description": "OpenAI published research measuring how coding agents accelerate AI research, finding their performance remains uneven across tasks. The study highlights implications for recursive self-improvement, where agents may assist in advancing AI capabilities.",
+    "category": "News",
+    "link": "https://picx.dev/news/H0nXba",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-19",
+    "title": "GPT 6.2 Astra Pro: Specs, Benchmarks & Pricing",
+    "description": "GPT 6.2 Astra Pro launched November 17, 2026 with no production data yet. Decide whether integrating it into workflow automation now is worth the risks.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/gpt-62-astra-pro-specs-benchmarks-pricing",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-19",
+    "title": "Meet Brian and Beast, the dots at work at Holiday Extras",
+    "description": "David Lee, Director of Innovation & Growth at Holiday Extras, calls his dot, Brian, on his morning commute. They talk through the meetings ahead, and Brian can have a report ready by the time David gets to his desk. His colleague Liam Thompson, VP of AI Innovation, calls his dot Beast. The day…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=ikNf7eW8CHk",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
     "date": "2026-11-18",
     "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
     "description": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
@@ -124,6 +214,123 @@
     "link": "https://www.youtube.com/shorts/YHS54_Do1h8",
     "source": "YouTube - Marco Montemagno",
     "badge": ""
+  },
+  {
+    "date": "2026-11-18",
+    "title": "The Silent Consensus",
+    "description": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+    "category": "News",
+    "link": "https://openai.com/index/the-silent-consensus",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Research acceleration: The jagged frontier",
+    "description": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+    "category": "News",
+    "link": "https://openai.com/index/research-acceleration-jagged-frontier",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Managing frontier AI risk: From training to deployment",
+    "description": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+    "category": "News",
+    "link": "https://openai.com/index/managing-frontier-ai-risk",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Advancing chip design with OpenAI models",
+    "description": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+    "category": "News",
+    "link": "https://openai.com/index/advancing-chip-design-with-our-models",
+    "source": "OpenAI",
+    "badge": "⭐"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "OpenAI says models improved AMD GPU IP by up to 14% in PPA",
+    "description": "OpenAI reported that its models improved power, performance, and area (PPA) by up to 14% on AMD's flagship GPU IP, with some changes included in a design AMD sent for manufacturing. The company also used its models to optimize circuits in Jalapeño silicon and improve RISC-V core designs, showcasing…",
+    "category": "News",
+    "link": "https://picx.dev/news/k9aUTU",
+    "source": "PicX",
+    "badge": "⭐"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "OpenAI details frontier AI risk management framework from training to deployment",
+    "description": "OpenAI published a blog post outlining its approach to managing frontier AI risks across the model lifecycle, from training through deployment. The framework covers model alignment, sandboxing, blocking safeguards, and monitoring to mitigate potential harms.",
+    "category": "News",
+    "link": "https://picx.dev/news/EE6pNJ",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-18",
+    "title": "How to build a secure automated system on Zapier",
+    "description": "At Zapier, we're big believers in automation. That's a given. But our platform goes beyond automating simple \"if this, then that\" work—you can build fully automated systems for your work. You can set these systems up from the AI tool you already use, or build them directly in Zapier, whichever you…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/how-to-build-automated-system-on-zapier",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "How to orchestrate AI workflows in 4 steps with Zapier",
+    "description": "Growing up as a band kid, I would have considered it the height of achievement to someday conduct a symphonic orchestra. (What can I say—I was really cool and popular as a teenager.) As an adult tech writer (equally as cool), workflow orchestration is the next best thing. It's slightly less…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/ai-orchestration-workflows",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "How to create AI agents",
+    "description": "Unfortunately for me and my appallingly long TBR list, they still haven't invented a way to hand off my entire workload to a robot so I can curl up on the couch with my Border Collie mix and binge fantasy novels instead. But AI agents are the closest thing to it. AI agents work autonomously to…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/how-to-create-ai-agents",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Introducing ChatGPT for Accounting",
+    "description": "ChatGPT for Accounting helps take the busywork out of your month-end close. Watch how ChatGPT finds completed jobs in your email and drafts QuickBooks invoices for your review, flagging anything unclear along the way. The Accounting plugin also helps you reconcile transactions, process invoices and…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=AhmCKHNqhB8",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Behind the scenes with Genie 4",
+    "description": "Go behind the scenes of our recent Genie 4 film as we explore our most realistic and interactive world model yet. Instead of generating static video, Genie 4 simulates dynamic worlds in real time. Watch how our team used Genie 4 and Project Genie to turn text prompts into explorable environments in…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=pVc6KkjeCfU",
+    "source": "YouTube – DeepMind",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Introducing the new Project Genie, powered by Genie 4",
+    "description": "Step inside your imagination with Project Genie, now powered by Google DeepMind’s most realistic and interactive world model yet, Genie 4. Project Genie brings our most advanced world and multimodal models together with Gemini so you can turn ideas into explorable, shareable worlds right in your…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=EDp4IoAUsXY",
+    "source": "YouTube – DeepMind",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Vietare i Social Ai Minori? Ne Parlo Con L’AI",
+    "description": "🎁 Scopri cosa puoi delegare agli agenti AI nel tuo lavoro: https://spiegamelofacile.com/weekend-ai/masterclass Iscriviti gratis alla mia masterclass di 30 minuti e ricevi anche l’instant book di 52 pagine. Qui Monty e sul canale parlo di tecnologia, intelligenza artificiale, business…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=jrFxEMO3xfk",
+    "source": "YouTube - Marco Montemagno",
+    "badge": "⭐"
   },
   {
     "date": "2026-11-17",
@@ -331,6 +538,24 @@
     "link": "https://www.youtube.com/shorts/5JcmZ5WKTl4",
     "source": "YouTube - Marco Montemagno",
     "badge": ""
+  },
+  {
+    "date": "2026-11-17",
+    "title": "How to integrate and automate Google Calendar with your AI agent and Zapier",
+    "description": "The first thing I do in the mornings before work is check my Google Calendar. It's my source of truth for whatever the day ahead holds, including team meetings, projects that need my attention, and even errands I need to fit in between. But even if you do use Google Calendar to organize your day…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/automate-google-calendar-with-zapier",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-17",
+    "title": "WhatsApp automation: Automate WhatsApp Notifications with your AI agent and Zapier",
+    "description": "Texting can be a great way to stay connected to your work on the go. You can talk to your team, your boss—maybe even your mom if you need a little encouragement. And with tools like WhatsApp, you can text across time zones and countries for free, which is a great perk if you have a distributed…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/automate-whatsapp-notifications",
+    "source": "Zapier Blog",
+    "badge": "🔁"
   },
   {
     "date": "2026-11-16",
@@ -3751,168 +3976,6 @@
     "link": "https://zapier.com/blog/connect-multiple-ai-clients-zapier-mcp",
     "source": "Zapier Blog",
     "badge": "🔁"
-  },
-  {
-    "date": "2026-10-19",
-    "title": "From Natural Language Intent to Executable Control: Hierarchical Feedback-Guided LLM Planning for Multi-component Cyber-Physical Systems",
-    "description": "arXiv:2610.22441v1 Announce Type: new Abstract: Large language models (LLMs) provide a convenient interface for translating natural language commands into task plans for cyber-physical systems (CPSs). However, two gaps hinder their use for real execution: generated plans may misinterpret or omit…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.22441",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-19",
-    "title": "Brain-Aligned Multimodal LLMs for Social and Emotional Understanding of Cartoon Movies",
-    "description": "arXiv:2610.22706v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) offer scalable annotations of social and affective content, but their temporal agreement with human judgments and neural predictive value require further evaluation. We compared diffusion-based and…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.22706",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-19",
-    "title": "GlobeBench: Evaluating Text-Based World Model Capabilities for Scalable Environment Simulations",
-    "description": "arXiv:2610.22708v1 Announce Type: new Abstract: Text-based world models have recently shown potential to simulate complex RL environment state transitions for a diverse set of use cases. However, no standardized benchmark exists to compare, study and improve these models. Through this paper, we…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.22708",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-19",
-    "title": "Between Spoilers and Guesswork: Avoiding Over-Specification in Coding Benchmarks",
-    "description": "arXiv:2610.22760v1 Announce Type: new Abstract: Benchmarks drive AI progress, but are hampered by task under-specification and over-specification. Task under-specification causes guesswork, where solutions have to make things up, or worse, resort to contamination or reward hacking. Task…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.22760",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-19",
-    "title": "Evo-B&B: Behavior-Aware LLM-Guided Joint Evolution of Branching and Node Selection Policies for MILP",
-    "description": "arXiv:2610.22861v1 Announce Type: new Abstract: In branch-and-bound for Mixed-Integer Linear Programming (MILP), branching and node selection are two critical and tightly coupled decisions, yet most existing learning-based approaches focus on optimizing them separately. We propose Evo-B&B, an…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.22861",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-19",
-    "title": "Gemini 4 Argon: Benchmarks, Pricing and Availability",
-    "description": "Gemini 4 Argon is Google's new reasoning model for solving complex problems. You can access it through developer platforms to enhance automation workflows.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/gemini-4-argon-benchmarks-pricing-and-availability",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-19",
-    "title": "Vellum AI alternatives for scaling AI agents (2026)",
-    "description": "Vellum platforms help teams manage complex AI workflows. Compare these specific operational tools to select the best infrastructure for your scaling needs.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/vellum-ai-alternatives-for-scaling-ai-agents-2026",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-19",
-    "title": "ZCode Launch: New AI Coding Tool from Z.ai",
-    "description": "ZCode launch details provide the technical specifications and performance benchmarks needed to evaluate if this framework fits your development stack.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/zcode-launch-new-ai-coding-tool-for-automations",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-19",
-    "title": "Granola MCP Server Setup for Claude, ChatGPT, Cursor",
-    "description": "Granola MCP server lets an AI tool access your meeting notes. Add a URL to Claude, Cursor, or Activepieces and sign in through your browser.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/granola-mcp-server-setup-for-claude-chatgpt-cursor",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-19",
-    "title": "This is the new ChatGPT Voice, powered by GPT Live",
-    "description": "You’ll want to turn the sound on for this one. Read more here: https://chatgpt.com/features/voice/",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=mEulEkuxCnM",
-    "source": "YouTube – OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-19",
-    "title": "This is the new ChatGPT Voice, powered by GPT Live",
-    "description": "Ein kleiner Tipp von uns: Ton an, denn das willst du hören. Hier weiterlesen: https://chatgpt.com/de-DE/features/voice/",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=xIEzjwReF2s",
-    "source": "YouTube – OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-19",
-    "title": "This is the new ChatGPT Voice, powered by GPT Live",
-    "description": "Pour cette vidéo, pensez à activez le son pour ne rien manquer. En savoir plus: https://chatgpt.com/fr-FR/features/voice/",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=-vpwIHxkDFw",
-    "source": "YouTube – OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-19",
-    "title": "Advancing coding in low‑resource programming languages",
-    "description": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-    "category": "News",
-    "link": "https://openai.com/index/low-resource-programming-languages",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-19",
-    "title": "Run your n8n AI workflows on NVIDIA DGX Spark, with no cloud API",
-    "description": "Most small businesses want the same handful of AI jobs. They want to draft emails, summarize calls, read invoices, search their own documents, and make the odd image. Plenty of them can't send customer data to a cloud API to do it. Often the reason is data privacy",
-    "category": "Automation",
-    "link": "https://blog.n8n.io/n8n-nvidia-dgx-spark/",
-    "source": "n8n Blog",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-19",
-    "title": "Harness2: Google Research Repository Overview (2026)",
-    "description": "Harness2 is Google Research's new benchmarking repository for AI automation. Determine how it compares to existing workflow automation tools.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/harness2-google-research-repository-overview-2026",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-19",
-    "title": "Cooking with Codex: Ep. 1",
-    "description": "In this episode of Cooking with Codex, an OpenAI dot helps plan a ramen recipe and organize prep in ChatGPT Space, with GPT-Live guiding the cooking process. Also covered: Codex cloud environments, which keep tasks running after a laptop is closed, and new Codex CLI features including voice input…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=DQHtmW9ZlIs",
-    "source": "YouTube – OpenAI",
-    "badge": "⭐"
-  },
-  {
-    "date": "2026-10-19",
-    "title": "Thomson Reuters on Building Trust in Legal AI | OpenAI",
-    "description": "Bringing legal expertise and frontier AI together starts with trust. For Thomson Reuters’ Camillo Speroni, that means output lawyers can verify, cite and put their name on. Camillo discusses Thomson Reuters’ work with OpenAI to bring HighQ and Thomson Reuters CoCounsel Legal into ChatGPT…",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/7lC2N9woZy4",
-    "source": "YouTube – OpenAI",
-    "badge": "⭐"
-  },
-  {
-    "date": "2026-10-19",
-    "title": "Thomson Reuters on Building Trust in Legal AI | OpenAI",
-    "description": "Bringing legal expertise and frontier AI together starts with trust. For Thomson Reuters’ Camillo Speroni, that means output lawyers can verify, cite and put their name on. Camillo discusses Thomson Reuters’ work with OpenAI to bring HighQ and Thomson Reuters CoCounsel Legal into ChatGPT…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=ExVDpMeaWp0",
-    "source": "YouTube – OpenAI",
-    "badge": "⭐"
   },
   {
     "date": "2025-07-30",
