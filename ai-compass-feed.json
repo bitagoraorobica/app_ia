@@ -1,5 +1,86 @@
 [
   {
+    "date": "2026-11-20",
+    "title": "BOS Summary: The First Token Matters",
+    "description": "arXiv:2611.23508v1 Announce Type: new Abstract: Large vision-language models (LVLMs) and language models (LLMs) often exhibit attention sinks, whereby particular positions, such as the beginning-of-sequence (BOS) token, receive a disproportionate share of attention. Under standard causal masking…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.23508",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-20",
+    "title": "ARISE: Practical Self-Evolving Memory for Accurate and Cost-Efficient Enterprise Agents",
+    "description": "arXiv:2611.23588v1 Announce Type: new Abstract: Enterprise LLM agents operate in dynamic environments where foundation models evolve rapidly, workflows update frequently, and deployments need to satisfy accuracy and cost requirements. We propose ARISE (Agent Refinement through Iterative…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.23588",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Modeling LLM Reasoning Dynamics with Structural Representations",
+    "description": "arXiv:2611.23749v1 Announce Type: new Abstract: Language-model reasoning alternates between sustained activities and local operations. We study how this temporal structure predicts continuation and the computation needed to analyze it. T/E/S combines text, local events, and spans of activity…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.23749",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Thinking Fast, Anywhere: One System-1 for the Decision Points of Any Agent Workflow",
+    "description": "arXiv:2611.23751v1 Announce Type: new Abstract: Autonomous LLM agents incur substantial cost and latency by invoking a large model (System-2) at every step, even when many intermediate actions choose among a small set of known candidates. Existing dual-system agents offload such decisions to a…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.23751",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-20",
+    "title": "RoboBuilder: Agentic Robot Co-Design with Real-world Video Feedback in the Loop",
+    "description": "arXiv:2611.23855v1 Announce Type: new Abstract: Can AI agents design robots that work in the real world? We introduce RoboBuilder, a benchmark in which coding agents co-design a robot's hardware and program from standard parts, motors and a custom 3D-printed part, and every design that passes in…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.23855",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Shanghai AI Lab and partners release Sage S2.1 Flash technical report, 320B MoE model tops four agent benchmarks",
+    "description": "Shanghai AI Laboratory, together with Fudan University, CAS Institute of Software, Renmin University, and other institutions, released the technical report for Sage S2.1 Flash, a 320B-parameter mixture-of-experts model. The model achieves state-of-the-art results on four agent benchmarks and…",
+    "category": "News",
+    "link": "https://picx.dev/news/8e4kEO",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Pixtral Large 2502: Mistral Model Specs and Pricing",
+    "description": "Pixtral Large 2502 is Mistral's new multimodal model. Teams using Mistral for automations can now incorporate this updated version into their workflows.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/pixtral-large-2502-mistral-model-specs-and-pricing",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Connect Your Team’s Data to ChatGPT",
+    "description": "Connect the data tools your team already uses to ChatGPT. This walkthrough is for workspace admins: enable the Data plugin, choose how teammates can install it, and explore the setup for a Snowflake connection. You’ll also see how to add a custom plugin or MCP server and why connecting your team’s…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=oJIuz3AFfEQ",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Codice di condotta AI: cos'è e a cosa serve alle imprese [Arturo Dell'Isola]",
+    "description": "#adv Scopri il codice di condotta AI a questo link: https://www.confcommercioperte.it/codice-di-condotta-ai/ Compra il mio corso base \"Crea un Agente AI con Claude Code\": https://www.raffaelegaito.com/claude-code-crea-agente-ai-corso-completo/?landing=true Compra il mio corso intermedio “Fai il…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=Wajam73Xyek",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": "⭐"
+  },
+  {
     "date": "2026-11-19",
     "title": "Big Brains, Tiny Board: Pupavision, an Agentic Physical AI Instrument for Monitoring Drosophila Pupariation and Lifecycle Transitions",
     "description": "arXiv:2611.22136v1 Announce Type: new Abstract: Many biology experiments are limited by the availability and ease of use of instruments that monitor and record them. For example, the timing of pupariation in the fruit fly Drosophila melanogaster, a widely used model organism, can provide…",
@@ -87,6 +168,168 @@
     "category": "News",
     "link": "https://www.youtube.com/watch?v=ikNf7eW8CHk",
     "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-19",
+    "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+    "description": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+    "category": "News",
+    "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-19",
+    "title": "Enforcing the Mission of a Public Benefit Corporation",
+    "description": "OpenAI and Anthropic’s public benefit corporations offer several avenues to align their activities with their stated mission. Directors should consider the mission among other factors, while reporting requirements and certifications incentivize mission compliance. Yet in practice, enforcing the…",
+    "category": "News",
+    "link": "https://ainowinstitute.org/reports/public-good-private-gain/part-iii-levers-to-enforce-the-mission/enforcing-the-mission-of-a-public-benefit-corporation",
+    "source": "AI Now Institute",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-19",
+    "title": "Public Good or Private Gain?",
+    "description": "Introduction “Our mission is to build AI responsibly to benefit humanity” – Google DeepMind “Our primary ﬁduciary duty is to humanity” – OpenAI “The specific public benefit that the Corporation will promote is to responsibly develop and maintain advanced AI for the long-term benefit of humanity” –…",
+    "category": "News",
+    "link": "https://ainowinstitute.org/reports/public-good-private-gain",
+    "source": "AI Now Institute",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-19",
+    "title": "DeepMind/Google",
+    "description": "DeepMind began as an independent startup striving to “solve intelligence” and “use it to solve everything else.” It now leads Google’s AI activities including its flagship chatbot and model Gemini. The relationship between the research lab and its acquirer Google has been one of push and pull…",
+    "category": "News",
+    "link": "https://ainowinstitute.org/reports/public-good-private-gain/part-i-taking-stock-of-business-structures/deepmind-google",
+    "source": "AI Now Institute",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-19",
+    "title": "Nvidia in advanced talks to acquire diffusion LLM developer Inception for $500M+",
+    "description": "Sources report Nvidia is in advanced talks to acquire Inception, a two-year-old startup developing diffusion-based large language models, for over $500 million plus earnouts. The talks reportedly began before Jensen Huang's resignation as CEO.",
+    "category": "News",
+    "link": "https://picx.dev/news/rr3kZE",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-19",
+    "title": "Apple job listing reveals plans for autonomous AI agent",
+    "description": "A job listing spotted by Bloomberg indicates Apple is developing an autonomous AI agent capable of writing code, browsing the web, controlling apps, navigating devices, and coordinating subagents. The move positions Apple to compete with AI agents from Meta, OpenAI, Anthropic, and Google, according…",
+    "category": "News",
+    "link": "https://picx.dev/news/NNJel4",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-19",
+    "title": "Google adds computer use to Gemini for macOS, enabling multi-step tasks",
+    "description": "Google announced on Thursday that it is bringing computer use to its Gemini desktop application on macOS, allowing the AI agent to organize files, fill out forms, and handle multi-step workflows across local files, desktop apps, and the web. The feature runs in the background with a live preview…",
+    "category": "News",
+    "link": "https://picx.dev/news/iopYaJ",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-19",
+    "title": "OpenAI details Performance Factory, Codex-powered system for ChatGPT speed",
+    "description": "OpenAI published a blog post describing its internal Performance Factory, a system of Codex-powered workflows that identifies and fixes performance issues in ChatGPT. The system is designed to help keep ChatGPT fast by automating the detection and resolution of performance bottlenecks.",
+    "category": "News",
+    "link": "https://picx.dev/news/qZeD3u",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-19",
+    "title": "Google Forms automation: How to automate Google Forms with Zapier",
+    "description": "A Google Form is the easy part: questions in, responses out. What happens next is where things stall. Someone has to notice the new submission, thank the respondent, tell the team, and add a task. Connect Zapier to Claude, ChatGPT, or Cursor, tell your agent what should happen with each response…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/automate-google-forms",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-19",
+    "title": "Instagram automation: The 4 most popular ways to streamline your social media",
+    "description": "Every Instagram post leaves a small to-do list behind it: share it on Facebook and LinkedIn, tell the team in Slack, save a copy somewhere safe, log it in a spreadsheet. Your AI assistant can help you write the caption, but those chores don't happen on their own once the chat ends. Add Zapier to…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/automate-instagram",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-19",
+    "title": "9 ways to automate Facebook Messenger",
+    "description": "Your Facebook page doubles as an inbox. Someone asks if an item is still in stock at 9 p.m., a customer wants to know where their order is, a prospect says \"how much?\" and then goes quiet. An AI agent can help you word the reply, but only while the chat is open. After that, somebody still has to…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/automate-facebook-messenger",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-19",
+    "title": "Google Workspace automation: Build with your AI agent and Zapier",
+    "description": "Your team probably lives in Google Workspace: Gmail for conversations, Sheets for tracking, Calendar for meetings, Drive for files, Forms for intake. Gemini—or any other AI assistant—can summarize a thread or draft a spreadsheet formula, but when the chat ends, you're still the one moving…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/google-apps-automations",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-19",
+    "title": "How to automate Canva with your AI agent and Zapier",
+    "description": "Your AI assistant can help you plan a campaign or write the copy for a graphic. But when the chat ends, you're still the one creating a Canva design for every spreadsheet row, naming it, filing it, and letting the team know it's ready. Now you can automate Canva from the AI tool you already use…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/automate-canva",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-19",
+    "title": "AI Content Moderation Workflow: A 2026 Guide",
+    "description": "An ai content moderation workflow automates the classification and filtering of user-generated data to reduce manual review overhead and improve safety.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/ai-content-moderation-workflow-a-2026-guide",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-19",
+    "title": "AI Contract Review Automation",
+    "description": "AI contract review automation allows legal teams to standardize clause evaluation and accelerate document processing times by using predefined playbooks.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/ai-contract-review-automation",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-19",
+    "title": "AI Resume Screening Automation: How to Build It in 2026",
+    "description": "AI resume screening automation requires connecting your candidate storage to a reasoning engine and your tracking system for faster shortlisting.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/ai-resume-screening-automation-how-to-build-it-in-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-19",
+    "title": "Gemini and the path to AGI with Koray Kavukcuoglu",
+    "description": "Seven years after their last conversation at Google DeepMind’s London office, Professor Hannah Fry reunites with Koray Kavukcuoglu, SVP at Google DeepMind and Chief AI Architect at Google. Back then, DeepMind was focused on specialized breakthroughs; today, Koray is leading the charge toward…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=FORdPIWOH5k",
+    "source": "YouTube – DeepMind",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-19",
+    "title": "20 Superpoteri di Gemini che il 99% NON conosce (quasi tutti GRATIS)",
+    "description": "20 superpoteri di Google Gemini che il 99% non conosce, quasi tutti GRATIS. Dalla fotocamera di Gemini Live alle azioni programmate che lavorano mentre dormi, da Canvas che ti costruisce un'app senza codice fino a Deep Research: per ognuno ti mostro dove si attiva, un esempio pratico e se basta il…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=K6iOSqstwdg",
+    "source": "YouTube - Gabry Solutions",
     "badge": ""
   },
   {
@@ -3895,87 +4138,6 @@
     "link": "https://www.youtube.com/watch?v=poaWeJmPGW0",
     "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
-  },
-  {
-    "date": "2026-10-20",
-    "title": "Amazon Bedrock Pricing (2026): Models and Token Costs",
-    "description": "Amazon Bedrock pricing uses a pay-per-use model with rates varying by AI model and pricing mode, letting you estimate costs before scaling automation tools.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/amazon-bedrock-pricing-2026-models-and-token-costs",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-20",
-    "title": "GPT-6.1 Sol: Pricing, Performance, and How to Route Requests",
-    "description": "GPT-6.1 Sol provides logic-heavy processing for enterprise systems. You can determine if this model improves your current automated workflows.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/gpt-61-sol-pricing-performance-and-how-to-route-requests",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-20",
-    "title": "L'AI e il paradosso del nuovo",
-    "description": "#adv Clip estratta dall'intervista fatta a Paolo Fontana, Managing Director [Alkemy] Data. Tech. AI, su What’s Next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. Guarda l'intervista completa: https://www.youtube.com/watch?v=3AAk3YC6vXE #short",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/TxS1NIzTLiU",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-20",
-    "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-    "description": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
-    "category": "News",
-    "link": "https://openai.com/index/ted-taylor-restaurant",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-20",
-    "title": "OpenAI acquires Orchestra Bio",
-    "description": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
-    "category": "News",
-    "link": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-20",
-    "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
-    "description": "The Barcelona Supercomputing Center (BSC)’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and training to support innovation across industries. Many of these companies are also members of the…",
-    "category": "News",
-    "link": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/",
-    "source": "NVIDIA AI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-20",
-    "title": "llm-d 1.0 hardens open-source AI inference for production",
-    "description": "The distributed inference framework makes serving large models on your own infrastructure reliable and affordable for the agentic era.",
-    "category": "News",
-    "link": "https://research.ibm.com/blog/llmd-1-0-is-ready-for-production-inference-serving?utm_medium=rss&utm_source=rss",
-    "source": "IBM Research AI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-20",
-    "title": "Build a Better Shopping Experience with OpenAI | Shopping Agent Demo",
-    "description": "See how an AI shopping agent can turn a room photo into a personalized shopping experience—from finding the right products to updating an order. In this demo for fictional home goods retailer Vesper & Alder, a shopper uses voice and images to create a cozy reading nook. The agent recommends…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=8n-SXxRIrm8",
-    "source": "YouTube – OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-20",
-    "title": "Use one Zapier MCP server across all your AI tools",
-    "description": "Most teams don't stick to one AI tool. Your support team works in Claude, a few people swear by ChatGPT, and your engineers live in Cursor. Until now, each of those tools needed its own Zapier MCP server, with its own apps and skills to set up. Now you can connect all of them to one Zapier MCP…",
-    "category": "Automation",
-    "link": "https://zapier.com/blog/connect-multiple-ai-clients-zapier-mcp",
-    "source": "Zapier Blog",
-    "badge": "🔁"
   },
   {
     "date": "2025-07-30",
