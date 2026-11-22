@@ -1,5 +1,86 @@
 [
   {
+    "date": "2026-11-22",
+    "title": "Magnific AI Pricing 2026: Plans and Credit Costs",
+    "description": "Magnific AI pricing differences come down to monthly credit allowance, not plan cost. Find which of the four plans matches your upscaling workflow.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/magnific-ai-pricing-2026-plans-and-credit-costs",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-22",
+    "title": "How to Run Inkling 2 Mini Locally for AI Workflows",
+    "description": "Inkling 2 Mini workflow setup requires specific configuration limits—skip one and the model fails. Identify the critical parameters to get it working.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/how-to-run-inkling-2-mini-locally-for-ai-workflows",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-22",
+    "title": "Set Up a Workday Slack Integration Without Code",
+    "description": "Workday Slack integration sends messages to channels when system events occur. Build these trigger workflows using no-code automation tools.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/set-up-a-workday-slack-integration-without-code",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-22",
+    "title": "Jina AI Workflow: How to Connect and Chain the APIs",
+    "description": "Jina AI workflow chains separate API endpoints for Search, Reader, and Embeddings. You'll see which endpoints to combine to create a working integration.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/how-to-use-jina-ai-in-a-workflow-with-one-api-key",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-22",
+    "title": "Chi subisce un danno da intelligenza artificiale ha diritto a un risarcimento",
+    "description": "#adv Clip estratta dall'intervista fatta ad Arturo Dell'Isola, avvocato e Vicepresidente di ASSEPRIM, su What’s Next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. Guarda l'intervista completa: https://www.youtube.com/watch?v=Wajam73Xyek #short",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/Ou1LgAGTi9E",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-22",
+    "title": "Licenziarsi Per Fare L’Imprenditore? Ecco Come",
+    "description": "🎁 Scopri cosa puoi delegare agli agenti AI nel tuo lavoro: https://spiegamelofacile.com/weekend-ai/masterclass Iscriviti gratis alla mia masterclass di 30 minuti e ricevi anche l’instant book di 52 pagine. Qui Monty e sul canale parlo di tecnologia, intelligenza artificiale, business…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=lB95WDUm2B0",
+    "source": "YouTube - Marco Montemagno",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-11-22",
+    "title": "La domanda giusta non è «l'intelligenza artificiale mi ruberà il lavoro?».",
+    "description": "La domanda giusta non è «l'intelligenza artificiale mi ruberà il lavoro?». La domanda giusta è: mi ruberà le scuse e mi lascerà nudo davanti al fatto che non ho nessuna idea e nessuna strategia? Se fai l'imprenditore lo sai già: tu hai la visione, i collaboratori mettono a terra le idee. Adesso…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/N3xtZ6IOPJ0",
+    "source": "YouTube - Marco Montemagno",
+    "badge": "⭐"
+  },
+  {
+    "date": "2026-11-22",
+    "title": "La scrittura passa dai contenuti al brand. Le regole cambiano.",
+    "description": "La scrittura passa dai contenuti al brand. Le regole cambiano. Perché scrivere con l'intelligenza artificiale (AI) cambia le regole del gioco? Secondo me passeremo sempre di più dall'idea di chi scrive contenuti all'idea di brand. Sembra strano, ma pensa a una grande azienda: nessuno si aspetta che…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/ExQHNT2JImA",
+    "source": "YouTube - Marco Montemagno",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-22",
+    "title": "Un agente sul tuo computer ne ha il controllo totale.",
+    "description": "Un agente sul tuo computer ne ha il controllo totale. Un agente è un programma di intelligenza artificiale (AI) che svolge compiti da solo, sul tuo computer. Se va fuori di testa, magari prende le tue foto e le spalma su internet. Esempi più seri: le cose della banca, le cose private, i documenti…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/P6yEpCpA0rg",
+    "source": "YouTube - Marco Montemagno",
+    "badge": ""
+  },
+  {
     "date": "2026-11-21",
     "title": "VideoMemBench benchmark tests long-video memory in multimodal LLMs; Claude Opus 5 scores 45.7",
     "description": "Researchers from the University of Technology Sydney, Chinese University of Hong Kong, Hong Kong University of Science and Technology, and Zhejiang University introduced VideoMemBench, a benchmark evaluating whether multimodal large language models can remember and correctly use earlier information…",
@@ -88,6 +169,33 @@
     "link": "https://www.youtube.com/shorts/0TNrQ8P4-TE",
     "source": "YouTube - Marco Montemagno",
     "badge": ""
+  },
+  {
+    "date": "2026-11-21",
+    "title": "Amazon nears $7.5B deal to acquire AI startup Decart",
+    "description": "According to Financial Times sources, Amazon is in advanced talks to acquire AI startup Decart for approximately $7.5 billion, with a deal potentially finalized as early as next week. The acquisition would bolster AWS's position in the race for computing power against Nvidia.",
+    "category": "News",
+    "link": "https://picx.dev/news/DnoLOl",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-21",
+    "title": "MachinePulse AI open-sources Karpo Decision 31B and browser agent framework",
+    "description": "MachinePulse AI has open-sourced Karpo Decision 31B, a decision model for high-frequency, low-latency agent reasoning, along with its browser operation framework. In the Decision Index benchmark, the model scored 73.9 Full, ranking first among 300 models, and outperformed Gemini 3.5 Flash in a…",
+    "category": "News",
+    "link": "https://picx.dev/news/vazTM1",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-21",
+    "title": "Non sono un programmatore, faccio l'imprenditore da tanti anni.",
+    "description": "Non sono un programmatore, faccio l'imprenditore da tanti anni. Potevo chiamare chi segue la parte tecnica dei miei progetti: troppo facile. Ho scritto un po' a un agente di intelligenza artificiale (AI), cioè un programma che svolge compiti al posto tuo, e in una mezz'oretta i problemi erano…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/qGjzuUikfVo",
+    "source": "YouTube - Marco Montemagno",
+    "badge": "⭐"
   },
   {
     "date": "2026-11-20",
@@ -491,6 +599,33 @@
     "description": "A customer messages your WhatsApp Business number. Your AI assistant could help you word the perfect reply, but when the chat closes, the lead still has to be logged in your CRM, the ticket still has to be opened, and the confirmation still has to go out. Now you can set those follow-ups up from…",
     "category": "Automation",
     "link": "https://zapier.com/blog/automate-whatsapp-business",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-19",
+    "title": "OpenAI launches Live Dictation for ChatGPT globally across platforms",
+    "description": "OpenAI is rolling out Live Dictation for ChatGPT globally, allowing users to see speech transcribed in real time as they speak instead of waiting for recording to finish. The feature is available on all ChatGPT plans across web, desktop, iOS, and Android apps, with users able to tap the audio…",
+    "category": "News",
+    "link": "https://picx.dev/news/1t8uNE",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-19",
+    "title": "4 ways to automate Spotify with Zapier",
+    "description": "Your AI assistant can put together a road-trip playlist or point you to artists who sound like your favorites. But when the chat closes, so does the help. The song you liked in the car still has to be dropped into the right playlist, your listening history stays locked inside Spotify, and the track…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/automate-spotify",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-19",
+    "title": "How to automate Notion with your AI agent and Zapier",
+    "description": "Notion gives your projects, notes, and databases a home. Getting information into it is the hard part: things like the task someone mentions in Slack, an event on your calendar, or a form response you'd rather not retype. Equally important is getting things out of Notion and into all the other apps…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/automate-notion",
     "source": "Zapier Blog",
     "badge": "🔁"
   },
@@ -4030,114 +4165,6 @@
     "link": "https://openai.com/index/anima",
     "source": "OpenAI",
     "badge": ""
-  },
-  {
-    "date": "2026-10-22",
-    "title": "Physical AI: Concepts, Techniques, and Challenges",
-    "description": "arXiv:2610.27045v1 Announce Type: new Abstract: In recent years, physical artificial intelligence (physical AI) has experienced rapid development, capturing significant attention in academia and industry. However, the field has yet to reach consensus on its definition, technical landscape, and core…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.27045",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-22",
-    "title": "ReuF2F: Benchmarking Coding Agents on Formalized Undergraduate Research Problems",
-    "description": "arXiv:2610.27046v1 Announce Type: new Abstract: As AI systems begin to resolve open research problems, reliable verification becomes increasingly important. Formal mathematics provides a trusted framework for mathematical reasoning, enabling agents to produce machine-checkable proofs while…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.27046",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-22",
-    "title": "EDMA: Entropy-Driven Multimodal Answering",
-    "description": "arXiv:2610.27120v1 Announce Type: new Abstract: Multimodal question answering (MMQA) is based on integrating heterogeneous data sources, selectively leveraging relevant modalities, and ignoring distractors. Existing approaches based on Multimodal Large Language Models (MLLMs) improve performance by…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.27120",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-22",
-    "title": "Magnolia: A Persistent-Memory Agent Framework for Computational Chemistry",
-    "description": "arXiv:2610.27230v1 Announce Type: new Abstract: Chemistry has recently entered a high-data regime as molecular databases from high-throughput platforms or computational studies have become available. Increasing automation within the chemical sciences leads to a more digital and precision chemistry…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.27230",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-22",
-    "title": "EGI-BENCH: An Enterprise General Intelligence Benchmark Suite",
-    "description": "arXiv:2610.27234v1 Announce Type: new Abstract: Enterprise adoption of LLMs in agentic workflows is gated by evaluations that span a wide arc of abilities: CRM operations, heterogeneous-document retrieval, personal data understanding, multi-turn planning, tool use, function calling, long-horizon…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.27234",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-22",
-    "title": "Why Reinsurance Teams Need Dedicated AI App Access Tools Now",
-    "description": "Reinsurance AI access tools provide the necessary infrastructure to integrate LLMs without risking the exposure of sensitive treaty information.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/why-reinsurance-teams-need-dedicated-ai-app-access-tools-now",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-22",
-    "title": "LiteLLM: Open-Source AI Gateway & LLM Proxy (2026)",
-    "description": "LiteLLM is an open-source AI gateway with a new release. Find out which features affect your automation workflows and integration options.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/litellm-open-source-ai-gateway-llm-proxy-2026",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-22",
-    "title": "Best AI Writing Tools for 2026 (Tested & Ranked)",
-    "description": "Top-rated AI writing tools are evaluated based on their ability to automate complex drafting tasks and integrate directly into existing project workflows.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/best-ai-writing-tools-for-2026-tested-ranked",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-22",
-    "title": "Uber brings ChatGPT Work to all employees with OpenAI",
-    "description": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
-    "category": "News",
-    "link": "https://openai.com/index/uber-chatgpt-work-rollout",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-22",
-    "title": "Hallucination Detection Methods for AI Agent Workflows",
-    "description": "AI agent hallucinations are hard to catch because they usually look like normal answers. An agent can invent a fact, misread retrieved context, or contradict itself without signaling that anything went wrong. Once that output triggers another workflow step, the mistake can quickly become a…",
-    "category": "Automation",
-    "link": "https://blog.n8n.io/hallucination-detection-methods-for-ai-agent-workflows/",
-    "source": "n8n Blog",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-22",
-    "title": "How a three-person hiring startup built its go-to-market engine before the rush",
-    "description": "Chris Fairley founded the hiring platform Vetano in early 2025. After a particularly challenging job-hunting experience, Chris found that a strong resume was no longer enough. Resumes get about seven seconds of attention, according to Ladders' eye-tracking research. With AI now screening many of…",
-    "category": "Automation",
-    "link": "https://zapier.com/blog/vetano-next-gen-zaps",
-    "source": "Zapier Blog",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-22",
-    "title": "Uber rolls out ChatGPT Work to 30,000+ employees",
-    "description": "Following a 1,000-person pilot, Uber is bringing ChatGPT Work to more than 30,000 employees worldwide in its first company-wide deployment of an agentic platform for knowledge work. Uber CTO Praveen Neppalli Naga and OpenAI co-founder and President Greg Brockman discuss expanding AI beyond…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=l16Gw7oVLNQ",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
   },
   {
     "date": "2025-07-30",
