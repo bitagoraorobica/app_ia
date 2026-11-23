@@ -1,5 +1,140 @@
 [
   {
+    "date": "2026-11-23",
+    "title": "Beyond Demographic Discrimination: Benchmarking Normative-Descriptive Calibration in LLMs",
+    "description": "arXiv:2611.26870v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly deployed in socially consequential settings, where they must distinguish between normative reasoning (what should happen) and descriptive reasoning (what is likely to happen). Most fairness benchmarks…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.26870",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-23",
+    "title": "AstronautBench: Measuring Agent Self-Improvement Across Episodes Through Knowledge, Evidence, and Progress",
+    "description": "arXiv:2611.26910v1 Announce Type: new Abstract: LLM agents are expected to improve themselves from their own experience across episodes, with fixed weights. Self-improvement in an embodied world cannot be read from one measure. Existing benchmarks measure task progress, world-knowledge question…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.26910",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-23",
+    "title": "CodeReviewBench: An Automated Benchmark for Evaluating the Software Factory",
+    "description": "arXiv:2611.26942v1 Announce Type: new Abstract: As AI agents ship more code with minimal human oversight, code review becomes the critical quality-control checkpoint -- but one without a reliable, objective verifier: review quality is nuanced and ultimately a judgment call by the PR author…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.26942",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-23",
+    "title": "Scalable Evaluation of Medical AI using Evidence-based Practice Recommendations",
+    "description": "arXiv:2611.27007v1 Announce Type: new Abstract: Rigorously evaluating medical artificial intelligence (AI) requires testing open-ended clinical management across diverse presentations and stages of care. However, existing benchmarks rely on manual expert authoring, limiting coverage across…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.27007",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-23",
+    "title": "Dynamic Token Merging for Efficient Vision-Language Models",
+    "description": "arXiv:2611.27064v1 Announce Type: new Abstract: Vision-language models (VLMs) represent each image with hundreds of visual tokens, which can make inference costly even when a prompt depends on only part of the image. Dynamic Token Merging (DTM), introduced in MrT5 for byte-level text encoders…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.27064",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-23",
+    "title": "AI-driven technique could help engineers design analog chips faster and with less expense",
+    "description": "The “SLIC” training method enables a small LLM to compete with much more resource-intensive models in complex circuit design tasks.",
+    "category": "News",
+    "link": "https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123",
+    "source": "MIT AI News",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-23",
+    "title": "Chinese Researchers Release AscendGYM Benchmark for Huawei NPU Kernel Optimization",
+    "description": "Researchers at the Shenzhen Loop Area Institute have built and released AscendGYM, a kernel optimization benchmark for Huawei's Ascend NPUs. The benchmark aims to facilitate AI-driven development of custom kernels for Huawei chips, which is critical given export controls limiting Chinese access to…",
+    "category": "News",
+    "link": "https://picx.dev/news/V0bcFU",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-23",
+    "title": "Bret Taylor Q&A: Sierra co-founder discusses AI call center agents and OpenAI chair role",
+    "description": "In a Q&A with Colossus, Bret Taylor discussed his career, co-founding Sierra, AI call center agents, and his role as OpenAI chair. The conversation covered his work with ex-Googlers and X's influence, among other topics.",
+    "category": "News",
+    "link": "https://picx.dev/news/YN3tjd",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-23",
+    "title": "Zhipu AI launches GLM-5.4, a 750B-parameter open-source flagship with Loop Transformer",
+    "description": "Zhipu AI (Z.ai) announced GLM-5.4, its first flagship model built on the Loop Transformer architecture, which reuses shared-weight layers in a loop to achieve deeper reasoning without increasing parameter count. The 750B-parameter model reportedly reaches intelligence levels comparable to 2T-3T…",
+    "category": "News",
+    "link": "https://picx.dev/news/iPAkA0",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-23",
+    "title": "UCLA AGI Lab Director Gu Quanquan Discusses Departure from ByteDance, New Protein Model NovaAtom-Lite",
+    "description": "In an interview with LatePost, UCLA AGI Lab director Gu Quanquan discussed his departure from ByteDance and his new company Geodesic Intelligence, which released NovaAtom-Lite, a full-atom structure prediction model that outperforms AlphaFold 3 and IsoDDE on the FoldBench benchmark in some aspects…",
+    "category": "News",
+    "link": "https://picx.dev/news/10TLdQ",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-23",
+    "title": "OpenAI releases MedChemBench drug chemistry benchmark; GPT-6.2 Astra scores 84.5%",
+    "description": "OpenAI introduced MedChemBench, a benchmark for drug chemistry that tests AI models' ability to read molecular structures, interpret experimental results, and select compounds for further testing. Based on 99 questions from published research, GPT-6.2 Astra scored 84.5% under the xhigh reasoning…",
+    "category": "News",
+    "link": "https://picx.dev/news/qT1hhG",
+    "source": "PicX",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-11-23",
+    "title": "Stream LLM Response From Workflow: 2026 Platform Guide",
+    "description": "Stream LLM response from workflow to relay tokens in real time rather than waiting for completion. Compare platform capabilities.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/stream-llm-response-from-workflow-2026-platform-guide",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-23",
+    "title": "How Franklin Templeton uses AI for investment research | OpenAI",
+    "description": "“Just delivering data is not enough.” Franklin Templeton’s Katrina Dudley explains how OpenAI is helping the firm connect information from compliance, risk and trading, then turn it into insights for portfolio managers. That gives analysts more time in the field, talking to private companies and…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/gAmjBqXNoFI",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-23",
+    "title": "How Franklin Templeton uses AI for investment research | OpenAI",
+    "description": "“Just delivering data is not enough.” Franklin Templeton’s Katrina Dudley explains how OpenAI is helping the firm connect information from compliance, risk and trading, then turn it into insights for portfolio managers. That gives analysts more time in the field, talking to private companies and…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=PXKvR8ta22Q",
+    "source": "YouTube – OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-23",
+    "title": "Ecco perché Anthropic lancia prodotti per l'ufficio",
+    "description": "Compra il mio corso base \"Crea un Agente AI con Claude Code\": https://www.raffaelegaito.com/claude-code-crea-agente-ai-corso-completo/?landing=true Compra il mio corso intermedio “Fai il passo successivo con Claude Code”…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=eXEV5Cb1jgk",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
     "date": "2026-11-22",
     "title": "Magnific AI Pricing 2026: Plans and Credit Costs",
     "description": "Magnific AI pricing differences come down to monthly credit allowance, not plan cost. Find which of the four plans matches your upscaling workflow.",
@@ -77,6 +212,33 @@
     "description": "Un agente sul tuo computer ne ha il controllo totale. Un agente è un programma di intelligenza artificiale (AI) che svolge compiti da solo, sul tuo computer. Se va fuori di testa, magari prende le tue foto e le spalma su internet. Esempi più seri: le cose della banca, le cose private, i documenti…",
     "category": "News",
     "link": "https://www.youtube.com/shorts/P6yEpCpA0rg",
+    "source": "YouTube - Marco Montemagno",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-22",
+    "title": "Come il #1 al Mondo Usa DAVVERO I'AI (Senza Codice)",
+    "description": "Come usa DAVVERO l'AI un cofondatore di OpenAI? Andrej Karpathy, ex capo dell'intelligenza artificiale di Tesla e oggi in Anthropic, ha raccontato più volte come usa l'AI: ho messo in fila le sue 10 abitudini. Nessuna richiede di saper programmare e puoi copiarle da stasera. Dentro trovi perché non…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=qPBhWyy8u7o",
+    "source": "YouTube - Gabry Solutions",
+    "badge": "🔥"
+  },
+  {
+    "date": "2026-11-22",
+    "title": "Dai all'intelligenza artificiale (AI) la tua stella polare.",
+    "description": "Dai all'intelligenza artificiale (AI) la tua stella polare. Una missione chiara. Ognuno ha la sua: la mia, chissà, è diventare gran maestro di scacchi. Con la stella polare ogni decisione si confronta con l'obiettivo. Mi sto avvicinando, sì o no? Cosa posso fare oggi per avvicinarmi più…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/aG5SKAxNOik",
+    "source": "YouTube - Marco Montemagno",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-22",
+    "title": "Siamo molto più imperfetti di quello che pretendiamo di essere.",
+    "description": "Siamo molto più imperfetti di quello che pretendiamo di essere. Per questo, secondo me, le teorie sull'intelligenza artificiale (AI) che può o non può sostituire il lavoratore sono sbagliate: la paragonano al lavoratore ideale, non al lavoratore medio. L'asticella da superare non è alta e non è…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/FN0BDyJbHQ0",
     "source": "YouTube - Marco Montemagno",
     "badge": ""
   },
@@ -3967,204 +4129,6 @@
     "link": "https://www.activepieces.com/blog/1password-for-agents-how-it-works-and-its-limits",
     "source": "Activepieces",
     "badge": "🔁"
-  },
-  {
-    "date": "2026-10-23",
-    "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
-    "description": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
-    "category": "News",
-    "link": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-23",
-    "title": "SpecEvo: Speculative Evolution with Large Language Models for Cost-Efficient Scientific Discovery",
-    "description": "arXiv:2610.28706v1 Announce Type: new Abstract: LLM-driven evolutionary search is a promising paradigm for scientific discovery, but existing methods remain costly and slow, often applying expensive reasoning uniformly while underusing evidence from failed, redundant, and saturated trials. We…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.28706",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-23",
-    "title": "Decision language models as affordable and rapid alternatives to LLM judges of clinical generative AI",
-    "description": "arXiv:2610.28826v1 Announce Type: new Abstract: Automated judges of clinical artificial intelligence (AI) outputs are necessary, but large language model (LLM) judges are costly and slow at scale. We compared Jev, a decision language model that returns structured judgments, with frontier and…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.28826",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-23",
-    "title": "To Manipulate or Not: Opinion Dynamics in LLM Interactions",
-    "description": "arXiv:2610.28875v1 Announce Type: new Abstract: Large language models increasingly take part in extended conversations where they can both shape and be shaped by another party's views, yet most persuasion research measures only one side of that exchange. We introduce a controlled LLM-LLM debate…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.28875",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-23",
-    "title": "Behavior Beyond Text: Evaluating Refusal Transfer Failure in LLM Agents",
-    "description": "arXiv:2610.28982v1 Announce Type: new Abstract: While large language models are increasingly deployed as tool-calling agents, their safety evaluations still focus primarily on their ability to refuse harmful requests in text. We investigate whether the refusal behavior in text transfers to tool…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.28982",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-23",
-    "title": "An Evidence-Driven Multi-Agent Compound AI System for Head and Neck Proton Radiotherapy Planning",
-    "description": "arXiv:2610.29010v1 Announce Type: new Abstract: Radiation treatment planning requires balancing competing objectives to satisfy clinical criteria while accommodating physicians' preferences. This study aims to develop an evidence-driven, multi-agent compound AI system that integrates DRL-based…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.29010",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-23",
-    "title": "Activepieces vs IFTTT: Workflow Automation Compared",
-    "description": "Activepieces vs IFTTT differ in pricing, automation triggers, and integrations available. See which platform matches your technical skill level and budget.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/activepieces-vs-ifttt-workflow-automation-compared",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-23",
-    "title": "Tutto quello che devi sapere sull'AI Act [Alessandro Vercellotti]",
-    "description": "Compra il mio corso base \"Crea un Agente AI con Claude Code\": https://www.raffaelegaito.com/claude-code-crea-agente-ai-corso-completo/?landing=true Compra il mio corso intermedio “Fai il passo successivo con Claude Code”…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=fs6dActC94k",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-23",
-    "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-    "description": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
-    "category": "News",
-    "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-23",
-    "title": "AI Agent Memory: How LLM Agents Manage State in Production",
-    "description": "Learn how AI agent memory works, explore short-term and long-term memory architectures, and discover how to combine n8n and Cognee to build AI workflows that retain context, share knowledge, and learn across sessions.",
-    "category": "Automation",
-    "link": "https://blog.n8n.io/ai-agent-memory-how-llm-agents-manage-state-in-production/",
-    "source": "n8n Blog",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-23",
-    "title": "The 7 best AI agents in 2026",
-    "description": "AI agents were the promise of 2024, the hype of 2025, and the expectation of 2026 and beyond. The category has matured, and a handful of agents are ready to use out of the box, with tool access, task completion, and guardrails for the data they touch. I've spent a lot of time with AI agents, and I…",
-    "category": "Automation",
-    "link": "https://zapier.com/blog/best-ai-agents",
-    "source": "Zapier Blog",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-23",
-    "title": "OpenShell by NVIDIA: Sandbox for AI Agents Explained",
-    "description": "OpenShell is NVIDIA's new open-source project for AI agent automations. You'll understand what capabilities it brings to automated agent development.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/openshell-by-nvidia-sandbox-for-ai-agents-explained",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-23",
-    "title": "Kimi K3.1 Pro: Specs, Pricing, Release Date (2026)",
-    "description": "Kimi K3.1 Pro is now available. Understand who developed it and what differences it makes in AI automation workflows.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/kimi-k3-1-pro-for-automation-teams-in-2026",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-23",
-    "title": "Nemotron 3.5 Super VL: Pricing and Benchmarks (2026)",
-    "description": "Nemotron 3.5 Super VL updates image recognition in automations. See how the capabilities changed and what that means for your visual processing workflows.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/nemotron-35-super-vl-pricing-and-benchmarks-2026",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-23",
-    "title": "Hunt bugs with your dot",
-    "description": "We’re using dots to build better dots. Rennie Song, an engineer at OpenAI, uses her dot to gather feedback from social media and user reports, update a live tracker in ChatGPT Space, and investigate and fix bugs with Codex. Get started with dots today: https://learn.chatgpt.com/docs/dots",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=6f7ojkd4_Wc",
-    "source": "YouTube – OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-23",
-    "title": "From notes to AI training with ChatGPT Work | Realpage.",
-    "description": "Austin Braham at Realpage. uses ChatGPT Work to turn ideas, notes and source materials into complete AI training packages tailored to different teams, roles and skill levels.",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/7Cs5qyBlYQk",
-    "source": "YouTube – OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-23",
-    "title": "How Realpage. builds AI training with ChatGPT Work",
-    "description": "At Realpage., Austin Braham creates AI training for different teams, roles and skill levels. He uses ChatGPT Work to turn ideas, notes and source materials into complete enablement packages tailored to each audience. The result is more relevant, consistent education that helps colleagues put AI to…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=hgX1hgyWD4g",
-    "source": "YouTube – OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-23",
-    "title": "AI agents for everyday IT fixes | Shield and OpenAI",
-    "description": "Shield’s AI agents use Astra to work directly in business software and handle routine IT fixes, giving technicians more time for harder problems that need their judgment.",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/2lNUGkCg_qc",
-    "source": "YouTube – OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-23",
-    "title": "How Shield uses OpenAI’s Astra to support IT teams",
-    "description": "When someone can’t log in or get online, their IT team often has to put other work on hold. Shield is building Forge to help IT services teams get their customers back to work faster. Its AI agents use Astra to work directly in business software and resolve problems that previously needed a…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=m6MlxaFMmPI",
-    "source": "YouTube – OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-23",
-    "title": "Ho Testato il Tool Virale che SMONTA Qualsiasi App (Ecco Cosa Fa Davvero)",
-    "description": "Ho Testato il Tool Virale che SMONTA Qualsiasi App (Ecco Cosa Fa Davvero) e Ho testato REA (Reverse Engineer Anything), il tool virale di GitHub che promette di smontare qualsiasi app con l'intelligenza artificiale: ecco cosa fa davvero. REA porta il reverse engineering dentro agenti AI come Claude…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=nGaE-8wAkq4",
-    "source": "YouTube - Gabry Solutions",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-23",
-    "title": "How AT&T is building AI-powered legal workflows with OpenAI",
-    "description": "AT&T’s David McAtee and Bill Ryan describe how AI is changing their legal team’s work—and what they plan to build with OpenAI next. One initiative is a natural-language intake system that would classify and prioritize legal matters, then connect them with relevant knowledge. The aim is to put…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=V39_L7uh66M",
-    "source": "YouTube – OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-23",
-    "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
-    "description": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.",
-    "category": "News",
-    "link": "https://openai.com/index/anima",
-    "source": "OpenAI",
-    "badge": ""
   },
   {
     "date": "2025-07-30",
