@@ -1,5 +1,104 @@
 [
   {
+    "date": "2026-11-24",
+    "title": "OpenClaw Foundation launches ShellBench; top AI models achieve ~60% completion rate",
+    "description": "The OpenClaw Foundation has launched ShellBench, a benchmark that evaluates 13 frontier AI models across five harnesses on 100 tasks. Results show that even the top-performing models achieve only about a 60% completion rate, highlighting reliability concerns for enterprise AI agents.",
+    "category": "News",
+    "link": "https://picx.dev/news/4Dvc1M",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Anthropic and OpenAI staff warn unreleased models' reasoning gains make public release unsafe",
+    "description": "Axios reports, citing sources, that employees at Anthropic and OpenAI have warned that internal, unreleased models have achieved rapid advances in reasoning, making them unsafe to release publicly. The warning highlights growing concerns within AI labs about the pace of capability growth outpacing…",
+    "category": "News",
+    "link": "https://picx.dev/news/vULKUc",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-24",
+    "title": "OpenAI brings GPT-6.2 Sol to ChatGPT Chat tab for Plus, Pro, Business, Enterprise",
+    "description": "OpenAI has rolled out a version of GPT-6.2 Sol optimized for everyday conversation to the Chat tab in ChatGPT, available to Plus, Pro, Business, and Enterprise users. This follows the model's debut in Work and Codex less than a week earlier.",
+    "category": "News",
+    "link": "https://picx.dev/news/5bhwHN",
+    "source": "PicX",
+    "badge": "⭐"
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Production AI Playbook: Audit & trace for AI agents",
+    "description": "Reconstruct an AI decision, and retain the records needed to explain it later. Five hands-on n8n exercises: reading saved executions, tagging decisions for search, tracing tool calls with OpenTelemetry, and proving which workflow version ran.",
+    "category": "Automation",
+    "link": "https://blog.n8n.io/production-ai-playbook-audit-trace-for-ai-agents/",
+    "source": "n8n Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-24",
+    "title": "5 systems you should automate today",
+    "description": "The people on your team have extraordinary ideas. But their brilliance can't surface, much less get deployed at scale, if everyone's bogged down with disconnected tools and colorless operational work. Unless they delegate that work to Zapier, that is. On our platform, you can build secure…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/what-you-should-automate",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-24",
+    "title": "DaisyRose 27B vs GPT-5.4 Mini: Cost and Speed",
+    "description": "DaisyRose 27B uses reinforcement learning for multimodal reasoning. You can determine when this model is suitable for your automation projects.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/daisyrose-27b-vs-gpt-54-mini-cost-and-speed",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-24",
+    "title": "AI and Automation Pricing Index, Checked Every Week",
+    "description": "What AI model APIs and automation tools cost this week: every price read from the maker's own pricing page, linked and dated, with what changed.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/ai-and-automation-pricing-index",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Restaurant Automation Software: 2026 Buyer's Guide",
+    "description": "Restaurant automation software varies: Toast centers on POS, Square suits smaller restaurants, while Zapier and Activepieces offer broader integrations.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/restaurant-automation-software-2026-buyers-guide",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-24",
+    "title": "L'AI Act è stata una fuga in avanti",
+    "description": "#adv Clip estratta dall'intervista fatta ad Arturo Dell'Isola, avvocato e Vicepresidente di ASSEPRIM, su What’s Next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. Guarda l'intervista completa: https://www.youtube.com/watch?v=Wajam73Xyek #short",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/2hWumHepVMw",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Chat infinite con l'intelligenza artificiale (AI)? Meglio di no.",
+    "description": "Chat infinite con l'intelligenza artificiale (AI)? Meglio di no. Anche a me capita di restare nella stessa chat per pigrizia. Però dopo un po' il contesto, cioè tutto quello che il programma deve tenere a mente della conversazione, si riempie. E più è pieno, più il modello inizia a pensare peggio…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/PYfvu3fneH8",
+    "source": "YouTube - Marco Montemagno",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Cuochi geniali, con il vizio degli incendi.",
+    "description": "Cuochi geniali, con il vizio degli incendi. Così vedo, per me, gli agenti di intelligenza artificiale (AI): programmi che svolgono compiti al posto tuo. Ad oggi devi stare sempre pronto con l'estintore. Magari su compiti ben precisi sono molto, molto potenti e ti stupiscono. Ma non funzionano al…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/I2XD6t0Ii-o",
+    "source": "YouTube - Marco Montemagno",
+    "badge": ""
+  },
+  {
     "date": "2026-11-23",
     "title": "Beyond Demographic Discrimination: Benchmarking Normative-Descriptive Calibration in LLMs",
     "description": "arXiv:2611.26870v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly deployed in socially consequential settings, where they must distinguish between normative reasoning (what should happen) and descriptive reasoning (what is likely to happen). Most fairness benchmarks…",
@@ -132,6 +231,105 @@
     "category": "News",
     "link": "https://www.youtube.com/watch?v=eXEV5Cb1jgk",
     "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-23",
+    "title": "Connected intelligence for in-house legal",
+    "description": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+    "category": "News",
+    "link": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-23",
+    "title": "Richpanel helps companies automate 50% of support in 30 days",
+    "description": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+    "category": "News",
+    "link": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-23",
+    "title": "Hacker News asks how LLMs should perceive computers",
+    "description": "A Hacker News discussion thread raises the question of how large language models should perceive a computer, touching on multimodal interfaces and tool use. The conversation explores potential design directions for LLM-computer interaction, though no concrete proposals or findings are reported.",
+    "category": "News",
+    "link": "https://picx.dev/news/paIQFj",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-23",
+    "title": "GPT-6.2 Astra and Claude Fable 5.2 nearly tied in hands-on test; Fable costs 5x more",
+    "description": "A hands-on comparison by The New Stack found OpenAI's GPT-6.2 Astra and Anthropic's Claude Fable 5.2 nearly tied on three custom accounting, coding, and data tasks, with Fable scoring 149 points versus Astra's 145. However, Fable used far more tokens and cost over five times as much as Astra.",
+    "category": "News",
+    "link": "https://picx.dev/news/V31M4D",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-23",
+    "title": "A guide to email automation with your AI agent and Zapier",
+    "description": "Your AI agent can already draft replies, summarize a long thread, and flag what's urgent. But when the chat ends, so does the help. Someone still has to save the attachment, log the new lead, and send the follow-up after the meeting. Now you can set up email automation from the AI tool you already…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/email-automation",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-23",
+    "title": "How to automate YouTube with your AI agent and Zapier",
+    "description": "Your AI agent already helps you brainstorm video ideas, tighten scripts, and write descriptions. But when the chat ends, so does the help. Someone still has to share the new video in Slack, log it in a spreadsheet, and dig through the comments. Now you can automate YouTube from the AI tool you…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/automate-youtube",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-23",
+    "title": "How to use Zapier for social media automation",
+    "description": "Your AI agent can brainstorm captions, reword a post for LinkedIn, and sum up what people are saying about your launch. Then the chat ends, and the posting, the replying, and the resharing are back on your plate. Now you can start social media automation from the AI tool you already use. Install…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/social-media-automation",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-23",
+    "title": "Google Sheets automation ideas to organize your work",
+    "description": "Your AI assistant is great at helping you write a formula, clean up a messy column, or summarize a tab. Then you close the chat, and the spreadsheet is still waiting on you to paste in last night's leads, log the new orders, and ping the team about the row someone just changed. Here's a way to hand…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/automate-google-sheets",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-23",
+    "title": "Investigating Linux Vulnerabilities with GPT-6 Cyber",
+    "description": "AI can help security teams move faster from finding vulnerabilities to getting fixes into the software people rely on. In one run, GPT-6 Cyber helped validate 948 Linux kernel vulnerabilities and generate candidate patches for human review. Cyber researcher Kyle Zeng sits down with Clint Gibler…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/w-ltt0Np2cY",
+    "source": "YouTube – OpenAI",
+    "badge": "⭐"
+  },
+  {
+    "date": "2026-11-23",
+    "title": "Investigating Linux Vulnerabilities with GPT-6 Cyber",
+    "description": "AI can help security teams move faster from finding vulnerabilities to getting fixes into the software people rely on. In one run, GPT-6 Cyber helped validate 948 Linux kernel vulnerabilities and generate candidate patches for human review. Cyber researcher Kyle Zeng sits down with Clint Gibler…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=MpsO8Ds8uyo",
+    "source": "YouTube – OpenAI",
+    "badge": "⭐"
+  },
+  {
+    "date": "2026-11-23",
+    "title": "La modernità che vedi davanti non è quella che c'è sotto.",
+    "description": "La modernità che vedi davanti non è quella che c'è sotto. Prenoti il volo con un semplice swipe, il gesto del dito sullo schermo, oppure lo chiedi al tuo agente, un programma di intelligenza artificiale (AI) che svolge compiti per te. Poi arrivo all'aeroporto di Milano e la macchinetta che…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/dD9TWauCqtI",
+    "source": "YouTube - Marco Montemagno",
     "badge": ""
   },
   {
@@ -4100,33 +4298,6 @@
     "description": "Resend inboxes give automations a mailbox to read and reply from. This API includes draft and agent endpoints for AI automation capabilities.",
     "category": "Automation",
     "link": "https://www.activepieces.com/blog/resend-inboxes-draft-and-agent-api-endpoints-2026",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-24",
-    "title": "Activepieces Webhook Trigger Without Dropped Orders",
-    "description": "Activepieces webhook triggers create unique URLs for automation workflows. Identify issues causing orders to fail when webhooks stop responding.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/activepieces-webhook-trigger-without-dropped-orders",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-24",
-    "title": "Activepieces AI Agents: How to Build Them (2026 Guide)",
-    "description": "Activepieces AI agents are workflow steps, not autonomous bots. You'll see what they do and how they fit within your automation builds.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/activepieces-ai-agents-how-to-build-them-2026-guide",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-24",
-    "title": "1Password for Agents: How It Works and Its Limits",
-    "description": "1Password for Agents lets you manage the credentials your AI automation needs when connecting to external services.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/1password-for-agents-how-it-works-and-its-limits",
     "source": "Activepieces",
     "badge": "🔁"
   },
