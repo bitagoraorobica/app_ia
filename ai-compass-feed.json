@@ -1,5 +1,77 @@
 [
   {
+    "date": "2026-11-25",
+    "title": "OpenAI preprint claims proof that matrix multiplication exponent ω equals 9/4",
+    "description": "OpenAI has published a 111-page preprint claiming to prove that the matrix multiplication exponent (ω) is exactly 9/4, a major open problem in mathematics that ranks #31 on ProofAtlas' top 500 list. The result, if verified, would settle a 57-year-old question and has direct implications for the…",
+    "category": "News",
+    "link": "https://picx.dev/news/9KvU1k",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-25",
+    "title": "Infrathon benchmark evaluates frontier agents on long-horizon AI infrastructure optimization",
+    "description": "Researchers from the University of Washington, AI2, Pyromind Dynamics, and RadixArk released Infrathon, a benchmark for evaluating frontier agents on long-horizon AI infrastructure optimization tasks. It includes 25 real-world tasks across operator, module, and system levels, with 12–24 hour…",
+    "category": "News",
+    "link": "https://picx.dev/news/jK4m5z",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-25",
+    "title": "FaceMind Proposes General Looped Model Framework for World Models and Diffusion",
+    "description": "FaceMind has proposed the General Looped Model framework, extending looped Transformer architectures beyond language models to world models and diffusion generation. This comes amid growing industry interest in looped architectures, highlighted by Zhipu's GLM-5.4, which uses a looped Transformer…",
+    "category": "News",
+    "link": "https://picx.dev/news/9zNtet",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-25",
+    "title": "La differenza tra usare l'AI e governarla",
+    "description": "#adv Clip estratta dall'intervista fatta ad Arturo Dell'Isola, avvocato e Vicepresidente di ASSEPRIM, su What’s Next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. Guarda l'intervista completa: https://www.youtube.com/watch?v=Wajam73Xyek #short",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/k1K5YPWzxs8",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-25",
+    "title": "AI senza abbonamento (e locale) su un vecchio Mac Mini",
+    "description": "#adv Accedi alla promo Black Friday di Internxt con il 90% di sconto, usando questo link: https://internxt.com/gaito Compra il mio corso base \"Crea un Agente AI con Claude Code\": https://www.raffaelegaito.com/claude-code-crea-agente-ai-corso-completo/?landing=true Compra il mio corso intermedio…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=i1ZPqU5QRO8",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-25",
+    "title": "Come controlli un lavoro che non hai mai fatto in vita tua?",
+    "description": "Come controlli un lavoro che non hai mai fatto in vita tua? Gli agenti di intelligenza artificiale (AI), cioè programmi che svolgono compiti da soli, preparano le bozze, sperimentano, sbagliano e riprovano. Fantastico, ti è utile. Ma quel lavoro era quello che facevi quando iniziavi: il periodo in…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/8N_QwADvF-4",
+    "source": "YouTube - Marco Montemagno",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-25",
+    "title": "La tua soluzione è meglio dei prodotti e delle soluzioni sul mercato?",
+    "description": "La tua soluzione è meglio dei prodotti e delle soluzioni sul mercato? È la terza domanda da farsi per validare un'idea. Tipicamente devi avere una di queste caratteristiche: più veloce, più economica, più semplice, più affidabile. Prendi uno strumento che aiuta a essere visibili sui motori di…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/c1Ah1M6aJd4",
+    "source": "YouTube - Marco Montemagno",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-25",
+    "title": "Nvidia Senza Di Lui È Durata 11 Giorni",
+    "description": "🎁 Scopri cosa puoi delegare agli agenti AI nel tuo lavoro: https://spiegamelofacile.com/weekend-ai/masterclass Iscriviti gratis alla mia masterclass di 30 minuti e ricevi anche l’instant book di 52 pagine. Qui Monty e sul canale parlo di tecnologia, intelligenza artificiale, business…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=uRMj7eRhUQA",
+    "source": "YouTube - Marco Montemagno",
+    "badge": "⭐"
+  },
+  {
     "date": "2026-11-24",
     "title": "OpenClaw Foundation launches ShellBench; top AI models achieve ~60% completion rate",
     "description": "The OpenClaw Foundation has launched ShellBench, a benchmark that evaluates 13 frontier AI models across five harnesses on 100 tasks. Results show that even the top-performing models achieve only about a 60% completion rate, highlighting reliability concerns for enterprise AI agents.",
@@ -95,6 +167,105 @@
     "description": "Cuochi geniali, con il vizio degli incendi. Così vedo, per me, gli agenti di intelligenza artificiale (AI): programmi che svolgono compiti al posto tuo. Ad oggi devi stare sempre pronto con l'estintore. Magari su compiti ben precisi sono molto, molto potenti e ti stupiscono. Ma non funzionano al…",
     "category": "News",
     "link": "https://www.youtube.com/shorts/I2XD6t0Ii-o",
+    "source": "YouTube - Marco Montemagno",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Clay helps sales teams win with Codex and ChatGPT",
+    "description": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+    "category": "News",
+    "link": "https://openai.com/business/customer-stories/clay-plugins-openai",
+    "source": "OpenAI",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Anthropic stock falls below $83 IPO price to ~$80; co-founders sell shares worth $280M+",
+    "description": "Anthropic's shares slipped below their $83 IPO price in early trading on Tuesday, falling more than 8% to around $80, after an earlier pop to $111.50. Co-founders Dario and Daniela Amodei each sold over 3.37 million shares worth more than $280 million. The post-IPO slump raises concerns about AI…",
+    "category": "News",
+    "link": "https://picx.dev/news/TuB2rk",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-24",
+    "title": "OpenAI says GPT-6 models can design proteins via reasoning and code",
+    "description": "OpenAI reported that its GPT-6 family of models can design new protein shapes and the sequences of their chemical building blocks using only reasoning and code, without calling specialized biology models. Lab tests found evidence of binding across five targets, indicating intrinsic protein-design…",
+    "category": "News",
+    "link": "https://picx.dev/news/5chqsj",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-24",
+    "title": "5 problems talent leaders are facing with AI in hiring, and what's working",
+    "description": "Most talent leaders we know are working out how AI fits into hiring, ourselves included. Over the past year, our team at Zapier has worked alongside talent and people teams across industries. We've talked with roughly 100 leaders, at companies from high-growth startups to large enterprises…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/ai-in-hiring-problems-and-solutions",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-24",
+    "title": "OpenAI Agent Builder is shutting down: How to export your workflows and move to Zapier",
+    "description": "OpenAI is shutting down Agent Builder on November 30, 2026, so if you built workflows there, you've got a short window to get them out. And inconveniently, OpenAI hands you Agents SDK code on the way out, not a workflow you can open in another tool. Here's how to export your Agent Builder workflow…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/openai-agent-builder-alternatives",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Clay API: Documentation, API Keys, and Webhooks (2026)",
+    "description": "Clay API lets you push data via webhooks and retrieve enriched results through HTTP columns. Connect these workflows directly or via automation platforms.",
+    "category": "Automation",
+    "link": "https://www.activepieces.com/blog/clay-api-documentation-api-keys-and-webhooks-2026",
+    "source": "Activepieces",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-24",
+    "title": "The brain helped us build AI. Now AI is explaining the brain.",
+    "description": "The human brain remains one of the greatest unsolved mysteries in science. We have roughly 86 billion neurons firing in a way that somehow produces intelligence, and yet the brain is still largely a black box. In the early days of AI, researchers looked to the brain for clues about how to build…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=K8rdrWQRd20",
+    "source": "YouTube – DeepMind",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Si sta creando un divario nell’IA",
+    "description": "Si sta creando un divario nell’IA. E non è quello che pensi. Da un lato chi sperimenta, integra, costruisce. Dall’altro chi è ancora solo dentro a ChatGPT a fare il prompt. Mai visto un agente. Mai esplorato oltre. La tecnologia, che si sappia, oggi non è un optional. È indispensabile. Chi non lo…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/qAyxITJ-zFg",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-24",
+    "title": "L'AI Ha Appena Risolto Uno dei Più GRANDI Misteri del Mondo?",
+    "description": "L'AI Ha Appena Risolto Uno dei Più GRANDI Misteri del Mondo? L'AI ha davvero risolto l'ipotesi di Riemann? Un matematico di Anthropic, lavorando con Claude, sostiene di aver dimostrato il più grande mistero della matematica: 167 anni di tentativi, 6 settimane di lavoro. Venerdì 20 novembre 2026…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=D6X6ucMf4jE",
+    "source": "YouTube - Gabry Solutions",
+    "badge": "⭐"
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Siti incomprensibili: oggi un sito puoi farlo anche da solo",
+    "description": "Siti incomprensibili: oggi un sito puoi farlo anche da solo La cosa che mi ha scioccato, guardando qualche sito, è quanto fosse incomprensibile. «Mettiamo in sinergia i tuoi processi più orchestranti»: ma di che cosa stai parlando? Spesso c'è un sito pessimo, e per anni anche il mio faceva ridere…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/wwyf1i9BWdA",
+    "source": "YouTube - Marco Montemagno",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-24",
+    "title": "L'intelligenza artificiale (AI) cambia il tuo lavoro comunque.",
+    "description": "L'intelligenza artificiale (AI) cambia il tuo lavoro comunque. Il problema è chi non vuole usare gli strumenti, chi parla per sentito dire o chi ha un conflitto di interesse. Tu guarda cosa fanno le persone, come si comportano, se una cosa funziona o meno: così capisci in che direzione andiamo. Con…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/ssdc0FsQyQM",
     "source": "YouTube - Marco Montemagno",
     "badge": ""
   },
@@ -331,6 +502,24 @@
     "link": "https://www.youtube.com/shorts/dD9TWauCqtI",
     "source": "YouTube - Marco Montemagno",
     "badge": ""
+  },
+  {
+    "date": "2026-11-23",
+    "title": "How to automate Gmail with your AI agent and Zapier",
+    "description": "Your AI assistant is good at reading an inbox. It can summarize a long thread, draft a reply, and flag what needs your attention. Then you close the tab, and Gmail goes back to being a pile. The invoice is still sitting in an attachment, the new lead is still waiting on an answer, and nobody has…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/automate-gmail-with-zapier",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-23",
+    "title": "How to automate AI image generation with your AI agent and Zapier",
+    "description": "Your AI agent can already write a prompt, generate an image, and suggest ten variations. The trouble is that the image stays in the chat. Someone still has to download it, rename it, drop it into the brief, and send it to the person who asked. You can set all of that up from the AI tool you already…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/automate-ai-images",
+    "source": "Zapier Blog",
+    "badge": "🔁"
   },
   {
     "date": "2026-11-22",
@@ -4273,33 +4462,6 @@
     "link": "https://www.youtube.com/watch?v=LexcQOqz-xw",
     "source": "YouTube - Gabry Solutions",
     "badge": "🔥"
-  },
-  {
-    "date": "2026-10-25",
-    "title": "Mistral Voxtral 3: Speech Models, Pricing & Benchmarks",
-    "description": "Mistral Voxtral 3 enables speech-to-text, text-to-speech, and live conversations in automation workflows. It is available via API or self-deployment.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/mistral-voxtral-3-speech-models-pricing-benchmarks",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-25",
-    "title": "AI Visibility Tools: Compared by Plan Caps (2026)",
-    "description": "AI visibility tools track where ChatGPT, Gemini, Perplexity and Google's AI mention your brand. Compare pricing and limits to pick the right tool.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/ai-visibility-tools-compared-by-plan-caps-2026",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-25",
-    "title": "Resend Inboxes: Draft and Agent API Endpoints (2026)",
-    "description": "Resend inboxes give automations a mailbox to read and reply from. This API includes draft and agent endpoints for AI automation capabilities.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/resend-inboxes-draft-and-agent-api-endpoints-2026",
-    "source": "Activepieces",
-    "badge": "🔁"
   },
   {
     "date": "2025-07-30",
