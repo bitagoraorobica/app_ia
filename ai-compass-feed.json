@@ -1,5 +1,86 @@
 [
   {
+    "date": "2026-11-26",
+    "title": "MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake",
+    "description": "arXiv:2611.31301v2 Announce Type: new Abstract: Audio-video (AV) deepfakes can fake the face, the voice, or both. Most benchmarks only ask whether a clip is real or fake, so they cannot show whether a detector relies on the picture, the voice, or encoding traces. We present MOZAIC, a paired…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.31301",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-26",
+    "title": "COGENT: A Modular Cognitive Architecture for Agentic User Simulation",
+    "description": "arXiv:2611.31559v1 Announce Type: new Abstract: LLM-based user simulation can support interface design, accessibility research, and interactive-agent evaluation, but standard computer-use agents are optimized for task completion rather than reproducing how people perceive, reason, and act. We…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.31559",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-26",
+    "title": "Monitorable-by-design architectures for a post-Astra world: a compartmentalization-based approach",
+    "description": "arXiv:2611.31610v1 Announce Type: new Abstract: Frontier models like GPT-6 Astra are increasingly able to do substantial reasoning without a monitorable chain of thought, chains of thought are becoming less legible, and are often monitored asynchronously to reduce cost. With the future of chain of…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.31610",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-26",
+    "title": "LimoBench: How Street Smart Are Large Language Models?",
+    "description": "arXiv:2611.31682v1 Announce Type: new Abstract: Large language models (LLMs) have transformed how humans interact with information, enabling natural-language interfaces across various domains. They are increasingly deployed for geospatial applications including map-based question answering…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.31682",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-26",
+    "title": "Not All Interpretation Methods Are Created Equal: Tiered Evaluation of AI Interpretability",
+    "description": "arXiv:2611.31833v1 Announce Type: new Abstract: As AI transitions to sociotechnical deployments, uninterpretable models pose serious threats to reliability, public trust and contestability. However, not all interpretation methods are created equal: for interpretability to enhance deployment safety…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.31833",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-26",
+    "title": "Scott Aaronson: Leading AI labs may hold unreleased breakthroughs that could break deployed cryptosystems",
+    "description": "Computer scientist Scott Aaronson reported on his blog that sources indicate leading AI labs, possibly OpenAI and/or Anthropic, have made major unreleased algorithmic breakthroughs that could break deployed cryptosystems, though the exact nature is unknown. He noted a rumor that one or both labs…",
+    "category": "News",
+    "link": "https://picx.dev/news/JvYhgM",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-26",
+    "title": "Stanford physicist claims algebraic quantization of gravity in arXiv paper, developed with GPT-6 Astra",
+    "description": "A Stanford theoretical physicist and OpenAI researcher posted an 83-page arXiv paper proposing an algebraic quantization of gravity from the null cone, claiming to address the non-renormalizability of general relativity. The author disclosed months of collaboration with GPT-6 Astra, consuming about…",
+    "category": "News",
+    "link": "https://picx.dev/news/JRCb3I",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-26",
+    "title": "OpenAI fixes GPT-6.2 billing error; Astra limits hit 40% faster, Sol 25% faster",
+    "description": "OpenAI acknowledged a billing mistake at the launch of GPT-6.2 that incorrectly discounted usage for Astra and Sol models, and said it has fixed the issue. As a result, users will now reach their plan limits 40% faster on GPT-6.2 Astra and 25% faster on Sol, though the models still offer more usage…",
+    "category": "News",
+    "link": "https://picx.dev/news/vnT5cQ",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-26",
+    "title": "Un robot fa la pizza meglio di me? Facile, sono un incapace. Il pizzaiolo numero uno al mondo, secon",
+    "description": "Un robot fa la pizza meglio di me? Facile, sono un incapace. Il pizzaiolo numero uno al mondo, secondo me, la fa ancora meglio. Quanti possono essere il numero uno nella propria categoria? È una strada per pochi. Per tutti gli altri la domanda è questa. Come faccio a far lavorare l’intelligenza…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/11LKQdE6yQc",
+    "source": "YouTube - Marco Montemagno",
+    "badge": ""
+  },
+  {
     "date": "2026-11-25",
     "title": "OpenAI preprint claims proof that matrix multiplication exponent ω equals 9/4",
     "description": "OpenAI has published a 111-page preprint claiming to prove that the matrix multiplication exponent (ω) is exactly 9/4, a major open problem in mathematics that ranks #31 on ProofAtlas' top 500 list. The result, if verified, would settle a 57-year-old question and has direct implications for the…",
@@ -70,6 +151,69 @@
     "link": "https://www.youtube.com/watch?v=uRMj7eRhUQA",
     "source": "YouTube - Marco Montemagno",
     "badge": "⭐"
+  },
+  {
+    "date": "2026-11-25",
+    "title": "Verifiable Social Reasoning for LLM Assistants",
+    "description": "Generative AI",
+    "category": "News",
+    "link": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+    "source": "Google Research",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-25",
+    "title": "OpenAI merges ChatGPT Chat and Work with shared usage meter for some Pro users",
+    "description": "OpenAI has begun rolling out a unified Chat and Work experience in ChatGPT to a small group of Pro users, combining the two tabs under a single usage meter. The company warned that heavy users may hit their usage limits sooner as a result of the merged meter.",
+    "category": "News",
+    "link": "https://picx.dev/news/mx85gK",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-25",
+    "title": "Anthropic CEO Dario Amodei calls AI surrender accusations 'absurd'",
+    "description": "Anthropic CEO Dario Amodei publicly rejected accusations that he favors surrendering human agency to AI, calling such claims 'absurd' and accusing rival AI executives of 'vibes-based' positioning. He distinguished between opposing the handover of governance to AI and supporting the automation of…",
+    "category": "News",
+    "link": "https://picx.dev/news/11d6te",
+    "source": "PicX",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-25",
+    "title": "Pipedream Workflows is shutting down: How to export workflows and move to Zapier",
+    "description": "Pipedream Workflows is shutting down on March 31, 2027, along with String, Pipedream's AI agent builder. Pipedream will permanently delete all Workflows data by April 30, 2027. If you have workflows running there, you'll need to export them and rebuild them somewhere else before then. Here's how to…",
+    "category": "Automation",
+    "link": "https://zapier.com/blog/pipedream-workflows",
+    "source": "Zapier Blog",
+    "badge": "🔁"
+  },
+  {
+    "date": "2026-11-25",
+    "title": "Ho inventato un’app che non esiste.",
+    "description": "Ho inventato un’app che non esiste. Si chiama gAlto. È un’app di notizie sull’AI che filtra il rumore e ti dà solo il segnale. Poi ho chiesto a Fable 5.2 di costruirmi il sito. 35 minuti. Undici sezioni. Tutto funzionante. Tutto inventato. Tutto finto. Ma il sito sembra quello di una startup vera…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/T7n_mcLjWwM",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-25",
+    "title": "Mi serviva un elettricista. Ho chiesto all'intelligenza artificiale (AI) quali fossero i migliori e",
+    "description": "Mi serviva un elettricista. Ho chiesto all'intelligenza artificiale (AI) quali fossero i migliori e l'ho trovato lì. Parlando con una quarantina di persone potenziali da incontrare per un progetto, ho notato un punto in comune: tutte hanno già un sito web e hanno speso in pubblicità, indicizzazione…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/hGA8Pl_VEXg",
+    "source": "YouTube - Marco Montemagno",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-25",
+    "title": "Voglio un lavoro o voglio studiare qualcosa che mi appassiona? Prima di scegliere l'università, mi f",
+    "description": "Voglio un lavoro o voglio studiare qualcosa che mi appassiona? Prima di scegliere l'università, mi farei questa domanda. Se cerco un lavoro, devo guardare quali possibilità mi dà quel percorso e quanto l'intelligenza artificiale sta cambiando il mestiere che vorrei fare. Mi butto sulle traduzioni?…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/WKpmFrmZmTI",
+    "source": "YouTube - Marco Montemagno",
+    "badge": ""
   },
   {
     "date": "2026-11-24",
@@ -4318,150 +4462,6 @@
     "link": "https://www.youtube.com/watch?v=ilG7LPrngkI",
     "source": "YouTube – OpenAI",
     "badge": ""
-  },
-  {
-    "date": "2026-10-26",
-    "title": "TACS-RF: Tool-driven Agentic Circuit Synthesis of RF and mmWave Modules",
-    "description": "arXiv:2610.31882v1 Announce Type: new Abstract: We present the framework of TACS-RF - a Tool-driven Agentic Circuit Synthesis of RF and mmWave modules. In this framework, a large-language-model (LLM) coding agent (Claude Opus 4.8) directly drives industry-standard electronic-design-automation (EDA)…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.31882",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-26",
-    "title": "$M^3$: A Multi-LLM System for Multi-Turn Jailbreaking as a Markov Decision Process",
-    "description": "arXiv:2610.31937v1 Announce Type: new Abstract: Modern Large Language Models (LLMs) remain vulnerable to carefully orchestrated multi-turn interactions that progressively bypass safety mechanisms. However, many existing red-teaming approaches rely on heuristics or impose strong assumptions that…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.31937",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-26",
-    "title": "The Helpful Agent Problem: When Emergent Cooperation Among LLM Agents Bypasses Intended Workflows",
-    "description": "arXiv:2610.31985v1 Announce Type: new Abstract: LLM agents are increasingly deployed in collaborative settings where they pursue separate tasks while sharing resources and operating under review or oversight processes. Such settings create safety risks not only when agents are malicious, but also…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.31985",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-26",
-    "title": "CEMIR vs. FISER: a comparative study of reasoning-based and enrichment-based approaches to pragmatic intent recognition",
-    "description": "arXiv:2610.32022v1 Announce Type: new Abstract: Intent recognition in human-robot interaction requires agents to resolve ambiguous natural language instructions by inferring the speaker's underlying goals. Research has increasingly focused on two notable paradigms for addressing this task…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.32022",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-26",
-    "title": "RSI-Opt: Recursive Self-Improvement Optimizer Agents For Model Training",
-    "description": "arXiv:2610.32026v1 Announce Type: new Abstract: Conventional neural-network training typically follows a predefined optimization recipe, motivating a LLM agent that monitors training dynamics and adjusts optimizer settings as training progresses, but a fixed agent policy does not accumulate…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.32026",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-26",
-    "title": "n8n Insights Dashboard Limits by Plan in 2026",
-    "description": "The n8n Insights dashboard displays execution metrics and performance data for your automation workflows. Identify which plan tier unlocks these features.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/n8n-insights-dashboard-limits-by-plan-in-2026",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-26",
-    "title": "n8n LDAP Node: How to Set It Up and What It Costs",
-    "description": "The n8n LDAP node manages directory entries in your workflows. Determine if its setup, limits, and pricing fit your automation requirements.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/n8n-ldap-node-how-to-set-it-up-and-what-it-costs",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-26",
-    "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-    "description": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-    "category": "News",
-    "link": "https://openai.com/index/greptile-code-review-codex-astra",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-26",
-    "title": "ChatGPT’s expanding world of work",
-    "description": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
-    "category": "News",
-    "link": "https://openai.com/index/chatgpt-expanding-world-of-work",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-26",
-    "title": "PyTorch opens the AI ecosystem to a new accelerator class",
-    "description": "IBM has made Spyre a first-class PyTorch backend, giving developers the same workflows across devices.",
-    "category": "News",
-    "link": "https://research.ibm.com/blog/pytorch-spyre-accelerator-software-ecosystem-updates?utm_medium=rss&utm_source=rss",
-    "source": "IBM Research AI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-26",
-    "title": "Amp puts AI agents to work beyond code with OpenAI models",
-    "description": "Amp is building an AI agent that helps developers turn ideas into working software, from deciding what to build to writing code to onboarding customers. Sign in with ChatGPT gives Amp users access to more tokens for larger tasks, while Amp's conversational assistant, Puck, uses GPT‑Live‑1 to help…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=zUybw-9ejZ4",
-    "source": "YouTube – OpenAI",
-    "badge": "🔥"
-  },
-  {
-    "date": "2026-10-26",
-    "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-    "description": "Stack Overflow is building a knowledge intelligence platform that turns information scattered across workplace tools into verified knowledge for people and AI agents. The company's latest product, Stack Overflow for Agents, was built from the ground up by two engineers in just a few weeks using…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=8fp-G14hvUk",
-    "source": "YouTube – OpenAI",
-    "badge": "⭐"
-  },
-  {
-    "date": "2026-10-26",
-    "title": "Higgsfield takes AI video from 1 minute to over 10",
-    "description": "Higgsfield is building an AI video and image creation platform that helps creators and small teams produce everything from instructional videos to fashion campaigns. With GPT‑6 Astra, the company has gone from creating videos around one minute long to videos over 10 minutes. GPT‑Image‑2.5 helps…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=inrYeej3Big",
-    "source": "YouTube – OpenAI",
-    "badge": "⭐"
-  },
-  {
-    "date": "2026-10-26",
-    "title": "GPT-6.1 Terra is now in orbit",
-    "description": "GPT-6.1 Terra: delivering fast and capable computer use at a lower price. GPT-6.1 Terra understands what’s on screen, takes action across apps, writes naturally, and is a more capable model for your whole workday with the efficiency to take on more of it. GPT-6.1 Terra continues to advance the…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=tTuk4pGnT0A",
-    "source": "YouTube – OpenAI",
-    "badge": "⭐"
-  },
-  {
-    "date": "2026-10-26",
-    "title": "Mapping Methane Plumes from Space with AI | Google Research",
-    "description": "Methane is an invisible greenhouse gas that traps about 80 times as much heat as carbon dioxide over 20 years and drives roughly a quarter of today's human-made warming. Because it clears from the atmosphere in around nine years, finding and fixing the biggest emitters — oil and gas fields, coal…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=CIlqZpc5qAg",
-    "source": "YouTube – Google Research",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-26",
-    "title": "8 Cose PAZZESCHE che Puoi Creare con ChatGPT Sites (Anche un'App Vera)",
-    "description": "Il Web Design È MORTO? ChatGPT Ora Crea Siti e App da Solo grazie a ChatGPT ora crea siti e app da solo: con ChatGPT Sites scrivi una frase e ti ritrovi un sito online, con il suo link. Ecco 8 casi d'uso reali, passo passo. Il web design è morto? L'ho messo alla prova su 8 progetti veri dentro…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=LexcQOqz-xw",
-    "source": "YouTube - Gabry Solutions",
-    "badge": "🔥"
   },
   {
     "date": "2025-07-30",
