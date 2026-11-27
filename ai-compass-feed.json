@@ -1,5 +1,77 @@
 [
   {
+    "date": "2026-11-27",
+    "title": "AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics",
+    "description": "arXiv:2611.33165v1 Announce Type: new Abstract: AI systems are increasingly capable of producing machine-checked Lean proofs of advanced mathematical results. Real mathematical formalization, however, is not isolated theorem proving: it requires building the definitions and intermediate lemmas that…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.33165",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-27",
+    "title": "General-Purpose Decision Models for AI Configuration Tuning",
+    "description": "arXiv:2611.33190v1 Announce Type: new Abstract: AI configuration tuning searches for settings that improve the performance of AI systems under a limited budget. Existing tuners use different sampling and search policies, making the choice of decision strategy central to both tuning quality and…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.33190",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-27",
+    "title": "Confidence scores for gated automation of large language models",
+    "description": "arXiv:2611.33394v1 Announce Type: new Abstract: AI agents built on large language models (LLMs) demonstrate strong capabilities in automated decision-making. However, LLMs may produce incorrect answers with high confidence, limiting their applicability in decisions that affect individuals and…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.33394",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-27",
+    "title": "Partial Routing: Trace-Tuned Delegation for Resource-Efficient Agentic Workflows",
+    "description": "arXiv:2611.33402v1 Announce Type: new Abstract: AI models vary enormously in capability and price. Model routing exploits this by sending easier tasks to cheaper models. However, a single agentic task often combines easy and difficult subtasks, making one model choice for the entire task…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.33402",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-27",
+    "title": "PeerReveal: Learning to Generalize in AI Peer Review Detection",
+    "description": "arXiv:2611.33555v1 Announce Type: new Abstract: Can we distinguish fully AI-generated reviews from those using AI only to rewrite human judgement? Furthermore, can we do so reliably when reviews are generated from diverse AI models and workflows across scientific domains? To this end, we introduce…",
+    "category": "Paper",
+    "link": "https://arxiv.org/abs/2611.33555",
+    "source": "arXiv AI",
+    "badge": "📜"
+  },
+  {
+    "date": "2026-11-27",
+    "title": "La scuola ai tempi dell'intelligenza artificiale [Andrea Muzii]",
+    "description": "#adv Usa il link https://hostinger.com/gaitopod e inserisci il coupon GAITOPOD per avere il 10% di sconto su Hostinger Compra il mio corso base \"Crea un Agente AI con Claude Code\": https://www.raffaelegaito.com/claude-code-crea-agente-ai-corso-completo/?landing=true Compra il mio corso intermedio…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=1loqIzqiDNk",
+    "source": "YouTube – Raffaele Gaito",
+    "badge": "⭐"
+  },
+  {
+    "date": "2026-11-27",
+    "title": "Non stare dietro a ogni agente: parla con un solo assistente.",
+    "description": "Non stare dietro a ogni agente: parla con un solo assistente. Gli agenti di intelligenza artificiale (AI) sono programmi che svolgono un compito ben preciso, per esempio controllare i blog. Ottimi strumenti. Ma non posso preoccuparmi di tutti gli agenti e di tutti i processi: vado fuori di testa…",
+    "category": "News",
+    "link": "https://www.youtube.com/shorts/oXZRheMxk2s",
+    "source": "YouTube - Marco Montemagno",
+    "badge": ""
+  },
+  {
+    "date": "2026-11-27",
+    "title": "Come Costruire DAVVERO Un'App Con L'AI (Passo Passo)",
+    "description": "Utilizza il codice MONTY per avere uno sconto su Hostinger: ⁠https://www.hostinger.com/montystartup Se vuoi vedere gli altri prodotti scontati con il Black Friday: https://www.hostinger.com/montybf Questo video è supported by Hostinger ⁠#adv 🎁 Scopri cosa puoi delegare agli agenti AI nel tuo…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=vo74dcjtPLE",
+    "source": "YouTube - Marco Montemagno",
+    "badge": "⭐"
+  },
+  {
     "date": "2026-11-26",
     "title": "MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake",
     "description": "arXiv:2611.31301v2 Announce Type: new Abstract: Audio-video (AV) deepfakes can fake the face, the voice, or both. Most benchmarks only ask whether a clip is real or fake, so they cannot show whether a detector relies on the picture, the voice, or encoding traces. We present MOZAIC, a paired…",
@@ -79,6 +151,15 @@
     "link": "https://www.youtube.com/shorts/11LKQdE6yQc",
     "source": "YouTube - Marco Montemagno",
     "badge": ""
+  },
+  {
+    "date": "2026-11-26",
+    "title": "Google Brucia Quasi 500 MILIARDI in un Giorno. Ma Gemini Non Era Tornato?",
+    "description": "Google Brucia Quasi 500 MILIARDI in un Giorno. Ma Gemini Non Era Tornato? Google ha bruciato quasi 500 miliardi di dollari in Borsa in una sola seduta, appena 24 ore dopo che Gemini 4 Carbon era diventato il modello di AI numero 1 al mondo. Allora Gemini è tornato davvero, o è solo un bel…",
+    "category": "News",
+    "link": "https://www.youtube.com/watch?v=rgQ7sBXuEog",
+    "source": "YouTube - Gabry Solutions",
+    "badge": "🔥"
   },
   {
     "date": "2026-11-25",
@@ -4290,177 +4371,6 @@
     "category": "News",
     "link": "https://openai.com/ads/customers/evernote",
     "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-27",
-    "title": "Conformance as a Distribution: Delegation Contracts, Error Budgets, and the Allocation of Evaluation Authority in Use-Based AI Regulation",
-    "description": "arXiv:2610.33112v1 Announce Type: new Abstract: Use-based AI regulation assigns obligations by deployment risk but lacks an evidentiary object to carry them. A benchmark score is a property of a model; conformance of a deployment is a failure rate under a declared distribution of contexts, bounded…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.33112",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-27",
-    "title": "Scaling Qualitative Analysis with Large Language Models: Development and Validation of the Smart Coder Framework for Human-LLM Collaborative Coding",
-    "description": "arXiv:2610.33205v1 Announce Type: new Abstract: Current uses of large language models (LLMs) for qualitative coding often rely on ad hoc prompting with limited guidance for reliability and human oversight. To address these limitations, we propose the Smart Coder Framework, a three-phase approach…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.33205",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-27",
-    "title": "Distilling Expert Judgment at Scale",
-    "description": "arXiv:2610.33233v1 Announce Type: new Abstract: Frontier AI models are increasingly deployed on topics where the stakes are high and expert judgment is required, including healthcare, defense, finance, governance, and politics. We present a general methodology for distilling expert human judgment…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.33233",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-27",
-    "title": "NewsBench: Expert-Grounded Evaluation of Epistemic Quality in AI News Reporting",
-    "description": "arXiv:2610.33240v1 Announce Type: new Abstract: As frontier AI systems increasingly serve as sources of political and current-events information, evaluating the epistemic quality of their responses is now especially consequential. Existing evaluations often focus narrowly on ideological alignment…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.33240",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-27",
-    "title": "BenchBench-Cloning: Evaluating Molecular Cloning Design and Protocol Development",
-    "description": "arXiv:2610.33355v1 Announce Type: new Abstract: Molecular cloning is one of the most routine wet-lab workflows, yet existing evaluations of language models in biology mostly test knowledge recall or isolated steps rather than end-to-end experimental planning. We introduce BenchBench-Cloning, a…",
-    "category": "Paper",
-    "link": "https://arxiv.org/abs/2610.33355",
-    "source": "arXiv AI",
-    "badge": "📜"
-  },
-  {
-    "date": "2026-10-27",
-    "title": "Activepieces AI Workflow Builder: A 2026 Review",
-    "description": "Activepieces AI workflow builder converts plain language descriptions into executable workflow drafts available on the free plan with 1,000 monthly credits.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/activepieces-ai-workflow-builder-a-2026-review",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-27",
-    "title": "Indra OCR: Speed and Benchmark Scores (2026 Review)",
-    "description": "Indra OCR is Datalab's open optical character recognition model. Decide if it works for your automation workflow and Activepieces integration needs.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/indra-ocr-from-datalab-for-automation-workflows",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-27",
-    "title": "GPT 6.1 Terra: Features, Pricing, and Access (2026)",
-    "description": "GPT 6.1 Terra adds capabilities to automation workflows. See what's changed in this model and how it impacts your current automation setup.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/gpt-61-terra-features-pricing-and-access-2026",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-27",
-    "title": "GPT 6.1 Terra Pro: Pricing, Speed and Capabilities",
-    "description": "GPT 6.1 Terra Pro adds new automation capabilities. Understand which workflow tasks could benefit from this model and how it changes what's automatable.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/gpt-61-terra-pro-pricing-speed-and-capabilities",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-27",
-    "title": "Activepieces Tutorial for Building Your First Workflow",
-    "description": "Activepieces tutorial explains how to connect apps with automated workflows. Set up your first automation using 744+ integrations.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/activepieces-tutorial-for-building-your-first-workflow",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-27",
-    "title": "Intelligenza Artificiale e Privacy",
-    "description": "Clip estratta dall'intervista fatta ad Alessandro Vercellotti su What’s Next, il podcast su tecnologia e innovazione raccontati, con un tocco umano, da chi li vive ogni giorno. Guarda l'intervista completa: https://www.youtube.com/watch?v=fs6dActC94k #short",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/ZvBOjS78GHg",
-    "source": "YouTube – Raffaele Gaito",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-27",
-    "title": "Retell uses OpenAI models to help power 100M monthly calls",
-    "description": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
-    "category": "News",
-    "link": "https://openai.com/index/retell-ai",
-    "source": "OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-27",
-    "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-    "description": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
-    "category": "News",
-    "link": "https://openai.com/index/oracle-apps-in-chatgpt",
-    "source": "OpenAI",
-    "badge": "⭐"
-  },
-  {
-    "date": "2026-10-27",
-    "title": "The 6 best AI image generators in 2026",
-    "description": "AI image generators have been brewing (generating?) up a storm for the last few years. If you've been on social media, watched prime time news shows, or ordered from GrubHub, AI-generated images have been impossible to miss. These kinds of AI-generated images are everywhere, and sometimes you won't…",
-    "category": "Automation",
-    "link": "https://zapier.com/blog/best-ai-image-generator",
-    "source": "Zapier Blog",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-27",
-    "title": "SerpApi Launch: Release Date, Pricing, Setup (2026)",
-    "description": "SerpApi launch provides search access for AI automation systems. You'll understand what was released and gain clarity on its actual release date.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/serpapi-launch-release-date-pricing-setup-2026",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-27",
-    "title": "ContextGem: Document Data Extraction Guide (2026)",
-    "description": "ContextGem v1.3.0 released updates for extracting structured data from documents with LLMs. Understand which new capabilities affect document automation.",
-    "category": "Automation",
-    "link": "https://www.activepieces.com/blog/contextgem-document-data-extraction-guide-2026",
-    "source": "Activepieces",
-    "badge": "🔁"
-  },
-  {
-    "date": "2026-10-27",
-    "title": "Lawyers Stay in Control | AT&T + OpenAI",
-    "description": "AT&T’s David McAtee and Bill Ryan discuss how AI can support legal work while lawyers remain responsible for strategy, judgment and decisions.",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/Yim7JrVzSkk",
-    "source": "YouTube – OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-27",
-    "title": "AI for Detection and Response | Cloudflare’s Mark Anderson",
-    "description": "Security teams face a constant stream of vulnerabilities and alerts. Cloudflare’s Mark Anderson describes using AI to automate detection and response so experts can focus on threats that need their judgment. He sees automation from companies like OpenAI as a way to take on routine security work and…",
-    "category": "News",
-    "link": "https://www.youtube.com/shorts/vKMDQJpRSvA",
-    "source": "YouTube – OpenAI",
-    "badge": ""
-  },
-  {
-    "date": "2026-10-27",
-    "title": "AI for Detection and Response | Cloudflare’s Mark Anderson",
-    "description": "Security teams face a constant stream of vulnerabilities and alerts. Cloudflare’s Mark Anderson describes using AI to automate detection and response so experts can focus on threats that need their judgment. He sees automation from companies like OpenAI as a way to take on routine security work and…",
-    "category": "News",
-    "link": "https://www.youtube.com/watch?v=ilG7LPrngkI",
-    "source": "YouTube – OpenAI",
     "badge": ""
   },
   {
